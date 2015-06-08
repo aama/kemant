@@ -1,0 +1,5612 @@
+
+#TTL FROM INPUT FILE:
+# data/kemant//kemant-pdgms.edn
+@prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix aama:	 <http://id.oi.uchicago.edu/aama/2013/> .
+@prefix aamas:	 <http://id.oi.uchicago.edu/aama/2013/schema/> .
+@prefix kem:   <http://id.oi.uchicago.edu/aama/2013/kemant/> .
+
+#SCHEMATA:
+
+aama:Kemant a aamas:Language .
+aama:Kemant rdfs:label "Kemant" .
+
+#SCHEMATA: genderHeadRel
+kem:genderHeadRel aamas:lang aama:Kemant .
+kem:Genderheadrel aamas:lang aama:Kemant .
+kem:genderHeadRel rdfs:domain aamas:Term .
+kem:Genderheadrel rdfs:label "genderHeadRel exponents" .
+kem:genderHeadRel rdfs:label "genderHeadRel" .
+kem:genderHeadRel rdfs:range kem:Genderheadrel .
+kem:Genderheadrel rdfs:subClassOf kem:MuExponent .
+kem:genderHeadRel rdfs:subPropertyOf kem:muProperty .
+kem:Common aamas:lang aama:Kemant .
+kem:Common rdf:type kem:Genderheadrel .
+kem:Common rdfs:label "Common".
+kem:Fem aamas:lang aama:Kemant .
+kem:Fem rdf:type kem:Genderheadrel .
+kem:Fem rdfs:label "Fem".
+kem:Masc aamas:lang aama:Kemant .
+kem:Masc rdf:type kem:Genderheadrel .
+kem:Masc rdfs:label "Masc".
+
+#SCHEMATA: vSubjectSet
+kem:vSubjectSet aamas:lang aama:Kemant .
+kem:Vsubjectset aamas:lang aama:Kemant .
+kem:vSubjectSet rdfs:domain aamas:Term .
+kem:Vsubjectset rdfs:label "vSubjectSet exponents" .
+kem:vSubjectSet rdfs:label "vSubjectSet" .
+kem:vSubjectSet rdfs:range kem:Vsubjectset .
+kem:Vsubjectset rdfs:subClassOf kem:MuExponent .
+kem:vSubjectSet rdfs:subPropertyOf kem:muProperty .
+kem:VSubjSetA aamas:lang aama:Kemant .
+kem:VSubjSetA rdf:type kem:Vsubjectset .
+kem:VSubjSetA rdfs:label "VSubjSetA".
+kem:VSubjSetB aamas:lang aama:Kemant .
+kem:VSubjSetB rdf:type kem:Vsubjectset .
+kem:VSubjSetB rdfs:label "VSubjSetB".
+
+#SCHEMATA: gender
+kem:gender aamas:lang aama:Kemant .
+kem:Gender aamas:lang aama:Kemant .
+kem:gender rdfs:domain aamas:Term .
+kem:Gender rdfs:label "gender exponents" .
+kem:gender rdfs:label "gender" .
+kem:gender rdfs:range kem:Gender .
+kem:Gender rdfs:subClassOf kem:MuExponent .
+kem:gender rdfs:subPropertyOf kem:muProperty .
+kem:Common aamas:lang aama:Kemant .
+kem:Common rdf:type kem:Gender .
+kem:Common rdfs:label "Common".
+kem:Fem aamas:lang aama:Kemant .
+kem:Fem rdf:type kem:Gender .
+kem:Fem rdfs:label "Fem".
+kem:Masc aamas:lang aama:Kemant .
+kem:Masc rdf:type kem:Gender .
+kem:Masc rdfs:label "Masc".
+
+#SCHEMATA: finiteForm
+kem:finiteForm aamas:lang aama:Kemant .
+kem:Finiteform aamas:lang aama:Kemant .
+kem:finiteForm rdfs:domain aamas:Term .
+kem:Finiteform rdfs:label "finiteForm exponents" .
+kem:finiteForm rdfs:label "finiteForm" .
+kem:finiteForm rdfs:range kem:Finiteform .
+kem:Finiteform rdfs:subClassOf kem:MuExponent .
+kem:finiteForm rdfs:subPropertyOf kem:muProperty .
+kem:AgentNoun aamas:lang aama:Kemant .
+kem:AgentNoun rdf:type kem:Finiteform .
+kem:AgentNoun rdfs:label "AgentNoun".
+kem:Infinitive aamas:lang aama:Kemant .
+kem:Infinitive rdf:type kem:Finiteform .
+kem:Infinitive rdfs:label "Infinitive".
+
+#SCHEMATA: pdgmSubType
+kem:pdgmSubType aamas:lang aama:Kemant .
+kem:Pdgmsubtype aamas:lang aama:Kemant .
+kem:pdgmSubType rdfs:domain aamas:Term .
+kem:Pdgmsubtype rdfs:label "pdgmSubType exponents" .
+kem:pdgmSubType rdfs:label "pdgmSubType" .
+kem:pdgmSubType rdfs:range kem:Pdgmsubtype .
+kem:Pdgmsubtype rdfs:subClassOf kem:MuExponent .
+kem:pdgmSubType rdfs:subPropertyOf kem:muProperty .
+kem:Copula aamas:lang aama:Kemant .
+kem:Copula rdf:type kem:Pdgmsubtype .
+kem:Copula rdfs:label "Copula".
+kem:DervStem aamas:lang aama:Kemant .
+kem:DervStem rdf:type kem:Pdgmsubtype .
+kem:DervStem rdfs:label "DervStem".
+kem:FiniteVerb aamas:lang aama:Kemant .
+kem:FiniteVerb rdf:type kem:Pdgmsubtype .
+kem:FiniteVerb rdfs:label "FiniteVerb".
+kem:Interrogative aamas:lang aama:Kemant .
+kem:Interrogative rdf:type kem:Pdgmsubtype .
+kem:Interrogative rdfs:label "Interrogative".
+kem:SubjMarker aamas:lang aama:Kemant .
+kem:SubjMarker rdf:type kem:Pdgmsubtype .
+kem:SubjMarker rdfs:label "SubjMarker".
+
+#SCHEMATA: pdgmType
+kem:pdgmType aamas:lang aama:Kemant .
+kem:Pdgmtype aamas:lang aama:Kemant .
+kem:pdgmType rdfs:domain aamas:Term .
+kem:Pdgmtype rdfs:label "pdgmType exponents" .
+kem:pdgmType rdfs:label "pdgmType" .
+kem:pdgmType rdfs:range kem:Pdgmtype .
+kem:Pdgmtype rdfs:subClassOf kem:MuExponent .
+kem:pdgmType rdfs:subPropertyOf kem:muProperty .
+kem:Comparative aamas:lang aama:Kemant .
+kem:Comparative rdf:type kem:Pdgmtype .
+kem:Comparative rdfs:label "Comparative".
+kem:Exemplary aamas:lang aama:Kemant .
+kem:Exemplary rdf:type kem:Pdgmtype .
+kem:Exemplary rdfs:label "Exemplary".
+
+#SCHEMATA: polarity
+kem:polarity aamas:lang aama:Kemant .
+kem:Polarity aamas:lang aama:Kemant .
+kem:polarity rdfs:domain aamas:Term .
+kem:Polarity rdfs:label "polarity exponents" .
+kem:polarity rdfs:label "polarity" .
+kem:polarity rdfs:range kem:Polarity .
+kem:Polarity rdfs:subClassOf kem:MuExponent .
+kem:polarity rdfs:subPropertyOf kem:muProperty .
+kem:Affirmative aamas:lang aama:Kemant .
+kem:Affirmative rdf:type kem:Polarity .
+kem:Affirmative rdfs:label "Affirmative".
+kem:Negative aamas:lang aama:Kemant .
+kem:Negative rdf:type kem:Polarity .
+kem:Negative rdfs:label "Negative".
+
+#SCHEMATA: numHeadRel
+kem:numHeadRel aamas:lang aama:Kemant .
+kem:Numheadrel aamas:lang aama:Kemant .
+kem:numHeadRel rdfs:domain aamas:Term .
+kem:Numheadrel rdfs:label "numHeadRel exponents" .
+kem:numHeadRel rdfs:label "numHeadRel" .
+kem:numHeadRel rdfs:range kem:Numheadrel .
+kem:Numheadrel rdfs:subClassOf kem:MuExponent .
+kem:numHeadRel rdfs:subPropertyOf kem:muProperty .
+kem:Plural aamas:lang aama:Kemant .
+kem:Plural rdf:type kem:Numheadrel .
+kem:Plural rdfs:label "Plural".
+kem:Singular aamas:lang aama:Kemant .
+kem:Singular rdf:type kem:Numheadrel .
+kem:Singular rdfs:label "Singular".
+
+#SCHEMATA: aspect
+kem:aspect aamas:lang aama:Kemant .
+kem:Aspect aamas:lang aama:Kemant .
+kem:aspect rdfs:domain aamas:Term .
+kem:Aspect rdfs:label "aspect exponents" .
+kem:aspect rdfs:label "aspect" .
+kem:aspect rdfs:range kem:Aspect .
+kem:Aspect rdfs:subClassOf kem:MuExponent .
+kem:aspect rdfs:subPropertyOf kem:muProperty .
+kem:Imperfective aamas:lang aama:Kemant .
+kem:Imperfective rdf:type kem:Aspect .
+kem:Imperfective rdfs:label "Imperfective".
+kem:Perfective aamas:lang aama:Kemant .
+kem:Perfective rdf:type kem:Aspect .
+kem:Perfective rdfs:label "Perfective".
+
+#SCHEMATA: pos
+kem:pos aamas:lang aama:Kemant .
+kem:Pos aamas:lang aama:Kemant .
+kem:pos rdfs:domain aamas:Term .
+kem:Pos rdfs:label "pos exponents" .
+kem:pos rdfs:label "pos" .
+kem:pos rdfs:range kem:Pos .
+kem:Pos rdfs:subClassOf kem:MuExponent .
+kem:pos rdfs:subPropertyOf kem:muProperty .
+kem:Noun aamas:lang aama:Kemant .
+kem:Noun rdf:type kem:Pos .
+kem:Noun rdfs:label "Noun".
+kem:Pronoun aamas:lang aama:Kemant .
+kem:Pronoun rdf:type kem:Pos .
+kem:Pronoun rdfs:label "Pronoun".
+kem:Verb aamas:lang aama:Kemant .
+kem:Verb rdf:type kem:Pos .
+kem:Verb rdfs:label "Verb".
+
+#SCHEMATA: person
+kem:person aamas:lang aama:Kemant .
+kem:Person aamas:lang aama:Kemant .
+kem:person rdfs:domain aamas:Term .
+kem:Person rdfs:label "person exponents" .
+kem:person rdfs:label "person" .
+kem:person rdfs:range kem:Person .
+kem:Person rdfs:subClassOf kem:MuExponent .
+kem:person rdfs:subPropertyOf kem:muProperty .
+kem:Person1 aamas:lang aama:Kemant .
+kem:Person1 rdf:type kem:Person .
+kem:Person1 rdfs:label "Person1".
+kem:Person2 aamas:lang aama:Kemant .
+kem:Person2 rdf:type kem:Person .
+kem:Person2 rdfs:label "Person2".
+kem:Person3 aamas:lang aama:Kemant .
+kem:Person3 rdf:type kem:Person .
+kem:Person3 rdfs:label "Person3".
+
+#SCHEMATA: derivedStem
+kem:derivedStem aamas:lang aama:Kemant .
+kem:Derivedstem aamas:lang aama:Kemant .
+kem:derivedStem rdfs:domain aamas:Term .
+kem:Derivedstem rdfs:label "derivedStem exponents" .
+kem:derivedStem rdfs:label "derivedStem" .
+kem:derivedStem rdfs:range kem:Derivedstem .
+kem:Derivedstem rdfs:subClassOf kem:MuExponent .
+kem:derivedStem rdfs:subPropertyOf kem:muProperty .
+kem:M aamas:lang aama:Kemant .
+kem:M rdf:type kem:Derivedstem .
+kem:M rdfs:label "M".
+kem:Reciprocal aamas:lang aama:Kemant .
+kem:Reciprocal rdf:type kem:Derivedstem .
+kem:Reciprocal rdfs:label "Reciprocal".
+kem:S aamas:lang aama:Kemant .
+kem:S rdf:type kem:Derivedstem .
+kem:S rdfs:label "S".
+
+#SCHEMATA: morphClass
+kem:morphClass aamas:lang aama:Kemant .
+kem:Morphclass aamas:lang aama:Kemant .
+kem:morphClass rdfs:domain aamas:Term .
+kem:Morphclass rdfs:label "morphClass exponents" .
+kem:morphClass rdfs:label "morphClass" .
+kem:morphClass rdfs:range kem:Morphclass .
+kem:Morphclass rdfs:subClassOf kem:MuExponent .
+kem:morphClass rdfs:subPropertyOf kem:muProperty .
+kem:AGENTNOUN aamas:lang aama:Kemant .
+kem:AGENTNOUN rdf:type kem:Morphclass .
+kem:AGENTNOUN rdfs:label "AGENTNOUN".
+kem:Bilin-KemantRel aamas:lang aama:Kemant .
+kem:Bilin-KemantRel rdf:type kem:Morphclass .
+kem:Bilin-KemantRel rdfs:label "Bilin-KemantRel".
+kem:DERVSTEM aamas:lang aama:Kemant .
+kem:DERVSTEM rdf:type kem:Morphclass .
+kem:DERVSTEM rdfs:label "DERVSTEM".
+kem:INFINITIVE aamas:lang aama:Kemant .
+kem:INFINITIVE rdf:type kem:Morphclass .
+kem:INFINITIVE rdfs:label "INFINITIVE".
+kem:VERBINTERROGATIVE aamas:lang aama:Kemant .
+kem:VERBINTERROGATIVE rdf:type kem:Morphclass .
+kem:VERBINTERROGATIVE rdfs:label "VERBINTERROGATIVE".
+kem:CardinalNumeral aamas:lang aama:Kemant .
+kem:CardinalNumeral rdf:type kem:Morphclass .
+kem:CardinalNumeral rdfs:label "CardinalNumeral".
+
+#SCHEMATA: formType
+kem:formType aamas:lang aama:Kemant .
+kem:Formtype aamas:lang aama:Kemant .
+kem:formType rdfs:domain aamas:Term .
+kem:Formtype rdfs:label "formType exponents" .
+kem:formType rdfs:label "formType" .
+kem:formType rdfs:range kem:Formtype .
+kem:Formtype rdfs:subClassOf kem:MuExponent .
+kem:formType rdfs:subPropertyOf kem:muProperty .
+kem:Affix aamas:lang aama:Kemant .
+kem:Affix rdf:type kem:Formtype .
+kem:Affix rdfs:label "Affix".
+
+#SCHEMATA: proClass
+kem:proClass aamas:lang aama:Kemant .
+kem:Proclass aamas:lang aama:Kemant .
+kem:proClass rdfs:domain aamas:Term .
+kem:Proclass rdfs:label "proClass exponents" .
+kem:proClass rdfs:label "proClass" .
+kem:proClass rdfs:range kem:Proclass .
+kem:Proclass rdfs:subClassOf kem:MuExponent .
+kem:proClass rdfs:subPropertyOf kem:muProperty .
+kem:Independent aamas:lang aama:Kemant .
+kem:Independent rdf:type kem:Proclass .
+kem:Independent rdfs:label "Independent".
+
+#SCHEMATA: tam
+kem:tam aamas:lang aama:Kemant .
+kem:Tam aamas:lang aama:Kemant .
+kem:tam rdfs:domain aamas:Term .
+kem:Tam rdfs:label "tam exponents" .
+kem:tam rdfs:label "tam" .
+kem:tam rdfs:range kem:Tam .
+kem:Tam rdfs:subClassOf kem:MuExponent .
+kem:tam rdfs:subPropertyOf kem:muProperty .
+kem:CompSubordinate aamas:lang aama:Kemant .
+kem:CompSubordinate rdf:type kem:Tam .
+kem:CompSubordinate rdfs:label "CompSubordinate".
+kem:D-subordinate aamas:lang aama:Kemant .
+kem:D-subordinate rdf:type kem:Tam .
+kem:D-subordinate rdfs:label "D-subordinate".
+kem:Gerund aamas:lang aama:Kemant .
+kem:Gerund rdf:type kem:Tam .
+kem:Gerund rdfs:label "Gerund".
+kem:Imperative aamas:lang aama:Kemant .
+kem:Imperative rdf:type kem:Tam .
+kem:Imperative rdfs:label "Imperative".
+kem:Imperfective aamas:lang aama:Kemant .
+kem:Imperfective rdf:type kem:Tam .
+kem:Imperfective rdfs:label "Imperfective".
+kem:Jussive aamas:lang aama:Kemant .
+kem:Jussive rdf:type kem:Tam .
+kem:Jussive rdfs:label "Jussive".
+kem:Jussive2 aamas:lang aama:Kemant .
+kem:Jussive2 rdf:type kem:Tam .
+kem:Jussive2 rdfs:label "Jussive2".
+kem:N-subordinate aamas:lang aama:Kemant .
+kem:N-subordinate rdf:type kem:Tam .
+kem:N-subordinate rdfs:label "N-subordinate".
+kem:Perfective aamas:lang aama:Kemant .
+kem:Perfective rdf:type kem:Tam .
+kem:Perfective rdfs:label "Perfective".
+kem:PerfectiveComp aamas:lang aama:Kemant .
+kem:PerfectiveComp rdf:type kem:Tam .
+kem:PerfectiveComp rdfs:label "PerfectiveComp".
+kem:RelativeOblique aamas:lang aama:Kemant .
+kem:RelativeOblique rdf:type kem:Tam .
+kem:RelativeOblique rdfs:label "RelativeOblique".
+kem:RelativeSubject aamas:lang aama:Kemant .
+kem:RelativeSubject rdf:type kem:Tam .
+kem:RelativeSubject rdfs:label "RelativeSubject".
+kem:a-subordinate aamas:lang aama:Kemant .
+kem:a-subordinate rdf:type kem:Tam .
+kem:a-subordinate rdfs:label "a-subordinate".
+
+#SCHEMATA: number
+kem:number aamas:lang aama:Kemant .
+kem:Number aamas:lang aama:Kemant .
+kem:number rdfs:domain aamas:Term .
+kem:Number rdfs:label "number exponents" .
+kem:number rdfs:label "number" .
+kem:number rdfs:range kem:Number .
+kem:Number rdfs:subClassOf kem:MuExponent .
+kem:number rdfs:subPropertyOf kem:muProperty .
+kem:Plural aamas:lang aama:Kemant .
+kem:Plural rdf:type kem:Number .
+kem:Plural rdfs:label "Plural".
+kem:Singular aamas:lang aama:Kemant .
+kem:Singular rdf:type kem:Number .
+kem:Singular rdfs:label "Singular".
+
+#SCHEMATA: proSet
+kem:proSet aamas:lang aama:Kemant .
+kem:Proset aamas:lang aama:Kemant .
+kem:proSet rdfs:domain aamas:Term .
+kem:Proset rdfs:label "proSet exponents" .
+kem:proSet rdfs:label "proSet" .
+kem:proSet rdfs:range kem:Proset .
+kem:Proset rdfs:subClassOf kem:MuExponent .
+kem:proSet rdfs:subPropertyOf kem:muProperty .
+kem:ProSetA aamas:lang aama:Kemant .
+kem:ProSetA rdf:type kem:Proset .
+kem:ProSetA rdfs:label "ProSetA".
+kem:ProSetB aamas:lang aama:Kemant .
+kem:ProSetB rdf:type kem:Proset .
+kem:ProSetB rdfs:label "ProSetB".
+
+#SCHEMATA: nounClass
+kem:nounClass aamas:lang aama:Kemant .
+kem:Nounclass aamas:lang aama:Kemant .
+kem:nounClass rdfs:domain aamas:Term .
+kem:Nounclass rdfs:label "nounClass exponents" .
+kem:nounClass rdfs:label "nounClass" .
+kem:nounClass rdfs:range kem:Nounclass .
+kem:Nounclass rdfs:subClassOf kem:MuExponent .
+kem:nounClass rdfs:subPropertyOf kem:muProperty .
+kem:CardinalNumeral aamas:lang aama:Kemant .
+kem:CardinalNumeral rdf:type kem:Nounclass .
+kem:CardinalNumeral rdfs:label "CardinalNumeral".
+
+#MORPHEMES:
+
+aama:Kemant-CARDINALNUM a aamas:Morpheme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "CARDINALNUM" ;
+	rdfs:comment "Cardinal Numeral" ;
+	kem:pos kem:Noun ;
+	.
+aama:Kemant-COPULA a aamas:Morpheme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "COPULA" ;
+	rdfs:comment "Copula Verb" ;
+	kem:pos kem:Verb ;
+	.
+aama:Kemant-PRO a aamas:Morpheme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "PRO" ;
+	rdfs:comment "Pronoun" ;
+	kem:pos kem:Pronoun ;
+	.
+aama:Kemant-SUBJMARK a aamas:Morpheme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "SUBJMARK" ;
+	rdfs:comment "Subject Marker" ;
+	kem:pos kem:Verb ;
+	.
+
+#LEXEMES:
+
+aama:Kemant-fay a aamas:Lexeme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "fay" ;
+	aamas:gloss "go" ;
+	aamas:lemma "fäy-" ;
+	kem:pos kem:Verb ;
+	.
+aama:Kemant-gab a aamas:Lexeme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "gab" ;
+	aamas:gloss "[x]" ;
+	aamas:lemma "[y]" ;
+	.
+aama:Kemant-iw a aamas:Lexeme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "iw" ;
+	aamas:gloss "give" ;
+	aamas:lemma "iw-" ;
+	kem:pos kem:Verb ;
+	.
+aama:Kemant-was a aamas:Lexeme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "was" ;
+	aamas:gloss "hear" ;
+	aamas:lemma "was-" ;
+	kem:pos kem:Verb ;
+	.
+aama:Kemant-xw a aamas:Lexeme ;
+	aamas:lang aama:Kemant ;
+	rdfs:label "xw" ;
+	aamas:gloss "eat" ;
+	aamas:lemma "xʷ-" ;
+	kem:pos kem:Verb ;
+	.
+
+#TERMCLUSTER: kemant-VNegJussive-fay
+
+aama:IDe07ceb46-1227-4506-a8f2-052454f4fb7c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "?" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDe364b63a-f2c2-4aa7-ae1e-b1f4e6eeadfe a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäygin" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID68729a1f-f3e6-41de-9871-67f0cdec4afc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDa00a29b3-04ea-4c1d-8c89-c9949c656d5a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäygin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID3111aa0f-70c4-4422-b9f8-de9ccc7bc430 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "faygənin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDfafaf343-b9a9-4f61-8b64-791b491b2bf8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID5d838ea5-5f45-4ce9-9447-32fd24860be7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäykin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+
+#TERMCLUSTER: kemant-VAffCompSubordinate-xw
+
+aama:IDf5e8c045-f71b-4ff4-913f-eeedabbcc847 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "fät" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDb01aaef5-6620-484a-8b89-217576162633 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "fät" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID3beff587-2240-4301-825e-3b94b984dff7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "fäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID130fcd0a-0722-425e-99ed-f868f37cb1cd a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "fäyən" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID42a46135-0ab8-4af3-ab0e-ec096d22b0c1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "fäyən" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID91bae125-e9e8-4d60-add4-8ba52d88d76b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "fätən" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID6ae57b15-a687-4604-9d2a-35c38548843c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "fäy" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegPerfective-fay
+
+aama:ID708e1050-cae0-4664-9333-39b727a03609 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäygənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID0831586d-14ce-460b-b760-bbfcc176f53c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäygir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDc0b31b94-2cd6-4b1f-a77e-45c45aea9621 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäygäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID6d5d7b0e-50d5-42d8-bad4-68ac86e68078 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäyga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID0528c044-9f57-4fe3-9b17-3961a743097c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäykänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDf841b91b-1d88-4fb2-800a-ab093133fd29 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäykar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID9886121a-5930-4df9-ac83-e52cd5ff4888 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäykäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+
+#TERMCLUSTER: kemant-VNegA-subordinate-xw
+
+aama:IDff5fd4e9-2a4e-4c98-8af7-ff515fe25d27 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäyka" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID2341ce2d-afd1-4d6b-96df-02b4d9d771ae a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäyga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID775768f8-55a0-4fe1-9a09-3055d4bed2a2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäygəna" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID476b8844-03db-47f8-91a4-5ff1190c891b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäygəna" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDf98eec90-a52e-4272-a616-a5afcc4d6c82 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäyka" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID22d28799-0d9f-475c-b668-524e8218fe55 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäykəna" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDd8e55733-5f23-4caa-a836-aa341c740831 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäyga" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegJussive-xw
+
+aama:ID7f35a716-eaaa-4436-9466-8ea6ff522de4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "?" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID61abdcaf-f1d6-4808-bbe6-bd67d88433da a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID37bcf4d3-9ee3-442c-9388-c465bc948d25 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷəkin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID4347bb86-865b-45b5-9fa3-1e5a698704f0 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷəgin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDeaaa84b5-18c9-43b2-84e6-4b770806ba45 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷəgin" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID82ebbf1d-31fe-4c6b-9025-de2596c29733 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷəgənin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID5da989d0-bc63-4d3f-9634-231e252c7408 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegImprtv-fay
+
+aama:IDd66b6dc8-f94e-4337-8188-3347be24d29e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "fäytäna" ;
+	kem:number kem:Plural ;
+	.
+aama:IDa364ceb8-6db3-4faa-8d33-94f0a08e5bd8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "fäyta" ;
+	kem:number kem:Singular ;
+	.
+
+#TERMCLUSTER: kemant-VAffD-subordinate-was
+
+aama:ID61f27483-ccbb-4cdd-a0bc-cd78f65e1c54 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasnäd" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID1a015f55-2868-4f0a-81e9-39a1ea487eef a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasde" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID3c112de3-872a-48e7-88b4-260b56f28c95 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasde" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID24a2e2e2-3dd5-4d95-91b9-38b24fd1c825 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "waste?" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDa9aa5948-8e25-4205-948b-6c4e742233e5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "?" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID0fc7614a-dcec-4fba-90e3-e210177dce6f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasnäd" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID28608e69-7371-4d54-9c13-d30d877d00b9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "?" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffImprtv-xw
+
+aama:IDba9744b0-c30a-4e6a-9925-5057e5d540e4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "xʷəy" ;
+	kem:number kem:Singular ;
+	.
+aama:ID71a1abd1-6128-442f-97fc-4a6c7338be3f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "xʷa" ;
+	kem:number kem:Plural ;
+	.
+
+#TERMCLUSTER: kemant-VInterrog
+
+aama:ID7ad7bce3-2092-48fa-85d5-ecab7b25a424 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "fälägi" ;
+	aamas:gloss "do you want it?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+aama:ID3d8bd2b4-1073-47b5-9dab-f2ebd4765d73 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "lämäds̆i" ;
+	aamas:gloss "are you getting used to it?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+aama:IDe5a1eb1b-3769-4d4f-bf85-bf1053c28c6a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "gärsi" ;
+	aamas:gloss "can you?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+aama:IDc137892d-d3d9-488f-83e4-7e416694f643 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "kəmantənäyəs waɣärti" ;
+	aamas:gloss "do you speak Kemant?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+
+#TERMCLUSTER: kemant-VAffGerundive-fay
+
+aama:IDea2b5938-ff3f-49a3-baf6-fd7ca6f071bb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fätəno" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDb2f3e526-c38f-4859-968e-199e078c259c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäto" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID8c7c37f7-ff01-4485-a48b-cf2bd9bb8b76 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäyəno" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDc1a6de4a-2575-475f-adc2-462fcc748e0f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäyo" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID48723cfc-11dd-4a75-b248-5d02a79cab49 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäto" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDe96d7ac0-582d-4468-9d31-5582bb13535c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäyo" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDc55ef8bb-cfc8-4f2a-9768-31096efe0a7a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäyno" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffImperfective-xw
+
+aama:IDf4bef887-67e1-4ca9-83f0-ec8a79fc31dc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷakʷən" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDf423f0e6-25f4-461f-9319-7e3aa3ad9beb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷat(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDb9461431-52a8-4eae-9a9e-9087f9f74747 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷəyäkʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID800b91fc-85b1-4b4f-939f-939e0268cbc9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷakʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID9165b98b-21cb-4f6f-a504-7c88288cf7c5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷəyäkʷən" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID2c2479d0-5b43-4c44-8a62-6e8307f43183 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷakʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDaf19c968-e35d-4b20-baf3-af49bd6dcc75 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷanäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VInfinitive
+
+aama:ID1323f73b-0557-4a68-9c8d-341cd379310c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:Infinitive ;
+	kem:morphClass kem:INFINITIVE ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "xʷəna" ;
+	kem:polarity kem:Affirmative ;
+	aamas:lexeme aama:Kemant-xw ;
+	.
+aama:IDf2592d56-41c4-41da-ab8a-8d903d01eb0c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:Infinitive ;
+	kem:morphClass kem:INFINITIVE ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "wasgäna" ;
+	kem:polarity kem:Negative ;
+	aamas:lexeme aama:Kemant-was ;
+	.
+aama:ID907ef9f0-1ad1-480a-b1a9-e92edd1fb16e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:Infinitive ;
+	kem:morphClass kem:INFINITIVE ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "wasna" ;
+	kem:polarity kem:Affirmative ;
+	aamas:lexeme aama:Kemant-was ;
+	.
+aama:ID82378d04-0c8f-470c-a889-eaa22eeb5b56 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:Infinitive ;
+	kem:morphClass kem:INFINITIVE ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "fäygäna" ;
+	kem:polarity kem:Negative ;
+	aamas:lexeme aama:Kemant-fay ;
+	.
+aama:ID66ef4a06-23f5-406d-8fd6-ecc6187dff34 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:Infinitive ;
+	kem:morphClass kem:INFINITIVE ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "fäyna" ;
+	kem:polarity kem:Affirmative ;
+	aamas:lexeme aama:Kemant-fay ;
+	.
+aama:ID54b8398a-c336-4d2c-b274-656f7066da10 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:Infinitive ;
+	kem:morphClass kem:INFINITIVE ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "xʷəgäna" ;
+	kem:polarity kem:Negative ;
+	aamas:lexeme aama:Kemant-xw ;
+	.
+
+#TERMCLUSTER: kemant-VPerfComp-fay
+
+aama:ID3a12fbd6-a8c9-4af7-83b9-3bd20be1eed2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "fätwanät(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID01a5f5d7-f718-4527-ade6-57ea1285ec9e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "fäyənwanäkʷən" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID375eb557-00a8-4121-a270-92e606628e98 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "fätwanyäkʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID174777a4-b779-4636-a352-387a53882c79 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "fäwanäkʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDca9ca549-c2ec-45da-919b-9dbb95e7c428 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "fäyənwannäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID32956c70-4623-418c-82b4-343e9be2e80f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "fäwanäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID4e80bb10-2dd2-4e32-b951-91ba0fac75d3 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "fätənwanyäkʷən" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffPerfective-was
+
+aama:ID3de9bfdc-5d7b-4091-b399-bfb45fa18412 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasnəɣʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDfce85fe8-6023-4db5-8805-0bad07c68f0b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasinəɣʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDae829b78-a012-4d92-a3ce-f8c2376ff10f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasəɣʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDb9ee3939-64b2-4bf6-b483-41abbfecd698 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasyəɣʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID36096ee7-0af4-44fd-87e5-269c1c61222a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasəɣʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID19a7628c-0f6d-459c-bb33-d21b6cfbbf3c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "was(ə)t(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID0b9fe707-6286-4a69-abf6-cf6c6699339e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasənəɣʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegImperfective-fay
+
+aama:ID16cfd1fb-6a0c-4a34-b101-46c2878bd799 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyäga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID2adc93c3-df70-4ca3-9095-ec9931f0003e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyäkäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID2ed05faf-e3b9-4c6b-8c6a-95cfedd6e7e4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyäkänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID630ba691-6aed-49a6-be63-c6750e2744d8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyägäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID150d002e-ed10-4d6e-b9f5-36ca6422ac46 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyägənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID5bbcf5af-b1f4-45de-9ebb-054c93181e83 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyägir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID0fc861bf-202f-429c-ae0e-01e565c58e98 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fääkar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegImprtv-xw
+
+aama:IDf3f8ab22-881d-4707-b926-fb4738ffe6d0 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "xʷəta" ;
+	kem:number kem:Singular ;
+	.
+aama:IDb4adb4ab-bad4-4414-a08b-496e7d859db3 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "xʷətäna" ;
+	kem:number kem:Plural ;
+	.
+
+#TERMCLUSTER: kemant-VRelSubj-was
+
+aama:IDfb7b9393-815a-4fa7-9aa1-8309414d1eda a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "wasaɣ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDb0c5c531-35b8-43da-a9c0-09e02ac4da99 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "wasäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID52b6f01f-d9b3-4dfb-8133-94f1373bed91 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "wasäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID38ac3136-952b-4530-a00d-cb35dba93bf0 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "wasyaɣ ~ wasyaɣər ~ wasyar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID7257b944-6379-40fc-9646-cf4dfaa45b18 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "wasaɣ ~ wasaɣər ~ wasar" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID7be38a39-fc41-4d5b-a670-d21760e49637 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "wasyänaɣ ~ wasyänaɣər ~ wasyänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID84d042c5-e1e3-4651-9720-5975ebe49661 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "wasnaɣ ~ wasnaɣər ~ wasnar" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffCompSubordinate-was
+
+aama:ID538fe4e0-0cab-47cf-a01e-13ff87dfaf2f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "was(əy)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDd60429f2-cde5-4429-b6e7-1332d3514258 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "wasən" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID2c3fb722-b2a0-48f9-aa4d-001ae1435014 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "wasin" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID7bc05e97-1b16-4647-839c-25429ae37f79 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "wasən" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDf9594ad3-1133-489a-aef1-38c918765fc4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "was" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDb24db931-907a-4bf4-9fa1-984c6449ffa9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "was" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID73149577-d55e-4955-aa65-469092a8634a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:CompSubordinate ;
+	kem:token "was(əy)" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegPerfective-xw
+
+aama:ID5d02204f-df42-4c51-9e1c-dcdc6f309871 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəgäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID25a8066d-d406-46fd-bb68-7d893f4307d5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəkänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID8fcabe93-eef2-42a2-b460-9555b3db79db a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəkar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID2f55e149-0b7d-461c-93a5-18fed00e8e39 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəgənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDc8cc2fc6-e8a7-4b28-9ecb-4dc75f12d9b2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəkäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDfcd240b1-a391-4a4e-9c44-6b6215d1b6a4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəgir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDe6597896-d777-4ebd-863a-b9e5a40559bb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+
+#TERMCLUSTER: kemant-VNegA-subordinate-was
+
+aama:IDc649fed8-9a1a-40ae-bd34-a63d3da8d68b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasgəna" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDc10e5e44-2be2-4d1f-9652-dff999bfdaa9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasga" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID7563c67a-700e-4c93-be26-ed3b05ec1ea1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDda837ef7-7b80-4a72-b67c-0ffe7a1c0b36 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasgəna" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID076f01e9-5488-4f07-8d3d-56555de2fc5a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "waska" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID3cceaa72-7d13-4d44-a1ab-2099c99d36e9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "waskəna" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID5c411849-9a25-4904-832a-edefa91aa979 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "waska" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+
+#TERMCLUSTER: kemant-VAffPerfective-xw
+
+aama:IDa772b88a-8409-49e3-a74b-7697c01966cf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷiɣʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID04973b29-936f-47fe-8e2f-3ab686d502b0 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷəyəɣʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDd0421594-97ff-454d-8e3e-35ee56e9a1da a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷiɣʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID735ca009-f1a7-4ea4-bb1a-f7713e216a05 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷinəɣʷ ?" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID0689abfc-31d8-4d69-8ba2-797ecb3fc8b6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷit(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDa2a1126f-e4ea-473e-b2e1-bc628b4c36ce a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷinəɣʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDed501e8f-1f88-4835-ac2d-56b11a717bf6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "xʷinəɣʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegImperfective-was
+
+aama:ID4086d063-7bee-4612-839e-af6378e2e52b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasäga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDae639649-8658-4695-8193-d60d2baf91ac a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasägənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDb1bdc135-234d-4f0e-911c-6c7a2f143e38 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasäkänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDf1135efe-8c6a-43f2-84ef-2f6b3bf2f05e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasäkäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID02a23d4f-385c-46ac-acfb-8033fc939b62 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasäkar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID8b15d8be-5b57-45ac-bcd8-2d5fee29473d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wagägir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDcdada7a3-243f-4331-96ae-5b3904377ece a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasägäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VBilin-KemantRel
+
+aama:ID21a70586-108f-419e-a4b7-b5e53f54102a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasinaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID090d1b69-f739-44e5-ba18-7c97ae11d237 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasyaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:IDcd992e3a-7ec7-4eea-b1a5-c060871768bd a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasyaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:IDa8aa577f-3cda-4db2-8d9c-60b05d621dad a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasyänaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID09a1fece-34c4-405c-9b9e-2927a2775932 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:IDb42ee053-fc3d-4cc5-a69d-642084f92e7a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasyänaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:IDe8b89412-737b-4786-8fe9-df6e428b27f4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbnäxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID7b66b503-4672-4613-9ed7-9a92a130f143 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbänäxʷ" ;
+	kem:tam kem:RelativeOblique ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:IDaf270edf-7ce8-4143-b7fd-09a554a39714 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbrärí" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Fem ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID6892f78c-5548-421c-92f0-a9a95514f838 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasäw" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID011fb29d-3bcf-4dba-bd93-c552b733961a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbäw" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID04ec3fe8-0eeb-42fe-855f-d563fb04cb68 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbnäxʷ" ;
+	kem:tam kem:RelativeOblique ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID09247e43-8a57-4085-9fa3-f1b84d6627c1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbdənäxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID396036e9-87f1-42c1-b33c-bde244d43dfd a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasaɣ" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Masc ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:IDeb3f951b-188f-4976-b71b-3abb23a368f7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasaɣ" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Masc ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID0b2f2669-e144-4531-b066-9cbddbab550e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbäw" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID96f8f1ba-5c8d-4736-831c-7a57dba1448b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbdanäxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID6392347b-639f-4adb-8ab2-4c61ad495e6d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbräxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID6871ce2b-ff3c-45f9-898f-9830fe666140 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasäy" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Fem ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID00f258c0-5704-43a0-882e-05c338255194 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbäxʷ" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Masc ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:IDf6627257-8399-4005-ab85-1437f570c3e8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasänaɣ" ;
+	kem:tam kem:RelativeOblique ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID0defcf12-9db9-4942-abd8-d01a072943e7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "was(ə)naɣ" ;
+	kem:tam kem:RelativeOblique ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID57e67091-847d-4a8c-9c48-d00660c28794 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbäxʷ" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Masc ;
+	kem:aspect kem:Perfective ;
+	.
+aama:IDd832ecf2-a6cf-4b68-b167-31139cc0195f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbäxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID314e9761-5ee6-403d-a616-4dd4e8bb03ea a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbäxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Perfective ;
+	.
+aama:ID6b5f7f9a-99bb-46eb-ba62-126f1eaff39b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbräri" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Fem ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:IDccd0d376-a9a2-40bf-b41c-1ce0755fc6bc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbnäxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:IDdae4be5f-150f-4e0b-af33-47dd515f8dd0 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasnaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:IDe9453ec6-2ed6-45e9-9e39-9cbf20737779 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasäy" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Fem ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:IDff4ebce7-3c91-4e01-986e-7ebb70a96c34 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "gäbräxər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-gab ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID7b46781b-1d38-49de-825b-c9517ccc3703 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasaɣər" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+aama:ID74cf4259-3c33-4fe5-a10e-a081cf38f604 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:pdgmType kem:Comparative ;
+	kem:morphClass kem:Bilin-KemantRel ;
+	kem:pos kem:Verb ;
+	kem:token "wasäw" ;
+	kem:tam kem:RelativeSubject ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:lang kem:Kemant ;
+	kem:gender kem:Common ;
+	kem:aspect kem:Imperfective ;
+	.
+
+#TERMCLUSTER: kemant-VNegN-subordinate-fay
+
+aama:IDed4f9cd4-7c52-4aa0-9f66-e800a877d9bf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyäkän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID3bdf1597-6535-4f74-990c-68763627ad7b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyäkän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID2258198b-849f-4661-b74a-c33bb0f5a069 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyägän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID7148337b-8ca0-43d0-8c9c-da7bda020532 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyägənin" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDa837e6e6-d649-4772-9fc7-7488cf7aadb8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyäkänän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID49275d44-a6ae-4fa6-8172-f65d564f41c5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyägän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID5de853ec-91f2-48f6-b048-64c74d7ea7f5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyägänän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffN-subordinate-fay
+
+aama:IDfd501c2b-cf39-4b83-8b24-a0742b29e024 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fätän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID19c58ce2-45dd-4eaf-9fd4-933419383b91 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyänän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID326de26b-9aee-47f7-98db-0ca223634acb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäynän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID1fc62865-9d1a-45f7-82b1-f446cbfb0da5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDb9dc0fe9-24e5-408a-b676-ba355ed4112d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fäyän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID6e1cd33d-2856-4eec-8964-48f4b30e768e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fätänän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDca5e2b5b-e964-4a28-861c-47b10d15eb82 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "fätän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffN-subordinate-was
+
+aama:ID94341fc5-9f97-4844-8e27-efbc4b8b3dff a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID5d1101c3-75a3-42f2-87cb-943452ade50f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasyän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDb9b70c58-57db-4419-a102-63bb99b45687 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasyänän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID93e26393-ed27-42af-8111-7e9ce2e9bba8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID6edd1e1b-64bf-4c7d-b74a-661e19ce0f57 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasnän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDa8336609-b6f1-4aca-a824-4deb9db47e90 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasyän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDb536e82c-e7ea-43fb-b690-8eda675c403f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasänän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffJussive2-was
+
+aama:ID31dfa91d-0c2d-4528-8e76-a31256280f2b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:person kem:Person3 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive2 ;
+	kem:token "wasin" ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID18741c75-f300-4d2b-95b3-695912476ec3 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:person kem:Person3 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive2 ;
+	kem:token "wasin?" ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDda996bd6-e692-4471-96d9-ea2c9431e5bf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:person kem:Person3 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive2 ;
+	kem:token "wasənin" ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffA-subordinate-xw
+
+aama:IDd9521a2b-5ca6-494a-9ce3-880b1ab88e92 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fätəna" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDbe13a489-f567-442f-8e51-54964daa0d01 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäya" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID3795117c-b181-4f09-a279-c8fc8adf4391 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäta" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDfce4746a-7650-495e-ab27-ceef97f35da8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäyna" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID79e32ee7-b546-4a11-ae94-81b64aa6dc74 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäta" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID96b2b21b-cadd-4f3f-b1d9-4dd3ec817222 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäy(ə)na" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID3819a525-8f9e-4c19-9ac3-ac19397f0538 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "fäya" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffImprtv-was
+
+aama:ID85c67275-ba1a-46ad-89e0-218e29ff5e7b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "was" ;
+	kem:number kem:Singular ;
+	.
+aama:ID74165606-62c5-433f-886f-638b5236ac82 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "wasa" ;
+	kem:number kem:Plural ;
+	.
+
+#TERMCLUSTER: kemant-VNegGerundive-was
+
+aama:ID8633673f-cd0b-4d73-ba74-39f6fc92720b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasgəni" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDc5ff6faa-441d-43d5-9fa7-289fa752ba6c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "waskəni" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDc2b8960e-f292-4083-b8b5-4bcc07baf4ab a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasgi" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID2385017d-af8f-4bdc-aecb-6aad0f632722 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasgəni" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID8cb99d5d-3613-4fa4-9cd3-a72b58033280 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasgi" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID30866f97-5e9f-4d45-ae36-56f887a93bf5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "waski" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDcbc6795f-bf52-4b2c-882f-008527995ae2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "waski" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: aama:pdgmlabel 
+
+aama:ID1048515d-aeac-427b-b35c-e4a0321f3b88 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wasdənu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID2625db0d-9e72-4d73-bb71-cee0657a8dea a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wasnu" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID77118415-fee8-4d2f-80dd-fda8e94cd2c6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID98aa5517-3532-4e86-ba0c-6bccc68972ab a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wasdu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDaadc8b0d-329e-4993-b842-04d7a67ffbf4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wastu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDa3bd1f76-c265-4248-bde3-1946a059dc4d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDdc3700ed-7742-4b10-b1d5-f8fd4f678e36 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wasiw" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegGerundive-fay
+
+aama:IDdb9bec06-e1bc-4c5a-af5e-11d74a263626 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäygəni" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID223de3bf-e43e-40bb-8d23-2e5615706708 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäygi" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID71503008-d2fe-468c-9a9f-006ee202d515 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäyki" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID1dd4be0b-a046-4df5-b170-3b75a2e44526 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäygi" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDd2f4542e-998b-4547-9448-7bc1e7ba11e6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäyki" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID07031324-b854-49dd-ba54-6ae3740d03a3 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäykəni" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID3dfa3abc-1131-41e7-a5e1-6d136c5b17c8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "fäygəni" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffN-subordinate-xw
+
+aama:ID99589cfc-5aaf-4e66-b394-3daae9ff6997 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷanän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDf90c9f5e-a13b-48e9-9adc-acae32fe8876 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷan" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID1c09ccb7-7d16-4065-91ef-9f97adc6c08d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷəyänän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID82fc5af3-0ab9-42f2-a14b-9b71545825ed a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷəyän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDa8020f50-5d3c-4903-a938-d29faf63338d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷənän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDb384121e-bb56-4ade-89d6-99f8b7fffb3d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷəyän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID50f9ac3a-3cbd-4504-a13c-152f0b01def9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷan" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+
+#TERMCLUSTER: kemant-VAffImprtv-iw
+
+aama:ID2e1f5d29-f617-4921-aba0-da2803543281 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-iw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "iwi ~ iw" ;
+	kem:number kem:Singular ;
+	.
+aama:IDb989c1ea-7719-4cec-9907-09da5b4aa9eb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-iw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "iwa" ;
+	kem:number kem:Plural ;
+	.
+
+#TERMCLUSTER: kemant-VPerfComp-was
+
+aama:ID198d6b92-b090-49e8-b6c4-95cd08cb8b07 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "was(əy)(w)wasnät(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID12b8253d-b217-4b8b-997f-7a153a94bca6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "was(əy)(w)wasnyäkʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID9dd8333b-23ef-441e-9558-ffe4ad55ea92 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "wasənwannäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID217178b2-edbc-4811-adf0-2a9c1cc174ad a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "waswanäkʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID3b78f6c0-e92f-43ff-b7a4-5cf4e60b2fdf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "wasənwanäkʷən" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDfc09a0cc-1542-48a4-a912-aa563a2147a3 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "wasinwanyäkʷən" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID57a768d5-57b2-4402-b0d3-7ac5ea28e981 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:PerfectiveComp ;
+	kem:token "waswanäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegD-subordinate-was
+
+aama:IDa5817484-4413-4a21-88ee-07424bab6f0d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "waskänäd" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID614b6f3c-24f4-4e40-97e9-ec119f8f58c7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasgənäd" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID194b5875-4b10-4612-9ddb-fa70635d1fae a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasgäd" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID3ba9a9df-a0e2-4a51-ad7a-fd4b1fbef7b9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasgäd" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID48bcc801-8fbf-49cc-9d85-692ddbb0ae90 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "wasgänäd" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID84951aca-7c4b-4e79-9220-3cbf0c24ab58 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "waskäd" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID2fb514dd-cfef-4db2-a7fc-54b8bcff7792 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:D-subordinate ;
+	kem:token "waskäd" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+
+#TERMCLUSTER: kemant-VNegN-subordinate-xw
+
+aama:IDadcdf24b-0cba-4f97-a419-d0d10c07e2a2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷagän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDaf8200f5-9e15-4d36-bd0c-612b407ef3b0 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷagän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID4430be0f-cd3a-4ec6-a2fa-51830475e637 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷakänän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDbee7822a-7fc3-43c3-b6cc-ccfbd1657245 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷakän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDd7fcbdf1-6cb3-424b-a443-6545d847e614 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷagənin" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDcfa79d4e-4eb1-4ccf-889a-a6bf28619418 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷagänän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID4df8eaf1-623c-4304-acb2-04de744cce00 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "xʷakän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegImperfective-xw
+
+aama:ID8e57828a-1fd3-4d45-8fc6-c4a73c0f26fd a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷakänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDce12d217-7781-4d3c-ad83-73721331bd1b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷagənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID06735573-65d0-43e7-91d2-6c0767fba347 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷaga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID778516ec-f653-40b6-86b3-008193a1d63e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷakäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDf68e749b-e2b4-45c2-8afb-8a7a3efb5836 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷagäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID2cc05738-1331-4eb9-887c-35d7ff427b02 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷakar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDf0cdae20-9b90-4b87-8659-89b361ed1c72 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "xʷagir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffJussive2-fay
+
+aama:IDc30d41d5-1286-493d-92f1-dfbb8fa97a13 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:person kem:Person3 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive2 ;
+	kem:token "fäyin" ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID8aa4d1e8-8b20-4dce-8161-57d8fa03b6ea a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:person kem:Person3 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive2 ;
+	kem:token "fäyənin" ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID57b50967-fcb9-48f7-96c7-71249e66bd54 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:person kem:Person3 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive2 ;
+	kem:token "fäyin?" ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+
+#TERMCLUSTER: kemant-VNegPerfective-was
+
+aama:ID83970780-8ebd-4280-8e58-a4a6e312ddc7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasgənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID4a435ae0-e133-4281-8e85-7f36a12b9ef9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasgäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID656d7cb3-ea3c-487e-9758-8d61ccc2b1e4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "waskäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID340e6bbb-6f26-4a88-96b0-f72f7d6c673e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDeeefdc01-6bdd-4491-b91c-5a345eb475b5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "waskar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDd95a54b7-1027-4795-9151-6b68603a25aa a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "waskänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDbbb1747c-8d38-4ea3-ad68-09fdbc010403 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "wasgir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffImperfective-was
+
+aama:ID63c218d2-6ee4-4822-a49c-7c56b27c1f9f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasät(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID1b5b3ce9-73f3-48cf-ae68-db81c9a3b8d4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasyäkʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID7627f923-1252-4d79-9b8a-9270e21d4be1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasnäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDddc49779-f29b-4e7a-a589-e1512846eed9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID28f76453-7d2d-4220-8dd9-9571ad3d72bf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasyäkʷən" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID449705b1-53ca-4b6d-a7c9-ea4b5927b3c1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasäkʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDe4c68d33-92ec-4b75-9cdd-5d545bd147fe a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "wasäkʷən" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegN-subordinate-was
+
+aama:IDe0602a11-1e5e-4b31-ba71-d030fa0b10dc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasäkän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID6963f420-acd1-4934-b22c-79b9947b6aa5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasäkän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDe40a2292-dceb-4f71-918e-49ef9682ddce a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasägənin" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDd6f7387a-30f7-4444-b222-bfd7fd86568f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasägänän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID14b0dd82-2fd1-4a65-9866-800419de1984 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasägän" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID2614bb89-d84f-458e-92fc-a81d878ce44c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasäkänän" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDe5994ebc-5589-4513-a5e3-f9c4e7555f81 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:N-subordinate ;
+	kem:token "wasägän" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VNegJussive-was
+
+aama:ID8e66601c-9428-4413-8d69-edd6d9c3e3a9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "?" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID6eddfdc8-49fb-4533-b002-91139355f574 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "waskin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID83e185f8-e281-461b-8b7e-c5b46848dad8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wasgin" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID5a1f9262-1f74-434c-9708-729dac2df1ce a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wasgənin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDb4fd5d8f-5087-4bff-a7b8-f4572c52d394 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID466981b8-353b-4ded-bb5a-daed70b33775 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDb87ce120-ffe5-4aea-93b1-8610dac9f77e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "wasgin" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+
+#TERMCLUSTER: kemant-VNegImprtv-was
+
+aama:ID9ad5032a-03d1-46e3-98fe-5cd975f4c9bf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "wasta" ;
+	kem:number kem:Singular ;
+	.
+aama:ID5bb6dfa2-eddf-4870-9c07-881fb19e53cf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "wastäna" ;
+	kem:number kem:Plural ;
+	.
+
+#TERMCLUSTER: kemant-VAffJussive-xw
+
+aama:ID8ffb5698-43e9-45eb-b8b3-ec7e59f3c3a8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDf17d3d8e-89f7-4e89-a460-c3f5758e4143 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷədu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDacee0bfa-ae53-48d9-a75c-4ac2cc21cb29 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDab3012f4-1627-4f8c-9395-e9450c44a83e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷətu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDaf361d2f-ef30-4e5f-a833-fb718ae379ba a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "?" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID88c02696-ba57-4810-a171-e04d2faaf113 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷədənu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDbd664f73-235b-41f2-9c28-949d8eb35317 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-xw ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "xʷənu" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffImperfective-fay
+
+aama:ID8eaa03eb-3699-4877-a588-30dc32aa017b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fätäkʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID8ef09b37-47bf-44ed-a3ff-d6a5ae15e1f7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyät(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID58d2001b-b40d-4b28-965d-49ce826e06ee a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyäkʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID07abe4d0-0279-4a99-9c43-576a77b44673 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyäkʷən" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID8a60d0f7-bd8a-444e-b2a8-541a4718b417 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fätakʷən" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDb0f4fb53-08fa-4a50-b0eb-269d5f7ed12e a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäynäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID7ac2b5a4-4952-4f6e-8f4d-3a270c589dc4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperfective ;
+	kem:token "fäyäkʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VFiniteForm
+
+aama:ID6e3165b8-a769-48d2-a1cc-c4dd1d1acf07 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "gʷäzänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	aamas:gloss "farmer" ;
+	.
+aama:ID497bdc9c-7e95-4eed-b94f-567937b56054 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "s̆əɣʷsänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	aamas:gloss "sick man" ;
+	.
+aama:IDe9108596-d9f1-4122-977f-9a1a3273b5ca a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "kins̆änta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	aamas:gloss "teacher" ;
+	.
+aama:ID4d34874e-12eb-4166-9eab-422909ad1fa9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "s̆iwänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	aamas:gloss "beggar" ;
+	.
+aama:ID4ac1cc89-2d0b-4f00-81a2-c56618f34782 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "säbsänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	aamas:gloss "soldier" ;
+	.
+aama:ID9348872e-5d95-4abf-aac6-4c8247f7ef52 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "axänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	aamas:gloss "wise-man" ;
+	.
+
+#TERMCLUSTER: kemant-VAffGerundive-was
+
+aama:ID3e244260-f54f-445b-8ddd-100112b91f52 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasino" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID19152564-a898-4528-acb9-a447c9513e1d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasyo" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDcb5e3c51-5c4a-460c-a377-f04325d78652 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasyo" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID329f4908-6154-4d99-9c7c-f21b8f861e94 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "waso" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID5907bcd0-5fb6-47b4-9151-35eee0fef45b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "waso" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDf4dba0c1-aacc-4429-8be2-ede21be08f2d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasəno" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID6d39533a-1530-4cce-9cd6-6acae86074b2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Gerund ;
+	kem:token "wasno" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VRelSubj-xw
+
+aama:IDa8c3555e-624c-405d-acad-ba3b981be2f9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "fätänaɣ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID12dc533f-e68a-4a08-9677-bb450333e00a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "fäyaɣ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDbfc51854-e86e-4f60-ae4c-074606b36fb5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "fätaɣ " ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID72e0ed67-d98e-4a73-a0d7-c8eff3c721ee a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "fäyäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID3b179e55-47cd-4076-b2e9-30521c2c2aa1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "fäynaɣ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID9918ea39-2b7c-4dfe-a89c-f857379e7103 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "fäyäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID6726980f-8e70-49ff-a37c-a82a64ec94bc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeSubject ;
+	kem:token "fäyaɣ ~ fäyaɣər ~ fäyar" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VDervStemForms
+
+aama:IDb3ff63b0-68bd-448b-8429-ca2f4e651aeb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "⊤" ;
+	kem:token "(i) –s + ən-" ;
+	aamas:gloss "_NULL" ;
+	kem:derivedStem kem:Reciprocal ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID123f4b04-425c-45e8-904c-4bd2a6727ad3 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "kin-t-" ;
+	kem:token "kin-t-s̆-" ;
+	aamas:gloss "teach" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID8c25eb26-3715-44c4-9969-f3527874e8bc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "əns-̆" ;
+	kem:token "əns̆-s-" ;
+	aamas:gloss "be open(ed)" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID26cfcb94-3718-4e0c-9f69-219fe0e07f34 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "dəkər-t-" ;
+	kem:token "dəkər-t-s̆-" ;
+	aamas:gloss "make hungry" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDc4deadc9-a804-4f09-a7a3-a0bb9ff0a3b9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "təŋ-" ;
+	kem:token "təŋ-s-" ;
+	aamas:gloss "be found" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDece30282-f201-4b00-aa29-06ac72d15aa7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "läy-" ;
+	kem:token "läy-s̆-" ;
+	aamas:gloss "bring" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID7c0edfbb-1dd3-47ca-93a8-e5833db41a43 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "y-" ;
+	kem:token "y-s-" ;
+	aamas:gloss "be said" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID88d45331-ae94-48ff-94c4-0212e21514bf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "was-" ;
+	kem:token "was-s-" ;
+	aamas:gloss "be heard" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID977a0f43-68a0-419d-a407-c728faf9b52f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "ku-mal-" ;
+	kem:token "ku-mal-s-" ;
+	aamas:gloss "be killed" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID8f6a0c62-c567-47a3-a3bf-d8de976859d7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "wäntär-" ;
+	kem:token "wäntär-s̆-" ;
+	aamas:gloss "reply" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID2f2eadf7-e867-452c-ab6b-c4d9981bf896 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "lis-̆" ;
+	kem:token "lis̆-s-" ;
+	aamas:gloss "shave o.s." ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDe66d2291-5562-4ed8-8421-98dc073a1207 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "ax-" ;
+	kem:token "ax-s̆-" ;
+	aamas:gloss "inform" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDd32b6c76-8cdf-4584-b87c-44233a2747f9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "xasän-t-" ;
+	kem:token "xasän-t-s-" ;
+	aamas:gloss "be stolen" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID5c895197-df4a-4b77-9c21-83501b2af334 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "xal-" ;
+	kem:token "xal-s̆-" ;
+	aamas:gloss "show" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDaafded68-e738-41ba-bc3d-d867977f641f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "dəz-" ;
+	kem:token "dəz-s̆-" ;
+	aamas:gloss "lose" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDc0796638-376b-4ae3-8464-e38235093fa1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "dan-" ;
+	kem:token "dan-s̆-" ;
+	aamas:gloss "cure" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID9ef6be6f-4fbc-43c3-a2b2-35b61759c22c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "x-" ;
+	kem:token "x-s̆-" ;
+	aamas:gloss "wash s.th." ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDc9209cba-7eeb-4ddb-aba7-f4b217bded28 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "⊤" ;
+	kem:token "(ii) –s-" ;
+	aamas:gloss "_NULL" ;
+	kem:derivedStem kem:Reciprocal ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID15d37f8c-6b96-4062-8625-cbf9ab75ceda a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "bəlu-" ;
+	kem:token "bəlu-s̆-" ;
+	aamas:gloss "boil" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:ID822c926e-c388-47b2-9afe-28dfc7be53b2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "fäy-" ;
+	kem:token "fäy-s̆-" ;
+	aamas:gloss "take" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDce76f58a-5c94-4997-833d-86890994b8c1 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "käbän-" ;
+	kem:token "käbän-s-" ;
+	aamas:gloss "be born" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+aama:IDb14f1641-a538-46f6-ad6a-18734bf896ca a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-baseForm "⊤" ;
+	kem:token "(iii) reduplication + -s-" ;
+	aamas:gloss "_NULL" ;
+	kem:derivedStem kem:Reciprocal ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+#TERMCLUSTER: kemant-VNegImprtv-iw
+
+aama:ID6f49889f-ed67-49a8-922c-e0cd010622be a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-iw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "iwtäna" ;
+	kem:number kem:Plural ;
+	.
+aama:ID024fefd2-6c9b-4a00-8585-dd28cc46f658 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-iw ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Negative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "iwta" ;
+	kem:number kem:Singular ;
+	.
+
+#TERMCLUSTER: kemant-VRelOblique-was
+
+aama:ID1cbbbbfc-b4c0-4945-ba31-745018fda6fc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyaɣ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Masc ;
+	kem:gender kem:Common ;
+	.
+aama:ID954d6634-d7f9-42c5-b071-28fe6ddb3ad8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyaɣ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Masc ;
+	kem:gender kem:Fem ;
+	.
+aama:ID538dbaa4-3cfe-43db-9c75-dd2e87e7c8fb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasaɣ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Masc ;
+	kem:gender kem:Masc ;
+	.
+aama:IDf7d9620e-b5d9-48ca-b9e2-87060e0f8998 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Plural ;
+	kem:genderHeadRel kem:Common ;
+	kem:gender kem:Masc ;
+	.
+aama:IDd99add08-aceb-43c3-b35f-d116f9d5fc9c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasänäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Plural ;
+	kem:genderHeadRel kem:Common ;
+	kem:gender kem:Common ;
+	.
+aama:IDbc83f69a-4498-427d-8691-f2d40379ed7f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasänäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Fem ;
+	kem:gender kem:Common ;
+	.
+aama:IDec2d61f5-77d3-4cb9-ab06-030fdfd967e4 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasäw" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Plural ;
+	kem:genderHeadRel kem:Common ;
+	kem:gender kem:Common ;
+	.
+aama:IDc729aadd-fb36-4ffe-994b-95235543a1ae a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyänaɣ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Masc ;
+	kem:gender kem:Common ;
+	.
+aama:IDa38c2b27-ccf5-452d-82b1-a8ef295c2aa7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasaɣ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Masc ;
+	kem:gender kem:Common ;
+	.
+aama:ID28ea2c7c-c655-41b4-bbbf-88d9606dcad6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasäy" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Fem ;
+	kem:gender kem:Common ;
+	.
+aama:ID4a12f433-0709-4a1d-8c4f-b684f166af1a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasänaɣ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Masc ;
+	kem:gender kem:Common ;
+	.
+aama:IDfde5a668-63fb-4b9d-a41d-70342026e75f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Fem ;
+	kem:gender kem:Fem ;
+	.
+aama:ID90ad9bc0-1f68-4b2f-8287-f34245ec64a9 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyänäy" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Fem ;
+	kem:gender kem:Common ;
+	.
+aama:IDe714d9e3-785c-4cfd-91a5-90ccfd29c404 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Fem ;
+	kem:gender kem:Masc ;
+	.
+aama:ID1d9dc858-d891-4d6b-95cd-3421c8823f76 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyäw" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Plural ;
+	kem:genderHeadRel kem:Common ;
+	kem:gender kem:Common ;
+	.
+aama:IDe634c74c-20e1-4968-bd3b-6114a7504f5f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasnäy" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Fem ;
+	kem:gender kem:Common ;
+	.
+aama:ID033460e0-5f80-404f-a37e-ffc83c076289 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyäy" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Fem ;
+	kem:gender kem:Common ;
+	.
+aama:IDdd3759e7-9033-4b8f-b1ca-3358505801d8 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasnäw" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Plural ;
+	kem:genderHeadRel kem:Common ;
+	kem:gender kem:Common ;
+	.
+aama:IDb5792aae-1379-4957-98f9-82c1deba618a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasnaɣ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Singular ;
+	kem:genderHeadRel kem:Masc ;
+	kem:gender kem:Common ;
+	.
+aama:ID1cf3f086-6a1c-4bd4-877e-24c5d05494be a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:numHeadRel kem:Plural ;
+	kem:genderHeadRel kem:Common ;
+	kem:gender kem:Fem ;
+	.
+aama:ID72cb38eb-344e-48ac-a247-8886e4dcdd43 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:pos kem:Verb ;
+	kem:tam kem:RelativeOblique ;
+	kem:token "wasyänäw" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:numHeadRel kem:Plural ;
+	kem:genderHeadRel kem:Common ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: aama:pdgmlabel 
+
+aama:ID8e5fe7d5-5423-4b18-acca-db168e75823f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäytu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDc44d0348-b03d-465f-b633-2ee6d1580fec a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID4128369d-09ab-4b8e-8327-eb18c55d2f65 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäynu" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID798cab82-aef6-4a8c-ba13-2f4fe5ec0c78 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäydu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDc552ac4a-59b5-49d6-9d36-4213096e7547 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäydənu" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID47fdb870-b7fd-4a6c-990d-20449f40d3b2 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "fäyu" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID5e563163-bade-4d0b-9a2a-ba0b5597ea09 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Jussive ;
+	kem:token "-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffPerfective-fay
+
+aama:ID36c72773-0aab-408c-9233-e02a41458f7b a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäynəɣʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID01cb4f72-b71a-4c95-89f2-483347ca53ec a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäy(ə)t(i)" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDd864c596-3a85-4fab-a578-1442ee9bb2d6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fätənəɣʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID0082bcc3-208c-40fc-95ee-32bcf0101023 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäyəɣʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID0d4db1e3-83c4-4269-96ac-9257d28d872c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäyəɣʷ" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDc9dd342e-797e-44d3-bb91-e7650daf7b83 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäyəɣʷ" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDf0292ee5-dc3a-4f2e-8fac-459d93e86482 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Perfective ;
+	kem:token "fäy(ə)nəɣʷ" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#TERMCLUSTER: kemant-VAffImprtv-fay
+
+aama:ID8294e246-db69-4d41-a4b9-36d6adc03fdb a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "fäy" ;
+	kem:number kem:Singular ;
+	.
+aama:IDf063dcc8-c6e7-454d-b391-2f84ea13bcab a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	kem:gender kem:Common ;
+	aamas:lexeme aama:Kemant-fay ;
+	kem:person kem:Person2 ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:Imperative ;
+	kem:token "fäya" ;
+	kem:number kem:Plural ;
+	.
+
+#TERMCLUSTER: kemant-VAffA-subordinate-was
+
+aama:ID2b9465a6-3299-42e6-82c2-c4c1035684ab a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "was(ə)na" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDbf367bea-1874-4f02-bb00-81f4c2234eaa a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasina" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID60ad29aa-1ff4-4b9b-bace-fb08ea1f3b86 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasya" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID369b0d59-a3f0-4013-8495-7381a5984d41 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasa" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDcafe59fa-29a0-4374-bf02-e078a1cab98a a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasya" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDe3852fe5-1590-4737-94c0-2e8bbedea810 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasa" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDf1f200e9-487a-4764-a421-897254decf91 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:lexeme aama:Kemant-was ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:tam kem:a-subordinate ;
+	kem:token "wasna" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#MUTERMCLUSTER: kemant-VSubjMarker
+
+aama:ID1b78ac2c-b433-42db-ba99-4289530ef30b a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetB ;
+	kem:token "-C-" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDa74fc329-0bba-42ba-8d43-3e1ef364ea33 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetB ;
+	kem:token "-CVn-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDb5590636-0961-4d9a-ab91-11e086126b9b a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetA ;
+	kem:token "-Ø-" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDb1ee9c42-0836-4566-9acc-f862a2fb5952 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetB ;
+	kem:token "-Ø-" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID42352b2f-1109-4f65-b22d-7f06e1d1bf57 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetB ;
+	kem:token "-C-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID8092309d-a147-4431-90a6-a6d86c6ce428 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetA ;
+	kem:token "-y- ~ -t-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDc0e4ee97-954b-4841-8b93-aebdc54e1f69 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetA ;
+	kem:token "-Ø-" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDae2fbc68-e7d6-40be-9064-c4c28bee5d87 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetB ;
+	kem:token "-Ø-" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID2de20bea-0640-449e-9134-faa50b6d5edb a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetA ;
+	kem:token "-yVn- ~ -tVn-" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID181cebf0-1ba7-4f83-9391-c09602c81bdd a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetA ;
+	kem:token "-y- ~ -t-" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID127d8735-cf3d-48bf-b42e-4cc909d42d1b a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetA ;
+	kem:token "-n-" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDe47e3fb8-b478-4269-929d-e0d40d4e3069 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetB ;
+	kem:token "-n-" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID98ee3d6a-0d50-4d13-919d-d10276a3f5f0 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetA ;
+	kem:token "-Vn-" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID41cf3d18-b3d4-4167-82ea-dc6fb2b1d7db a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-SUBJMARK ;
+	kem:pdgmSubType kem:SubjMarker ;
+	kem:pos kem:Verb ;
+	kem:formType kem:Affix ;
+	kem:vSubjectSet kem:VSubjSetB ;
+	kem:token "-Vn-" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#MUTERMCLUSTER: kemant-VBe
+
+aama:ID33bfc95d-1229-4618-93f5-141b53b8ab89 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gagənir ~  gəyagənir" ;
+	kem:token-2 "gəyagənir" ;
+	kem:token-1 "gagənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID2f5061e2-cdb5-424e-ba45-3329f096a432 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gagir ~  gəyagir" ;
+	kem:token-2 "gəyagir" ;
+	kem:token-1 "gagir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDc10a7458-0e47-4046-bfc8-5cf134815e52 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gagäw ~  gəyagäw" ;
+	kem:token-2 "gəyagäw" ;
+	kem:token-1 "gagäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID3b8da971-307a-4775-bc61-c6a4502bfe61 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gakäy ~  gəyakäy" ;
+	kem:token-2 "gəyakäy" ;
+	kem:token-1 "gakäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:IDb8c44d54-63a2-4a9a-90a5-7a97559fde12 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gakar ~  gəyakar" ;
+	kem:token-2 "gəyakar" ;
+	kem:token-1 "gakar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID6957e730-17d8-4a90-b782-5aaadd2c82a8 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gaga ~  gəyaga" ;
+	kem:token-2 "gəyaga" ;
+	kem:token-1 "gaga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDa996d127-5f7a-4e29-a8ba-d1e7d2af42db a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gakänar ~  gəyakänar" ;
+	kem:token-2 "gəyakänar" ;
+	kem:token-1 "gakänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#MUTERMCLUSTER: kemant-PInd
+
+aama:ID4234aaf0-fc27-48c1-824a-53b6c1ab244a a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "əntä " ;
+	kem:proSet kem:ProSetB ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDbc8dd516-1a6e-41b7-9474-b9d1354ff699 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "yə" ;
+	kem:proSet kem:ProSetB ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID41fc3a82-c2b8-406b-971a-22818a534f8e a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "ni" ;
+	kem:proSet kem:ProSetA ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:ID7aac1ecf-b20a-4805-8bda-0d4ddf5086c3 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "əntə" ;
+	kem:proSet kem:ProSetA ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:IDbad0e03e-5782-4915-bbe4-3520a8a70272 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "niy" ;
+	kem:proSet kem:ProSetA ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID0d7db683-b328-437b-8e86-4ca1e0f37c8b a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "na" ;
+	kem:proSet kem:ProSetB ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDbce27539-2175-4f1e-bdc9-ce0d75fa38c1 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "nis̆" ;
+	kem:proSet kem:ProSetB ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
+	.
+aama:ID9a0ed4e8-6991-48eb-a3cc-a25e590d9901 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "əntändiw / əntän(n)iw / əntädiw" ;
+	kem:proSet kem:ProSetA ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID04f07214-8e25-42fd-b302-1200c36ac475 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "ni" ;
+	kem:proSet kem:ProSetB ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
+	.
+aama:IDd0494d08-8c6b-4f85-8bfc-21b39a3cf4b4 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "ki / ku" ;
+	kem:proSet kem:ProSetB ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID0a13aec8-a8d0-4b03-b0a7-0949afb86c0d a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "naydiw" ;
+	kem:proSet kem:ProSetA ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:ID41cc37ca-8548-453a-b2f2-94e1e9132a66 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "andiw / anniw" ;
+	kem:proSet kem:ProSetA ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+aama:IDadf05998-6c9a-4097-8d57-0f8aa259f166 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "an" ;
+	kem:proSet kem:ProSetA ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
+	.
+aama:ID695015e9-5b89-490b-8de8-2a194a03ebdd a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-PRO ;
+	kem:pos kem:Pronoun ;
+	kem:proClass kem:Independent ;
+	kem:token "anä" ;
+	kem:proSet kem:ProSetB ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
+	.
+
+#MUTERMCLUSTER: kemant-NCardinalNumeral
+
+aama:IDb1f2393d-747c-461e-b572-41cc1ae64790 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "5" ;
+	kem:token "ankʷa" ;
+	.
+aama:IDa66111aa-961b-4a75-a6e1-0d9849741ad9 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "7" ;
+	kem:token "läŋäta" ;
+	.
+aama:ID2ea1d841-acea-4ed6-9b38-06818973cfb9 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "4" ;
+	kem:token "säjja" ;
+	.
+aama:ID970e63f6-adf2-414f-b327-42eca25c4b56 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "70" ;
+	kem:token "läŋätiŋ" ;
+	.
+aama:ID35cfb4bf-1d63-4c94-bc12-5044e55051d3 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "30" ;
+	kem:token "säɣʷäyəŋ" ;
+	.
+aama:ID888e1026-1278-4262-af12-18c7169343b2 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "60" ;
+	kem:token "wältiŋ" ;
+	.
+aama:ID7da5ee2b-d021-4fdf-a830-cd118a980f40 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "1000" ;
+	kem:token "s̆i" ;
+	.
+aama:IDdbed37a9-318d-424a-980d-24173ad881e3 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "80" ;
+	kem:token "säɣʷätiŋ" ;
+	.
+aama:ID8584c9e3-0a19-4d03-86bd-86911d07f4d8 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "8" ;
+	kem:token "säɣʷäta" ;
+	.
+aama:ID18e3a4a1-4331-4779-a447-ef9a7a246656 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "p3" ;
+	kem:token "siɣʷa" ;
+	.
+aama:ID2e168cb1-7c52-4974-a173-77eac43cf586 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "50" ;
+	kem:token "ankʷiŋ" ;
+	.
+aama:ID8f30c529-49ec-4660-bfdb-8ed7bf8235ff a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "90" ;
+	kem:token "sässiŋ" ;
+	.
+aama:ID5c5449e6-1f49-4afb-a99d-d9d8ddd42f34 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "9" ;
+	kem:token "sässa" ;
+	.
+aama:IDce7eb1d5-3e6e-451c-a379-c6aadeb6059d a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "20" ;
+	kem:token "läŋayəŋ̈" ;
+	.
+aama:ID0f518e47-f76f-45ef-9e6c-122dfd1be8c8 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "10" ;
+	kem:token "s̆əka" ;
+	.
+aama:ID7bba5d44-3cbe-4029-90eb-3f2aeab40276 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "p2" ;
+	kem:token "liŋa" ;
+	.
+aama:IDc118021f-9271-4ac1-bf03-3fb76d078762 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "40" ;
+	kem:token "arba" ;
+	.
+aama:ID8fc57846-5a26-43d5-b417-ffe0ff881b05 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "100" ;
+	kem:token "liɣ" ;
+	.
+aama:ID5be2601b-08a7-4cd5-936a-ba9f8c2a4c86 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "p1" ;
+	kem:token "laɣʷa / laɣa / la" ;
+	.
+aama:IDc3650d75-f1a2-46cb-8edf-1edbff30c00a a aamas:Muterm ;
+	aamas:lang aama:Kemant ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-numGloss "6" ;
+	kem:token "wälta" ;
+	.
