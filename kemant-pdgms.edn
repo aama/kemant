@@ -1,6 +1,9 @@
 {
 :lang :kemant
 :sgpref "kem"
+ :datasource "Appleyard1975"
+:geodemoURL "http://www.ethnologue.com/language/ahg"
+:geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant."
 :schemata {
 :aspect [:Imperfective, :Perfective]
 	  :derivedStem [:M, :Reciprocal, :S]
@@ -66,7 +69,7 @@
 	    [:Common, :Plural, :Person3, "xʷədənu"],
 	    [:Common, :Plural, :Person1, "xʷənu"]]
     }
-    {:label "aama:pdgmlabel "
+    {:label "kemant-VAFFJuss-fay"
     :common {:lexeme :fay,
 	    :polarity :Affirmative,
 	    :pos :Verb,
@@ -321,7 +324,7 @@
 	    [:Common, :Singular, :Person2, "xʷakar"],
 	    [:Common, :Singular, :Person1, "xʷagir"]]
     }
-    {:label "aama:pdgmlabel "
+    {:label "kemant-VAffJuss-was"
     :common {:lexeme :was,
 	    :polarity :Affirmative,
 	    :pos :Verb,
