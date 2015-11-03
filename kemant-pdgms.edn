@@ -286,7 +286,7 @@
 	    :morphClass :AGENTNOUN,
 	    :pdgmSubType :FiniteVerb,
 	    :pos :Verb}
-    :terms [[:gloss, :lexeme, :token]  ;; schema
+    :terms [[:token-note, :lexeme, :token]  ;; schema
 	    ["farmer", :AGENTNOUN, "gʷäzänta"],
 	    ["sick man", :AGENTNOUN, "s̆əɣʷsänta"],
 	    ["teacher", :AGENTNOUN, "kins̆änta"],
@@ -397,34 +397,34 @@
 	    [:Singular, "fäyta"]]
     }
     {:label "kemant-VDervStemForms"
-    :note "Appleyard1975"
+    :note "Appleyard1975. The token note format is: Verb Gloss + Base Form."
     :common {:morphClass :DERVSTEM,
 	    :pdgmSubType :DervStem,
 	    :pdgmType :Exemplary,
 	    :pos :Verb}
-    :terms [[:lexeme, :derivedStem, :gloss, :token, :token-baseForm]  ;; schema
-	    [:DERVSTEM, :Reciprocal, "_NULL", "(i) –s + ən-", "⊤"],
-	    [:DERVSTEM, :S, "teach", "kin-t-s̆-", "kin-t-"],
-	    [:DERVSTEM, :M, "be open(ed)", "əns̆-s-", "əns-̆"],
-	    [:DERVSTEM, :S, "make hungry", "dəkər-t-s̆-", "dəkər-t-"],
-	    [:DERVSTEM, :M, "be found", "təŋ-s-", "təŋ-"],
-	    [:DERVSTEM, :S, "bring", "läy-s̆-", "läy-"],
-	    [:DERVSTEM, :M, "be said", "y-s-", "y-"],
-	    [:DERVSTEM, :M, "be heard", "was-s-", "was-"],
-	    [:DERVSTEM, :M, "be killed", "ku-mal-s-", "ku-mal-"],
-	    [:DERVSTEM, :S, "reply", "wäntär-s̆-", "wäntär-"],
-	    [:DERVSTEM, :M, "shave o.s.", "lis̆-s-", "lis-̆"],
-	    [:DERVSTEM, :S, "inform", "ax-s̆-", "ax-"],
-	    [:DERVSTEM, :M, "be stolen", "xasän-t-s-", "xasän-t-"],
-	    [:DERVSTEM, :S, "show", "xal-s̆-", "xal-"],
-	    [:DERVSTEM, :S, "lose", "dəz-s̆-", "dəz-"],
-	    [:DERVSTEM, :S, "cure", "dan-s̆-", "dan-"],
-	    [:DERVSTEM, :S, "wash s.th.", "x-s̆-", "x-"],
-	    [:DERVSTEM, :Reciprocal, "_NULL", "(ii) –s-", "⊤"],
-	    [:DERVSTEM, :S, "boil", "bəlu-s̆-", "bəlu-"],
-	    [:DERVSTEM, :S, "take", "fäy-s̆-", "fäy-"],
-	    [:DERVSTEM, :M, "be born", "käbän-s-", "käbän-"],
-	    [:DERVSTEM, :Reciprocal, "_NULL", "(iii) reduplication + -s-", "⊤"]]
+    :terms [[:lexeme, :derivedStem, :token, :token-note-baseForm]  ;; schema
+	    [:DERVSTEM, :Reciprocal, "(i) –s + ən-", "_NULL + ⊤"],
+	    [:DERVSTEM, :S,  "kin-t-s̆-", "teach + kin-t-"],
+	    [:DERVSTEM, :M,  "əns̆-s-", "be open(ed) + əns-̆"],
+	    [:DERVSTEM, :S,  "dəkər-t-s̆-", "make hungry + dəkər-t-"],
+	    [:DERVSTEM, :M,  "təŋ-s-", "be found + təŋ-"],
+	    [:DERVSTEM, :S,  "läy-s̆-", "bring + läy-"],
+	    [:DERVSTEM, :M,  "y-s-", "be said + y-"],
+	    [:DERVSTEM, :M,  "was-s-", "be heard + was-"],
+	    [:DERVSTEM, :M,  "ku-mal-s-", "be killed + ku-mal-"],
+	    [:DERVSTEM, :S,  "wäntär-s̆-", "reply + wäntär-"],
+	    [:DERVSTEM, :M,  "lis̆-s-", "shave o.s. + lis-̆"],
+	    [:DERVSTEM, :S,  "ax-s̆-", "inform + ax-"],
+	    [:DERVSTEM, :M,  "xasän-t-s-", "be stolen + xasän-t-"],
+	    [:DERVSTEM, :S,  "xal-s̆-", "show + xal-"],
+	    [:DERVSTEM, :S,  "dəz-s̆-", "lose + dəz-"],
+	    [:DERVSTEM, :S,  "dan-s̆-", "cure + dan-"],
+	    [:DERVSTEM, :S,  "x-s̆-", "wash s.th. + x-"],
+	    [:DERVSTEM, :Reciprocal, "(ii) –s-", "_NULL + ⊤"],
+	    [:DERVSTEM, :S,  "bəlu-s̆-", "boil + bəlu-"],
+	    [:DERVSTEM, :S,  "fäy-s̆-", "take + fäy-"],
+	    [:DERVSTEM, :M,  "käbän-s-", "be born + käbän-"],
+	    [:DERVSTEM, :Reciprocal, "(iii) reduplication + -s-", "_NULL + ⊤"]]
     }
     {:label "kemant-VAffN-subordinate-was"
     :note "Appleyard1975"
@@ -621,7 +621,7 @@
 	    :pdgmSubType :Interrogative,
 	    :pdgmType :Exemplary,
 	    :pos :Verb}
-    :terms [[:lexeme, :gloss, :token]  ;; schema
+    :terms [[:lexeme, :token-note, :token]  ;; schema
 	    [:VERBINTERROGATIVE, "do you want it?", "fälägi"],
 	    [:VERBINTERROGATIVE, "are you getting used to it?", "lämäds̆i"],
 	    [:VERBINTERROGATIVE, "can you?", "gärsi"],
@@ -947,7 +947,7 @@
     :common {:morpheme :CARDINALNUM,
 	    :nounClass :CardinalNumeral,
 	    :pos :Noun}
-    :terms [[:token, :token-numGloss]  ;; schema
+    :terms [[:token, :token-note]  ;; schema
 	    ["ankʷa", "5"],
 	    ["läŋäta", "7"],
 	    ["säjja", "4"],
@@ -975,13 +975,13 @@
 	    :pdgmSubType :Copula,
 	    :polarity :Affirmative,
 	    :pos :Verb}
-    :terms [[:gender, :number, :person, :token-1, :token-2, :token]  ;; schema
-	    [:Common, :Plural, :Person1, "gagənir", "gəyagənir", "gagənir ~  gəyagənir"],
-	    [:Common, :Singular, :Person1, "gagir", "gəyagir", "gagir ~  gəyagir"],
-	    [:Common, :Plural, :Person3, "gagäw", "gəyagäw", "gagäw ~  gəyagäw"],
-	    [:Fem, :Singular, :Person3, "gakäy", "gəyakäy", "gakäy ~  gəyakäy"],
-	    [:Common, :Singular, :Person2, "gakar", "gəyakar", "gakar ~  gəyakar"],
-	    [:Masc, :Singular, :Person3, "gaga", "gəyaga", "gaga ~  gəyaga"],
-	    [:Common, :Plural, :Person2, "gakänar", "gəyakänar", "gakänar ~  gəyakänar"]]
+    :terms [[:gender, :number, :person, :token-note, :token]  ;; schema
+	    [:Common, :Plural, :Person1, "gagənir + gəyagənir", "gagənir ~  gəyagənir"],
+	    [:Common, :Singular, :Person1, "gagir + gəyagir", "gagir ~  gəyagir"],
+	    [:Common, :Plural, :Person3, "gagäw + gəyagäw", "gagäw ~  gəyagäw"],
+	    [:Fem, :Singular, :Person3, "gakäy + gəyakäy", "gakäy ~  gəyakäy"],
+	    [:Common, :Singular, :Person2, "gakar + gəyakar", "gakar ~  gəyakar"],
+	    [:Masc, :Singular, :Person3, "gaga + gəyaga", "gaga ~  gəyaga"],
+	    [:Common, :Plural, :Person2, "gakänar + gəyakänar", "gakänar ~  gəyakänar"]]
     }}
 }

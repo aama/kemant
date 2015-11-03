@@ -1,5 +1,5 @@
 #TTL FROM INPUT FILE:
-#../aama-data/data/kemant/kemant-pdgms.edn
+#../aama-data/data/kemant//kemant-pdgms.edn
 
 @prefix rdf:	 <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:	 <http://www.w3.org/2000/01/rdf-schema#> .
@@ -455,7 +455,7 @@ kem:kemant-VNegPerfective-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID2074bccc-072c-4913-adf6-165326e3be06 a aamas:Term ;
+aama:IDa5a98f54-999a-493c-ba04-bb670353190d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -468,7 +468,7 @@ aama:ID2074bccc-072c-4913-adf6-165326e3be06 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb4bbed24-ffea-49c5-9602-80d5a0d23997 a aamas:Term ;
+aama:ID7e7d4479-e4fd-4bf0-b722-dbb610f2e882 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -481,7 +481,7 @@ aama:IDb4bbed24-ffea-49c5-9602-80d5a0d23997 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID3f867501-2229-4965-85a7-0f2d8c6ac6fb a aamas:Term ;
+aama:IDe701371c-017f-467d-850b-eb2bd117388a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -494,7 +494,7 @@ aama:ID3f867501-2229-4965-85a7-0f2d8c6ac6fb a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID182fe3a7-929c-4483-9d9b-f2da60799a33 a aamas:Term ;
+aama:ID9ffa5879-cb51-4c79-8069-551c1c47bbca a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -507,7 +507,7 @@ aama:ID182fe3a7-929c-4483-9d9b-f2da60799a33 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID20687a59-cc5e-4880-94bd-a247a58f16e5 a aamas:Term ;
+aama:ID3e5f7a26-65f2-4a77-9421-8125e93201ed a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -520,7 +520,7 @@ aama:ID20687a59-cc5e-4880-94bd-a247a58f16e5 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID69650f3b-d583-4364-b54c-b6a5fa4ad7e4 a aamas:Term ;
+aama:IDe4cf68e8-570f-4d52-9575-5c6c04eb9c51 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -533,7 +533,7 @@ aama:ID69650f3b-d583-4364-b54c-b6a5fa4ad7e4 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9de256d3-798b-451c-86d7-ac8589d3cebe a aamas:Term ;
+aama:IDc0597c13-f806-4feb-8ef6-e9583effd790 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -553,7 +553,7 @@ kem:kemant-VAffGerundive-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID411914f3-eece-42f2-bd26-b5b53c96d9a5 a aamas:Term ;
+aama:ID85bec2ec-c6c2-418b-a876-6282022a8ec3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -566,7 +566,7 @@ aama:ID411914f3-eece-42f2-bd26-b5b53c96d9a5 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDafe45179-f461-4cd2-b7ee-fdddbc16f1f3 a aamas:Term ;
+aama:IDf41f2f50-d915-479f-b6b9-a7645ac396ad a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -579,7 +579,7 @@ aama:IDafe45179-f461-4cd2-b7ee-fdddbc16f1f3 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDe2446cff-ca27-480b-93be-1d8f50c48855 a aamas:Term ;
+aama:ID72906088-671e-47af-ada4-80024764505d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -592,7 +592,7 @@ aama:IDe2446cff-ca27-480b-93be-1d8f50c48855 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb06e6b69-e77f-478c-a63e-312587c7ded3 a aamas:Term ;
+aama:IDe788aff1-29fa-4757-a482-876dff5bea58 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -605,7 +605,7 @@ aama:IDb06e6b69-e77f-478c-a63e-312587c7ded3 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDaef9d280-de62-437f-9bf6-77ca803f2957 a aamas:Term ;
+aama:ID71883b8c-88ba-4d19-9241-89beef57c87b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -618,7 +618,7 @@ aama:IDaef9d280-de62-437f-9bf6-77ca803f2957 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd4c40986-9da5-496a-9d39-48e4e947c6c8 a aamas:Term ;
+aama:IDb621454b-2115-4a3e-9dc7-653bc653e6d5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -631,7 +631,7 @@ aama:IDd4c40986-9da5-496a-9d39-48e4e947c6c8 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9d95da70-b58a-4a5d-8204-8a084bad7271 a aamas:Term ;
+aama:IDe762b157-9242-4904-83c5-a13729026078 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -644,6 +644,61 @@ aama:ID9d95da70-b58a-4a5d-8204-8a084bad7271 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
+#TERMCLUSTER:  kemant-VInterrog
+
+kem:kemant-VInterrog a aamas:Termcluster ;
+	rdfs:label "kemant-VInterrog" ;
+	rdfs:comment "Appleyard1975 7.5" 
+	.
+
+aama:ID3f96dad7-ba61-47cc-bc71-ef01caa78a43 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VInterrog ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "fälägi" ;
+	kem:token-note "do you want it?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+
+aama:IDb682cd8f-9235-4574-b2c8-47dab65b99a3 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VInterrog ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "lämäds̆i" ;
+	kem:token-note "are you getting used to it?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+
+aama:IDacf1748b-267c-4ccb-9780-3cb0ca63dc4f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VInterrog ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "gärsi" ;
+	kem:token-note "can you?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+
+aama:ID9f612f23-5e65-42af-b28e-5d61888d1df5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VInterrog ;
+	kem:morphClass kem:VERBINTERROGATIVE ;
+	kem:pdgmSubType kem:Interrogative ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token "kəmantənäyəs waɣärti" ;
+	kem:token-note "do you speak Kemant?" ;
+	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
+	.
+
 #TERMCLUSTER:  kemant-VAffN-subordinate-was
 
 kem:kemant-VAffN-subordinate-was a aamas:Termcluster ;
@@ -651,7 +706,7 @@ kem:kemant-VAffN-subordinate-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID55ac32d8-bc44-497b-aefc-e80be3cf6a2e a aamas:Term ;
+aama:IDa5263573-47a4-4947-8381-797426b543ce a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -664,7 +719,7 @@ aama:ID55ac32d8-bc44-497b-aefc-e80be3cf6a2e a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID03c990aa-218e-4949-9159-6118fff909ec a aamas:Term ;
+aama:ID0d188573-f6ac-40b3-91a8-191b5ad870a9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -677,7 +732,7 @@ aama:ID03c990aa-218e-4949-9159-6118fff909ec a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID0516561a-0696-47c1-8e31-b15ca472010e a aamas:Term ;
+aama:ID9d7a7602-6326-4cb8-92a2-03b060dce1d5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -690,7 +745,7 @@ aama:ID0516561a-0696-47c1-8e31-b15ca472010e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID8abf152e-bc7a-4618-87c9-cd1a21f3e01b a aamas:Term ;
+aama:ID852ac846-ff67-44c6-bebe-7187571f56f7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -703,7 +758,7 @@ aama:ID8abf152e-bc7a-4618-87c9-cd1a21f3e01b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID2fc4e714-4c18-43d7-9911-e95758d433ad a aamas:Term ;
+aama:IDcb5b1399-9d50-4ed3-b204-90c0805d49ae a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -716,7 +771,7 @@ aama:ID2fc4e714-4c18-43d7-9911-e95758d433ad a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe7232167-014f-4c08-9418-aa97a121a581 a aamas:Term ;
+aama:ID89bc99ae-d93b-4045-9791-feea0ca1394c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -729,7 +784,7 @@ aama:IDe7232167-014f-4c08-9418-aa97a121a581 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID5c7265f7-3a06-49dd-a6a2-26a7b38a0b5f a aamas:Term ;
+aama:IDfa867966-8ca6-4b72-a3b6-e20ff2886ca5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -749,7 +804,7 @@ kem:kemant-VAffImperfective-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDe317e20b-b699-4c52-bf5d-5a0a20e9c28c a aamas:Term ;
+aama:ID89fb6c38-3261-42b5-8f46-429664f81fc8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -762,7 +817,7 @@ aama:IDe317e20b-b699-4c52-bf5d-5a0a20e9c28c a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc93af1b8-bcbb-46af-bd86-1e8a2fc959a1 a aamas:Term ;
+aama:ID796d408f-d17e-4062-aba9-27329e3d4fa6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -775,7 +830,7 @@ aama:IDc93af1b8-bcbb-46af-bd86-1e8a2fc959a1 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDce4cfcd9-df4b-4c99-9e9d-3d19dd92b6f8 a aamas:Term ;
+aama:IDe8b9b54a-fe29-400b-a330-b5f91146f660 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -788,7 +843,7 @@ aama:IDce4cfcd9-df4b-4c99-9e9d-3d19dd92b6f8 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID5691c6d5-2082-4ce7-bf12-21814cf9e47e a aamas:Term ;
+aama:ID2c1f49a7-c593-4442-ba9a-bdb1cb82d453 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -801,7 +856,7 @@ aama:ID5691c6d5-2082-4ce7-bf12-21814cf9e47e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDffd24419-489e-46b9-999d-1e5562006c1e a aamas:Term ;
+aama:ID12047ec3-572c-41fe-86c0-b94371492855 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -814,7 +869,7 @@ aama:IDffd24419-489e-46b9-999d-1e5562006c1e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4820f957-8c18-4747-b56f-747cdfcfc682 a aamas:Term ;
+aama:IDc3aaa29f-01cb-4502-8f5a-776bbb17402c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -827,7 +882,7 @@ aama:ID4820f957-8c18-4747-b56f-747cdfcfc682 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID0029bd27-72ce-4b31-beb6-9af56cf0c0e3 a aamas:Term ;
+aama:ID4c808522-0433-4c83-907a-c3d6d3314636 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -847,7 +902,7 @@ kem:kemant-VNegImperfective-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDde2d2a7a-98b9-48f2-b4e3-98c1f808300b a aamas:Term ;
+aama:ID7505136b-e6a0-421c-82ae-d2a718315739 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -860,7 +915,7 @@ aama:IDde2d2a7a-98b9-48f2-b4e3-98c1f808300b a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID6b6a0833-feeb-479c-9f73-2def19801271 a aamas:Term ;
+aama:IDdf428470-2d21-48bb-b3e7-ee7a2199f72d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -873,7 +928,7 @@ aama:ID6b6a0833-feeb-479c-9f73-2def19801271 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDcb5a53ae-063c-47a0-ad8d-2485c87d722e a aamas:Term ;
+aama:IDe515aea5-cb38-4662-a757-ea97513866a7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -886,7 +941,7 @@ aama:IDcb5a53ae-063c-47a0-ad8d-2485c87d722e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID0323330b-503d-4d2f-bd71-62d8a6f33c93 a aamas:Term ;
+aama:IDee825757-8681-4422-a115-1c6fe002bf79 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -899,7 +954,7 @@ aama:ID0323330b-503d-4d2f-bd71-62d8a6f33c93 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID609aa951-7b70-4cb3-a752-25fb8237c8a6 a aamas:Term ;
+aama:ID48b17c8a-98d7-4cf7-92e4-12199a74593b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -912,7 +967,7 @@ aama:ID609aa951-7b70-4cb3-a752-25fb8237c8a6 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID0bc588b5-7cbc-4b99-990d-42f817af1b84 a aamas:Term ;
+aama:IDbc7661f7-140b-45ee-8af7-a9b6431d8fab a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -925,7 +980,7 @@ aama:ID0bc588b5-7cbc-4b99-990d-42f817af1b84 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDa886367a-6bd8-4810-8c9a-ae8c796a33c9 a aamas:Term ;
+aama:IDf0a9303a-6ec4-480d-9221-ab6e39cc70fe a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -945,7 +1000,7 @@ kem:kemant-VAffImperfective-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID5012e6c9-5738-49ac-b564-cbc17b0d10e2 a aamas:Term ;
+aama:ID17e58c84-63f3-4f96-8d0c-a59285787a47 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -958,7 +1013,7 @@ aama:ID5012e6c9-5738-49ac-b564-cbc17b0d10e2 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDdbcd366a-557e-4052-aaaf-aaefe5df4fc6 a aamas:Term ;
+aama:IDad0a5a6e-8d0a-48fd-8f11-b0c8b42214cd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -971,7 +1026,7 @@ aama:IDdbcd366a-557e-4052-aaaf-aaefe5df4fc6 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID2fec1f1e-d783-4f42-9c39-e19df806746b a aamas:Term ;
+aama:ID61a16ba3-5ef1-4c62-90d4-27bf13b7e2fd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -984,7 +1039,7 @@ aama:ID2fec1f1e-d783-4f42-9c39-e19df806746b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9e0f2cd3-2f38-4f01-881b-4facc022ad02 a aamas:Term ;
+aama:ID83fd377f-a53d-4d41-8fa1-72564024b737 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -997,7 +1052,7 @@ aama:ID9e0f2cd3-2f38-4f01-881b-4facc022ad02 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb8d0cd89-5a2a-44fe-85e8-b63fc68dc92b a aamas:Term ;
+aama:IDc1f37691-bf17-4e34-b926-4bfdbba74932 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1010,7 +1065,7 @@ aama:IDb8d0cd89-5a2a-44fe-85e8-b63fc68dc92b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID43c62f91-53a1-4215-8190-38c7e6d4bdd2 a aamas:Term ;
+aama:ID5bdf6f4b-e3f1-4ef3-bcc4-529701d5a3d1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1023,7 +1078,7 @@ aama:ID43c62f91-53a1-4215-8190-38c7e6d4bdd2 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID524c8f45-8c29-4c15-a079-2fffd9af02d9 a aamas:Term ;
+aama:IDa34718a1-e676-4beb-a02c-1979cda943f6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1043,7 +1098,7 @@ kem:kemant-VAffImprtv-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDf8db65b3-6104-448e-bbd8-20a770ad5bbc a aamas:Term ;
+aama:ID0161749e-c8b0-4585-8baf-a9960479f0e7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-fay ;
 	kem:gender kem:Common ;
@@ -1056,7 +1111,7 @@ aama:IDf8db65b3-6104-448e-bbd8-20a770ad5bbc a aamas:Term ;
 	kem:number kem:Singular ;
 	.
 
-aama:ID9c5cadf3-d02a-48fb-bf23-7da19f76899f a aamas:Term ;
+aama:IDcbd0de20-57de-4d64-8473-e1f98194fcc0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-fay ;
 	kem:gender kem:Common ;
@@ -1076,7 +1131,7 @@ kem:kemant-VAffImperfective-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID82bae0a2-94a0-4179-8b35-4f71847937a6 a aamas:Term ;
+aama:ID171a6e0c-322e-4c80-a2b8-5b5b0add5a88 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1089,7 +1144,7 @@ aama:ID82bae0a2-94a0-4179-8b35-4f71847937a6 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDfc88ecdf-12a5-4d1b-a010-1663859b1422 a aamas:Term ;
+aama:ID12929760-d3e9-4464-a8ca-6139f113bba5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1102,7 +1157,7 @@ aama:IDfc88ecdf-12a5-4d1b-a010-1663859b1422 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd8a95b1e-6bc0-444a-a693-1c187d3fbf5f a aamas:Term ;
+aama:IDedb70711-6562-4a0f-bfae-ee1cb9194998 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1115,7 +1170,7 @@ aama:IDd8a95b1e-6bc0-444a-a693-1c187d3fbf5f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID39455c82-b5c2-4829-8209-ef28fe7205c9 a aamas:Term ;
+aama:ID0814fd3a-c3fa-437f-964c-f79ba3ac5b7e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1128,7 +1183,7 @@ aama:ID39455c82-b5c2-4829-8209-ef28fe7205c9 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDdfda7944-71bf-4b1d-a205-761313dbf0a9 a aamas:Term ;
+aama:ID6e67fcfd-a210-4527-a0b5-66b3a8d8a115 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1141,7 +1196,7 @@ aama:IDdfda7944-71bf-4b1d-a205-761313dbf0a9 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID7dae1f96-29d3-45b6-90b4-d424c0acc814 a aamas:Term ;
+aama:IDcc5f4d76-b848-4113-9e7a-d190009e1a7f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1154,7 +1209,7 @@ aama:ID7dae1f96-29d3-45b6-90b4-d424c0acc814 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID411fd0df-04c4-4bcf-a9a7-4d6845fb97f2 a aamas:Term ;
+aama:ID4b4d4860-7365-4ad1-9aea-58aeda1cefdf a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1174,7 +1229,7 @@ kem:kemant-VNegGerundive-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID44fdb0e9-8897-4b29-ab2b-e5fd00d1fd18 a aamas:Term ;
+aama:IDe7026b7b-d9b9-4b98-8bb0-55494e22e272 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1187,7 +1242,7 @@ aama:ID44fdb0e9-8897-4b29-ab2b-e5fd00d1fd18 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe507e4b9-5c77-4cc6-8b77-706bda1dbae6 a aamas:Term ;
+aama:IDa4ae1589-fc85-4f08-af87-41c6e63803b8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1200,7 +1255,7 @@ aama:IDe507e4b9-5c77-4cc6-8b77-706bda1dbae6 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDbe213bc3-802c-478a-8998-7a5487bf38df a aamas:Term ;
+aama:IDd6ce6da6-5651-4e7b-88cd-35964096aaea a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1213,7 +1268,7 @@ aama:IDbe213bc3-802c-478a-8998-7a5487bf38df a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID42ef4bbc-6a2d-45cd-9098-97be0baad77a a aamas:Term ;
+aama:IDfba5c4fc-6ac5-4b4c-affc-9c7fd829462c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1226,7 +1281,7 @@ aama:ID42ef4bbc-6a2d-45cd-9098-97be0baad77a a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID3d7dd96a-d67f-42bc-a760-40fca34a3b61 a aamas:Term ;
+aama:IDd06b8007-6b7e-4adb-80c8-af617dfaef53 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1239,7 +1294,7 @@ aama:ID3d7dd96a-d67f-42bc-a760-40fca34a3b61 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID63a4fbda-344d-4eb0-8a2a-c9745852c917 a aamas:Term ;
+aama:IDad73750b-1418-46ea-bbfa-b584c7bea9fc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1252,7 +1307,7 @@ aama:ID63a4fbda-344d-4eb0-8a2a-c9745852c917 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID9f2e9e70-f49d-4f21-904f-2c6868afeefc a aamas:Term ;
+aama:ID9631e29d-7415-42b3-a8d6-36a4a0edba50 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1272,7 +1327,7 @@ kem:kemant-VNegPerfective-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID1d185f74-dc50-4a0d-b897-4f763263cf14 a aamas:Term ;
+aama:IDecab2394-1deb-4da6-8f0a-f28ba88b41dc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1285,7 +1340,7 @@ aama:ID1d185f74-dc50-4a0d-b897-4f763263cf14 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb348e0cb-a169-4fca-afa9-f898b227501b a aamas:Term ;
+aama:IDc92bd06f-d161-46bc-8ec3-2806e6563b80 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1298,7 +1353,7 @@ aama:IDb348e0cb-a169-4fca-afa9-f898b227501b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID03fb4d34-ffb6-4bd0-bf3b-e237bdc23675 a aamas:Term ;
+aama:IDb7802004-46ba-4504-a605-c079a1200d3d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1311,7 +1366,7 @@ aama:ID03fb4d34-ffb6-4bd0-bf3b-e237bdc23675 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID68dd1543-33b0-421a-8dfc-7b9a36fc2346 a aamas:Term ;
+aama:ID97ed40fe-24c5-4a22-bdd9-514e172b32ee a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1324,7 +1379,7 @@ aama:ID68dd1543-33b0-421a-8dfc-7b9a36fc2346 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDa4aa6f18-4494-4103-bf09-5b3bbc07108a a aamas:Term ;
+aama:ID067c71fa-2e70-45af-a94b-8daf8ab8f2c5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1337,7 +1392,7 @@ aama:IDa4aa6f18-4494-4103-bf09-5b3bbc07108a a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID67639192-f8e5-488f-a0e0-6e3b5019a2e5 a aamas:Term ;
+aama:ID3139e4b4-013c-4ec0-985b-6195af3d8b4a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1350,7 +1405,7 @@ aama:ID67639192-f8e5-488f-a0e0-6e3b5019a2e5 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc6d4340a-1f88-4651-9016-57abff5724f6 a aamas:Term ;
+aama:IDb7f73b71-a9c2-4082-af97-6219333971a1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1370,7 +1425,7 @@ kem:kemant-VAffA-subordinate-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID2492eb0a-34a2-4a83-b16e-20fd98e94f1b a aamas:Term ;
+aama:IDd0b959e6-0b49-4670-9b38-717ba68ec567 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1383,7 +1438,7 @@ aama:ID2492eb0a-34a2-4a83-b16e-20fd98e94f1b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDf2bcdf38-1b27-4045-a310-335e9e36f561 a aamas:Term ;
+aama:ID732c469c-3150-48a3-a4b0-5f5bd8529125 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1396,7 +1451,7 @@ aama:IDf2bcdf38-1b27-4045-a310-335e9e36f561 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID4ba309f9-f114-4ff2-af1b-e214c2251d49 a aamas:Term ;
+aama:IDfb1c299a-1075-4b31-9319-5320ab656df8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1409,7 +1464,7 @@ aama:ID4ba309f9-f114-4ff2-af1b-e214c2251d49 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID2d611191-7d4e-4f3e-97b6-229881433103 a aamas:Term ;
+aama:IDba8dff3f-10b9-49bf-92cb-04afd4cf1a76 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1422,7 +1477,7 @@ aama:ID2d611191-7d4e-4f3e-97b6-229881433103 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID6af8f42d-1243-483a-b62b-c39d25517caf a aamas:Term ;
+aama:IDfee27cbd-7114-4d03-9aa1-ac0115f7bcba a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1435,7 +1490,7 @@ aama:ID6af8f42d-1243-483a-b62b-c39d25517caf a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID0deb01ad-d1ac-4b6c-8c74-f21a8eee3954 a aamas:Term ;
+aama:IDc7129a74-ca16-4b09-99ee-529888504439 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1448,7 +1503,7 @@ aama:ID0deb01ad-d1ac-4b6c-8c74-f21a8eee3954 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID0a920d88-b374-4a9c-9498-61d12985e06b a aamas:Term ;
+aama:ID876b5499-726c-41a5-a40b-33a005fe1b64 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1468,7 +1523,7 @@ kem:kemant-VNegA-subordinate-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDefafbdc5-9434-4eeb-87c6-3e40b31ca85b a aamas:Term ;
+aama:ID8d4f4890-39f3-45e4-8aa4-8035025c625f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1481,7 +1536,7 @@ aama:IDefafbdc5-9434-4eeb-87c6-3e40b31ca85b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID28c1643c-edaf-4175-b3e3-fff826c8284e a aamas:Term ;
+aama:IDe80a3bf3-5d0e-48fb-8e03-68049143118b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1494,7 +1549,7 @@ aama:ID28c1643c-edaf-4175-b3e3-fff826c8284e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9ff27c2b-5187-4353-a655-688072684ab4 a aamas:Term ;
+aama:IDd159b4a8-6d32-4391-b2ad-b62740b33d7b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1507,7 +1562,7 @@ aama:ID9ff27c2b-5187-4353-a655-688072684ab4 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDd20a6f0c-6a83-4399-bf4b-36d7eea0b266 a aamas:Term ;
+aama:ID19986273-4136-4151-9c1a-bf29477eac89 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1520,7 +1575,7 @@ aama:IDd20a6f0c-6a83-4399-bf4b-36d7eea0b266 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID3f0a4213-7e41-4232-9462-b7d568bc7090 a aamas:Term ;
+aama:IDc037ff4e-e38a-420e-8e88-eca74534f8db a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1533,7 +1588,7 @@ aama:ID3f0a4213-7e41-4232-9462-b7d568bc7090 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDeed97bd5-889e-43f0-841e-54bb0fe0cce1 a aamas:Term ;
+aama:ID226a9cc6-f1d4-4f98-b5e2-e7a5401bb820 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1546,7 +1601,7 @@ aama:IDeed97bd5-889e-43f0-841e-54bb0fe0cce1 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDda8dfa70-65b0-4797-ace6-a6f2b09b4f8c a aamas:Term ;
+aama:ID36b70edd-dbd6-43f6-8736-771d2ae28128 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1559,6 +1614,299 @@ aama:IDda8dfa70-65b0-4797-ace6-a6f2b09b4f8c a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
+#TERMCLUSTER:  kemant-VDervStemForms
+
+kem:kemant-VDervStemForms a aamas:Termcluster ;
+	rdfs:label "kemant-VDervStemForms" ;
+	rdfs:comment "Appleyard1975. The token note format is: Verb Gloss + Base Form." 
+	.
+
+aama:ID9af0ccb4-e123-4f28-b1bc-2f7f76f9377f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "_NULL + ⊤" ;
+	kem:token "(i) –s + ən-" ;
+	kem:derivedStem kem:Reciprocal ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID2d84ee27-13fa-4af8-a444-944fcfb19bcf a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "teach + kin-t-" ;
+	kem:token "kin-t-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID5c6af8c8-7337-411c-b428-e541c8309a72 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "be open(ed) + əns-̆" ;
+	kem:token "əns̆-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDef837a42-c22c-4df9-9d13-291bc2e1c3cc a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "make hungry + dəkər-t-" ;
+	kem:token "dəkər-t-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDd6107002-d49c-43ae-a708-cea2b92541f6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "be found + təŋ-" ;
+	kem:token "təŋ-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID53efc1ca-3505-4c08-9aed-a70572af1169 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "bring + läy-" ;
+	kem:token "läy-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDf7c9b45a-8460-4aec-b53a-4a860c85679f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "be said + y-" ;
+	kem:token "y-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID431e9dca-6ae3-4a6d-b887-0a76a1537e01 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "be heard + was-" ;
+	kem:token "was-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDf5c637e9-e3f9-4888-9499-990adb8db4b7 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "be killed + ku-mal-" ;
+	kem:token "ku-mal-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID62eff065-4c1b-4d48-a7d8-c49fe15c359f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "reply + wäntär-" ;
+	kem:token "wäntär-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID4372bb38-50f4-4245-a130-2316af8b0d1d a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "shave o.s. + lis-̆" ;
+	kem:token "lis̆-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDd20f1bab-a615-49fd-b42c-7a7dcac7e669 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "inform + ax-" ;
+	kem:token "ax-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID25effb4f-5833-4b35-852e-7e29f16b85aa a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "be stolen + xasän-t-" ;
+	kem:token "xasän-t-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDb5df9b45-140b-4003-8f92-8997d0194353 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "show + xal-" ;
+	kem:token "xal-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID7a6e8aa9-195f-4fd9-9474-0257d1757b37 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "lose + dəz-" ;
+	kem:token "dəz-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID39f5d862-7f09-4063-a504-ea16853b6bc5 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "cure + dan-" ;
+	kem:token "dan-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID1ef48c40-89cb-46a9-b00a-0c1564a3aebd a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "wash s.th. + x-" ;
+	kem:token "x-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDe1cb4000-fbca-4e0b-b718-340d0502e52f a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "_NULL + ⊤" ;
+	kem:token "(ii) –s-" ;
+	kem:derivedStem kem:Reciprocal ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID50cf1a81-b5d6-4361-818a-1b39b3f2cc82 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "boil + bəlu-" ;
+	kem:token "bəlu-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID122ed6b4-22e9-4c96-902b-54e910ff10c6 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "take + fäy-" ;
+	kem:token "fäy-s̆-" ;
+	kem:derivedStem kem:S ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:ID78999451-285b-48db-9335-4c075e8b6971 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "be born + käbän-" ;
+	kem:token "käbän-s-" ;
+	kem:derivedStem kem:M ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
+aama:IDe8d416a6-cbab-4012-b0cf-baa9c2e1ecff a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VDervStemForms ;
+	kem:morphClass kem:DERVSTEM ;
+	kem:pdgmSubType kem:DervStem ;
+	kem:pdgmType kem:Exemplary ;
+	kem:pos kem:Verb ;
+	kem:token-note-baseForm "_NULL + ⊤" ;
+	kem:token "(iii) reduplication + -s-" ;
+	kem:derivedStem kem:Reciprocal ;
+	aamas:lexeme aama:Kemant-DERVSTEM ;
+	.
+
 #TERMCLUSTER:  kemant-VAFFJuss-fay
 
 kem:kemant-VAFFJuss-fay a aamas:Termcluster ;
@@ -1566,7 +1914,7 @@ kem:kemant-VAFFJuss-fay a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID9298d2dc-8227-4698-a4be-d00728b6426d a aamas:Term ;
+aama:ID807f3b76-b5bc-4c06-834e-2afc5266aa5e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAFFJuss-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1579,7 +1927,7 @@ aama:ID9298d2dc-8227-4698-a4be-d00728b6426d a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDdbd93188-283c-4ea9-81ce-c11ef80a8ad8 a aamas:Term ;
+aama:ID5371ecbb-e92d-46db-bd4e-fb063e4555e1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAFFJuss-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1592,7 +1940,7 @@ aama:IDdbd93188-283c-4ea9-81ce-c11ef80a8ad8 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc7a7e2e5-5acf-43e8-af01-1c41e626a83b a aamas:Term ;
+aama:ID85a787c0-8c17-4e8a-b4fd-e8d266bc8be5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAFFJuss-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1605,7 +1953,7 @@ aama:IDc7a7e2e5-5acf-43e8-af01-1c41e626a83b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID2f2d98f0-6c66-4090-bd26-6d3c1b91b67d a aamas:Term ;
+aama:IDecb66d58-f0bc-4e49-b802-13350331a227 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAFFJuss-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1618,7 +1966,7 @@ aama:ID2f2d98f0-6c66-4090-bd26-6d3c1b91b67d a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID53e3755a-b391-4367-a25e-6e96ee62d931 a aamas:Term ;
+aama:ID77c44b31-8db8-4f95-8ac9-d1a20d5a8b13 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAFFJuss-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1631,7 +1979,7 @@ aama:ID53e3755a-b391-4367-a25e-6e96ee62d931 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID29bf620e-cd13-466c-98cb-e6d6d52649d5 a aamas:Term ;
+aama:ID24951b21-763c-4850-a3ed-0b9d34d8ef0f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAFFJuss-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1644,7 +1992,7 @@ aama:ID29bf620e-cd13-466c-98cb-e6d6d52649d5 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc8a69e98-e50a-476d-9a64-8adb1fdcb789 a aamas:Term ;
+aama:IDc608748c-5d49-4150-9d93-a4823a07a4f6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAFFJuss-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -1664,7 +2012,7 @@ kem:kemant-VNegD-subordinate-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDf9110245-1c51-40f6-bf57-ee0c458db010 a aamas:Term ;
+aama:IDf141344f-f33d-4bac-9777-b700931d3feb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1677,7 +2025,7 @@ aama:IDf9110245-1c51-40f6-bf57-ee0c458db010 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDedc67973-2b8a-4341-acb4-8979211d827f a aamas:Term ;
+aama:ID01230f7c-5041-456f-a206-64ba35dea5a2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1690,7 +2038,7 @@ aama:IDedc67973-2b8a-4341-acb4-8979211d827f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID13bcbafe-694b-4684-8b50-a3100ae4e0e9 a aamas:Term ;
+aama:IDc2bfbd67-d283-4024-87b9-c8f6502c332a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1703,7 +2051,7 @@ aama:ID13bcbafe-694b-4684-8b50-a3100ae4e0e9 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDaa804a81-7174-4a9f-90f0-3594c825d45d a aamas:Term ;
+aama:ID85dc336a-3eee-45dc-9dd2-d3c63acfc8e8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1716,7 +2064,7 @@ aama:IDaa804a81-7174-4a9f-90f0-3594c825d45d a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDb10e6a25-f017-4d86-974c-94082713ecfb a aamas:Term ;
+aama:IDcd5c2dde-1703-4058-b41e-934dfae2bdf1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1729,7 +2077,7 @@ aama:IDb10e6a25-f017-4d86-974c-94082713ecfb a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID7c4eb51f-5aea-4f7c-b21f-c2904359a219 a aamas:Term ;
+aama:IDe62b167e-2c80-49e9-a1c4-909eec22c80e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1742,7 +2090,7 @@ aama:ID7c4eb51f-5aea-4f7c-b21f-c2904359a219 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4c3ef335-f15e-4602-92d3-bc6f791aad43 a aamas:Term ;
+aama:IDd848a61b-8194-4491-8872-ad21f4d164e5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -1762,7 +2110,7 @@ kem:kemant-VNegImprtv-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID285eebbb-cf6d-41c5-944a-c64cf94a64bd a aamas:Term ;
+aama:ID07c32178-14ae-43a7-bbd4-2f3f491f9029 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-xw ;
 	kem:gender kem:Common ;
@@ -1775,7 +2123,7 @@ aama:ID285eebbb-cf6d-41c5-944a-c64cf94a64bd a aamas:Term ;
 	kem:number kem:Singular ;
 	.
 
-aama:ID5573505e-3fb9-4dbc-b44f-f9b6a5015e4a a aamas:Term ;
+aama:IDd18c718c-4e43-455f-92cb-5196dacf3559 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-xw ;
 	kem:gender kem:Common ;
@@ -1795,7 +2143,7 @@ kem:kemant-VInfinitive a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975 7.4" 
 	.
 
-aama:ID770cea36-0480-4a38-b9ee-77b61750a66b a aamas:Term ;
+aama:ID981732c1-848e-45d4-b297-e5604850f660 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VInfinitive ;
 	kem:finiteForm kem:Infinitive ;
@@ -1807,7 +2155,7 @@ aama:ID770cea36-0480-4a38-b9ee-77b61750a66b a aamas:Term ;
 	aamas:lexeme aama:Kemant-xw ;
 	.
 
-aama:ID591fae82-84d5-4b6d-aecd-c6d35a36fd17 a aamas:Term ;
+aama:IDdbf16ce1-9335-452c-89c5-0ddc4f6d1798 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VInfinitive ;
 	kem:finiteForm kem:Infinitive ;
@@ -1819,7 +2167,7 @@ aama:ID591fae82-84d5-4b6d-aecd-c6d35a36fd17 a aamas:Term ;
 	aamas:lexeme aama:Kemant-was ;
 	.
 
-aama:IDe4dd4144-1820-4160-904c-f31577fc05ea a aamas:Term ;
+aama:ID8260f31b-11bb-4e95-a93c-2d1073c88324 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VInfinitive ;
 	kem:finiteForm kem:Infinitive ;
@@ -1831,7 +2179,7 @@ aama:IDe4dd4144-1820-4160-904c-f31577fc05ea a aamas:Term ;
 	aamas:lexeme aama:Kemant-was ;
 	.
 
-aama:IDbd12147c-d7ea-4a5f-a231-3096c5be8500 a aamas:Term ;
+aama:ID822245b1-f000-4f1d-aa4b-a650a3e3032c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VInfinitive ;
 	kem:finiteForm kem:Infinitive ;
@@ -1843,7 +2191,7 @@ aama:IDbd12147c-d7ea-4a5f-a231-3096c5be8500 a aamas:Term ;
 	aamas:lexeme aama:Kemant-fay ;
 	.
 
-aama:ID24d9741b-8217-4632-b96c-9076e0e91670 a aamas:Term ;
+aama:ID8a836059-0f10-4be2-a428-5c58add841ef a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VInfinitive ;
 	kem:finiteForm kem:Infinitive ;
@@ -1855,7 +2203,7 @@ aama:ID24d9741b-8217-4632-b96c-9076e0e91670 a aamas:Term ;
 	aamas:lexeme aama:Kemant-fay ;
 	.
 
-aama:IDa0ca236e-9cba-463d-9739-31196b324493 a aamas:Term ;
+aama:ID6c66a16d-bd00-46a7-8234-6ccbfaab4b71 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VInfinitive ;
 	kem:finiteForm kem:Infinitive ;
@@ -1874,7 +2222,7 @@ kem:kemant-VNegImprtv-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDc7d60067-6b07-47cc-b9d5-f67eae3601e5 a aamas:Term ;
+aama:ID25cc76d2-4504-4252-b906-e28d0539da8d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-was ;
 	kem:gender kem:Common ;
@@ -1887,7 +2235,7 @@ aama:IDc7d60067-6b07-47cc-b9d5-f67eae3601e5 a aamas:Term ;
 	kem:number kem:Singular ;
 	.
 
-aama:ID2578f2c2-9162-4c03-967e-41cc96425b96 a aamas:Term ;
+aama:ID598d10d8-a6e5-42da-9ad1-8423e751ff1e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-was ;
 	kem:gender kem:Common ;
@@ -1907,7 +2255,7 @@ kem:kemant-VAffPerfective-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID546021b1-770f-477c-a53b-ed317a6446a8 a aamas:Term ;
+aama:ID395c14df-7c58-4c53-a7dd-0cf5ddc3246f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1920,7 +2268,7 @@ aama:ID546021b1-770f-477c-a53b-ed317a6446a8 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDa5a4f99c-d950-4bf6-9773-de89b3b5fb42 a aamas:Term ;
+aama:IDf9c2d53a-79e5-43c9-b79d-e4152a72a755 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1933,7 +2281,7 @@ aama:IDa5a4f99c-d950-4bf6-9773-de89b3b5fb42 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDbe4a764b-f66d-48f2-a0ea-22ba75e7bd4f a aamas:Term ;
+aama:ID52ab595d-fb94-411d-9562-8cd9142db57a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1946,7 +2294,7 @@ aama:IDbe4a764b-f66d-48f2-a0ea-22ba75e7bd4f a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID882b7940-ae86-4adb-8933-e0b29217de0f a aamas:Term ;
+aama:ID83519bd3-aabb-4cb4-a973-8fd7b7413254 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1959,7 +2307,7 @@ aama:ID882b7940-ae86-4adb-8933-e0b29217de0f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDcebe8c7b-c28e-4b7d-a2b4-447387503ee1 a aamas:Term ;
+aama:ID20e67e13-4eaa-4ae4-a493-7a99c7aed5c2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1972,7 +2320,7 @@ aama:IDcebe8c7b-c28e-4b7d-a2b4-447387503ee1 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDfccb0df9-d6f3-4415-818a-0e6bc7779d35 a aamas:Term ;
+aama:ID3988e583-fb8e-43ac-853e-c16101905a24 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -1985,7 +2333,7 @@ aama:IDfccb0df9-d6f3-4415-818a-0e6bc7779d35 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID91eb8fec-8d7e-4f1b-a3c5-f10147ef5147 a aamas:Term ;
+aama:ID50aedea7-ff08-435a-819c-ad8add80391a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -2005,7 +2353,7 @@ kem:kemant-VNegJussive-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDcbb9e797-c6f1-46be-bc15-7a95b1aaa0c5 a aamas:Term ;
+aama:IDb843d91e-e2e0-4bb2-af00-02c27efbcb8d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2018,7 +2366,7 @@ aama:IDcbb9e797-c6f1-46be-bc15-7a95b1aaa0c5 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc7454d0a-8077-4a64-b3d6-41bd68ffb57a a aamas:Term ;
+aama:ID8f42e7a4-f7f9-4be6-9e47-ad24ecc67ceb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2031,7 +2379,7 @@ aama:IDc7454d0a-8077-4a64-b3d6-41bd68ffb57a a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID0eb9990e-6e5a-4cc7-b67c-caf1f7a4e269 a aamas:Term ;
+aama:ID123b9505-3074-4b44-961b-ac10856db82e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2044,7 +2392,7 @@ aama:ID0eb9990e-6e5a-4cc7-b67c-caf1f7a4e269 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd6f45ad1-6a81-48c1-b457-64e937c77cfc a aamas:Term ;
+aama:ID277ddce1-3382-4f41-b974-3179e08ac3b5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2057,7 +2405,7 @@ aama:IDd6f45ad1-6a81-48c1-b457-64e937c77cfc a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDeabd643c-464d-4b21-b070-562f1c6e4022 a aamas:Term ;
+aama:IDcbda97d2-a27c-49c8-9abb-6d0a85f5e681 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2070,7 +2418,7 @@ aama:IDeabd643c-464d-4b21-b070-562f1c6e4022 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc0363364-25dc-422e-b989-1cb081d0c37e a aamas:Term ;
+aama:IDa53e68ab-2dd8-4f94-93f9-6531e8757edb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2083,7 +2431,7 @@ aama:IDc0363364-25dc-422e-b989-1cb081d0c37e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd2c6d81b-8aea-4607-b490-be34ffe8e38a a aamas:Term ;
+aama:ID66dc9295-d025-490c-91ef-db7806db09a7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2103,7 +2451,7 @@ kem:kemant-VAffD-subordinate-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID42802fae-3ec2-414b-9995-ad84da88c9b5 a aamas:Term ;
+aama:ID3c065103-ab91-4900-9be2-ff8e16ea41cf a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2116,7 +2464,7 @@ aama:ID42802fae-3ec2-414b-9995-ad84da88c9b5 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID3c85c8f9-2374-4e0e-a798-9b70c4c44db0 a aamas:Term ;
+aama:ID636a61c7-cecf-4ecb-9ece-6ba9a4fbd797 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2129,7 +2477,7 @@ aama:ID3c85c8f9-2374-4e0e-a798-9b70c4c44db0 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID96d8acad-bb83-4668-89f3-17301e142ffb a aamas:Term ;
+aama:IDb953ac0f-2c81-479c-847c-057a85c3de38 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2142,7 +2490,7 @@ aama:ID96d8acad-bb83-4668-89f3-17301e142ffb a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDbc140013-ef09-44c0-b6d7-0f912049026a a aamas:Term ;
+aama:ID8062b8c2-6b86-41d6-a4b8-5c9fe99f8ce4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2155,7 +2503,7 @@ aama:IDbc140013-ef09-44c0-b6d7-0f912049026a a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID22d08f74-83b4-495e-8307-e5559549e6ea a aamas:Term ;
+aama:ID3609d563-2ce2-433d-bace-091fca0c7f8d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2168,7 +2516,7 @@ aama:ID22d08f74-83b4-495e-8307-e5559549e6ea a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe1d5f3d7-bea2-47c0-a044-138bbc077e0f a aamas:Term ;
+aama:ID6066df26-91ed-4101-aa50-c5882dda882e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2181,7 +2529,7 @@ aama:IDe1d5f3d7-bea2-47c0-a044-138bbc077e0f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc7ebeb0d-65ff-4a1e-bd55-7fe10a5cb109 a aamas:Term ;
+aama:ID8c75b5ad-b4ea-4026-87ed-b44e26ec39c3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffD-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2201,7 +2549,7 @@ kem:kemant-VBilin-KemantRel a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975 pp. 338-339" 
 	.
 
-aama:ID1058fd64-fdbe-4422-b4ce-5bb18df555c7 a aamas:Term ;
+aama:ID8c241312-efa3-421b-b114-f7076de6f668 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2217,7 +2565,7 @@ aama:ID1058fd64-fdbe-4422-b4ce-5bb18df555c7 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID8535e2c4-4f9d-4e0a-bed2-64938e9e6380 a aamas:Term ;
+aama:ID193c7e17-9a33-4eb6-b86a-486dd351dd9d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2233,7 +2581,7 @@ aama:ID8535e2c4-4f9d-4e0a-bed2-64938e9e6380 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID7d637f23-4bcf-42f2-b122-a9e64a46ab21 a aamas:Term ;
+aama:IDb5d11f72-4653-4799-9541-faec96f94401 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2249,7 +2597,7 @@ aama:ID7d637f23-4bcf-42f2-b122-a9e64a46ab21 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:IDd32e9533-7f68-4ce7-8b61-bfe9af228889 a aamas:Term ;
+aama:IDf56439a4-755b-4074-ab0c-ef1946825ffc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2265,7 +2613,7 @@ aama:IDd32e9533-7f68-4ce7-8b61-bfe9af228889 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID854dba5b-ab83-4b38-b222-1935921a3e06 a aamas:Term ;
+aama:ID16f1b4b2-6d5c-4c82-bd01-045958094e81 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2281,7 +2629,7 @@ aama:ID854dba5b-ab83-4b38-b222-1935921a3e06 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID71a06541-f67c-4846-9cf6-fa3d068fd75d a aamas:Term ;
+aama:IDf8400dae-564f-42ab-b27f-990fc024da3f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2297,7 +2645,7 @@ aama:ID71a06541-f67c-4846-9cf6-fa3d068fd75d a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:IDa7ebcfe7-e6e1-4b93-9549-f3857795e469 a aamas:Term ;
+aama:ID7d04ad16-b434-4a73-b958-eb3e3c3da81b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2313,7 +2661,7 @@ aama:IDa7ebcfe7-e6e1-4b93-9549-f3857795e469 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID20b2eead-7aef-4266-9cd5-3f83952b6fdb a aamas:Term ;
+aama:ID1a93de19-ffdc-497d-b760-d306846a0f08 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2329,7 +2677,7 @@ aama:ID20b2eead-7aef-4266-9cd5-3f83952b6fdb a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID8f9a9c54-677b-4eb4-8cc2-24b6b20ba731 a aamas:Term ;
+aama:IDcc70275f-7c44-4914-b93f-edc2aa320b56 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2345,7 +2693,7 @@ aama:ID8f9a9c54-677b-4eb4-8cc2-24b6b20ba731 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID39806e06-9beb-4dd2-805a-6e8de22026ea a aamas:Term ;
+aama:IDc68b8460-cff7-4fe0-97e3-753369314b43 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2361,7 +2709,7 @@ aama:ID39806e06-9beb-4dd2-805a-6e8de22026ea a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:IDe18e265f-b25b-4cda-a2ac-65694ff6423f a aamas:Term ;
+aama:ID8c745e50-cd66-43c1-b1f1-dc8045bd41f5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2377,7 +2725,7 @@ aama:IDe18e265f-b25b-4cda-a2ac-65694ff6423f a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID34cf0a65-275d-4703-9b4d-2292bb1a3cdc a aamas:Term ;
+aama:ID3fbaed91-85fc-45a1-867a-febd2e70ef45 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2393,7 +2741,7 @@ aama:ID34cf0a65-275d-4703-9b4d-2292bb1a3cdc a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID7422008d-1c02-4889-b9d7-8584ffbd78fc a aamas:Term ;
+aama:ID18c7fdaf-5ed0-4a7c-9f34-bf90d39343e0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2409,7 +2757,7 @@ aama:ID7422008d-1c02-4889-b9d7-8584ffbd78fc a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:IDa6332392-4ef2-4c35-8ac7-531a38ba3ec0 a aamas:Term ;
+aama:ID89f013c2-c423-4527-af26-074c0b21c285 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2425,7 +2773,7 @@ aama:IDa6332392-4ef2-4c35-8ac7-531a38ba3ec0 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID636af2fe-dd29-4bd1-b206-11a1d0c1d36a a aamas:Term ;
+aama:IDd996e756-16c7-404c-8cc7-de22eb8b8d68 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2441,7 +2789,7 @@ aama:ID636af2fe-dd29-4bd1-b206-11a1d0c1d36a a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:IDd7d736ab-ccd4-418c-8ea1-daef24a630ae a aamas:Term ;
+aama:IDaa685071-42d6-4fce-893b-33166da1f3cc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2457,7 +2805,7 @@ aama:IDd7d736ab-ccd4-418c-8ea1-daef24a630ae a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID1c7bfb15-f395-465a-b68d-e3411b981b90 a aamas:Term ;
+aama:IDfd135af8-406a-4ca5-a85e-30db13e37dc5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2473,7 +2821,7 @@ aama:ID1c7bfb15-f395-465a-b68d-e3411b981b90 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID426aae12-9d5d-4a8f-8962-5d555486f592 a aamas:Term ;
+aama:ID665c35cd-aee9-45ee-8f66-b1f9037dffee a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2489,7 +2837,7 @@ aama:ID426aae12-9d5d-4a8f-8962-5d555486f592 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID67f15168-a7fe-4c88-a14e-5989de021780 a aamas:Term ;
+aama:ID26d875f2-efbe-43c7-878f-669b26ef32b4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2505,7 +2853,7 @@ aama:ID67f15168-a7fe-4c88-a14e-5989de021780 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID61c6e7f0-6b0a-46de-ac7b-f6b7b876add8 a aamas:Term ;
+aama:ID1285604f-0105-46f0-97a3-eee7a7904f0b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2521,7 +2869,7 @@ aama:ID61c6e7f0-6b0a-46de-ac7b-f6b7b876add8 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID46d9e70f-af69-42c7-977d-7790faf39381 a aamas:Term ;
+aama:ID197b4481-e47c-4a60-8259-97d98cb38958 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2537,7 +2885,7 @@ aama:ID46d9e70f-af69-42c7-977d-7790faf39381 a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:ID50ac723a-dd3f-4c34-8d8c-4946c1ce798d a aamas:Term ;
+aama:IDcbb30a6a-257a-46f0-90b6-d87d00d9a869 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2553,7 +2901,7 @@ aama:ID50ac723a-dd3f-4c34-8d8c-4946c1ce798d a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID97536102-77c2-4b22-9ece-0d44b28907aa a aamas:Term ;
+aama:ID67c1e405-ec14-4d5e-bda8-ce53d34877ca a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2569,7 +2917,7 @@ aama:ID97536102-77c2-4b22-9ece-0d44b28907aa a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:IDc95796a6-42cb-425d-820a-d0c7fef75b85 a aamas:Term ;
+aama:ID2033b784-d3ce-4c90-b7ed-220f1344f154 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2585,7 +2933,7 @@ aama:IDc95796a6-42cb-425d-820a-d0c7fef75b85 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID8d8cb7dd-7655-4fc3-a3a1-8ab304292aea a aamas:Term ;
+aama:IDa8a835bb-ca84-4d5d-ade2-e5660f9b11ef a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2601,7 +2949,7 @@ aama:ID8d8cb7dd-7655-4fc3-a3a1-8ab304292aea a aamas:Term ;
 	kem:aspect kem:Perfective ;
 	.
 
-aama:IDdb35bfbd-0437-471c-bfcc-99d5074f96d1 a aamas:Term ;
+aama:IDb185b34d-05b2-483d-a5cb-b10ae2b46605 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2617,7 +2965,7 @@ aama:IDdb35bfbd-0437-471c-bfcc-99d5074f96d1 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:IDa0033ad5-29bf-40b1-8ac3-e36768d6e0e4 a aamas:Term ;
+aama:ID75eddf71-996d-4aff-ab46-3eab69cf4609 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2633,7 +2981,7 @@ aama:IDa0033ad5-29bf-40b1-8ac3-e36768d6e0e4 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID06430bc8-833a-4095-baa5-6f35cd9308b0 a aamas:Term ;
+aama:ID3b21ec3a-08ba-4997-bc7f-08320f5d76ea a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2649,7 +2997,7 @@ aama:ID06430bc8-833a-4095-baa5-6f35cd9308b0 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:IDd904bc29-68c2-4db2-b295-507d1006ec5c a aamas:Term ;
+aama:ID8bb72186-5111-4a48-a4ee-38b42ec5f650 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2665,7 +3013,7 @@ aama:IDd904bc29-68c2-4db2-b295-507d1006ec5c a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID05285cd5-d6b6-4909-a89a-3aa6abdd9d56 a aamas:Term ;
+aama:IDdb5981fd-0c67-4e2d-a698-cd398c26e272 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2681,7 +3029,7 @@ aama:ID05285cd5-d6b6-4909-a89a-3aa6abdd9d56 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID1e0ca429-fd1f-4e53-8b7a-4560e13bb3b3 a aamas:Term ;
+aama:ID4781b7b8-2775-476e-9d97-45e563d33a02 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2697,7 +3045,7 @@ aama:ID1e0ca429-fd1f-4e53-8b7a-4560e13bb3b3 a aamas:Term ;
 	kem:aspect kem:Imperfective ;
 	.
 
-aama:ID7dbeadf1-40c7-411d-b9c2-7960442c4adc a aamas:Term ;
+aama:ID4151be42-7f78-4c13-bbf4-75b9f2c71dce a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VBilin-KemantRel ;
 	kem:pdgmType kem:Comparative ;
@@ -2720,7 +3068,7 @@ kem:kemant-VAffGerundive-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID58f01309-61cb-4125-b931-7205decf691b a aamas:Term ;
+aama:IDddb9652c-88e8-4aaf-8c19-951db2e07336 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2733,7 +3081,7 @@ aama:ID58f01309-61cb-4125-b931-7205decf691b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDcff80910-4df9-4869-bc26-b6a6e51e4b69 a aamas:Term ;
+aama:ID607eb65d-00d2-4c19-bd04-dbcc4239c108 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2746,7 +3094,7 @@ aama:IDcff80910-4df9-4869-bc26-b6a6e51e4b69 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDb80d5f6d-f4db-4b86-bab5-f474d259e568 a aamas:Term ;
+aama:ID89e382a0-29a2-4211-b1e7-843d80b15124 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2759,7 +3107,7 @@ aama:IDb80d5f6d-f4db-4b86-bab5-f474d259e568 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID09f8599b-caf6-4c94-8370-dc26bd5664cd a aamas:Term ;
+aama:ID0fba129a-ae10-463a-b69e-2931308a94c1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2772,7 +3120,7 @@ aama:ID09f8599b-caf6-4c94-8370-dc26bd5664cd a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDd442dc4e-7982-48ae-877a-a62bc33905b5 a aamas:Term ;
+aama:IDaa22f2c0-1231-42b0-9502-284cd4b2617d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2785,7 +3133,7 @@ aama:IDd442dc4e-7982-48ae-877a-a62bc33905b5 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4b6a702f-f0aa-46d9-b2dc-f2bb195c945e a aamas:Term ;
+aama:IDad63ecf2-2850-434a-a30d-006b8fa5158e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2798,7 +3146,7 @@ aama:ID4b6a702f-f0aa-46d9-b2dc-f2bb195c945e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc8ff2934-ebaa-4124-bb3d-bc6b00db302c a aamas:Term ;
+aama:ID17814e2c-260d-44af-8433-fc948a944c41 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffGerundive-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2818,7 +3166,7 @@ kem:kemant-VNegN-subordinate-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDc68ec5ce-53bd-4a34-97b4-b530471a1a5d a aamas:Term ;
+aama:ID82e9cf9a-703d-447c-a9d2-3fb5e1ee12fc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2831,7 +3179,7 @@ aama:IDc68ec5ce-53bd-4a34-97b4-b530471a1a5d a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID506a8c34-da95-4c09-87cd-766603b59f1f a aamas:Term ;
+aama:ID33ef69e5-f4cc-453e-a17b-6705ed3cd432 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2844,7 +3192,7 @@ aama:ID506a8c34-da95-4c09-87cd-766603b59f1f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID197ba0c7-7025-4853-bee7-402a665f2c53 a aamas:Term ;
+aama:IDfdc8ad61-28a0-4eba-8821-56fc69146a62 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2857,7 +3205,7 @@ aama:ID197ba0c7-7025-4853-bee7-402a665f2c53 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDdccc08fd-c208-48c8-b43a-b7bdd7f1e9f9 a aamas:Term ;
+aama:IDab4307f7-be68-45de-b988-3f16bbce7247 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2870,7 +3218,7 @@ aama:IDdccc08fd-c208-48c8-b43a-b7bdd7f1e9f9 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID39966192-8806-4b5d-a5d4-a8184a39c76e a aamas:Term ;
+aama:IDca57831e-6636-41f5-8f09-cced4ff1692e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2883,7 +3231,7 @@ aama:ID39966192-8806-4b5d-a5d4-a8184a39c76e a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDcd430af9-f995-491f-8ecc-118bcdf63886 a aamas:Term ;
+aama:IDc5047543-8232-41f3-83c2-17649b3172cb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2896,7 +3244,7 @@ aama:IDcd430af9-f995-491f-8ecc-118bcdf63886 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID5898ee40-5914-4e8b-bda7-7762b4a2c20c a aamas:Term ;
+aama:IDbdf0afb9-688a-4abd-91f9-17c3cc233040 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -2916,7 +3264,7 @@ kem:kemant-VNegN-subordinate-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDc43ed098-f537-4832-8eee-f84001595cd9 a aamas:Term ;
+aama:IDdf156215-9095-4297-b3c5-f7097b6045e4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -2929,7 +3277,7 @@ aama:IDc43ed098-f537-4832-8eee-f84001595cd9 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDeeb3fbb2-977d-4805-b5b7-712ea83af5e9 a aamas:Term ;
+aama:IDa78dfd30-b6e0-480b-ac92-bea53afb766d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -2942,7 +3290,7 @@ aama:IDeeb3fbb2-977d-4805-b5b7-712ea83af5e9 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDd9e1254c-1b78-44e9-a42d-adfaf1006e5a a aamas:Term ;
+aama:ID4e822cd6-23fc-46a2-9250-dd7be6a2a436 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -2955,7 +3303,7 @@ aama:IDd9e1254c-1b78-44e9-a42d-adfaf1006e5a a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID6e3dbe6b-5cea-485b-856b-c672a78c4659 a aamas:Term ;
+aama:ID2606028c-d5f9-4219-8dd8-95ce1493533d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -2968,7 +3316,7 @@ aama:ID6e3dbe6b-5cea-485b-856b-c672a78c4659 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDc42385ad-4d17-469d-bf95-1ed0df1c4446 a aamas:Term ;
+aama:IDc2c033df-81bb-4100-b99e-48d270e949ef a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -2981,7 +3329,7 @@ aama:IDc42385ad-4d17-469d-bf95-1ed0df1c4446 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDf81d558a-ce96-4f61-9000-1ba17dd06da8 a aamas:Term ;
+aama:ID45dcd4a3-d8d1-4c2a-b7d7-b9b36fbae963 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -2994,7 +3342,7 @@ aama:IDf81d558a-ce96-4f61-9000-1ba17dd06da8 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDf0ed0c31-a530-4074-9295-767066d89f21 a aamas:Term ;
+aama:ID192bc96b-d44f-41c2-b16d-db11ddbc1116 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -3014,7 +3362,7 @@ kem:kemant-VAffCompSubordinate-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID734e1ee6-d000-481c-9732-e39c63adc474 a aamas:Term ;
+aama:ID08cc7d24-8eaa-44a1-8d2d-cce4503bf183 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3027,7 +3375,7 @@ aama:ID734e1ee6-d000-481c-9732-e39c63adc474 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID0f3d1eae-ed05-460e-84d2-64132a2b1941 a aamas:Term ;
+aama:IDd37ecf37-006b-4a62-8f96-338f206cd092 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3040,7 +3388,7 @@ aama:ID0f3d1eae-ed05-460e-84d2-64132a2b1941 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd1bea420-d32b-41ed-ac5f-5daed60e5a66 a aamas:Term ;
+aama:ID1735608e-fa1c-4c86-93c7-a91ef129321e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3053,7 +3401,7 @@ aama:IDd1bea420-d32b-41ed-ac5f-5daed60e5a66 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID91e94f7b-421d-4c05-8090-ccd0508cb2e1 a aamas:Term ;
+aama:ID5694b87d-6646-4223-ad8c-ba990e8337c6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3066,7 +3414,7 @@ aama:ID91e94f7b-421d-4c05-8090-ccd0508cb2e1 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID65535c4f-ae36-4ac2-95f3-bca43abb0415 a aamas:Term ;
+aama:IDcff53dab-9d2b-4b27-8603-12c309d4d426 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3079,7 +3427,7 @@ aama:ID65535c4f-ae36-4ac2-95f3-bca43abb0415 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9d474885-4b09-4c51-8d8c-b44b66db1cd7 a aamas:Term ;
+aama:IDc48505c3-70f1-4651-9f9e-13792a83f35d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3092,7 +3440,7 @@ aama:ID9d474885-4b09-4c51-8d8c-b44b66db1cd7 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID8d64f476-b384-4a03-8081-f91d54801bf2 a aamas:Term ;
+aama:ID8953d62e-f194-48be-b3cc-9d7bd8088737 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3112,7 +3460,7 @@ kem:kemant-VAffPerfective-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDbac285cf-49fb-4763-83d7-92045678fea2 a aamas:Term ;
+aama:IDc4130c0f-e324-461b-be9f-5a20bd2a1c7c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3125,7 +3473,7 @@ aama:IDbac285cf-49fb-4763-83d7-92045678fea2 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID2b3590d6-7696-4837-ab98-ee020068d5f8 a aamas:Term ;
+aama:ID842eb519-afaf-4779-bb09-b3d75bf9f0ac a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3138,7 +3486,7 @@ aama:ID2b3590d6-7696-4837-ab98-ee020068d5f8 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDc6d48640-c2bf-431c-977b-83288cb91b0f a aamas:Term ;
+aama:IDcbb3670e-c09e-46e3-9b82-852d8ce9ae82 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3151,7 +3499,7 @@ aama:IDc6d48640-c2bf-431c-977b-83288cb91b0f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDcca61050-f85a-4e30-8a44-dcad4680489c a aamas:Term ;
+aama:IDd15d28ad-3674-48aa-8e50-90b974c8e00a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3164,7 +3512,7 @@ aama:IDcca61050-f85a-4e30-8a44-dcad4680489c a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDa1c83466-05d8-4b31-a534-55ac9e13ce8c a aamas:Term ;
+aama:IDaeac6381-8026-4078-bd14-0003e9438112 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3177,7 +3525,7 @@ aama:IDa1c83466-05d8-4b31-a534-55ac9e13ce8c a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd0e0c282-627f-4658-80ff-3b8386ce0940 a aamas:Term ;
+aama:ID144b1b48-ed7d-406f-af2a-28de3c74b9c0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3190,7 +3538,7 @@ aama:IDd0e0c282-627f-4658-80ff-3b8386ce0940 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4742364a-1b3e-47bd-a069-4052bc2e47f6 a aamas:Term ;
+aama:IDb7f18ceb-853f-4e0d-9a8d-34d95a261bbe a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3210,7 +3558,7 @@ kem:kemant-VAffN-subordinate-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID46881b24-afab-4a4b-b922-5e504206b72a a aamas:Term ;
+aama:IDe4a65347-73c6-47c3-a29f-b68ba94cb2ad a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3223,7 +3571,7 @@ aama:ID46881b24-afab-4a4b-b922-5e504206b72a a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDa87d0b23-4cf1-44d4-b15e-7a524662d1ce a aamas:Term ;
+aama:ID112751b2-56f0-42b7-99ef-4849efce9a0a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3236,7 +3584,7 @@ aama:IDa87d0b23-4cf1-44d4-b15e-7a524662d1ce a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb825e07d-ce65-4ac2-962f-e26d960ab932 a aamas:Term ;
+aama:IDcf8a6be4-4d0e-46ff-898a-191f646a7d5a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3249,7 +3597,7 @@ aama:IDb825e07d-ce65-4ac2-962f-e26d960ab932 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID819ec34c-002b-46e5-9ea4-e54b990a4c6f a aamas:Term ;
+aama:ID6d286e15-8174-4a98-bdba-e0cbcca2b995 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3262,7 +3610,7 @@ aama:ID819ec34c-002b-46e5-9ea4-e54b990a4c6f a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDe0c5d14c-0006-4b51-8ed0-046d00f78751 a aamas:Term ;
+aama:ID50336855-c9b5-403e-86ef-472616db0dc3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3275,7 +3623,7 @@ aama:IDe0c5d14c-0006-4b51-8ed0-046d00f78751 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID7170fee1-59c1-43f9-8704-f37f59b4cbc5 a aamas:Term ;
+aama:IDfc5d50aa-9d6a-4acd-9842-b7f520ec7ec5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3288,7 +3636,7 @@ aama:ID7170fee1-59c1-43f9-8704-f37f59b4cbc5 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID78f39a9a-fa62-407f-9799-6b19788da494 a aamas:Term ;
+aama:IDfd1a8e14-47b1-417a-bb04-a2f5e6338c1b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3308,7 +3656,7 @@ kem:kemant-VRelOblique-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə" 
 	.
 
-aama:ID0255329b-ace8-4a19-ad12-3ec08536be37 a aamas:Term ;
+aama:ID6a091af7-1d2f-4cfe-be41-1330770a09bd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3322,7 +3670,7 @@ aama:ID0255329b-ace8-4a19-ad12-3ec08536be37 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID7d337d9e-442a-4632-b274-d53f7d5bd0f3 a aamas:Term ;
+aama:ID1cc77a0c-5c49-4bb6-b7b3-fef4207afd98 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3336,7 +3684,7 @@ aama:ID7d337d9e-442a-4632-b274-d53f7d5bd0f3 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDe774d7aa-6395-42c3-b851-9982fee36926 a aamas:Term ;
+aama:ID6f5811af-1d83-4ac5-b728-13b82f839dd6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3350,7 +3698,7 @@ aama:IDe774d7aa-6395-42c3-b851-9982fee36926 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID40b1f834-7b4b-4bc2-bc88-598f925ad5b7 a aamas:Term ;
+aama:ID246d58ef-d3c8-483b-82df-12f42e8e14c8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3364,7 +3712,7 @@ aama:ID40b1f834-7b4b-4bc2-bc88-598f925ad5b7 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID156393ac-bbfe-4e2f-96b8-1d438a5c777e a aamas:Term ;
+aama:ID5e197a39-b1e5-4bce-b174-5d7779f742b5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3378,7 +3726,7 @@ aama:ID156393ac-bbfe-4e2f-96b8-1d438a5c777e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID05dae59c-57f7-4248-85e5-ec78e61e2c27 a aamas:Term ;
+aama:ID044ff632-96aa-4653-adb4-bbbc6d953489 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3392,7 +3740,7 @@ aama:ID05dae59c-57f7-4248-85e5-ec78e61e2c27 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb4e45953-d073-42c5-bf57-6c027c2cc61f a aamas:Term ;
+aama:ID4722d216-0d35-4f9b-b14f-25ad4686243f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3406,7 +3754,7 @@ aama:IDb4e45953-d073-42c5-bf57-6c027c2cc61f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc5e5ecf1-ab06-4315-a200-5f4e1dbc2012 a aamas:Term ;
+aama:IDd4b9a0a5-cd32-4936-bb06-72f22d2dc185 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3420,7 +3768,7 @@ aama:IDc5e5ecf1-ab06-4315-a200-5f4e1dbc2012 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID3cd16cc1-9b95-4256-8582-7153de918b94 a aamas:Term ;
+aama:IDf3827623-c088-4863-b00d-3e10c385ac31 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3434,7 +3782,7 @@ aama:ID3cd16cc1-9b95-4256-8582-7153de918b94 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID84cb7a5b-559c-4e9b-a2de-4ad673f9bbe2 a aamas:Term ;
+aama:IDda8a8dc9-aa6a-4e73-a7ab-fefb2e12fa51 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3448,7 +3796,7 @@ aama:ID84cb7a5b-559c-4e9b-a2de-4ad673f9bbe2 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID743911b0-0899-406e-88ba-bf27b1540ef9 a aamas:Term ;
+aama:IDd14d0eef-ac31-4c49-ac2f-60106b20c5a0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3462,7 +3810,7 @@ aama:ID743911b0-0899-406e-88ba-bf27b1540ef9 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID5d37be71-a819-4607-98ff-7fb4b0692e29 a aamas:Term ;
+aama:IDb3fb2445-25dd-43eb-8124-2cde234e8595 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3476,7 +3824,7 @@ aama:ID5d37be71-a819-4607-98ff-7fb4b0692e29 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID4a19ccdd-b2a2-4cae-9458-08db6aeabf96 a aamas:Term ;
+aama:ID5d8f11c6-ca6f-424d-85b2-44367fa93bbe a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3490,7 +3838,7 @@ aama:ID4a19ccdd-b2a2-4cae-9458-08db6aeabf96 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe9cfad84-edf3-4b50-810e-7db6ce3083cb a aamas:Term ;
+aama:ID48982bd0-7c46-4436-a2dd-1d69cb09b4dd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3504,7 +3852,7 @@ aama:IDe9cfad84-edf3-4b50-810e-7db6ce3083cb a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID543762e7-da58-412f-8c9e-498d5cb5338a a aamas:Term ;
+aama:ID72cca8db-b92b-45a5-891f-1313a07f1193 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3518,7 +3866,7 @@ aama:ID543762e7-da58-412f-8c9e-498d5cb5338a a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID365b4bed-ef3a-48d3-a6b5-0ed62fbf205b a aamas:Term ;
+aama:ID951810f8-6201-4962-8caa-1b894224c4b5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3532,7 +3880,7 @@ aama:ID365b4bed-ef3a-48d3-a6b5-0ed62fbf205b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4ae0ab1f-0389-423a-bf9e-5a59c600c5b7 a aamas:Term ;
+aama:ID0eb74771-c686-4402-b683-a830a241436d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3546,7 +3894,7 @@ aama:ID4ae0ab1f-0389-423a-bf9e-5a59c600c5b7 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDbebb6f08-02c6-4b49-b9a9-b3e44b653f4c a aamas:Term ;
+aama:ID76788959-fd9c-43dc-a9a3-2e9408974f7d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3560,7 +3908,7 @@ aama:IDbebb6f08-02c6-4b49-b9a9-b3e44b653f4c a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDadd4bb8a-577e-4014-bfa3-2aa00ee1ba37 a aamas:Term ;
+aama:ID6cc42089-02a1-45bc-bb63-9506215c6ea2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3574,7 +3922,7 @@ aama:IDadd4bb8a-577e-4014-bfa3-2aa00ee1ba37 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID2d8c0a13-a8a4-4020-be71-2e6365bce31b a aamas:Term ;
+aama:ID4923c954-a5a9-4e19-8b87-2065770276b2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3588,7 +3936,7 @@ aama:ID2d8c0a13-a8a4-4020-be71-2e6365bce31b a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID5c0e8dd0-9689-4933-82bc-6a64705dbeed a aamas:Term ;
+aama:ID64826baf-743d-4655-9f61-cf8a695770a5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelOblique-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -3609,7 +3957,7 @@ kem:kemant-VAffImprtv-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID237852b3-f47d-4aee-a871-d41d365904af a aamas:Term ;
+aama:IDf9cd5d0f-bcf8-439a-969f-c7ee5ac59f5c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-was ;
 	kem:gender kem:Common ;
@@ -3622,7 +3970,7 @@ aama:ID237852b3-f47d-4aee-a871-d41d365904af a aamas:Term ;
 	kem:number kem:Singular ;
 	.
 
-aama:ID8c24aab2-9e2a-4970-83b5-5c50709de0e5 a aamas:Term ;
+aama:ID2b0ed59f-923e-4a82-a791-ee3d0d18d66e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-was ;
 	kem:gender kem:Common ;
@@ -3633,321 +3981,6 @@ aama:ID8c24aab2-9e2a-4970-83b5-5c50709de0e5 a aamas:Term ;
 	kem:tam kem:Imperative ;
 	kem:token "wasa" ;
 	kem:number kem:Plural ;
-	.
-
-#TERMCLUSTER:  kemant-VDervStemForms
-
-kem:kemant-VDervStemForms a aamas:Termcluster ;
-	rdfs:label "kemant-VDervStemForms" ;
-	rdfs:comment "Appleyard1975" 
-	.
-
-aama:IDa1bdbee7-14a2-4ab2-a4e9-3d08256d0840 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "⊤" ;
-	kem:token "(i) –s + ən-" ;
-	aamas:gloss "_NULL" ;
-	kem:derivedStem kem:Reciprocal ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID5cf3e629-9440-417c-96ff-95841c5c0ea9 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "kin-t-" ;
-	kem:token "kin-t-s̆-" ;
-	aamas:gloss "teach" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID75b5d24e-1a67-4a3e-b592-af5b3f1987a5 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "əns-̆" ;
-	kem:token "əns̆-s-" ;
-	aamas:gloss "be open(ed)" ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID71982afc-0e7e-4a5c-8246-b38da05581b9 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "dəkər-t-" ;
-	kem:token "dəkər-t-s̆-" ;
-	aamas:gloss "make hungry" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID459b1d17-ea2d-4ce8-9581-57e7b5c01862 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "təŋ-" ;
-	kem:token "təŋ-s-" ;
-	aamas:gloss "be found" ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID1aa458bf-17bd-428c-86e4-c2171397b532 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "läy-" ;
-	kem:token "läy-s̆-" ;
-	aamas:gloss "bring" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:IDc40b0324-a469-4ae8-8833-4be07de17b74 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "y-" ;
-	kem:token "y-s-" ;
-	aamas:gloss "be said" ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID163e0805-4d42-4c8f-8ef8-09d92bf127f8 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "was-" ;
-	kem:token "was-s-" ;
-	aamas:gloss "be heard" ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID2d7f4c7a-2157-4102-a5ef-175ed2573035 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "ku-mal-" ;
-	kem:token "ku-mal-s-" ;
-	aamas:gloss "be killed" ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID5868a329-65e7-4207-89dc-99c6efb06fda a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "wäntär-" ;
-	kem:token "wäntär-s̆-" ;
-	aamas:gloss "reply" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID0977fa91-0fa6-4546-8dfb-ec7cc46e6502 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "lis-̆" ;
-	kem:token "lis̆-s-" ;
-	aamas:gloss "shave o.s." ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:IDea2b8398-37db-47d7-bbb0-552498b509f5 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "ax-" ;
-	kem:token "ax-s̆-" ;
-	aamas:gloss "inform" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID98fbb982-9eb1-4130-a86b-41cb29cfd6b9 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "xasän-t-" ;
-	kem:token "xasän-t-s-" ;
-	aamas:gloss "be stolen" ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID65743ad9-7625-4bdb-b59c-74dbf6ab9a05 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "xal-" ;
-	kem:token "xal-s̆-" ;
-	aamas:gloss "show" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID92b23c1e-4c9f-4f60-9905-710504d82786 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "dəz-" ;
-	kem:token "dəz-s̆-" ;
-	aamas:gloss "lose" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID1da7a8a9-2fc2-4556-a18e-705974728a60 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "dan-" ;
-	kem:token "dan-s̆-" ;
-	aamas:gloss "cure" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID37d3c6db-e3cf-4ecd-a5f5-462c2cebb305 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "x-" ;
-	kem:token "x-s̆-" ;
-	aamas:gloss "wash s.th." ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:IDa322a5b0-da7a-4e81-9b4b-b08af37024ec a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "⊤" ;
-	kem:token "(ii) –s-" ;
-	aamas:gloss "_NULL" ;
-	kem:derivedStem kem:Reciprocal ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID07ae985f-87ba-4e27-901f-ba899db20580 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "bəlu-" ;
-	kem:token "bəlu-s̆-" ;
-	aamas:gloss "boil" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID36751f7a-88d3-4aa9-b5eb-f7d17bd9222c a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "fäy-" ;
-	kem:token "fäy-s̆-" ;
-	aamas:gloss "take" ;
-	kem:derivedStem kem:S ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:ID0ea0964e-b4d5-4844-9ee8-7e047652be16 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "käbän-" ;
-	kem:token "käbän-s-" ;
-	aamas:gloss "be born" ;
-	kem:derivedStem kem:M ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
-	.
-
-aama:IDf243d6d4-a2d4-4f25-9db8-7040791fb8a4 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VDervStemForms ;
-	kem:morphClass kem:DERVSTEM ;
-	kem:pdgmSubType kem:DervStem ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token-baseForm "⊤" ;
-	kem:token "(iii) reduplication + -s-" ;
-	aamas:gloss "_NULL" ;
-	kem:derivedStem kem:Reciprocal ;
-	aamas:lexeme aama:Kemant-DERVSTEM ;
 	.
 
 #TERMCLUSTER:  kemant-VPerfComp-fay
@@ -3961,7 +3994,7 @@ kem:kemant-VPerfComp-fay a aamas:Termcluster ;
             is often deleted." 
 	.
 
-aama:IDe3e5c68a-7f82-4aba-9179-1a89df359dc4 a aamas:Term ;
+aama:ID0a6e28c9-6ff7-40e6-8cf1-2eb37bb5fadd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3973,7 +4006,7 @@ aama:IDe3e5c68a-7f82-4aba-9179-1a89df359dc4 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID053c5d35-3e23-46e0-a0e7-7d7477e3cada a aamas:Term ;
+aama:ID928d05fc-1498-45e8-a084-2ba2706b3fac a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3985,7 +4018,7 @@ aama:ID053c5d35-3e23-46e0-a0e7-7d7477e3cada a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDeade91a9-9b11-405d-ab0b-09eeeaeb6145 a aamas:Term ;
+aama:IDb2724a37-df95-4330-b334-461291043f95 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -3997,7 +4030,7 @@ aama:IDeade91a9-9b11-405d-ab0b-09eeeaeb6145 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID1b51c886-9bbc-447e-a027-feb2e3a3a3ec a aamas:Term ;
+aama:ID0fd429fa-3690-48ff-b698-6f8547ccfc04 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4009,7 +4042,7 @@ aama:ID1b51c886-9bbc-447e-a027-feb2e3a3a3ec a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID63559bdf-4bde-4fcc-8b9f-e88eda94fde6 a aamas:Term ;
+aama:ID47d1b11e-3e41-404c-b131-80ddb53fbf01 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4021,7 +4054,7 @@ aama:ID63559bdf-4bde-4fcc-8b9f-e88eda94fde6 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDeccba206-fe1a-48ff-b27f-a29344ad6075 a aamas:Term ;
+aama:ID09544e96-ff50-4871-b86f-5bd29d9cafb0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4033,7 +4066,7 @@ aama:IDeccba206-fe1a-48ff-b27f-a29344ad6075 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID91388890-2150-450b-b9d3-70d39f68bcea a aamas:Term ;
+aama:ID1e27e0b9-0961-48c6-a902-02e32e66a7bd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4052,7 +4085,7 @@ kem:kemant-VRelSubj-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975 7.9" 
 	.
 
-aama:IDdcbc0ef3-f930-472d-b74c-6e0648e164c0 a aamas:Term ;
+aama:ID451286cf-9daf-43a3-8e27-9fd445d6715f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4064,7 +4097,7 @@ aama:IDdcbc0ef3-f930-472d-b74c-6e0648e164c0 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID0b724f05-0877-4408-81e4-75057c7a0e0a a aamas:Term ;
+aama:ID078e4499-fd21-4a86-b736-8478d06ba96e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4076,7 +4109,7 @@ aama:ID0b724f05-0877-4408-81e4-75057c7a0e0a a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDe46e57f2-724e-4bb0-805e-075d52a23b60 a aamas:Term ;
+aama:IDd69c234d-478b-4741-8f5b-fc06d40ec69f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4088,7 +4121,7 @@ aama:IDe46e57f2-724e-4bb0-805e-075d52a23b60 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb9a32676-18a5-4df1-9637-70afcae4c6a7 a aamas:Term ;
+aama:ID30462374-afd0-46f2-a698-e9c739084fcf a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4100,7 +4133,7 @@ aama:IDb9a32676-18a5-4df1-9637-70afcae4c6a7 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDbf1ce332-ddbc-4f23-ac7a-d5f24753aac8 a aamas:Term ;
+aama:IDd6dbe4e9-b18b-4c33-8c17-6b0d46b3f980 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4112,7 +4145,7 @@ aama:IDbf1ce332-ddbc-4f23-ac7a-d5f24753aac8 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9faa60b8-7ba4-45c0-b4f8-caadce8c1e56 a aamas:Term ;
+aama:ID2e1c0848-c071-4032-b695-b041314d0610 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4124,7 +4157,7 @@ aama:ID9faa60b8-7ba4-45c0-b4f8-caadce8c1e56 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID3ec73e0b-02ca-490f-927c-47d0ede6f7f7 a aamas:Term ;
+aama:ID67e338e4-9f4f-4703-9094-538a647d9a40 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4136,85 +4169,6 @@ aama:ID3ec73e0b-02ca-490f-927c-47d0ede6f7f7 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-#TERMCLUSTER:  kemant-VFiniteForm
-
-kem:kemant-VFiniteForm a aamas:Termcluster ;
-	rdfs:label "kemant-VFiniteForm" ;
-	rdfs:comment "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə" 
-	.
-
-aama:IDa2d74074-696b-4413-bc6b-d8438643aa72 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VFiniteForm ;
-	kem:finiteForm kem:AgentNoun ;
-	kem:morphClass kem:AGENTNOUN ;
-	kem:pdgmSubType kem:FiniteVerb ;
-	kem:pos kem:Verb ;
-	kem:token "gʷäzänta" ;
-	aamas:lexeme aama:Kemant-AGENTNOUN ;
-	aamas:gloss "farmer" ;
-	.
-
-aama:IDad68a4df-49e2-478b-85cf-a460a88079c5 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VFiniteForm ;
-	kem:finiteForm kem:AgentNoun ;
-	kem:morphClass kem:AGENTNOUN ;
-	kem:pdgmSubType kem:FiniteVerb ;
-	kem:pos kem:Verb ;
-	kem:token "s̆əɣʷsänta" ;
-	aamas:lexeme aama:Kemant-AGENTNOUN ;
-	aamas:gloss "sick man" ;
-	.
-
-aama:ID3a74b6c3-1d79-4674-8351-3b0f4130f2cf a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VFiniteForm ;
-	kem:finiteForm kem:AgentNoun ;
-	kem:morphClass kem:AGENTNOUN ;
-	kem:pdgmSubType kem:FiniteVerb ;
-	kem:pos kem:Verb ;
-	kem:token "kins̆änta" ;
-	aamas:lexeme aama:Kemant-AGENTNOUN ;
-	aamas:gloss "teacher" ;
-	.
-
-aama:IDe6b26b23-658e-4c3b-9d17-f6e1d7c5a5dc a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VFiniteForm ;
-	kem:finiteForm kem:AgentNoun ;
-	kem:morphClass kem:AGENTNOUN ;
-	kem:pdgmSubType kem:FiniteVerb ;
-	kem:pos kem:Verb ;
-	kem:token "s̆iwänta" ;
-	aamas:lexeme aama:Kemant-AGENTNOUN ;
-	aamas:gloss "beggar" ;
-	.
-
-aama:IDc6ca895b-ca85-4ab7-a0cc-790092b981ec a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VFiniteForm ;
-	kem:finiteForm kem:AgentNoun ;
-	kem:morphClass kem:AGENTNOUN ;
-	kem:pdgmSubType kem:FiniteVerb ;
-	kem:pos kem:Verb ;
-	kem:token "säbsänta" ;
-	aamas:lexeme aama:Kemant-AGENTNOUN ;
-	aamas:gloss "soldier" ;
-	.
-
-aama:ID046e0258-80cc-498f-8ca8-8cb916b8899b a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VFiniteForm ;
-	kem:finiteForm kem:AgentNoun ;
-	kem:morphClass kem:AGENTNOUN ;
-	kem:pdgmSubType kem:FiniteVerb ;
-	kem:pos kem:Verb ;
-	kem:token "axänta" ;
-	aamas:lexeme aama:Kemant-AGENTNOUN ;
-	aamas:gloss "wise-man" ;
-	.
-
 #TERMCLUSTER:  kemant-VAffImprtv-iw
 
 kem:kemant-VAffImprtv-iw a aamas:Termcluster ;
@@ -4222,7 +4176,7 @@ kem:kemant-VAffImprtv-iw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID9a7a398b-2636-43f6-bba6-c457ab7e58af a aamas:Term ;
+aama:IDc97a2758-fec9-4e5b-a81d-d63bca2705e5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-iw ;
 	kem:gender kem:Common ;
@@ -4235,7 +4189,7 @@ aama:ID9a7a398b-2636-43f6-bba6-c457ab7e58af a aamas:Term ;
 	kem:number kem:Singular ;
 	.
 
-aama:ID8cf5fade-2dfa-44ec-8951-33c702de963a a aamas:Term ;
+aama:IDc786b5d7-e11b-4fad-aa92-641bf10e3b37 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-iw ;
 	kem:gender kem:Common ;
@@ -4255,7 +4209,7 @@ kem:kemant-VAffA-subordinate-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDa4fadb6c-8b39-4138-8b35-73175dce9740 a aamas:Term ;
+aama:ID1e99041e-1f5c-45af-a2ca-e628771f7657 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4268,7 +4222,7 @@ aama:IDa4fadb6c-8b39-4138-8b35-73175dce9740 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID2d645574-ae30-410e-bef4-7da93076e706 a aamas:Term ;
+aama:ID865bc409-610a-4754-957a-402f380246e4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4281,7 +4235,7 @@ aama:ID2d645574-ae30-410e-bef4-7da93076e706 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9426105d-d346-4f11-8319-0b91e3d534c2 a aamas:Term ;
+aama:IDfebad360-752e-4f20-8583-634da6b1fc61 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4294,7 +4248,7 @@ aama:ID9426105d-d346-4f11-8319-0b91e3d534c2 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDa83c50ba-edf7-4437-8e12-3f2c24837a53 a aamas:Term ;
+aama:ID07010c10-dda0-47c1-aa58-063d3e53fdc2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4307,7 +4261,7 @@ aama:IDa83c50ba-edf7-4437-8e12-3f2c24837a53 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID8ee93b61-eda0-49db-a2d8-e7cdc96c4e69 a aamas:Term ;
+aama:ID2e706607-3e70-4867-8416-dbe0682f8e75 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4320,7 +4274,7 @@ aama:ID8ee93b61-eda0-49db-a2d8-e7cdc96c4e69 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID22763571-6470-408f-bb68-33cbd6bc26b7 a aamas:Term ;
+aama:ID74ef8f4f-7da2-494b-8d91-67369fce3e6b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4333,7 +4287,7 @@ aama:ID22763571-6470-408f-bb68-33cbd6bc26b7 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID24f0aa5a-28a4-4dea-b735-71e18627e5ed a aamas:Term ;
+aama:IDe61f5022-3ee6-425b-ae0a-e57c66b1a99e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffA-subordinate-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4353,7 +4307,7 @@ kem:kemant-VNegImprtv-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDd36e5be2-d712-4669-b10b-e8a5e13b2c06 a aamas:Term ;
+aama:ID7f8c0a2f-ca55-40bb-aa27-85868df1c71a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-fay ;
 	kem:gender kem:Common ;
@@ -4366,7 +4320,7 @@ aama:IDd36e5be2-d712-4669-b10b-e8a5e13b2c06 a aamas:Term ;
 	kem:number kem:Plural ;
 	.
 
-aama:IDa3c4c399-20c3-487d-b505-5bd37975d411 a aamas:Term ;
+aama:ID23b02626-ce7d-4500-997c-14ad6ddac896 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-fay ;
 	kem:gender kem:Common ;
@@ -4386,7 +4340,7 @@ kem:kemant-VNegN-subordinate-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID1e8e501f-5c44-4706-a428-f88f97346145 a aamas:Term ;
+aama:IDb7077272-5545-4608-a98a-69089359fa89 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4399,7 +4353,7 @@ aama:ID1e8e501f-5c44-4706-a428-f88f97346145 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd420f0ef-b73c-4835-86f3-18ccd0d709b9 a aamas:Term ;
+aama:ID6ccd329c-3d81-44f5-a72e-3a3e33f2ab7c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4412,7 +4366,7 @@ aama:IDd420f0ef-b73c-4835-86f3-18ccd0d709b9 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID9985c641-3fb3-41d0-b02a-b9de84f7a37b a aamas:Term ;
+aama:ID616f1c09-c192-47a3-96f2-99257b9e62ec a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4425,7 +4379,7 @@ aama:ID9985c641-3fb3-41d0-b02a-b9de84f7a37b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4f0ebcc9-9928-4afd-afd8-b060021c7372 a aamas:Term ;
+aama:ID9a9077f3-773a-4741-a999-76c5a61fd8fd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4438,7 +4392,7 @@ aama:ID4f0ebcc9-9928-4afd-afd8-b060021c7372 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd03b5af8-52c8-4c1c-a1bb-12586ac50cb0 a aamas:Term ;
+aama:ID577a13e9-59a7-4ec9-8e95-1fabc476fde3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4451,7 +4405,7 @@ aama:IDd03b5af8-52c8-4c1c-a1bb-12586ac50cb0 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID2b200118-dc79-4ca5-9175-94fca1117b8d a aamas:Term ;
+aama:ID3fe4b4d4-7d14-473e-b273-6b7da94f5e70 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4464,7 +4418,7 @@ aama:ID2b200118-dc79-4ca5-9175-94fca1117b8d a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID0937f74b-b664-4ccd-8e3a-0b6933ab3ce8 a aamas:Term ;
+aama:IDfeacae1f-1f50-4e87-933f-878319de39cb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegN-subordinate-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4484,7 +4438,7 @@ kem:kemant-VAffN-subordinate-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDee1a86b9-3339-4cae-aacd-e7b77c6a8ef9 a aamas:Term ;
+aama:IDfa04e273-b232-4ef3-b4b1-4f532a6fd19b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4497,7 +4451,7 @@ aama:IDee1a86b9-3339-4cae-aacd-e7b77c6a8ef9 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID5ac0a261-b5f8-4c0a-95d6-0b167b76698c a aamas:Term ;
+aama:IDbf684041-f23b-4201-973a-455cf001b9e2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4510,7 +4464,7 @@ aama:ID5ac0a261-b5f8-4c0a-95d6-0b167b76698c a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID7f6ae40a-f847-4c07-97b0-6a482ce2f43c a aamas:Term ;
+aama:ID5184c604-aab7-42e2-a392-30bb8e113a72 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4523,7 +4477,7 @@ aama:ID7f6ae40a-f847-4c07-97b0-6a482ce2f43c a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID431432ed-5cca-44fe-b1cc-6cf5a5f0af80 a aamas:Term ;
+aama:ID3167cd09-45bc-47f3-8449-4a23bbc55836 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4536,7 +4490,7 @@ aama:ID431432ed-5cca-44fe-b1cc-6cf5a5f0af80 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd0a96941-d994-4722-8581-61d71e95c3c7 a aamas:Term ;
+aama:IDc1fc0115-9910-47ca-907e-e4860574f814 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4549,7 +4503,7 @@ aama:IDd0a96941-d994-4722-8581-61d71e95c3c7 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDddde9113-a3a5-43b9-85c3-0659d4bbf2e4 a aamas:Term ;
+aama:ID85ec8f3c-4a6a-4d9d-8f42-ea3ea535a74f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4562,7 +4516,7 @@ aama:IDddde9113-a3a5-43b9-85c3-0659d4bbf2e4 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID8e5fe19f-6a6a-4e44-96bd-e049e5de387a a aamas:Term ;
+aama:ID7cbb6b23-07a3-49ce-8103-882f84da402a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffN-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4582,7 +4536,7 @@ kem:kemant-VRelSubj-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975 7.9" 
 	.
 
-aama:ID12c388a9-eb53-479b-b6d0-dc43deaa3e60 a aamas:Term ;
+aama:ID8228b2a1-0d43-4ea2-ba23-8444a1f0c8eb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4594,7 +4548,7 @@ aama:ID12c388a9-eb53-479b-b6d0-dc43deaa3e60 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID6f6fa8e8-92d9-48a3-b282-e93068703126 a aamas:Term ;
+aama:ID9d680d26-e6e3-4479-97b2-6cbb8a1c41d4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4606,7 +4560,7 @@ aama:ID6f6fa8e8-92d9-48a3-b282-e93068703126 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDfe9dd077-ffc8-44cd-a556-7571071d4b1f a aamas:Term ;
+aama:ID97946fee-c972-4740-8732-a50c092f53a1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4618,7 +4572,7 @@ aama:IDfe9dd077-ffc8-44cd-a556-7571071d4b1f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4e8cb70c-4ec5-4828-8597-c71ccb317dd0 a aamas:Term ;
+aama:IDfb9a23dd-bd08-48a4-98c8-5df772c37bd9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4630,7 +4584,7 @@ aama:ID4e8cb70c-4ec5-4828-8597-c71ccb317dd0 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID8a5da9ea-2cde-4033-b0cb-a51fb05b4695 a aamas:Term ;
+aama:ID385757ed-7cc0-4204-9b7d-ee8d22d4c5c6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4642,7 +4596,7 @@ aama:ID8a5da9ea-2cde-4033-b0cb-a51fb05b4695 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID03627a53-eefb-416a-a29e-aa5b57ebb55a a aamas:Term ;
+aama:IDbd6330dd-2d00-48f6-8424-7c35616ddd99 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4654,7 +4608,7 @@ aama:ID03627a53-eefb-416a-a29e-aa5b57ebb55a a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID50371fcb-e8a2-4baf-b9e1-893b79802c0d a aamas:Term ;
+aama:ID5d6aa01b-7317-4fc7-b6c9-6be6ea21e3dc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VRelSubj-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4673,7 +4627,7 @@ kem:kemant-VAffJussive-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID370c20ca-4ef6-4597-86bc-bab8cc831857 a aamas:Term ;
+aama:IDcecd1f1b-8e18-4013-bb21-6bb0afe696ae a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4686,7 +4640,7 @@ aama:ID370c20ca-4ef6-4597-86bc-bab8cc831857 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID196f835c-6f68-4205-99ba-d2d4b2cb42e9 a aamas:Term ;
+aama:ID1c711b67-ea67-4ccc-852f-05c50f273d94 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4699,7 +4653,7 @@ aama:ID196f835c-6f68-4205-99ba-d2d4b2cb42e9 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID7dbecaa7-6e18-43bd-ba80-a80875a02c45 a aamas:Term ;
+aama:IDab0325d5-b1be-4235-8cbc-50fb8f5a5b0d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4712,7 +4666,7 @@ aama:ID7dbecaa7-6e18-43bd-ba80-a80875a02c45 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd5e4f05b-934d-43f3-a2d6-8314663833d6 a aamas:Term ;
+aama:IDc2a26cae-1f16-440d-831d-e38ee75b0666 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4725,7 +4679,7 @@ aama:IDd5e4f05b-934d-43f3-a2d6-8314663833d6 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDac337be4-0440-4091-be0d-9f450f34e5fd a aamas:Term ;
+aama:IDe0e23f3e-a841-44f1-991b-943b45d602ec a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4738,7 +4692,7 @@ aama:IDac337be4-0440-4091-be0d-9f450f34e5fd a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID21bb32f0-d0a5-4a28-b6ee-39e5a9380686 a aamas:Term ;
+aama:ID4838e33a-24cd-41e1-b047-4ff6dec08e32 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4751,7 +4705,7 @@ aama:ID21bb32f0-d0a5-4a28-b6ee-39e5a9380686 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID47688d6e-53a6-4fc1-8ab8-f33ed92a6fd3 a aamas:Term ;
+aama:IDaa625417-da24-4d6a-9526-1f2dc477ab14 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -4771,7 +4725,7 @@ kem:kemant-VAffCompSubordinate-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDd12c84f3-3053-46fd-b81c-0d651834ed37 a aamas:Term ;
+aama:ID305317b5-651f-417c-b225-188a53e8c566 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4784,7 +4738,7 @@ aama:IDd12c84f3-3053-46fd-b81c-0d651834ed37 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID12ae9e29-1a63-4f6c-93ea-ce6de83687fe a aamas:Term ;
+aama:IDc7264049-1b4b-4455-88b5-1ffaa6d60674 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4797,7 +4751,7 @@ aama:ID12ae9e29-1a63-4f6c-93ea-ce6de83687fe a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDd3bd12f9-757f-43da-be77-436c7122a717 a aamas:Term ;
+aama:IDb7395b91-e8ee-494c-ace8-7b47931c5e9b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4810,7 +4764,7 @@ aama:IDd3bd12f9-757f-43da-be77-436c7122a717 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID796d5ea1-9716-4704-8126-f5468733adaf a aamas:Term ;
+aama:ID2cd16398-73dc-4190-86b3-4f0d0110d383 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4823,7 +4777,7 @@ aama:ID796d5ea1-9716-4704-8126-f5468733adaf a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDecebb89d-ba22-4ed0-a0bd-e56c965cbcdc a aamas:Term ;
+aama:ID6156d011-870c-4d10-a0a4-279e4473fc0c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4836,7 +4790,7 @@ aama:IDecebb89d-ba22-4ed0-a0bd-e56c965cbcdc a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9db2abb1-1a94-4785-b0e7-6648abcb4156 a aamas:Term ;
+aama:ID978d0f1a-4559-48f4-8a29-e8b00a4252f9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4849,7 +4803,7 @@ aama:ID9db2abb1-1a94-4785-b0e7-6648abcb4156 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9c5b9fb9-54c0-4828-b631-4106e1909be0 a aamas:Term ;
+aama:ID7e6c49c2-283d-432f-bed7-a2d8536da6bb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffCompSubordinate-xw ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -4869,7 +4823,7 @@ kem:kemant-VAffPerfective-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDf3cb538f-077e-412a-ab1f-e391809a0421 a aamas:Term ;
+aama:ID29268e2a-32c8-4291-ad8a-0d9c74c997b8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4882,7 +4836,7 @@ aama:IDf3cb538f-077e-412a-ab1f-e391809a0421 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID7dd25893-2d85-4a50-b377-cdbae1e6bc4e a aamas:Term ;
+aama:IDe53f4b65-ca40-4913-bff7-878dc9db4a57 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4895,7 +4849,7 @@ aama:ID7dd25893-2d85-4a50-b377-cdbae1e6bc4e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDfae8897f-aa83-41e9-96c7-c14de3284f7c a aamas:Term ;
+aama:ID39ac2366-ca33-4d55-ad8c-4492bcb9590f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4908,7 +4862,7 @@ aama:IDfae8897f-aa83-41e9-96c7-c14de3284f7c a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd2981afa-b9f7-4d67-8080-1102894958ca a aamas:Term ;
+aama:ID181440aa-f60e-42b1-95cd-d21afb9dc73c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4921,7 +4875,7 @@ aama:IDd2981afa-b9f7-4d67-8080-1102894958ca a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID8dee3241-2ada-48cc-b993-e32125693a6e a aamas:Term ;
+aama:IDecfe2f58-b670-49da-8cd9-e5885dd76172 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4934,7 +4888,7 @@ aama:ID8dee3241-2ada-48cc-b993-e32125693a6e a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID1f9ed7f4-439b-471d-a30d-5c9dc9841fc7 a aamas:Term ;
+aama:ID63e9b165-9f8b-4b6e-8153-47223aec3067 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4947,7 +4901,7 @@ aama:ID1f9ed7f4-439b-471d-a30d-5c9dc9841fc7 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID9818f4f1-3390-4423-bdbc-37591ae0c306 a aamas:Term ;
+aama:ID983c7d63-e9d9-4396-98a8-a7e26eb5b779 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -4960,61 +4914,6 @@ aama:ID9818f4f1-3390-4423-bdbc-37591ae0c306 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-#TERMCLUSTER:  kemant-VInterrog
-
-kem:kemant-VInterrog a aamas:Termcluster ;
-	rdfs:label "kemant-VInterrog" ;
-	rdfs:comment "Appleyard1975 7.5" 
-	.
-
-aama:ID133ba174-760b-429d-b14b-7f535d1ba893 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VInterrog ;
-	kem:morphClass kem:VERBINTERROGATIVE ;
-	kem:pdgmSubType kem:Interrogative ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token "fälägi" ;
-	aamas:gloss "do you want it?" ;
-	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
-	.
-
-aama:IDab3b8946-1555-4d03-a08c-4f2bbe474483 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VInterrog ;
-	kem:morphClass kem:VERBINTERROGATIVE ;
-	kem:pdgmSubType kem:Interrogative ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token "lämäds̆i" ;
-	aamas:gloss "are you getting used to it?" ;
-	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
-	.
-
-aama:IDc584a1b6-dcab-495c-a3c5-78a1c20beb82 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VInterrog ;
-	kem:morphClass kem:VERBINTERROGATIVE ;
-	kem:pdgmSubType kem:Interrogative ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token "gärsi" ;
-	aamas:gloss "can you?" ;
-	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
-	.
-
-aama:IDea19b393-d2bf-4188-bd40-27bac0f4d6a8 a aamas:Term ;
-	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kemant-VInterrog ;
-	kem:morphClass kem:VERBINTERROGATIVE ;
-	kem:pdgmSubType kem:Interrogative ;
-	kem:pdgmType kem:Exemplary ;
-	kem:pos kem:Verb ;
-	kem:token "kəmantənäyəs waɣärti" ;
-	aamas:gloss "do you speak Kemant?" ;
-	aamas:lexeme aama:Kemant-VERBINTERROGATIVE ;
-	.
-
 #TERMCLUSTER:  kemant-VAffImprtv-xw
 
 kem:kemant-VAffImprtv-xw a aamas:Termcluster ;
@@ -5022,7 +4921,7 @@ kem:kemant-VAffImprtv-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID38c8851f-316d-4b0b-9455-4863a99e2bc7 a aamas:Term ;
+aama:IDf29efdf5-53ad-4823-9ae8-4736bf115920 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-xw ;
 	kem:gender kem:Common ;
@@ -5035,7 +4934,7 @@ aama:ID38c8851f-316d-4b0b-9455-4863a99e2bc7 a aamas:Term ;
 	kem:number kem:Singular ;
 	.
 
-aama:ID8bef175d-6998-42cb-8d78-b34abe1e691e a aamas:Term ;
+aama:IDe1a537c9-e7c0-4435-8522-f10a344f9ae6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffImprtv-xw ;
 	kem:gender kem:Common ;
@@ -5055,7 +4954,7 @@ kem:kemant-VNegJussive-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID912bb71c-6fcb-40ae-a407-565a7774acab a aamas:Term ;
+aama:ID834800d2-6800-4c93-8505-5e6f6c90cc93 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5068,7 +4967,7 @@ aama:ID912bb71c-6fcb-40ae-a407-565a7774acab a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID36813a5a-6d1f-4a7d-8edb-2cbb68c27e59 a aamas:Term ;
+aama:IDfd0d13b5-d5aa-4d29-b3a8-177cd26116a2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5081,7 +4980,7 @@ aama:ID36813a5a-6d1f-4a7d-8edb-2cbb68c27e59 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID05c7b46d-0ab0-4ac9-a8d7-93ddc1f71da1 a aamas:Term ;
+aama:ID7eac0cfd-86a9-4cd8-81b0-6d6b9a949d0a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5094,7 +4993,7 @@ aama:ID05c7b46d-0ab0-4ac9-a8d7-93ddc1f71da1 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDe9f0fccf-a08a-4fed-b2d9-d46980b43c5f a aamas:Term ;
+aama:IDc85bd74f-acb6-4f9c-8963-2a4ec51c04ab a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5107,7 +5006,7 @@ aama:IDe9f0fccf-a08a-4fed-b2d9-d46980b43c5f a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID49a7e45e-fd3d-4a76-b192-fe66675860f7 a aamas:Term ;
+aama:ID7729f8cb-1e13-47cd-9c7b-d8303e6fe65c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5120,7 +5019,7 @@ aama:ID49a7e45e-fd3d-4a76-b192-fe66675860f7 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe562367c-d8ee-4608-a85b-5a974e246709 a aamas:Term ;
+aama:ID84d28e34-b59e-43c3-be8d-ef126a865f64 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5133,7 +5032,7 @@ aama:IDe562367c-d8ee-4608-a85b-5a974e246709 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd98f65ab-eba4-4cf8-b9e3-ca75a349fbf1 a aamas:Term ;
+aama:ID85e35b40-e380-4659-a5c0-96ce322eb70d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5146,6 +5045,85 @@ aama:IDd98f65ab-eba4-4cf8-b9e3-ca75a349fbf1 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
+#TERMCLUSTER:  kemant-VFiniteForm
+
+kem:kemant-VFiniteForm a aamas:Termcluster ;
+	rdfs:label "kemant-VFiniteForm" ;
+	rdfs:comment "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə" 
+	.
+
+aama:IDd68d971f-7a57-4a44-975d-2f4762182a50 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VFiniteForm ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "gʷäzänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	kem:token-note "farmer" ;
+	.
+
+aama:IDab56bdbe-995c-4d11-abde-812b8f270e18 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VFiniteForm ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "s̆əɣʷsänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	kem:token-note "sick man" ;
+	.
+
+aama:IDcac0b0d5-ce25-46f8-bde7-9552deec569c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VFiniteForm ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "kins̆änta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	kem:token-note "teacher" ;
+	.
+
+aama:IDd0b170e9-47f7-4cfb-8446-234b16f74235 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VFiniteForm ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "s̆iwänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	kem:token-note "beggar" ;
+	.
+
+aama:IDf5329847-49f2-478a-8696-30c61b3ef998 a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VFiniteForm ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "säbsänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	kem:token-note "soldier" ;
+	.
+
+aama:ID77b290b4-38f9-44b8-857e-8a2ccc1c580c a aamas:Term ;
+	aamas:lang aama:Kemant ;
+	aamas:memberOf kem:kemant-VFiniteForm ;
+	kem:finiteForm kem:AgentNoun ;
+	kem:morphClass kem:AGENTNOUN ;
+	kem:pdgmSubType kem:FiniteVerb ;
+	kem:pos kem:Verb ;
+	kem:token "axänta" ;
+	aamas:lexeme aama:Kemant-AGENTNOUN ;
+	kem:token-note "wise-man" ;
+	.
+
 #TERMCLUSTER:  kemant-VNegImperfective-was
 
 kem:kemant-VNegImperfective-was a aamas:Termcluster ;
@@ -5153,7 +5131,7 @@ kem:kemant-VNegImperfective-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID7a302b96-0346-43d0-8e76-e8ba3bec867e a aamas:Term ;
+aama:IDdcafd0b1-bf62-405a-971a-cc15b29270e9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5166,7 +5144,7 @@ aama:ID7a302b96-0346-43d0-8e76-e8ba3bec867e a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID34e05ca9-e2fb-45ee-a95e-898cd14dcf15 a aamas:Term ;
+aama:IDe47c42b8-58a9-4d80-83f2-71d2ab2970d4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5179,7 +5157,7 @@ aama:ID34e05ca9-e2fb-45ee-a95e-898cd14dcf15 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDecaccb42-d712-4915-b1cd-d1aaea30c157 a aamas:Term ;
+aama:ID933eaac7-ca23-4baf-b221-15114ebdbf56 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5192,7 +5170,7 @@ aama:IDecaccb42-d712-4915-b1cd-d1aaea30c157 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID8b47d522-6104-4568-95e8-e9080efce642 a aamas:Term ;
+aama:ID17a639f2-244c-4951-9b5d-269ab4a525d5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5205,7 +5183,7 @@ aama:ID8b47d522-6104-4568-95e8-e9080efce642 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID7eb99e75-a200-412d-acd0-1fbe5c590428 a aamas:Term ;
+aama:IDf06599ef-c156-46ff-a441-6051fb481e32 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5218,7 +5196,7 @@ aama:ID7eb99e75-a200-412d-acd0-1fbe5c590428 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID810b0461-4732-4834-bf77-cdbe42285d88 a aamas:Term ;
+aama:ID21b7f824-c1d3-4532-a198-de99ceb809b2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5231,7 +5209,7 @@ aama:ID810b0461-4732-4834-bf77-cdbe42285d88 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe80c4176-363c-47be-8cc5-95fb1cc880b5 a aamas:Term ;
+aama:IDae2a9d5a-139b-4384-ac2e-b1ebc985fd51 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5251,7 +5229,7 @@ kem:kemant-VNegImprtv-iw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDb7c7838a-3b19-4f4f-be26-3391ae8a42d6 a aamas:Term ;
+aama:IDccc0f635-2489-460f-8e74-3d507f6e4144 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-iw ;
 	kem:gender kem:Common ;
@@ -5264,7 +5242,7 @@ aama:IDb7c7838a-3b19-4f4f-be26-3391ae8a42d6 a aamas:Term ;
 	kem:number kem:Plural ;
 	.
 
-aama:ID1c74ebbc-3d12-4b7d-ba79-13a3ab08a85e a aamas:Term ;
+aama:IDd4b26600-6d47-43e5-881b-17cc9107d68e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImprtv-iw ;
 	kem:gender kem:Common ;
@@ -5284,7 +5262,7 @@ kem:kemant-VNegGerundive-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDb89be656-5e24-4d0c-8a19-e5e6edd1ca4b a aamas:Term ;
+aama:ID92c5db2c-f3a6-4a11-a596-8185c11d6607 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5297,7 +5275,7 @@ aama:IDb89be656-5e24-4d0c-8a19-e5e6edd1ca4b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4069aa6a-d650-4bc5-938e-c4964162254f a aamas:Term ;
+aama:ID73396f19-06c1-40a1-b22c-22d0cd95ff8f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5310,7 +5288,7 @@ aama:ID4069aa6a-d650-4bc5-938e-c4964162254f a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDb5f18637-39b8-4d6f-a3e7-d1bd0b27cbb2 a aamas:Term ;
+aama:ID1c42a86f-6ae0-4f94-9a68-15b9178fb87c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5323,7 +5301,7 @@ aama:IDb5f18637-39b8-4d6f-a3e7-d1bd0b27cbb2 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID4b1c9495-a07b-40df-be94-e5077066e170 a aamas:Term ;
+aama:ID38bd0ec2-0dfe-44ae-9bc0-191ae42fc3f9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5336,7 +5314,7 @@ aama:ID4b1c9495-a07b-40df-be94-e5077066e170 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID8491ca1e-a8c3-4ab9-b8c4-10729926b53e a aamas:Term ;
+aama:ID6438b14e-8a39-4238-9a7e-01045cbca651 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5349,7 +5327,7 @@ aama:ID8491ca1e-a8c3-4ab9-b8c4-10729926b53e a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDab510ad8-50bd-4259-8488-d58c8131c346 a aamas:Term ;
+aama:ID6d443ae5-b6f0-410d-bf95-8e11bb22d3a0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5362,7 +5340,7 @@ aama:IDab510ad8-50bd-4259-8488-d58c8131c346 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID57a9da92-ccb4-43cb-ab9d-3a479db59e23 a aamas:Term ;
+aama:IDa90c591f-e70a-4885-9c47-78b39bb044d2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegGerundive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5382,7 +5360,7 @@ kem:kemant-VAffJussive2-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDe150d3e2-20ca-4bb7-9ed8-a196d5cd5a5a a aamas:Term ;
+aama:ID505ed934-ef1b-4968-bd96-bf41a5b34182 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive2-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5395,7 +5373,7 @@ aama:IDe150d3e2-20ca-4bb7-9ed8-a196d5cd5a5a a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDd9042e6d-8078-47f7-b1b4-8ac929a15206 a aamas:Term ;
+aama:ID0ed8f829-6769-45eb-8dd3-40b18ab58550 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive2-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5408,7 +5386,7 @@ aama:IDd9042e6d-8078-47f7-b1b4-8ac929a15206 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDf63f442b-1568-4745-881f-7e7b2f1cdc6b a aamas:Term ;
+aama:IDe77380b0-e8be-4bff-95a5-ec8466a9c9dd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive2-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5428,7 +5406,7 @@ kem:kemant-VNegPerfective-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID01c2e5a8-fae7-49b3-a10a-679eaeabb45b a aamas:Term ;
+aama:ID25a66d09-a0fc-4aa0-96d1-0d8fb5842b52 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5441,7 +5419,7 @@ aama:ID01c2e5a8-fae7-49b3-a10a-679eaeabb45b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID6277a2c7-9af1-4384-ba5e-c473c9bf6637 a aamas:Term ;
+aama:ID8b27332c-37bd-4e67-90f3-53a408def5cf a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5454,7 +5432,7 @@ aama:ID6277a2c7-9af1-4384-ba5e-c473c9bf6637 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID7ce12d21-be5f-47f2-a39d-86564fcc4629 a aamas:Term ;
+aama:ID96d4f561-a8df-4f48-8726-11e76dd8e979 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5467,7 +5445,7 @@ aama:ID7ce12d21-be5f-47f2-a39d-86564fcc4629 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID4620e399-d237-4ae7-94d2-d5261ef2871c a aamas:Term ;
+aama:ID8f6431d0-3998-4fa1-9dfc-69ad4dbf8a7f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5480,7 +5458,7 @@ aama:ID4620e399-d237-4ae7-94d2-d5261ef2871c a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID4ce4fd7b-6335-4cf1-babd-6194fcd130a3 a aamas:Term ;
+aama:IDbbe1f0da-4ed0-483c-8b5a-cd7e86c40783 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5493,7 +5471,7 @@ aama:ID4ce4fd7b-6335-4cf1-babd-6194fcd130a3 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb2ba3602-c0ff-4a44-b871-5af334c22d11 a aamas:Term ;
+aama:ID780da660-801c-418e-8f38-56237bd82248 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5506,7 +5484,7 @@ aama:IDb2ba3602-c0ff-4a44-b871-5af334c22d11 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID1a6113d7-2ad8-4b9e-a516-1a7ec73c385b a aamas:Term ;
+aama:ID292fa8c3-008f-453d-acd1-b9a89a04284f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegPerfective-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5526,7 +5504,7 @@ kem:kemant-VNegJussive-fay a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDc8cc6d64-40f8-4d67-9d1c-6b252f8e6e4a a aamas:Term ;
+aama:ID427849cc-c300-4bb5-af6b-3e05d2068e69 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5539,7 +5517,7 @@ aama:IDc8cc6d64-40f8-4d67-9d1c-6b252f8e6e4a a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID75f31bc8-58d7-4204-86c9-2e1de4a7b539 a aamas:Term ;
+aama:IDd1c88b73-07f6-4d20-b5a4-d19117c57766 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5552,7 +5530,7 @@ aama:ID75f31bc8-58d7-4204-86c9-2e1de4a7b539 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID07542ec6-957a-4410-90c0-77e7ada0ca97 a aamas:Term ;
+aama:ID065da305-e67f-45f7-b7bb-2d88b179f279 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5565,7 +5543,7 @@ aama:ID07542ec6-957a-4410-90c0-77e7ada0ca97 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID18ba985f-088f-4535-857a-26261878a041 a aamas:Term ;
+aama:ID308cbf71-8c1c-4afa-8801-5c5b2e902e8f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5578,7 +5556,7 @@ aama:ID18ba985f-088f-4535-857a-26261878a041 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID9acaf46f-7ce6-4144-9149-8e4d69701698 a aamas:Term ;
+aama:IDd3de9b86-94b4-4a65-af04-e7e5f2064969 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5591,7 +5569,7 @@ aama:ID9acaf46f-7ce6-4144-9149-8e4d69701698 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID00dfda3f-99fb-4141-bd73-3bce73425c14 a aamas:Term ;
+aama:ID94a1c4fd-c95a-47ac-b592-e44b2ab52f54 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5604,7 +5582,7 @@ aama:ID00dfda3f-99fb-4141-bd73-3bce73425c14 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDdede3063-dc27-4f07-8aac-dd95b35965c8 a aamas:Term ;
+aama:ID7a0507da-60de-4482-9f5b-40ab4b390c14 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegJussive-fay ;
 	aamas:lexeme aama:Kemant-fay ;
@@ -5624,7 +5602,7 @@ kem:kemant-VNegA-subordinate-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:IDc36d5fe4-0458-4dae-b5cd-46d70e03d055 a aamas:Term ;
+aama:IDa4558dff-7fd9-48ab-bba0-063c2680d73f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5637,7 +5615,7 @@ aama:IDc36d5fe4-0458-4dae-b5cd-46d70e03d055 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDbc860c4b-f111-4686-bf5c-4c9f23466e02 a aamas:Term ;
+aama:ID3eaab5f9-35a8-45f2-97e9-e77489efd527 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5650,7 +5628,7 @@ aama:IDbc860c4b-f111-4686-bf5c-4c9f23466e02 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDc4b50ba9-f9d0-4403-b614-d52b1be3ee8b a aamas:Term ;
+aama:ID96c2b44f-63ed-4790-ab90-8d71341443f8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5663,7 +5641,7 @@ aama:IDc4b50ba9-f9d0-4403-b614-d52b1be3ee8b a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID780568a7-c0c6-4537-a8af-fc693f700f17 a aamas:Term ;
+aama:ID15124f73-fd70-48d8-9928-6e4fbc4d4896 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5676,7 +5654,7 @@ aama:ID780568a7-c0c6-4537-a8af-fc693f700f17 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDf7e80f26-af3c-40d8-87f0-0188bcc4bfad a aamas:Term ;
+aama:ID5a8a2ce6-43cb-4c5e-8804-dfbb29ba484b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5689,7 +5667,7 @@ aama:IDf7e80f26-af3c-40d8-87f0-0188bcc4bfad a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID4f9f8cb3-41c8-42c3-987b-03d7eba8c3b8 a aamas:Term ;
+aama:IDc597ecd7-d0c5-453e-b6f9-ea3c65b43b27 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5702,7 +5680,7 @@ aama:ID4f9f8cb3-41c8-42c3-987b-03d7eba8c3b8 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd721d66c-13a4-4fc3-8e9e-5387ff5a10ae a aamas:Term ;
+aama:ID98ea19b6-90c1-4315-88ed-976944aa92c1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegA-subordinate-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5722,7 +5700,7 @@ kem:kemant-VAffJussive2-was a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID7bea43ed-46bb-4f4c-9a88-4bd49c64248b a aamas:Term ;
+aama:IDeac6fceb-3901-44ac-856a-7a36d24a2f76 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive2-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5735,7 +5713,7 @@ aama:ID7bea43ed-46bb-4f4c-9a88-4bd49c64248b a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDeab7cf86-18dc-4124-878a-56d1123af102 a aamas:Term ;
+aama:ID84d604f1-9a43-4175-9969-0d8a831b9564 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive2-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5748,7 +5726,7 @@ aama:IDeab7cf86-18dc-4124-878a-56d1123af102 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDf75d6437-b6dd-430c-898c-0604a4bf1714 a aamas:Term ;
+aama:ID1cb0f1e7-7e48-4053-bbce-d64d3787b44d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJussive2-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5768,7 +5746,7 @@ kem:kemant-VAffJuss-was a aamas:Termcluster ;
 	rdfs:comment "" 
 	.
 
-aama:ID80fa6a61-a95b-45c1-8776-4df97e2224ed a aamas:Term ;
+aama:IDbb598da9-0829-4987-bf00-3881708a7fd1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJuss-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5781,7 +5759,7 @@ aama:ID80fa6a61-a95b-45c1-8776-4df97e2224ed a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDa65e0f69-1ad7-4174-a490-39141887ab42 a aamas:Term ;
+aama:ID359107aa-f25f-45c7-b317-e8ac92a13eda a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJuss-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5794,7 +5772,7 @@ aama:IDa65e0f69-1ad7-4174-a490-39141887ab42 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDdfa2a4db-c180-44f6-a453-c66dab43f876 a aamas:Term ;
+aama:ID27087f6d-faab-48fe-ac20-6375a0f526eb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJuss-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5807,7 +5785,7 @@ aama:IDdfa2a4db-c180-44f6-a453-c66dab43f876 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID069a4ccc-92f9-4c5a-bf65-a3e00d6726f9 a aamas:Term ;
+aama:ID8ab0f3cc-5e2d-4c54-9317-d0e2f6ba2858 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJuss-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5820,7 +5798,7 @@ aama:ID069a4ccc-92f9-4c5a-bf65-a3e00d6726f9 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDcb0983ac-1f9c-4408-a593-ab877f48b05a a aamas:Term ;
+aama:ID67804840-26aa-4203-85e1-b2dcd6b7107f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJuss-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5833,7 +5811,7 @@ aama:IDcb0983ac-1f9c-4408-a593-ab877f48b05a a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID7c8107ca-d5ce-4673-b700-b92527939996 a aamas:Term ;
+aama:ID3395ea43-c41d-4d91-93f6-bb633b7619e1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJuss-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5846,7 +5824,7 @@ aama:ID7c8107ca-d5ce-4673-b700-b92527939996 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID36425289-d30d-476c-9953-f54a1c2292cd a aamas:Term ;
+aama:ID26925a91-6ec9-4eb1-b7ae-347da7756931 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VAffJuss-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5866,7 +5844,7 @@ kem:kemant-VNegImperfective-xw a aamas:Termcluster ;
 	rdfs:comment "Appleyard1975" 
 	.
 
-aama:ID987092ce-f7a2-4648-9017-d571903cdc1a a aamas:Term ;
+aama:ID224bee3d-6633-4aa8-bd05-de25f04284c6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5879,7 +5857,7 @@ aama:ID987092ce-f7a2-4648-9017-d571903cdc1a a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDb677b311-42df-48cc-8ec4-e2ac61522aca a aamas:Term ;
+aama:IDf750e34a-be3b-4585-81aa-aa9556cb4c5a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5892,7 +5870,7 @@ aama:IDb677b311-42df-48cc-8ec4-e2ac61522aca a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4268a2ae-aeb7-4aab-b896-c9ba553a7e22 a aamas:Term ;
+aama:ID0437ee4a-a79a-4e5d-a4b4-8b9829959835 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5905,7 +5883,7 @@ aama:ID4268a2ae-aeb7-4aab-b896-c9ba553a7e22 a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID1b9c3288-c044-422d-a029-f978202b0fd2 a aamas:Term ;
+aama:IDa85e9fa6-b28a-462b-93e9-4ca87fd1103c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5918,7 +5896,7 @@ aama:ID1b9c3288-c044-422d-a029-f978202b0fd2 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDf5c3a6d1-eac1-453f-bc50-1dede49547bd a aamas:Term ;
+aama:ID9644b7e3-9a80-4670-9dbd-9e22c7256ebc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5931,7 +5909,7 @@ aama:IDf5c3a6d1-eac1-453f-bc50-1dede49547bd a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID71a38b3a-262c-4a54-855e-fbbf229a6520 a aamas:Term ;
+aama:ID604989f8-c197-4f12-a6be-ca8c88df4fc5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5944,7 +5922,7 @@ aama:ID71a38b3a-262c-4a54-855e-fbbf229a6520 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID00065cdb-2f99-431b-8974-34a5c3dcd863 a aamas:Term ;
+aama:ID42eb25b7-7cb9-4da6-9758-17c596ad8cb0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VNegImperfective-xw ;
 	aamas:lexeme aama:Kemant-xw ;
@@ -5968,7 +5946,7 @@ kem:kemant-VPerfComp-was a aamas:Termcluster ;
             is often deleted." 
 	.
 
-aama:ID33bf7238-da9f-47bb-bd38-a2cf771b8484 a aamas:Term ;
+aama:IDc1da1389-0d4c-4df9-be6d-e50176bb9fff a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5980,7 +5958,7 @@ aama:ID33bf7238-da9f-47bb-bd38-a2cf771b8484 a aamas:Term ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDb435406e-ff07-476d-b024-beea441de709 a aamas:Term ;
+aama:ID607be022-e73b-49a8-ae79-9128435f8a86 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -5992,7 +5970,7 @@ aama:IDb435406e-ff07-476d-b024-beea441de709 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID1d32e5a6-a33e-4c02-adb6-0bd2aa89a30f a aamas:Term ;
+aama:IDc53ac960-a5f4-44c9-80f0-df4914f59bf5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -6004,7 +5982,7 @@ aama:ID1d32e5a6-a33e-4c02-adb6-0bd2aa89a30f a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID06e95231-30c6-4446-86bb-97745649c51d a aamas:Term ;
+aama:ID69500452-9c32-4f4d-9ef1-040b17a98f58 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -6016,7 +5994,7 @@ aama:ID06e95231-30c6-4446-86bb-97745649c51d a aamas:Term ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID969ab201-c737-40e0-89ff-90e286cd40fb a aamas:Term ;
+aama:ID0d8293d3-4188-482a-9e43-a56c2eefc583 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -6028,7 +6006,7 @@ aama:ID969ab201-c737-40e0-89ff-90e286cd40fb a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID3b47627e-ce7f-4ceb-990a-0d024d9d5455 a aamas:Term ;
+aama:ID27754a86-e29c-414f-805b-c3dddb610dbf a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -6040,7 +6018,7 @@ aama:ID3b47627e-ce7f-4ceb-990a-0d024d9d5455 a aamas:Term ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9e428600-4727-4488-9ac7-b288144cafe2 a aamas:Term ;
+aama:IDdb7ab129-ae02-490e-9690-440acf57813b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kemant-VPerfComp-was ;
 	aamas:lexeme aama:Kemant-was ;
@@ -6059,7 +6037,7 @@ kem:kemant-PInd a aamas:MuTermcluster ;
 	rdfs:comment "Appleyard1975 p. 320" 
 	.
 
-aama:ID9e65d2b5-2dc1-49df-9be8-e2bd54399c14 a aamas:Muterm ;
+aama:ID97ddb500-c923-42ca-a88b-263fa9e85d87 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6071,7 +6049,7 @@ aama:ID9e65d2b5-2dc1-49df-9be8-e2bd54399c14 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID03f8954f-85e0-4585-ad55-9de589d81fbc a aamas:Muterm ;
+aama:IDce9bd603-ba55-46d9-9b86-411d02141665 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6083,7 +6061,7 @@ aama:ID03f8954f-85e0-4585-ad55-9de589d81fbc a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID588bec7e-6608-4353-a3b2-79f246a33a22 a aamas:Muterm ;
+aama:ID069f0747-80ec-4c85-95fe-1c4b5ab7321f a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6095,7 +6073,7 @@ aama:ID588bec7e-6608-4353-a3b2-79f246a33a22 a aamas:Muterm ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID89bbee6d-c1f6-49db-9704-3d511830efbb a aamas:Muterm ;
+aama:ID6a7144d7-6b14-4d5f-b891-d70ee657e978 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6107,7 +6085,7 @@ aama:ID89bbee6d-c1f6-49db-9704-3d511830efbb a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDd487cc6a-7e12-4ed5-810e-8d94ee23b456 a aamas:Muterm ;
+aama:ID9cbbd12a-e45e-45ed-ae58-2976d0bab0dc a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6119,7 +6097,7 @@ aama:IDd487cc6a-7e12-4ed5-810e-8d94ee23b456 a aamas:Muterm ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID884d38da-457d-418f-82f5-4a3a24cb7f74 a aamas:Muterm ;
+aama:ID20c3aa60-f31b-4301-b224-53735da70c38 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6131,7 +6109,7 @@ aama:ID884d38da-457d-418f-82f5-4a3a24cb7f74 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDa5aaa0a0-0b01-41c1-8844-ae2a86a0989b a aamas:Muterm ;
+aama:ID7d87ec9b-65cb-44bc-b505-b9191162a901 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6143,7 +6121,7 @@ aama:IDa5aaa0a0-0b01-41c1-8844-ae2a86a0989b a aamas:Muterm ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID8ff61a79-1c23-4603-8615-40e689a6511b a aamas:Muterm ;
+aama:IDdb904942-0f3d-40c5-afea-32f0b2f1e733 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6155,7 +6133,7 @@ aama:ID8ff61a79-1c23-4603-8615-40e689a6511b a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc178d136-9040-484d-8585-51005ff7869a a aamas:Muterm ;
+aama:IDbbc23a88-c8aa-40a8-b043-7f170dd1857b a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6167,7 +6145,7 @@ aama:IDc178d136-9040-484d-8585-51005ff7869a a aamas:Muterm ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID6a23fc2d-0b65-465a-a748-4baba80bea32 a aamas:Muterm ;
+aama:ID391c3fb3-acd1-4c6c-830c-50e6133e4d37 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6179,7 +6157,7 @@ aama:ID6a23fc2d-0b65-465a-a748-4baba80bea32 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9f0c0355-e8c9-4268-89b8-57e46218faf4 a aamas:Muterm ;
+aama:IDf1ba0e5a-1877-45bd-bfa8-af097ca97a8e a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6191,7 +6169,7 @@ aama:ID9f0c0355-e8c9-4268-89b8-57e46218faf4 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDbabd0415-f185-45f7-88b1-b1c1c06c8058 a aamas:Muterm ;
+aama:ID21225265-a8ae-40af-b60d-d27eecba77cc a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6203,7 +6181,7 @@ aama:IDbabd0415-f185-45f7-88b1-b1c1c06c8058 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID36942a25-ea41-4f27-9fa0-d22ae73da5ca a aamas:Muterm ;
+aama:ID85976936-ae5e-47ce-8d31-eb0148eb07d1 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6215,7 +6193,7 @@ aama:ID36942a25-ea41-4f27-9fa0-d22ae73da5ca a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDef68b9b8-fd03-42f3-b6b5-1e64806809d3 a aamas:Muterm ;
+aama:IDacfb1ccd-8083-4a0e-b5ca-e757cdaac73f a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-PInd ;
 	aamas:morpheme aama:Kemant-PRO ;
 	kem:pos kem:Pronoun ;
@@ -6227,109 +6205,191 @@ aama:IDef68b9b8-fd03-42f3-b6b5-1e64806809d3 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-#MUTERMCLUSTER:  kemant-VBe
+#MUTERMCLUSTER:  kemant-NCardinalNumeral
 
-kem:kemant-VBe a aamas:MuTermcluster ;
-	rdfs:label "kemant-VBe" ;
-	rdfs:comment "Appleyard1975 7.8" 
+kem:kemant-NCardinalNumeral a aamas:MuTermcluster ;
+	rdfs:label "kemant-NCardinalNumeral" ;
+	rdfs:comment "Appleyard1975 p. 329" 
 	.
 
-aama:ID99919fb1-4492-477f-bf8f-15d1c2928cfd a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
-	aamas:morpheme aama:Kemant-COPULA ;
-	kem:pdgmSubType kem:Copula ;
-	kem:polarity kem:Affirmative ;
-	kem:pos kem:Verb ;
-	kem:token "gagənir ~  gəyagənir" ;
-	kem:token-2 "gəyagənir" ;
-	kem:token-1 "gagənir" ;
-	kem:person kem:Person1 ;
-	kem:number kem:Plural ;
-	kem:gender kem:Common ;
+aama:ID9983c82a-0f13-452f-bf5a-394457924bd4 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "5" ;
+	kem:token "ankʷa" ;
 	.
 
-aama:IDa4247dcf-a8cf-4f4e-9ea1-3a194e6ec0c5 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
-	aamas:morpheme aama:Kemant-COPULA ;
-	kem:pdgmSubType kem:Copula ;
-	kem:polarity kem:Affirmative ;
-	kem:pos kem:Verb ;
-	kem:token "gagir ~  gəyagir" ;
-	kem:token-2 "gəyagir" ;
-	kem:token-1 "gagir" ;
-	kem:person kem:Person1 ;
-	kem:number kem:Singular ;
-	kem:gender kem:Common ;
+aama:ID86e43557-eb8c-4be0-9f22-f20292e97395 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "7" ;
+	kem:token "läŋäta" ;
 	.
 
-aama:IDe7efc960-c05b-4c64-8adb-0380fe87900e a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
-	aamas:morpheme aama:Kemant-COPULA ;
-	kem:pdgmSubType kem:Copula ;
-	kem:polarity kem:Affirmative ;
-	kem:pos kem:Verb ;
-	kem:token "gagäw ~  gəyagäw" ;
-	kem:token-2 "gəyagäw" ;
-	kem:token-1 "gagäw" ;
-	kem:person kem:Person3 ;
-	kem:number kem:Plural ;
-	kem:gender kem:Common ;
+aama:IDb2eb6e71-cfe5-47b9-b6ea-e20bba5d145e a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "4" ;
+	kem:token "säjja" ;
 	.
 
-aama:ID01e9a579-3e45-408d-a550-de8282cc505a a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
-	aamas:morpheme aama:Kemant-COPULA ;
-	kem:pdgmSubType kem:Copula ;
-	kem:polarity kem:Affirmative ;
-	kem:pos kem:Verb ;
-	kem:token "gakäy ~  gəyakäy" ;
-	kem:token-2 "gəyakäy" ;
-	kem:token-1 "gakäy" ;
-	kem:person kem:Person3 ;
-	kem:number kem:Singular ;
-	kem:gender kem:Fem ;
+aama:ID6654e7bb-b521-4128-97b9-2301bab5ae80 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "70" ;
+	kem:token "läŋätiŋ" ;
 	.
 
-aama:IDec37eef9-9b8c-4e06-a780-2d121e44268a a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
-	aamas:morpheme aama:Kemant-COPULA ;
-	kem:pdgmSubType kem:Copula ;
-	kem:polarity kem:Affirmative ;
-	kem:pos kem:Verb ;
-	kem:token "gakar ~  gəyakar" ;
-	kem:token-2 "gəyakar" ;
-	kem:token-1 "gakar" ;
-	kem:person kem:Person2 ;
-	kem:number kem:Singular ;
-	kem:gender kem:Common ;
+aama:ID11208ee5-bdcf-47a6-8d10-db7e18ac0d31 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "30" ;
+	kem:token "säɣʷäyəŋ" ;
 	.
 
-aama:ID12a84f9e-0909-4ac4-97da-83f01cfaa87b a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
-	aamas:morpheme aama:Kemant-COPULA ;
-	kem:pdgmSubType kem:Copula ;
-	kem:polarity kem:Affirmative ;
-	kem:pos kem:Verb ;
-	kem:token "gaga ~  gəyaga" ;
-	kem:token-2 "gəyaga" ;
-	kem:token-1 "gaga" ;
-	kem:person kem:Person3 ;
-	kem:number kem:Singular ;
-	kem:gender kem:Masc ;
+aama:ID85f46f45-1c91-490c-8097-ff497f254a88 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "60" ;
+	kem:token "wältiŋ" ;
 	.
 
-aama:IDb5ebe075-dbcf-4f8e-8d73-9644cb44321b a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
-	aamas:morpheme aama:Kemant-COPULA ;
-	kem:pdgmSubType kem:Copula ;
-	kem:polarity kem:Affirmative ;
-	kem:pos kem:Verb ;
-	kem:token "gakänar ~  gəyakänar" ;
-	kem:token-2 "gəyakänar" ;
-	kem:token-1 "gakänar" ;
-	kem:person kem:Person2 ;
-	kem:number kem:Plural ;
-	kem:gender kem:Common ;
+aama:ID9e89a75f-f053-42fd-94e9-b6f04eccff05 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "1000" ;
+	kem:token "s̆i" ;
+	.
+
+aama:ID506a541b-6202-45c6-bcb8-b2ee8ec948ba a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "80" ;
+	kem:token "säɣʷätiŋ" ;
+	.
+
+aama:ID5f0b045e-0bb1-4c8c-9f09-77878e972e5f a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "8" ;
+	kem:token "säɣʷäta" ;
+	.
+
+aama:ID2fe532d5-82a5-4d56-ac55-628be20884e2 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "p3" ;
+	kem:token "siɣʷa" ;
+	.
+
+aama:IDf47df194-1913-4ef7-9992-023370be26ca a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "50" ;
+	kem:token "ankʷiŋ" ;
+	.
+
+aama:ID06d9ae1c-67cd-4150-893f-beecbc8785e3 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "90" ;
+	kem:token "sässiŋ" ;
+	.
+
+aama:ID448750c6-5827-473b-a678-4213cf993db4 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "9" ;
+	kem:token "sässa" ;
+	.
+
+aama:IDe6bb7c84-8ee0-42bc-bec7-820c2581901e a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "20" ;
+	kem:token "läŋayəŋ̈" ;
+	.
+
+aama:ID5ff39680-2320-48d5-a911-a09fc7e58948 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "10" ;
+	kem:token "s̆əka" ;
+	.
+
+aama:IDb002a10c-cf55-41fc-b1d4-645b7406dfff a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "p2" ;
+	kem:token "liŋa" ;
+	.
+
+aama:ID6863ba6d-2634-4a16-9c47-6da0fe969370 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "40" ;
+	kem:token "arba" ;
+	.
+
+aama:ID01d38034-23fe-4863-a9bb-bedcde5071b4 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "100" ;
+	kem:token "liɣ" ;
+	.
+
+aama:IDa9b67a03-fe3d-4df7-8285-d64e8851a453 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "p1" ;
+	kem:token "laɣʷa / laɣa / la" ;
+	.
+
+aama:IDff7dd6fe-3678-440b-8627-ae69f952434f a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
+	aamas:morpheme aama:Kemant-CARDINALNUM ;
+	kem:nounClass kem:CardinalNumeral ;
+	kem:pos kem:Noun ;
+	kem:token-note "6" ;
+	kem:token "wälta" ;
 	.
 
 #MUTERMCLUSTER:  kemant-VSubjMarker
@@ -6339,7 +6399,7 @@ kem:kemant-VSubjMarker a aamas:MuTermcluster ;
 	rdfs:comment "Appleyard1975 7.2" 
 	.
 
-aama:IDc0228941-2404-4ddc-b462-bac26f069b3e a aamas:Muterm ;
+aama:ID992b4b9c-3b2b-4e2a-bddb-8d4785d2c058 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6352,7 +6412,7 @@ aama:IDc0228941-2404-4ddc-b462-bac26f069b3e a aamas:Muterm ;
 	kem:gender kem:Fem ;
 	.
 
-aama:IDa05529ea-8b97-4244-892e-c7435f0c7166 a aamas:Muterm ;
+aama:IDba78b4dc-325e-4423-95d3-8beedebc2fac a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6365,7 +6425,7 @@ aama:IDa05529ea-8b97-4244-892e-c7435f0c7166 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID6e3bcdea-7db1-4830-8992-e9827275f83a a aamas:Muterm ;
+aama:ID69932622-04de-46b6-a3f8-3f420a5d9ac3 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6378,7 +6438,7 @@ aama:ID6e3bcdea-7db1-4830-8992-e9827275f83a a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDc9100837-72b9-4b96-a62a-7e9d2b6f3eb2 a aamas:Muterm ;
+aama:ID24bb7b86-f16e-479b-a4f7-01568c4f46ab a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6391,7 +6451,7 @@ aama:IDc9100837-72b9-4b96-a62a-7e9d2b6f3eb2 a aamas:Muterm ;
 	kem:gender kem:Masc ;
 	.
 
-aama:ID83c66428-dc49-49a6-beb2-e7e97a16258a a aamas:Muterm ;
+aama:ID686bf924-05bd-42b4-a789-4e5ba07df86a a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6404,7 +6464,7 @@ aama:ID83c66428-dc49-49a6-beb2-e7e97a16258a a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe65b4695-fefd-4a05-9874-c145b6203871 a aamas:Muterm ;
+aama:IDff0e09f8-15b2-4d73-8b9d-a27c85639727 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6417,7 +6477,7 @@ aama:IDe65b4695-fefd-4a05-9874-c145b6203871 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID71262fc2-a1a3-403f-9883-337aac7d712c a aamas:Muterm ;
+aama:IDadb40da8-643a-4e7a-8afa-d13437a63670 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6430,7 +6490,7 @@ aama:ID71262fc2-a1a3-403f-9883-337aac7d712c a aamas:Muterm ;
 	kem:gender kem:Masc ;
 	.
 
-aama:IDa0d9cf16-733e-4462-a8bb-87b2f3395d6f a aamas:Muterm ;
+aama:ID5c9fa268-9b7a-4319-be31-b4a09aa48d94 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6443,7 +6503,7 @@ aama:IDa0d9cf16-733e-4462-a8bb-87b2f3395d6f a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID9620d376-9751-4e88-b77e-04fb17ac19de a aamas:Muterm ;
+aama:ID832a25ff-1b6d-4f06-ab5b-f9c5903b0d2b a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6456,7 +6516,7 @@ aama:ID9620d376-9751-4e88-b77e-04fb17ac19de a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4110dbb2-5796-4488-a5f9-0f576aa89b93 a aamas:Muterm ;
+aama:ID35ab70ae-ce7c-4046-9492-73f28d439103 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6469,7 +6529,7 @@ aama:ID4110dbb2-5796-4488-a5f9-0f576aa89b93 a aamas:Muterm ;
 	kem:gender kem:Fem ;
 	.
 
-aama:ID703d1bfc-7978-4ed0-b185-d717bf5aed61 a aamas:Muterm ;
+aama:IDe9b49793-545a-4d9d-81a3-a3d52d4866f7 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6482,7 +6542,7 @@ aama:ID703d1bfc-7978-4ed0-b185-d717bf5aed61 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID474c2cc9-4745-4d01-be8e-7d304a5397a2 a aamas:Muterm ;
+aama:IDb36dfd0e-0c47-4aa7-a80d-12dc153d1409 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6495,7 +6555,7 @@ aama:ID474c2cc9-4745-4d01-be8e-7d304a5397a2 a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:IDe87a11db-a9b1-4bea-aca1-3e5337e5507e a aamas:Muterm ;
+aama:ID09a46114-14b8-44b5-9c3b-aa37fe05fe75 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6508,7 +6568,7 @@ aama:IDe87a11db-a9b1-4bea-aca1-3e5337e5507e a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-aama:ID4dfa77f2-b08a-4e60-800a-f9b2af357c0a a aamas:Muterm ;
+aama:ID217659f0-0f80-4348-ac62-1b8f27adb2a7 a aamas:Muterm ;
 	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VSubjMarker ;
 	aamas:morpheme aama:Kemant-SUBJMARK ;
 	kem:pdgmSubType kem:SubjMarker ;
@@ -6521,189 +6581,100 @@ aama:ID4dfa77f2-b08a-4e60-800a-f9b2af357c0a a aamas:Muterm ;
 	kem:gender kem:Common ;
 	.
 
-#MUTERMCLUSTER:  kemant-NCardinalNumeral
+#MUTERMCLUSTER:  kemant-VBe
 
-kem:kemant-NCardinalNumeral a aamas:MuTermcluster ;
-	rdfs:label "kemant-NCardinalNumeral" ;
-	rdfs:comment "Appleyard1975 p. 329" 
+kem:kemant-VBe a aamas:MuTermcluster ;
+	rdfs:label "kemant-VBe" ;
+	rdfs:comment "Appleyard1975 7.8" 
 	.
 
-aama:IDea297ee2-d87d-4b3c-908c-5a91c00db8a6 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "5" ;
-	kem:token "ankʷa" ;
+aama:ID587f5d5e-e1e0-4bf6-9a10-91594ff0a124 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gagənir ~  gəyagənir" ;
+	kem:token-note "gagənir + gəyagənir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
 	.
 
-aama:IDd1053ba3-a0e4-4400-84f6-f3a26af28f35 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "7" ;
-	kem:token "läŋäta" ;
+aama:IDacd9f427-efa2-4e26-ac16-e163b9f827fa a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gagir ~  gəyagir" ;
+	kem:token-note "gagir + gəyagir" ;
+	kem:person kem:Person1 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
 	.
 
-aama:ID3c72890e-7ef6-42c6-85a9-66a2809ba0fe a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "4" ;
-	kem:token "säjja" ;
+aama:IDfe82e285-6f36-45b6-b567-d8adbf123131 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gagäw ~  gəyagäw" ;
+	kem:token-note "gagäw + gəyagäw" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
 	.
 
-aama:IDb9678127-b34e-47e1-ae95-f67c623be4b1 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "70" ;
-	kem:token "läŋätiŋ" ;
+aama:IDd5ea2326-1c50-4973-8194-922839f78db3 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gakäy ~  gəyakäy" ;
+	kem:token-note "gakäy + gəyakäy" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Fem ;
 	.
 
-aama:IDd6430765-630f-4e0e-95eb-efc30d60f689 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "30" ;
-	kem:token "säɣʷäyəŋ" ;
+aama:ID574936ea-1d62-4df6-a0be-8b1ad3afa0be a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gakar ~  gəyakar" ;
+	kem:token-note "gakar + gəyakar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Common ;
 	.
 
-aama:ID2358b29b-88ca-4231-b8ca-9322d0dc0ea1 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "60" ;
-	kem:token "wältiŋ" ;
+aama:IDaf93ae23-e050-463c-b676-bec4fe56d318 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gaga ~  gəyaga" ;
+	kem:token-note "gaga + gəyaga" ;
+	kem:person kem:Person3 ;
+	kem:number kem:Singular ;
+	kem:gender kem:Masc ;
 	.
 
-aama:ID7bee6be2-1037-4266-b0bd-275faff179f5 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "1000" ;
-	kem:token "s̆i" ;
-	.
-
-aama:ID295bf30e-f705-48a4-8039-5f7c98690641 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "80" ;
-	kem:token "säɣʷätiŋ" ;
-	.
-
-aama:ID5139bb3a-2195-48ab-b426-598f3e79b924 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "8" ;
-	kem:token "säɣʷäta" ;
-	.
-
-aama:IDc59e8aa6-83d9-4452-ad73-1644556f25c9 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "p3" ;
-	kem:token "siɣʷa" ;
-	.
-
-aama:IDffe7a02d-d66a-476a-ac0d-5e12b2e8e44a a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "50" ;
-	kem:token "ankʷiŋ" ;
-	.
-
-aama:ID30f228d9-6685-4c7f-9b8d-a00f69669935 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "90" ;
-	kem:token "sässiŋ" ;
-	.
-
-aama:IDb5e8cdbf-5ae5-400d-947f-2c26e96b552e a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "9" ;
-	kem:token "sässa" ;
-	.
-
-aama:ID0b3ca608-3b40-49b5-828c-a6eab201c722 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "20" ;
-	kem:token "läŋayəŋ̈" ;
-	.
-
-aama:IDfb30f3c3-a008-4d73-b643-699abe1b0769 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "10" ;
-	kem:token "s̆əka" ;
-	.
-
-aama:ID60e88f00-5ae3-4375-9ff6-a0367d476b01 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "p2" ;
-	kem:token "liŋa" ;
-	.
-
-aama:ID6b7dafc3-e8ed-4c8d-986d-e2bd5ab930fa a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "40" ;
-	kem:token "arba" ;
-	.
-
-aama:ID0264e470-4969-4b59-a8a4-55b096136830 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "100" ;
-	kem:token "liɣ" ;
-	.
-
-aama:IDfb4fa6a3-bfb3-44dc-9377-20c4caa84444 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "p1" ;
-	kem:token "laɣʷa / laɣa / la" ;
-	.
-
-aama:ID011e8af1-f28b-4e22-89d1-5fc7125683f7 a aamas:Muterm ;
-	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-NCardinalNumeral ;
-	aamas:morpheme aama:Kemant-CARDINALNUM ;
-	kem:nounClass kem:CardinalNumeral ;
-	kem:pos kem:Noun ;
-	kem:token-numGloss "6" ;
-	kem:token "wälta" ;
+aama:ID64679b45-4b51-45a4-9d3c-95ade84f8339 a aamas:Muterm ;
+	aamas:lang aama:Kemant ;	aamas:memberOf kem:kemant-VBe ;
+	aamas:morpheme aama:Kemant-COPULA ;
+	kem:pdgmSubType kem:Copula ;
+	kem:polarity kem:Affirmative ;
+	kem:pos kem:Verb ;
+	kem:token "gakänar ~  gəyakänar" ;
+	kem:token-note "gakänar + gəyakänar" ;
+	kem:person kem:Person2 ;
+	kem:number kem:Plural ;
+	kem:gender kem:Common ;
 	.
