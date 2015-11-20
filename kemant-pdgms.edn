@@ -10,10 +10,10 @@
 	  :finiteForm [:AgentNoun, :Infinitive]
 	  :formType [:Affix]
 	  :gender [:Common, :Fem, :Masc]
-	  :genderHeadRel [:Common, :Fem, :Masc]
-	  :morphClass [:AGENTNOUN, :Bilin-KemantRel, :DERVSTEM, :INFINITIVE, :VERBINTERROGATIVE, :CardinalNumeral]
+	  :genderHead [:HeadCommon, :HeadFem, :HeadMasc]
+	  :morphClass [:AGENTNOUN, :BilinKemantRel, :DERVSTEM, :INFINITIVE, :VERBINTERROGATIVE, :CardinalNumeral]
 	  :nounClass [:CardinalNumeral]
-	  :numHeadRel [:Plural, :Singular]
+	  :numHead [:HeadPlural, :HeadSingular]
 	  :number [:Plural, :Singular]
 	  :pdgmSubType [:Copula, :DervStem, :FiniteVerb, :Interrogative, :SubjMarker]
 	  :pdgmType [:Comparative, :Exemplary]
@@ -22,9 +22,15 @@
 	  :pos [:Noun, :Pronoun, :Verb]
 	  :proClass [:Independent]
 	  :proSet [:ProSetA, :ProSetB]
-	  :tam [:CompSubordinate, :D-subordinate, :Gerund, :Imperative, :Imperfective, :Jussive, :Jussive2, :N-subordinate, :Perfective, :PerfectiveComp, :RelativeOblique, :RelativeSubject, :a-subordinate]
+	  :tam [:CompSubordinate, :DSubordinate, :Gerund, :Imperative, :Imperfective, :Jussive, :Jussive2, :NSubordinate, :Perfective, :PerfectiveComp, :RelativeOblique, :RelativeSubject, :ASubordinate]
 	  :vSubjectSet [:VSubjSetA, :VSubjSetB]
 	  }
+:pclass {
+           :pngClass [:person :number :gender :genderHead :numHead :proSet :vSubjectSet ]
+           :synsemClass [:aspect :derivedStem :finiteForm :polarity :pos :proClass :tam :tenseName ]
+           :inflClass [ ]
+           :otherClass [ ]
+          }
 :morphemes {
   :CARDINALNUM {:gloss "Cardinal Numeral", :pos :Noun}
   :COPULA {:gloss "Copula Verb", :pos :Verb}
@@ -44,7 +50,7 @@
     :common {:lexeme :xw,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :a-subordinate}
+	    :tam :ASubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "fäyka"],
 	    [:Masc, :Singular, :Person3, "fäyga"],
@@ -88,7 +94,7 @@
     :common {:lexeme :was,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :a-subordinate}
+	    :tam :ASubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "was(ə)na"],
 	    [:Common, :Plural, :Person2, "wasina"],
@@ -152,10 +158,10 @@
 	    [:Fem, :Singular, "wasin?"],
 	    [:Common, :Plural, "wasənin"]]
     }
-    {:label "kemant-VBilin-KemantRel"
+    {:label "kemant-VBilinKemantRel"
     :note "Appleyard1975 pp. 338-339"
     :common {:pdgmType :Comparative,
-	    :morphClass :Bilin-KemantRel,
+	    :morphClass :BilinKemantRel,
 	    :pos :Verb}
     :terms [[:aspect, :gender, :lang, :lexeme, :number, :person, :tam, :token]  ;; schema
 	    [:Imperfective, :Common, :Kemant, :was, :Plural, :Person2, :RelativeSubject, "wasinaɣər"],
@@ -196,7 +202,7 @@
     :common {:lexeme :fay,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :N-subordinate}
+	    :tam :NSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person2, "fäyäkän"],
 	    [:Fem, :Singular, :Person3, "fäyäkän"],
@@ -226,7 +232,7 @@
     :common {:lexeme :fay,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :N-subordinate}
+	    :tam :NSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "fätän"],
 	    [:Common, :Plural, :Person3, "fäyänän"],
@@ -299,7 +305,7 @@
     :common {:lexeme :was,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :D-subordinate}
+	    :tam :DSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "wasnäd"],
 	    [:Common, :Singular, :Person1, "wasde"],
@@ -361,28 +367,28 @@
     :common {:lexeme :was,
 	    :pos :Verb,
 	    :tam :RelativeOblique}
-    :terms [[:gender, :genderHeadRel, :numHeadRel, :number, :person, :token]  ;; schema
-	    [:Common, :Masc, :Singular, :Singular, :Person2, "wasyaɣ"],
-	    [:Fem, :Masc, :Singular, :Singular, :Person3, "wasyaɣ"],
-	    [:Masc, :Masc, :Singular, :Singular, :Person3, "wasaɣ"],
-	    [:Masc, :Common, :Plural, :Singular, :Person3, "wasäw"],
-	    [:Common, :Common, :Plural, :Plural, :Person3, "wasänäw"],
-	    [:Common, :Fem, :Singular, :Plural, :Person3, "wasänäy"],
-	    [:Common, :Common, :Plural, :Singular, :Person1, "wasäw"],
-	    [:Common, :Masc, :Singular, :Plural, :Person2, "wasyänaɣ"],
-	    [:Common, :Masc, :Singular, :Singular, :Person1, "wasaɣ"],
-	    [:Common, :Fem, :Singular, :Singular, :Person1, "wasäy"],
-	    [:Common, :Masc, :Singular, :Plural, :Person3, "wasänaɣ"],
-	    [:Fem, :Fem, :Singular, :Singular, :Person3, "wasyäy"],
-	    [:Common, :Fem, :Singular, :Plural, :Person2, "wasyänäy"],
-	    [:Masc, :Fem, :Singular, :Singular, :Person3, "wasäy"],
-	    [:Common, :Common, :Plural, :Singular, :Person2, "wasyäw"],
-	    [:Common, :Fem, :Singular, :Plural, :Person1, "wasnäy"],
-	    [:Common, :Fem, :Singular, :Singular, :Person2, "wasyäy"],
-	    [:Common, :Common, :Plural, :Plural, :Person1, "wasnäw"],
-	    [:Common, :Masc, :Singular, :Plural, :Person1, "wasnaɣ"],
-	    [:Fem, :Common, :Plural, :Singular, :Person3, "wasyäw"],
-	    [:Common, :Common, :Plural, :Plural, :Person2, "wasyänäw"]]
+    :terms [[:gender, :genderHead, :numHead, :number, :person, :token]  ;; schema
+	    [:Common, :HeadMasc, :HeadSingular, :Singular, :Person2, "wasyaɣ"],
+	    [:Fem, :HeadMasc, :HeadSingular, :Singular, :Person3, "wasyaɣ"],
+	    [:Masc, :HeadMasc, :HeadSingular, :Singular, :Person3, "wasaɣ"],
+	    [:Masc, :HeadCommon, :HeadPlural, :Singular, :Person3, "wasäw"],
+	    [:Common, :HeadCommon, :HeadPlural, :Plural, :Person3, "wasänäw"],
+	    [:Common, :HeadFem, :HeadSingular, :Plural, :Person3, "wasänäy"],
+	    [:Common, :HeadCommon, :HeadPlural, :Singular, :Person1, "wasäw"],
+	    [:Common, :HeadMasc, :HeadSingular, :Plural, :Person2, "wasyänaɣ"],
+	    [:Common, :HeadMasc, :HeadSingular, :Singular, :Person1, "wasaɣ"],
+	    [:Common, :HeadFem, :HeadSingular, :Singular, :Person1, "wasäy"],
+	    [:Common, :HeadMasc, :HeadSingular, :Plural, :Person3, "wasänaɣ"],
+	    [:Fem, :HeadFem, :HeadSingular, :Singular, :Person3, "wasyäy"],
+	    [:Common, :HeadFem, :HeadSingular, :Plural, :Person2, "wasyänäy"],
+	    [:Masc, :HeadFem, :HeadSingular, :Singular, :Person3, "wasäy"],
+	    [:Common, :HeadCommon, :HeadPlural, :Singular, :Person2, "wasyäw"],
+	    [:Common, :HeadFem, :HeadSingular, :Plural, :Person1, "wasnäy"],
+	    [:Common, :HeadFem, :HeadSingular, :Singular, :Person2, "wasyäy"],
+	    [:Common, :HeadCommon, :HeadPlural, :Plural, :Person1, "wasnäw"],
+	    [:Common, :HeadMasc, :HeadSingular, :Plural, :Person1, "wasnaɣ"],
+	    [:Fem, :HeadCommon, :HeadPlural, :Singular, :Person3, "wasyäw"],
+	    [:Common, :HeadCommon, :HeadPlural, :Plural, :Person2, "wasyänäw"]]
     }
     {:label "kemant-VNegImprtv-fay"
     :note "Appleyard1975"
@@ -431,7 +437,7 @@
     :common {:lexeme :was,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :N-subordinate}
+	    :tam :NSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "wasän"],
 	    [:Common, :Singular, :Person2, "wasyän"],
@@ -644,7 +650,7 @@
     :common {:lexeme :xw,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :N-subordinate}
+	    :tam :NSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "xʷagän"],
 	    [:Masc, :Singular, :Person3, "xʷagän"],
@@ -701,7 +707,7 @@
     :common {:lexeme :was,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :N-subordinate}
+	    :tam :NSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "wasäkän"],
 	    [:Common, :Singular, :Person2, "wasäkän"],
@@ -746,7 +752,7 @@
     :common {:lexeme :was,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :D-subordinate}
+	    :tam :DSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "waskänäd"],
 	    [:Common, :Plural, :Person1, "wasgənäd"],
@@ -775,7 +781,7 @@
     :common {:lexeme :fay,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :a-subordinate}
+	    :tam :ASubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "fätəna"],
 	    [:Masc, :Singular, :Person3, "fäya"],
@@ -829,7 +835,7 @@
     :common {:lexeme :was,
 	    :polarity :Negative,
 	    :pos :Verb,
-	    :tam :a-subordinate}
+	    :tam :ASubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "wasgəna"],
 	    [:Common, :Singular, :Person1, "wasga"],
@@ -844,7 +850,7 @@
     :common {:lexeme :xw,
 	    :polarity :Affirmative,
 	    :pos :Verb,
-	    :tam :N-subordinate}
+	    :tam :NSubordinate}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "xʷanän"],
 	    [:Common, :Singular, :Person1, "xʷan"],
