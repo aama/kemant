@@ -5,25 +5,24 @@
 :datasource "Appleyard1975"
 :geodemoURL "http://www.ethnologue.com/language/ahg"
 :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant."
-:schemata{:vSubjectSet [:VSubjSetA :VSubjSetB],
-          :gender [:Common :Fem :Masc],
-          :genderHead [:HeadCommon :HeadFem :HeadMasc],
-          :finiteForm [:AgentNoun :Infinitive],
-          :pdgmSubType [:Copula :DervStem :FiniteVerb :Interrogative :SubjMarker],
-          :pdgmType [:INFINITIVE :AGENTNOUN :DERVSTEM :Finite :NA :VREL :VERBINTERROGATIVE]
-          :polarity [:Affirmative :Negative],
-          :aspect [:Imperfective :Perfective],
-          :pos [:Noun :Pronoun :Verb],
-          :person [:Person1 :Person2 :Person3],
-          :derivedStem [:M :Reciprocal :S],
-          :numHead [:HeadPlural :HeadSingular],
-          :morphClass [:AGENTNOUN :BilinKemantRel :DERVSTEM :INFINITIVE :VERBINTERROGATIVE :CardinalNumeral],
-          :formType [:Affix],
-          :proClass [:Independent],
-          :tam [:CompSubordinate :DSubordinate :Gerund :Imperative :Imperfective :Jussive :Jussive2 :NSubordinate :Perfective :PerfectiveComp :RelativeOblique :RelativeSubject :ASubordinate],
-          :number [:Plural :Singular],
-          :proSet [:ProSetA :ProSetB],
-          :nounClass [:CardinalNumeral]}
+ :schemata {:aspect [:Imperfective  :Perfective],
+            :derivedStem [:M :Reciprocal :S],
+            :formType [:Affix],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :nonfiniteForm [:AgentNoun :Infinitive],
+            :nounClass [:CardinalNumeral],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :polarity [:Affirmative :Negative],
+            :pos [:Noun :Pronoun :Verb],
+            :proClass [:Independent],
+            :proSet [:ProSetA :ProSetB],
+            :tam [:ASubordinate :CompSubordinate :DSubordinate :Gerund :Imperative :Imperfective :Jussive :Jussive2 :NSubordinate :Perfective :PerfectiveComp :RelativeOblique :RelativeSubject],
+            :vSubjectSet [:VSubjSetA :VSubjSetB]
+            :verbSubType [:Copula],
+            :pdgmType [:AGENTNOUN :DERVSTEM :Finite :INFINITIVE :VERBINTERROGATIVE :CARDINALNUM :PRO :SUBJMARK]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead :proSet :vSubjectSet],
           :synsemClass [:aspect :derivedStem :finiteForm :polarity :pos :proClass :tam :tenseName],
           :inflClass [],
@@ -39,10 +38,9 @@
 :lxterms [
     {:label "KemantRelSubjImperf"
     :note "Appleyard1975 pp. 338-339"
-    :pdgmType :VREL
+    :pdgmType :Finite
     :common {:aspect :Imperfective,
              :lexeme :was,
-             :morphClass :VREL,
              :pos :Verb,
              :tam :RelativeSubject}
     :terms [[:number :person :gender :token],
@@ -56,10 +54,9 @@
     }
     {:label "KemantRelSubjPerf-was"
     :note "Appleyard1975 pp. 338-339"
-    :pdgmType :VREL
+    :pdgmType :Finite
     :common {:aspect :Perfective,
              :lexeme :was,
-             :morphClass :VREL,
              :pos :Verb,
              :tam :RelativeSubject}
     :terms [[:number :person :gender :token],
@@ -73,10 +70,9 @@
     }
     {:label "kemant-RelObliqImperf-was"
     :note "Appleyard1975 pp. 338-339"
-    :pdgmType :VREL
+    :pdgmType :Finite
     :common {:aspect :Imperfective,
              :lexeme :was,
-             :morphClass :VREL,
              :pos :Verb,
              :tam :RelativeOblique}
     :terms [[:number :person :gender :token],
@@ -84,10 +80,9 @@
     }
     {:label "kemant-RelObliqImperf-gab"
     :note "Appleyard1975 pp. 338-339"
-    :pdgmType :VREL
+    :pdgmType :Finite
     :common {:aspect :Imperfective,
              :lexeme :was,
-             :morphClass :VREL,
              :pos :Verb,
              :tam :RelativeOblique}
     :terms [[:number :person :gender :token],
@@ -95,10 +90,9 @@
     }
     {:label "kemant-RelObliqPerf-gab"
     :note "Appleyard1975 pp. 338-339"
-    :pdgmType :VREL
+    :pdgmType :Finite
     :common {:aspect :Perfective,
              :lexeme :gab,
-             :morphClass :VREL,
              :pos :Verb,
              :tam :RelativeOblique}
     :terms [[:number :person :gender :token],
@@ -106,10 +100,9 @@
     }
     {:label "kemant-RelObliqPerf-was"
     :note "Appleyard1975 pp. 338-339"
-    :pdgmType :VREL
+    :pdgmType :Finite
     :common {:aspect :Perfective,
              :lexeme :was,
-             :morphClass :VREL,
              :pos :Verb,
              :tam :RelativeOblique}
     :terms [[:number :person :gender :token],
@@ -498,10 +491,7 @@
     {:label "kemant-VDervStemForms"
     :note "Appleyard1975. The token note format is: Verb Gloss + Base Form."
     :pdgmType :DERVSTEM
-    :common {:morphClass :DERVSTEM,
-             :pdgmSubType :DervStem,
-             :pdgmType :Exemplary,
-             :pos :Verb}
+    :common {:pos :Verb}
     :terms [[:derivedStem :lexeme :token :token-note-baseForm],
             [:M :DERVSTEM "əns̆-s-" "be open(ed) + əns-̆"],
             [:M :DERVSTEM "təŋ-s-" "be found + təŋ-"],
@@ -529,9 +519,7 @@
     {:label "kemant-VFiniteForm"
     :note "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə"
     :pdgmType :AGENTNOUN
-    :common {:finiteForm :AgentNoun,
-             :morphClass :AGENTNOUN,
-             :pdgmSubType :FiniteVerb,
+    :common {:nonfiniteForm :AgentNoun,
              :pos :Verb}
     :terms [[:lexeme :token :token-note],
             [:AGENTNOUN "gʷäzänta" "farmer"],
@@ -544,9 +532,7 @@
     {:label "kemant-VInfinitive"
     :note "Appleyard1975 7.4"
     :pdgmType :INFINITIVE
-    :common {:finiteForm :Infinitive,
-             :morphClass :INFINITIVE,
-             :pdgmSubType :FiniteVerb,
+    :common {:nonfiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:lexeme :polarity :token],
             [:fay :Affirmative "fäyna"],
@@ -559,10 +545,7 @@
     {:label "kemant-VInterrog"
     :note "Appleyard1975 7.5"
     :pdgmType :VERBINTERROGATIVE
-    :common {:morphClass :VERBINTERROGATIVE,
-             :pdgmSubType :Interrogative,
-             :pdgmType :Exemplary,
-             :pos :Verb}
+    :common {:pos :Verb}
     :terms [[:lexeme :token :token-note],
             [:VERBINTERROGATIVE "fälägi" "do you want it?"],
             [:VERBINTERROGATIVE "lämäds̆i" "are you getting used to it?"],
@@ -994,9 +977,8 @@
 :muterms [
     {:label "kemant-NCardinalNumeral"
     :note "Appleyard1975 p. 329"
-    :pdgmType :NA
-    :common {:morpheme :CARDINALNUM,
-             :nounClass :CardinalNumeral,
+    :pdgmType :CARDINALNUM
+    :common {:nounClass :CardinalNumeral,
              :pos :Noun}
     :terms [[:token :token-note],
             ["ankʷa" "5"],
@@ -1022,9 +1004,8 @@
     }
     {:label "kemant-PInd"
     :note "Appleyard1975 p. 320"
-    :pdgmType :NA
-    :common {:morpheme :PRO,
-             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
              :proClass :Independent}
     :terms [[:proSet :number :person :gender :token],
             [:ProSetA :Singular :Person1 :Common "an"],
@@ -1045,8 +1026,7 @@
     {:label "kemant-VBe"
     :note "Appleyard1975 7.8"
     :pdgmType :Finite
-    :common {:morpheme :COPULA,
-             :pdgmSubType :Copula,
+    :common {:verbSubType :Copula,
              :polarity :Affirmative,
              :pos :Verb}
     :terms [[:number :person :gender :token :token-note],
@@ -1060,10 +1040,8 @@
     }
     {:label "kemant-VSubjMarker"
     :note "Appleyard1975 7.2"
-    :pdgmType :Finite
-    :common {:morpheme :SUBJMARK,
-             :pdgmSubType :SubjMarker,
-             :pos :Verb,
+    :pdgmType :SUBJMARK
+    :common {:pos :Verb,
              :formType :Affix}
     :terms [[:vSubjectSet :number :person :gender :token],
             [:VSubjSetA :Singular :Person1 :Common "-Ø-"],
