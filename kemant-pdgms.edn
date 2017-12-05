@@ -5,7 +5,9 @@
 :datasource "Appleyard1975"
 :geodemoURL "http://www.ethnologue.com/language/ahg"
 :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant."
- :schemata {:aspect [:Imperfective  :Perfective],
+ :schemata {:nmorphClass [:CARDINALNUM ],
+            :vmorphClass [:SUBJMARK :AGENTNOUNExx :DERVSTEMExx :INFINITIVEExx :VERBINTERROGATIVEExx],
+            :aspect [:Imperfective :Perfective],
             :derivedStem [:M :Reciprocal :S],
             :formType [:Affix],
             :gender [:Common :Fem :Masc],
@@ -20,9 +22,9 @@
             :proClass [:Independent],
             :proSet [:ProSetA :ProSetB],
             :tam [:ASubordinate :CompSubordinate :DSubordinate :Gerund :Imperative :Imperfective :Jussive :Jussive2 :NSubordinate :Perfective :PerfectiveComp :RelativeOblique :RelativeSubject],
-            :vSubjectSet [:VSubjSetA :VSubjSetB]
-            :verbSubType [:Copula],
-            :pdgmType [:AGENTNOUN :DERVSTEM :Finite :INFINITIVE :VERBINTERROGATIVE :CARDINALNUM :PRO :SUBJMARK]}
+            :vSubjectSet [:VSubjSetA :VSubjSetB],
+            :verbSubType [:Copula]
+            :pdgmType [:Finite :PRO :NOM :VOther]}
 :pclass {:pngClass [:person :number :gender :genderHead :numHead :proSet :vSubjectSet],
           :synsemClass [:aspect :derivedStem :finiteForm :polarity :pos :proClass :tam :tenseName],
           :inflClass [],
@@ -490,8 +492,9 @@
     }
     {:label "kemant-VDervStemForms"
     :note "Appleyard1975. The token note format is: Verb Gloss + Base Form."
-    :pdgmType :DERVSTEM
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :DERVSTEMExx
+             :pos :Verb}
     :terms [[:derivedStem :lexeme :token :token-note-baseForm],
             [:M :DERVSTEM "əns̆-s-" "be open(ed) + əns-̆"],
             [:M :DERVSTEM "təŋ-s-" "be found + təŋ-"],
@@ -518,8 +521,9 @@
     }
     {:label "kemant-VFiniteForm"
     :note "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə"
-    :pdgmType :AGENTNOUN
-    :common {:nonfiniteForm :AgentNoun,
+    :pdgmType :VOther
+    :common {:vmorphClass :AGENTNOUNExx
+             :nonfiniteForm :AgentNoun,
              :pos :Verb}
     :terms [[:lexeme :token :token-note],
             [:AGENTNOUN "gʷäzänta" "farmer"],
@@ -531,8 +535,9 @@
     }
     {:label "kemant-VInfinitive"
     :note "Appleyard1975 7.4"
-    :pdgmType :INFINITIVE
-    :common {:nonfiniteForm :Infinitive,
+    :pdgmType :VOther
+    :common {:vmorphClass :INFINITIVEExx
+             :nonfiniteForm :Infinitive,
              :pos :Verb}
     :terms [[:lexeme :polarity :token],
             [:fay :Affirmative "fäyna"],
@@ -544,8 +549,9 @@
     }
     {:label "kemant-VInterrog"
     :note "Appleyard1975 7.5"
-    :pdgmType :VERBINTERROGATIVE
-    :common {:pos :Verb}
+    :pdgmType :VOther
+    :common {:vmorphClass :VERBINTERROGATIVEExx
+             :pos :Verb}
     :terms [[:lexeme :token :token-note],
             [:VERBINTERROGATIVE "fälägi" "do you want it?"],
             [:VERBINTERROGATIVE "lämäds̆i" "are you getting used to it?"],
@@ -977,8 +983,9 @@
 :muterms [
     {:label "kemant-NCardinalNumeral"
     :note "Appleyard1975 p. 329"
-    :pdgmType :CARDINALNUM
-    :common {:nounClass :CardinalNumeral,
+    :pdgmType :NOM
+    :common {:nmorphClass :CARDINALNUM
+             :nounClass :CardinalNumeral,
              :pos :Noun}
     :terms [[:token :token-note],
             ["ankʷa" "5"],
@@ -1040,8 +1047,9 @@
     }
     {:label "kemant-VSubjMarker"
     :note "Appleyard1975 7.2"
-    :pdgmType :SUBJMARK
-    :common {:pos :Verb,
+    :pdgmType :VOther
+    :common {:vmorphClass :SUBJMARK
+             :pos :Verb,
              :formType :Affix}
     :terms [[:vSubjectSet :number :person :gender :token],
             [:VSubjSetA :Singular :Person1 :Common "-Ø-"],
