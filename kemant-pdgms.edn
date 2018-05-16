@@ -36,7 +36,7 @@
  :termclusters [
                 {:label "KemantRelSubjImperf"
                  :note "Appleyard1975 pp. 338-339"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :was,
                           :pos :Verb,
@@ -52,7 +52,7 @@
                  }
                 {:label "KemantRelSubjPerf-was"
                  :note "Appleyard1975 pp. 338-339"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :was,
                           :pos :Verb,
@@ -68,7 +68,7 @@
                  }
                 {:label "kemant-RelObliqImperf-was"
                  :note "Appleyard1975 pp. 338-339"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :was,
                           :pos :Verb,
@@ -78,7 +78,7 @@
                  }
                 {:label "kemant-RelObliqImperf-gab"
                  :note "Appleyard1975 pp. 338-339"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :was,
                           :pos :Verb,
@@ -88,7 +88,7 @@
                  }
                 {:label "kemant-RelObliqPerf-gab"
                  :note "Appleyard1975 pp. 338-339"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :gab,
                           :pos :Verb,
@@ -98,7 +98,7 @@
                  }
                 {:label "kemant-RelObliqPerf-was"
                  :note "Appleyard1975 pp. 338-339"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :was,
                           :pos :Verb,
@@ -107,7 +107,7 @@
                          [:Plural :Person3 :Common "wasänaɣʷ"]]
                  }
                 {:label "kemant-VAFFJuss-fay"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -123,7 +123,7 @@
                  }
                 {:label "kemant-VAffA-subordinate-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -139,7 +139,7 @@
                  }
                 {:label "kemant-VAffA-subordinate-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -155,7 +155,7 @@
                  }
                 {:label "kemant-VAffCompSubordinate-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -171,7 +171,7 @@
                  }
                 {:label "kemant-VAffCompSubordinate-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -187,7 +187,7 @@
                  }
                 {:label "kemant-VAffD-subordinate-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -203,7 +203,7 @@
                  }
                 {:label "kemant-VAffGerundive-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -219,7 +219,7 @@
                  }
                 {:label "kemant-VAffGerundive-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -235,7 +235,7 @@
                  }
                 {:label "kemant-VAffImperfective-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -251,7 +251,7 @@
                  }
                 {:label "kemant-VAffImperfective-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -267,7 +267,7 @@
                  }
                 {:label "kemant-VAffImperfective-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -283,7 +283,7 @@
                  }
                 {:label "kemant-VAffImprtv-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :fay,
                           :person :Person2,
@@ -296,7 +296,7 @@
                  }
                 {:label "kemant-VAffImprtv-iw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :iw,
                           :person :Person2,
@@ -309,7 +309,7 @@
                  }
                 {:label "kemant-VAffImprtv-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :was,
                           :person :Person2,
@@ -322,7 +322,7 @@
                  }
                 {:label "kemant-VAffImprtv-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :xw,
                           :person :Person2,
@@ -334,7 +334,7 @@
                          [:Plural "xʷa"]]
                  }
                 {:label "kemant-VAffJuss-was"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -350,7 +350,7 @@
                  }
                 {:label "kemant-VAffJussive-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -366,7 +366,7 @@
                  }
                 {:label "kemant-VAffJussive2-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :person :Person3,
                           :polarity :Affirmative,
@@ -379,7 +379,7 @@
                  }
                 {:label "kemant-VAffJussive2-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :person :Person3,
                           :polarity :Affirmative,
@@ -392,7 +392,7 @@
                  }
                 {:label "kemant-VAffN-subordinate-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -408,7 +408,7 @@
                  }
                 {:label "kemant-VAffN-subordinate-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -424,7 +424,7 @@
                  }
                 {:label "kemant-VAffN-subordinate-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -440,7 +440,7 @@
                  }
                 {:label "kemant-VAffPerfective-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -456,7 +456,7 @@
                  }
                 {:label "kemant-VAffPerfective-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -472,7 +472,7 @@
                  }
                 {:label "kemant-VAffPerfective-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
                           :pos :Verb,
@@ -552,7 +552,7 @@
                  }
                 {:label "kemant-VNegA-subordinate-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
                           :pos :Verb,
@@ -568,7 +568,7 @@
                  }
                 {:label "kemant-VNegA-subordinate-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
                           :pos :Verb,
@@ -584,7 +584,7 @@
                  }
                 {:label "kemant-VNegD-subordinate-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
                           :pos :Verb,
@@ -600,7 +600,7 @@
                  }
                 {:label "kemant-VNegGerundive-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
                           :pos :Verb,
@@ -616,7 +616,7 @@
                  }
                 {:label "kemant-VNegGerundive-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
                           :pos :Verb,
@@ -632,7 +632,7 @@
                  }
                 {:label "kemant-VNegImperfective-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
                           :pos :Verb,
@@ -648,7 +648,7 @@
                  }
                 {:label "kemant-VNegImperfective-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
                           :pos :Verb,
@@ -664,7 +664,7 @@
                  }
                 {:label "kemant-VNegImperfective-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
                           :pos :Verb,
@@ -680,7 +680,7 @@
                  }
                 {:label "kemant-VNegImprtv-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :fay,
                           :person :Person2,
@@ -693,7 +693,7 @@
                  }
                 {:label "kemant-VNegImprtv-iw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :iw,
                           :person :Person2,
@@ -706,7 +706,7 @@
                  }
                 {:label "kemant-VNegImprtv-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :was,
                           :person :Person2,
@@ -719,7 +719,7 @@
                  }
                 {:label "kemant-VNegImprtv-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :xw,
                           :person :Person2,
@@ -732,7 +732,7 @@
                  }
                 {:label "kemant-VNegJussive-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
                           :pos :Verb,
@@ -748,7 +748,7 @@
                  }
                 {:label "kemant-VNegJussive-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
                           :pos :Verb,
@@ -764,7 +764,7 @@
                  }
                 {:label "kemant-VNegJussive-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
                           :pos :Verb,
@@ -780,7 +780,7 @@
                  }
                 {:label "kemant-VNegN-subordinate-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
                           :pos :Verb,
@@ -796,7 +796,7 @@
                  }
                 {:label "kemant-VNegN-subordinate-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
                           :pos :Verb,
@@ -812,7 +812,7 @@
                  }
                 {:label "kemant-VNegN-subordinate-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
                           :pos :Verb,
@@ -828,7 +828,7 @@
                  }
                 {:label "kemant-VNegPerfective-fay"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
                           :pos :Verb,
@@ -844,7 +844,7 @@
                  }
                 {:label "kemant-VNegPerfective-was"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
                           :pos :Verb,
@@ -860,7 +860,7 @@
                  }
                 {:label "kemant-VNegPerfective-xw"
                  :note "Appleyard1975"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
                           :pos :Verb,
@@ -880,7 +880,7 @@
             the verb wan- be. The first part of the compound has personal markers (set A),but zero
             tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine
             is often deleted."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :pos :Verb,
                           :tam :PerfectiveComp}
@@ -899,7 +899,7 @@
             the verb wan- be. The first part of the compound has personal markers (set A),but zero
             tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine
             is often deleted."
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :pos :Verb,
                           :tam :PerfectiveComp}
@@ -914,7 +914,7 @@
                  }
                 {:label "kemant-VRelOblique-was"
                  :note "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :pos :Verb,
                           :tam :RelativeOblique}
@@ -943,7 +943,7 @@
                  }
                 {:label "kemant-VRelSubj-was"
                  :note "Appleyard1975 7.9"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :was,
                           :pos :Verb,
                           :tam :RelativeSubject}
@@ -958,7 +958,7 @@
                  }
                 {:label "kemant-VRelSubj-xw"
                  :note "Appleyard1975 7.9"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :pos :Verb,
                           :tam :RelativeSubject}
@@ -1020,7 +1020,7 @@
                  }
                 {:label "kemant-VBe"
                  :note "Appleyard1975 7.8"
-                 :common {:vmorphclass :Finite
+                 :common {:vmorphClass :Finite
                           :verbSubType :Copula,
                           :polarity :Affirmative,
                           :pos :Verb}
