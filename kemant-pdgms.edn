@@ -5,31 +5,34 @@
  :datasource "Appleyard1975"
  :geodemoURL "http://www.ethnologue.com/language/ahg"
  :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant."
-:schemata {:aspect [:Imperfective :Perfective],
-           :derivedStem [:M :Reciprocal :S],
-           :formType [:Affix],
-           :gender [:Common :Fem :Masc],
-           :genderHead [:HeadCommon :HeadFem :HeadMasc],
-           :nmorphClass [:CARDINALNUM],
-           :nonfiniteForm [:AgentNoun :Infinitive],
-           :nounClass [:CardinalNumeral],
-           :numHead [:HeadPlural :HeadSingular],
-           :number [:Plural :Singular],
-           :person [:Person1 :Person2 :Person3],
-           :polarity [:Affirmative :Negative],
-           :pos [:Noun :Pronoun :Verb],
-           :proClass [:Independent],
-           :proSet [:ProSetA :ProSetB],
-           :tam [:ASubordinate :CompSubordinate :DSubordinate :Gerund :Imperative :Imperfective :Jussive :Jussive2 :NSubordinate :Perfective :PerfectiveComp :RelativeOblique :RelativeSubject],
-           :vSubjectSet [:VSubjSetA :VSubjSetB],
-           :verbSubType [:Copula],
-           :vmorphClass [:Finite :AGENTNOUNExx :DERVSTEMExx :INFINITIVEExx :SUBJMARK :VERBINTERROGATIVEExx]
-           }
+ :schemata {:lexeme [:fay  :gab :iw :was :xw],
+ :aspect [:Imperfective :Perfective],
+ :derivedStem [:M :Reciprocal :S],
+ :formType [:Affix],
+ :gender [:Common :Fem :Masc],
+ :genderHead [:HeadCommon :HeadFem :HeadMasc],
+ :nmorphClass [:CARDINALNUM],
+ :nonfiniteForm [:AgentNoun :Infinitive],
+ :nounClass [:CardinalNumeral],
+ :numHead [:HeadPlural :HeadSingular],
+ :number [:Plural :Singular],
+ :person [:Person1 :Person2 :Person3],
+ :pmorphClass [:ProMorph],
+ :polarity [:Affirmative :Negative],
+ :pos [:Noun :Pronoun :Verb],
+ :proClass [:Independent],
+ :proSet [:ProSetA :ProSetB],
+ :tam [:ASubordinate :CompSubordinate :DSubordinate :Gerund :Imperative :Imperfective :Jussive :Jussive2 :NSubordinate :Perfective :PerfectiveComp :RelativeOblique :RelativeSubject],
+ :vSubjectSet [:VSubjSetA :VSubjSetB],
+ :verbSubType [:Copula],
+ :vmorphClass [:AGENTNOUNExx :DERVSTEMExx :Finite :INFINITIVEExx :SUBJMARK :VERBINTERROGATIVEExx]
+ }
  :pclass {:pngClass [:person :number :gender :genderHead :numHead :proSet :vSubjectSet],
           :synsemClass [:aspect :derivedStem :finiteForm :polarity :pos :proClass :tam :tenseName],
           :inflClass [],
           :otherClass []}
  :lexemes{:fay {:gloss "go", :lemma "fäy-", :pos :Verb},
+          :gab {:gloss "", :lemma "", :pos :Verb},
           :iw {:gloss "give", :lemma "iw-", :pos :Verb},
           :was {:gloss "hear", :lemma "was-", :pos :Verb},
           :xw {:gloss "eat", :lemma "xʷ-", :pos :Verb}}
@@ -80,7 +83,7 @@
                  :note "Appleyard1975 pp. 338-339"
                  :common {:vmorphClass :Finite
                           :aspect :Imperfective,
-                          :lexeme :was,
+                          :lexeme :gab,
                           :pos :Verb,
                           :tam :RelativeOblique}
                  :terms [[:number :person :gender :token],
@@ -490,42 +493,42 @@
                  :note "Appleyard1975. The token note format is: Verb Gloss + Base Form."
                  :common {:vmorphClass :DERVSTEMExx
                           :pos :Verb}
-                 :terms [[:derivedStem :lexeme :token :token-note-baseForm],
-                         [:M :DERVSTEM "əns̆-s-" "be open(ed) + əns-̆"],
-                         [:M :DERVSTEM "təŋ-s-" "be found + təŋ-"],
-                         [:M :DERVSTEM "y-s-" "be said + y-"],
-                         [:M :DERVSTEM "was-s-" "be heard + was-"],
-                         [:M :DERVSTEM "ku-mal-s-" "be killed + ku-mal-"],
-                         [:M :DERVSTEM "lis̆-s-" "shave o.s. + lis-̆"],
-                         [:M :DERVSTEM "xasän-t-s-" "be stolen + xasän-t-"],
-                         [:M :DERVSTEM "käbän-s-" "be born + käbän-"],
-                         [:Reciprocal :DERVSTEM "(i) –s + ən-" "_NULL + ⊤"],
-                         [:Reciprocal :DERVSTEM "(ii) –s-" "_NULL + ⊤"],
-                         [:Reciprocal :DERVSTEM "(iii) reduplication + -s-" "_NULL + ⊤"],
-                         [:S :DERVSTEM "kin-t-s̆-" "teach + kin-t-"],
-                         [:S :DERVSTEM "dəkər-t-s̆-" "make hungry + dəkər-t-"],
-                         [:S :DERVSTEM "läy-s̆-" "bring + läy-"],
-                         [:S :DERVSTEM "wäntär-s̆-" "reply + wäntär-"],
-                         [:S :DERVSTEM "ax-s̆-" "inform + ax-"],
-                         [:S :DERVSTEM "xal-s̆-" "show + xal-"],
-                         [:S :DERVSTEM "dəz-s̆-" "lose + dəz-"],
-                         [:S :DERVSTEM "dan-s̆-" "cure + dan-"],
-                         [:S :DERVSTEM "x-s̆-" "wash s.th. + x-"],
-                         [:S :DERVSTEM "bəlu-s̆-" "boil + bəlu-"],
-                         [:S :DERVSTEM "fäy-s̆-" "take + fäy-"]]
+                 :terms [[:derivedStem :token :token-note-baseForm],
+                         [:M "əns̆-s-" "be open(ed) + əns-̆"],
+                         [:M "təŋ-s-" "be found + təŋ-"],
+                         [:M "y-s-" "be said + y-"],
+                         [:M "was-s-" "be heard + was-"],
+                         [:M "ku-mal-s-" "be killed + ku-mal-"],
+                         [:M "lis̆-s-" "shave o.s. + lis-̆"],
+                         [:M "xasän-t-s-" "be stolen + xasän-t-"],
+                         [:M "käbän-s-" "be born + käbän-"],
+                         [:Reciprocal "(i) –s + ən-" "_NULL + ⊤"],
+                         [:Reciprocal "(ii) –s-" "_NULL + ⊤"],
+                         [:Reciprocal "(iii) reduplication + -s-" "_NULL + ⊤"],
+                         [:S "kin-t-s̆-" "teach + kin-t-"],
+                         [:S "dəkər-t-s̆-" "make hungry + dəkər-t-"],
+                         [:S "läy-s̆-" "bring + läy-"],
+                         [:S "wäntär-s̆-" "reply + wäntär-"],
+                         [:S "ax-s̆-" "inform + ax-"],
+                         [:S "xal-s̆-" "show + xal-"],
+                         [:S "dəz-s̆-" "lose + dəz-"],
+                         [:S "dan-s̆-" "cure + dan-"],
+                         [:S "x-s̆-" "wash s.th. + x-"],
+                         [:S "bəlu-s̆-" "boil + bəlu-"],
+                         [:S "fäy-s̆-" "take + fäy-"]]
                  }
                 {:label "kemant-VFiniteForm"
                  :note "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə"
                  :common {:vmorphClass :AGENTNOUNExx
                           :nonfiniteForm :AgentNoun,
                           :pos :Verb}
-                 :terms [[:lexeme :token :token-note],
-                         [:AGENTNOUN "gʷäzänta" "farmer"],
-                         [:AGENTNOUN "s̆əɣʷsänta" "sick man"],
-                         [:AGENTNOUN "kins̆änta" "teacher"],
-                         [:AGENTNOUN "s̆iwänta" "beggar"],
-                         [:AGENTNOUN "säbsänta" "soldier"],
-                         [:AGENTNOUN "axänta" "wise-man"]]
+                 :terms [[:token :token-note],
+                         ["gʷäzänta" "farmer"],
+                         ["s̆əɣʷsänta" "sick man"],
+                         ["kins̆änta" "teacher"],
+                         ["s̆iwänta" "beggar"],
+                         ["säbsänta" "soldier"],
+                         ["axänta" "wise-man"]]
                  }
                 {:label "kemant-VInfinitive"
                  :note "Appleyard1975 7.4"
@@ -544,11 +547,11 @@
                  :note "Appleyard1975 7.5"
                  :common {:vmorphClass :VERBINTERROGATIVEExx
                           :pos :Verb}
-                 :terms [[:lexeme :token :token-note],
-                         [:VERBINTERROGATIVE "fälägi" "do you want it?"],
-                         [:VERBINTERROGATIVE "lämäds̆i" "are you getting used to it?"],
-                         [:VERBINTERROGATIVE "gärsi" "can you?"],
-                         [:VERBINTERROGATIVE "kəmantənäyəs waɣärti" "do you speak Kemant?"]]
+                 :terms [[:token :token-note],
+                         ["fälägi" "do you want it?"],
+                         ["lämäds̆i" "are you getting used to it?"],
+                         ["gärsi" "can you?"],
+                         ["kəmantənäyəs waɣärti" "do you speak Kemant?"]]
                  }
                 {:label "kemant-VNegA-subordinate-was"
                  :note "Appleyard1975"
@@ -1000,7 +1003,7 @@
                  }
                 {:label "kemant-PInd"
                  :note "Appleyard1975 p. 320"
-                 :common {:pos :Pronoun,
+                 :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:proSet :number :person :gender :token],
                          [:ProSetA :Singular :Person1 :Common "an"],
