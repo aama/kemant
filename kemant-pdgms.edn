@@ -5,8 +5,7 @@
  :datasource "Appleyard1975"
  :geodemoURL "http://www.ethnologue.com/language/ahg"
  :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant."
- :schemata {:lexeme [:fay  :gab :iw :was :xw],
- :aspect [:Imperfective :Perfective],
+ :schemata { :aspect [:Imperfective :Perfective],
  :derivedStem [:M :Reciprocal :S],
  :formType [:Affix],
  :gender [:Common :Fem :Masc],
@@ -31,11 +30,13 @@
           :synsemClass [:aspect :derivedStem :finiteForm :polarity :pos :proClass :tam :tenseName],
           :inflClass [],
           :otherClass []}
- :lexemes{:fay {:gloss "go", :lemma "fäy-", :pos :Verb},
-          :gab {:gloss "", :lemma "", :pos :Verb},
-          :iw {:gloss "give", :lemma "iw-", :pos :Verb},
-          :was {:gloss "hear", :lemma "was-", :pos :Verb},
-          :xw {:gloss "eat", :lemma "xʷ-", :pos :Verb}}
+ :lexemes {
+:fay   {:pos :Verb, :lemma "fäy-", :gloss "go", },
+:gab   {:pos :Verb, :lemma "", :gloss "", },
+:iw   {:pos :Verb, :lemma "iw-", :gloss "give", },
+:was   {:pos :Verb, :lemma "was-", :gloss "hear", },
+:xw   {:pos :Verb, :lemma "xʷ-", :gloss "eat", },
+}
  :termclusters [
                 {:label "KemantRelSubjImperf"
                  :note "Appleyard1975 pp. 338-339"
