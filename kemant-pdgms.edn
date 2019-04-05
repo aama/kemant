@@ -2,44 +2,44 @@
  :lang :kemant
  :subfamily "Agaw"
  :sgpref "kem"
- :datasource "Appleyard1975"
+ :datasource "Appleyard1975; abbrev. A75"
  :geodemoURL "http://www.ethnologue.com/language/ahg"
  :geodemoTXT "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant."
  :schemata { :aspect [:Imperfective :Perfective],
- :derivedStem [:M :Reciprocal :S],
- :formType [:Affix],
- :gender [:Common :Fem :Masc],
- :genderHead [:HeadCommon :HeadFem :HeadMasc],
- :nmorphClass [:CARDINALNUM],
- :nonfiniteForm [:AgentNoun :Infinitive],
- :nounClass [:CardinalNumeral],
- :numHead [:HeadPlural :HeadSingular],
- :number [:Plural :Singular],
- :person [:Person1 :Person2 :Person3],
- :pmorphClass [:ProMorph],
- :polarity [:Affirmative :Negative],
- :pos [:Noun :Pronoun :Verb],
- :proClass [:Independent],
- :proSet [:ProSetA :ProSetB],
- :tam [:ASubordinate :CompSubordinate :DSubordinate :Gerund :Imperative :Imperfective :Jussive :Jussive2 :NSubordinate :Perfective :PerfectiveComp :RelativeOblique :RelativeSubject],
- :vSubjectSet [:VSubjSetA :VSubjSetB],
- :verbSubType [:Copula],
- :vmorphClass [:AGENTNOUNExx :DERVSTEMExx :Finite :INFINITIVEExx :SUBJMARK :VERBINTERROGATIVEExx]
- }
+            :derivedStem [:M :Reciprocal :S],
+            :formType [:Affix],
+            :gender [:Common :Fem :Masc],
+            :genderHead [:HeadCommon :HeadFem :HeadMasc],
+            :nmorphClass [:CARDINALNUM],
+            :nonfiniteForm [:AgentNoun :Infinitive],
+            :nounClass [:CardinalNumeral],
+            :numHead [:HeadPlural :HeadSingular],
+            :number [:Plural :Singular],
+            :person [:Person1 :Person2 :Person3],
+            :pmorphClass [:ProMorph],
+            :polarity [:Affirmative :Negative],
+            :pos [:Noun :Pronoun :Verb],
+            :proClass [:Independent],
+            :proSet [:ProSetA :ProSetB],
+            :tam [:ASubordinate :CompSubordinate :DSubordinate :Gerund :Imperative :Imperfective :Jussive :Jussive2 :NSubordinate :Perfective :PerfectiveComp :RelativeOblique :RelativeSubject],
+            :vSubjectSet [:VSubjSetA :VSubjSetB],
+            :verbSubType [:Copula],
+            :vmorphClass [:AGENTNOUNExx :DERVSTEMExx :Finite :INFINITIVEExx :SUBJMARK :VERBINTERROGATIVEExx]
+            }
  :pclass {:pngClass [:person :number :gender :genderHead :numHead :proSet :vSubjectSet],
           :synsemClass [:aspect :derivedStem :finiteForm :polarity :pos :proClass :tam :tenseName],
           :inflClass [],
           :otherClass []}
  :lexemes {
-:fay   {:pos :Verb, :lemma "fäy-", :gloss "go", },
-:gab   {:pos :Verb, :lemma "", :gloss "", },
-:iw   {:pos :Verb, :lemma "iw-", :gloss "give", },
-:was   {:pos :Verb, :lemma "was-", :gloss "hear", },
-:xw   {:pos :Verb, :lemma "xʷ-", :gloss "eat", },
-}
+           :fay   {:pos :Verb, :lemma "fäy-", :gloss "go", },
+           :gab   {:pos :Verb, :lemma "", :gloss "", },
+           :iw   {:pos :Verb, :lemma "iw-", :gloss "give", },
+           :was   {:pos :Verb, :lemma "was-", :gloss "hear", },
+           :xw   {:pos :Verb, :lemma "xʷ-", :gloss "eat", },
+           }
  :termclusters [
                 {:label "KemantRelSubjImperf"
-                 :note "Appleyard1975 pp. 338-339"
+                 :note "A75pp.338-339"
                  :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :was,
@@ -55,7 +55,7 @@
                          [:Plural :Person3 :Common "wasäw"]]
                  }
                 {:label "KemantRelSubjPerf-was"
-                 :note "Appleyard1975 pp. 338-339"
+                 :note "A75pp.338-339"
                  :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :was,
@@ -71,7 +71,7 @@
                          [:Plural :Person3 :Common "wasäw"]]
                  }
                 {:label "kemant-RelObliqImperf-was"
-                 :note "Appleyard1975 pp. 338-339"
+                 :note "A75pp.338-339"
                  :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :was,
@@ -81,7 +81,7 @@
                          [:Plural :Person3 :Common "was(ə)naɣ"]]
                  }
                 {:label "kemant-RelObliqImperf-gab"
-                 :note "Appleyard1975 pp. 338-339"
+                 :note "A75pp.338-339"
                  :common {:vmorphClass :Finite
                           :aspect :Imperfective,
                           :lexeme :gab,
@@ -91,7 +91,7 @@
                          [:Plural :Person3 :Common "gäbnäxʷ"]]
                  }
                 {:label "kemant-RelObliqPerf-gab"
-                 :note "Appleyard1975 pp. 338-339"
+                 :note "A75pp.338-339"
                  :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :gab,
@@ -101,7 +101,7 @@
                          [:Plural :Person3 :Common "gäbänäxʷ"]]
                  }
                 {:label "kemant-RelObliqPerf-was"
-                 :note "Appleyard1975 pp. 338-339"
+                 :note "A75pp.338-339"
                  :common {:vmorphClass :Finite
                           :aspect :Perfective,
                           :lexeme :was,
@@ -111,6 +111,7 @@
                          [:Plural :Person3 :Common "wasänaɣʷ"]]
                  }
                 {:label "kemant-VAFFJuss-fay"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
@@ -126,7 +127,7 @@
                          [:Plural :Person3 :Common "fäydənu"]]
                  }
                 {:label "kemant-VAffA-subordinate-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -142,7 +143,7 @@
                          [:Plural :Person3 :Common "was(ə)na"]]
                  }
                 {:label "kemant-VAffA-subordinate-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
@@ -158,7 +159,7 @@
                          [:Plural :Person3 :Common "fäy(ə)na"]]
                  }
                 {:label "kemant-VAffCompSubordinate-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -174,7 +175,7 @@
                          [:Plural :Person3 :Common "wasən"]]
                  }
                 {:label "kemant-VAffCompSubordinate-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
@@ -190,7 +191,7 @@
                          [:Plural :Person3 :Common "fäyən"]]
                  }
                 {:label "kemant-VAffD-subordinate-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -206,7 +207,7 @@
                          [:Plural :Person3 :Common "wasnäd"]]
                  }
                 {:label "kemant-VAffGerundive-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
@@ -222,7 +223,7 @@
                          [:Plural :Person3 :Common "fäyəno"]]
                  }
                 {:label "kemant-VAffGerundive-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -238,7 +239,7 @@
                          [:Plural :Person3 :Common "wasəno"]]
                  }
                 {:label "kemant-VAffImperfective-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
@@ -254,7 +255,7 @@
                          [:Plural :Person3 :Common "fäyäkʷən"]]
                  }
                 {:label "kemant-VAffImperfective-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -270,7 +271,7 @@
                          [:Plural :Person3 :Common "wasäkʷən"]]
                  }
                 {:label "kemant-VAffImperfective-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
@@ -286,7 +287,7 @@
                          [:Plural :Person3 :Common "xʷakʷən"]]
                  }
                 {:label "kemant-VAffImprtv-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :fay,
@@ -299,7 +300,7 @@
                          [:Plural "fäya"]]
                  }
                 {:label "kemant-VAffImprtv-iw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :iw,
@@ -312,7 +313,7 @@
                          [:Plural "iwa"]]
                  }
                 {:label "kemant-VAffImprtv-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :was,
@@ -325,7 +326,7 @@
                          [:Plural "wasa"]]
                  }
                 {:label "kemant-VAffImprtv-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :xw,
@@ -338,6 +339,7 @@
                          [:Plural "xʷa"]]
                  }
                 {:label "kemant-VAffJuss-was"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -353,7 +355,7 @@
                          [:Plural :Person3 :Common "wasdənu"]]
                  }
                 {:label "kemant-VAffJussive-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
@@ -369,7 +371,7 @@
                          [:Plural :Person3 :Common "xʷədənu"]]
                  }
                 {:label "kemant-VAffJussive2-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :person :Person3,
@@ -382,7 +384,7 @@
                          [:Plural :Common "fäyənin"]]
                  }
                 {:label "kemant-VAffJussive2-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :person :Person3,
@@ -395,7 +397,7 @@
                          [:Plural :Common "wasənin"]]
                  }
                 {:label "kemant-VAffN-subordinate-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
@@ -411,7 +413,7 @@
                          [:Plural :Person3 :Common "fäyänän"]]
                  }
                 {:label "kemant-VAffN-subordinate-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -427,7 +429,7 @@
                          [:Plural :Person3 :Common "wasänän"]]
                  }
                 {:label "kemant-VAffN-subordinate-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
@@ -443,7 +445,7 @@
                          [:Plural :Person3 :Common "xʷanän"]]
                  }
                 {:label "kemant-VAffPerfective-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Affirmative,
@@ -459,7 +461,7 @@
                          [:Plural :Person3 :Common "fäy(ə)nəɣʷ"]]
                  }
                 {:label "kemant-VAffPerfective-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Affirmative,
@@ -475,7 +477,7 @@
                          [:Plural :Person3 :Common "wasənəɣʷ"]]
                  }
                 {:label "kemant-VAffPerfective-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Affirmative,
@@ -491,7 +493,7 @@
                          [:Plural :Person3 :Common "xʷinəɣʷ"]]
                  }
                 {:label "kemant-VDervStemForms"
-                 :note "Appleyard1975. The token note format is: Verb Gloss + Base Form."
+                 :note "A75 :: The token note format is: Verb Gloss + Base Form."
                  :common {:vmorphClass :DERVSTEMExx
                           :pos :Verb}
                  :terms [[:derivedStem :token :token-note-baseForm],
@@ -519,7 +521,7 @@
                          [:S "fäy-s̆-" "take + fäy-"]]
                  }
                 {:label "kemant-VFiniteForm"
-                 :note "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə"
+                 :note "A75s7.4 :: Agent noun marker sing. –änta plur. –äntə"
                  :common {:vmorphClass :AGENTNOUNExx
                           :nonfiniteForm :AgentNoun,
                           :pos :Verb}
@@ -532,7 +534,7 @@
                          ["axänta" "wise-man"]]
                  }
                 {:label "kemant-VInfinitive"
-                 :note "Appleyard1975 7.4"
+                 :note "A75s7.4"
                  :common {:vmorphClass :INFINITIVEExx
                           :nonfiniteForm :Infinitive,
                           :pos :Verb}
@@ -545,7 +547,7 @@
                          [:xw :Negative "xʷəgäna"]]
                  }
                 {:label "kemant-VInterrog"
-                 :note "Appleyard1975 7.5"
+                 :note "A75s7.5"
                  :common {:vmorphClass :VERBINTERROGATIVEExx
                           :pos :Verb}
                  :terms [[:token :token-note],
@@ -555,7 +557,7 @@
                          ["kəmantənäyəs waɣärti" "do you speak Kemant?"]]
                  }
                 {:label "kemant-VNegA-subordinate-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
@@ -571,7 +573,7 @@
                          [:Plural :Person3 :Common "wasgəna"]]
                  }
                 {:label "kemant-VNegA-subordinate-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
@@ -587,7 +589,7 @@
                          [:Plural :Person3 :Common "fäygəna"]]
                  }
                 {:label "kemant-VNegD-subordinate-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
@@ -603,7 +605,7 @@
                          [:Plural :Person3 :Common "wasgänäd"]]
                  }
                 {:label "kemant-VNegGerundive-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
@@ -619,7 +621,7 @@
                          [:Plural :Person3 :Common "fäygəni"]]
                  }
                 {:label "kemant-VNegGerundive-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
@@ -635,7 +637,7 @@
                          [:Plural :Person3 :Common "wasgəni"]]
                  }
                 {:label "kemant-VNegImperfective-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
@@ -651,7 +653,7 @@
                          [:Plural :Person3 :Common "fäyägäw"]]
                  }
                 {:label "kemant-VNegImperfective-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
@@ -667,7 +669,7 @@
                          [:Plural :Person3 :Common "wasägäw"]]
                  }
                 {:label "kemant-VNegImperfective-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
@@ -683,7 +685,7 @@
                          [:Plural :Person3 :Common "xʷagäw"]]
                  }
                 {:label "kemant-VNegImprtv-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :fay,
@@ -696,7 +698,7 @@
                          [:Plural "fäytäna"]]
                  }
                 {:label "kemant-VNegImprtv-iw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :iw,
@@ -709,7 +711,7 @@
                          [:Plural "iwtäna"]]
                  }
                 {:label "kemant-VNegImprtv-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :was,
@@ -722,7 +724,7 @@
                          [:Plural "wastäna"]]
                  }
                 {:label "kemant-VNegImprtv-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :gender :Common,
                           :lexeme :xw,
@@ -735,7 +737,7 @@
                          [:Plural "xʷətäna"]]
                  }
                 {:label "kemant-VNegJussive-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
@@ -751,7 +753,7 @@
                          [:Plural :Person3 :Common "faygənin"]]
                  }
                 {:label "kemant-VNegJussive-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
@@ -767,7 +769,7 @@
                          [:Plural :Person3 :Common "wasgənin"]]
                  }
                 {:label "kemant-VNegJussive-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
@@ -783,7 +785,7 @@
                          [:Plural :Person3 :Common "xʷəgənin"]]
                  }
                 {:label "kemant-VNegN-subordinate-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
@@ -799,7 +801,7 @@
                          [:Plural :Person3 :Common "fäyägänän"]]
                  }
                 {:label "kemant-VNegN-subordinate-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
@@ -815,7 +817,7 @@
                          [:Plural :Person3 :Common "wasägänän"]]
                  }
                 {:label "kemant-VNegN-subordinate-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
@@ -831,7 +833,7 @@
                          [:Plural :Person3 :Common "xʷagänän"]]
                  }
                 {:label "kemant-VNegPerfective-fay"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :polarity :Negative,
@@ -847,7 +849,7 @@
                          [:Plural :Person3 :Common "fäygäw"]]
                  }
                 {:label "kemant-VNegPerfective-was"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :polarity :Negative,
@@ -863,7 +865,7 @@
                          [:Plural :Person3 :Common "wasgäw"]]
                  }
                 {:label "kemant-VNegPerfective-xw"
-                 :note "Appleyard1975"
+                 :note "A75"
                  :common {:vmorphClass :Finite
                           :lexeme :xw,
                           :polarity :Negative,
@@ -879,11 +881,7 @@
                          [:Plural :Person3 :Common "xʷəgäw"]]
                  }
                 {:label "kemant-VPerfComp-fay"
-                 :note "Appleyard1975,p. 334 .This tense is a close compound of a subordinate form,which
-            occasionally occurs outside this particular compound,and the imperfective affirmative of
-            the verb wan- be. The first part of the compound has personal markers (set A),but zero
-            tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine
-            is often deleted."
+                 :note "A75p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted."
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :pos :Verb,
@@ -898,11 +896,7 @@
                          [:Plural :Person3 :Common "fäyənwanäkʷən"]]
                  }
                 {:label "kemant-VPerfComp-was"
-                 :note "Appleyard1975,p. 334 .This tense is a close compound of a subordinate form,which
-            occasionally occurs outside this particular compound,and the imperfective affirmative of
-            the verb wan- be. The first part of the compound has personal markers (set A),but zero
-            tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine
-            is often deleted."
+                 :note "A75p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted."
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :pos :Verb,
@@ -917,7 +911,7 @@
                          [:Plural :Person3 :Common "wasənwanäkʷən"]]
                  }
                 {:label "kemant-VRelOblique-was"
-                 :note "Appleyard1975 7.4 Agent noun marker sing. –änta plur. –äntə"
+                 :note "A75s7.4 :: Agent noun marker sing. –änta plur. –äntə"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :pos :Verb,
@@ -946,7 +940,7 @@
                          [:HeadMasc :HeadSingular :Plural :Person3 :Common "wasänaɣ"]]
                  }
                 {:label "kemant-VRelSubj-was"
-                 :note "Appleyard1975 7.9"
+                 :note "A75s7.9"
                  :common {:vmorphClass :Finite
                           :lexeme :was,
                           :pos :Verb,
@@ -961,7 +955,7 @@
                          [:Plural :Person3 :Common "wasäw"]]
                  }
                 {:label "kemant-VRelSubj-xw"
-                 :note "Appleyard1975 7.9"
+                 :note "A75s7.9"
                  :common {:vmorphClass :Finite
                           :lexeme :fay,
                           :pos :Verb,
@@ -976,7 +970,7 @@
                          [:Plural :Person3 :Common "fäyäw"]]
                  }
                 {:label "kemant-NCardinalNumeral"
-                 :note "Appleyard1975 p. 329"
+                 :note "A75p.329"
                  :common {:nmorphClass :CARDINALNUM
                           :nounClass :CardinalNumeral,
                           :pos :Noun}
@@ -1003,7 +997,7 @@
                          ["wälta" "6"]]
                  }
                 {:label "kemant-PInd"
-                 :note "Appleyard1975 p. 320"
+                 :note "A75p.320"
                  :common {:pos :Pronoun, :pmorphClass :ProMorph,
                           :proClass :Independent}
                  :terms [[:proSet :number :person :gender :token],
@@ -1023,7 +1017,7 @@
                          [:ProSetB :Plural :Person3 :Common "na"]]
                  }
                 {:label "kemant-VBe"
-                 :note "Appleyard1975 7.8"
+                 :note "A75s7.8"
                  :common {:vmorphClass :Finite
                           :verbSubType :Copula,
                           :polarity :Affirmative,
@@ -1038,7 +1032,7 @@
                          [:Plural :Person3 :Common "gagäw ~  gəyagäw" "gagäw + gəyagäw"]]
                  }
                 {:label "kemant-VSubjMarker"
-                 :note "Appleyard1975 7.2"
+                 :note "A75s7.2"
                  :common {:vmorphClass :SUBJMARK
                           :pos :Verb,
                           :formType :Affix}
