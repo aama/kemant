@@ -1,0 +1,1257 @@
+{
+  "lang": "kemant",
+  "subfamily": "Agaw",
+  "sgpref": "kem",
+  "datasource": "Appleyard1975; abbrev. A75",
+  "geodemoURL": "http://www.ethnologue.com/language/ahg",
+  "geodemoTXT": "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant.",
+  "schemata": {
+    "aspect": [
+      "Imperfective",
+      "Perfective"
+    ],
+    "numHead": [
+      "HeadPlural",
+      "HeadSingular"
+    ],
+    "person": [
+      "Person1",
+      "Person2",
+      "Person3"
+    ],
+    "derivedStem": [
+      "M",
+      "Reciprocal",
+      "S"
+    ],
+    "number": [
+      "Plural",
+      "Singular"
+    ],
+    "vmorphClass": [
+      "AGENTNOUNExx",
+      "DERVSTEMExx",
+      "Finite",
+      "INFINITIVEExx",
+      "SUBJMARK",
+      "VERBINTERROGATIVEExx"
+    ],
+    "genderHead": [
+      "HeadCommon",
+      "HeadFem",
+      "HeadMasc"
+    ],
+    "nounClass": [
+      "CardinalNumeral"
+    ],
+    "pos": [
+      "Noun",
+      "Pronoun",
+      "Verb"
+    ],
+    "proClass": [
+      "Independent"
+    ],
+    "formType": [
+      "Affix"
+    ],
+    "vSubjectSet": [
+      "VSubjSetA",
+      "VSubjSetB"
+    ],
+    "verbSubType": [
+      "Copula"
+    ],
+    "proSet": [
+      "ProSetA",
+      "ProSetB"
+    ],
+    "pmorphClass": [
+      "ProMorph"
+    ],
+    "nonfiniteForm": [
+      "AgentNoun",
+      "Infinitive"
+    ],
+    "polarity": [
+      "Affirmative",
+      "Negative"
+    ],
+    "tam": [
+      "ASubordinate",
+      "CompSubordinate",
+      "DSubordinate",
+      "Gerund",
+      "Imperative",
+      "Imperfective",
+      "Jussive",
+      "Jussive2",
+      "NSubordinate",
+      "Perfective",
+      "PerfectiveComp",
+      "RelativeOblique",
+      "RelativeSubject"
+    ],
+    "gender": [
+      "Common",
+      "Fem",
+      "Masc"
+    ],
+    "nmorphClass": [
+      "CARDINALNUM"
+    ]
+  },
+  "lexemes": {
+    "fay": {
+      "pos": "Verb",
+      "lemma": "fäy-",
+      "gloss": "go"
+    },
+    "gab": {
+      "pos": "Verb",
+      "lemma": "",
+      "gloss": ""
+    },
+    "iw": {
+      "pos": "Verb",
+      "lemma": "iw-",
+      "gloss": "give"
+    },
+    "was": {
+      "pos": "Verb",
+      "lemma": "was-",
+      "gloss": "hear"
+    },
+    "xw": {
+      "pos": "Verb",
+      "lemma": "xʷ-",
+      "gloss": "eat"
+    }
+  },
+  "termclusters": [
+{
+"label": "KemantRelSubjImperf",
+"note": "A75pp.338-339",
+"common": {"aspect": "Imperfective",
+ "lexeme": "was",
+ "pos": "Verb",
+ "tam": "RelativeSubject",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasaɣər"],
+ ["Singular", "Person2", "Common", "wasyaɣər"],
+ ["Singular", "Person3", "Masc", "wasaɣ"],
+ ["Singular", "Person3", "Fem", "wasäy"],
+ ["Plural", "Person1", "Common", "wasnaɣər"],
+ ["Plural", "Person2", "Common", "wasinaɣər"],
+ ["Plural", "Person3", "Common", "wasäw"]]
+},
+{
+"label": "KemantRelSubjPerf-was",
+"note": "A75pp.338-339",
+"common": {"aspect": "Perfective",
+ "lexeme": "was",
+ "pos": "Verb",
+ "tam": "RelativeSubject",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasaɣər"],
+ ["Singular", "Person2", "Common", "wasyaɣər"],
+ ["Singular", "Person3", "Masc", "wasaɣ"],
+ ["Singular", "Person3", "Fem", "wasäy"],
+ ["Plural", "Person1", "Common", "wasyänaɣər"],
+ ["Plural", "Person2", "Common", "wasyänaɣər"],
+ ["Plural", "Person3", "Common", "wasäw"]]
+},
+{
+"label": "kemant-RelObliqImperf-was",
+"note": "A75pp.338-339",
+"common": {"aspect": "Imperfective",
+ "lexeme": "was",
+ "pos": "Verb",
+ "tam": "RelativeOblique",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"], ["Plural", "Person3", "Common", "was(ə)naɣ"]]
+},
+{
+"label": "kemant-RelObliqImperf-gab",
+"note": "A75pp.338-339",
+"common": {"aspect": "Imperfective",
+ "lexeme": "gab",
+ "pos": "Verb",
+ "tam": "RelativeOblique",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"], ["Plural", "Person3", "Common", "gäbnäxʷ"]]
+},
+{
+"label": "kemant-RelObliqPerf-gab",
+"note": "A75pp.338-339",
+"common": {"aspect": "Perfective",
+ "lexeme": "gab",
+ "pos": "Verb",
+ "tam": "RelativeOblique",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"], ["Plural", "Person3", "Common", "gäbänäxʷ"]]
+},
+{
+"label": "kemant-RelObliqPerf-was",
+"note": "A75pp.338-339",
+"common": {"aspect": "Perfective",
+ "lexeme": "was",
+ "pos": "Verb",
+ "tam": "RelativeOblique",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"], ["Plural", "Person3", "Common", "wasänaɣʷ"]]
+},
+{
+"label": "kemant-VAFFJuss-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyu"],
+ ["Singular", "Person2", "Common", "-"],
+ ["Singular", "Person3", "Masc", "fäydu"],
+ ["Singular", "Person3", "Fem", "fäytu"],
+ ["Plural", "Person1", "Common", "fäynu"],
+ ["Plural", "Person2", "Common", "-"],
+ ["Plural", "Person3", "Common", "fäydənu"]]
+},
+{
+"label": "kemant-VAffA-subordinate-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "ASubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasa"],
+ ["Singular", "Person2", "Common", "wasya"],
+ ["Singular", "Person3", "Masc", "wasa"],
+ ["Singular", "Person3", "Fem", "wasya"],
+ ["Plural", "Person1", "Common", "wasna"],
+ ["Plural", "Person2", "Common", "wasina"],
+ ["Plural", "Person3", "Common", "was(ə)na"]]
+},
+{
+"label": "kemant-VAffA-subordinate-xw",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "ASubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäya"],
+ ["Singular", "Person2", "Common", "fäta"],
+ ["Singular", "Person3", "Masc", "fäya"],
+ ["Singular", "Person3", "Fem", "fäta"],
+ ["Plural", "Person1", "Common", "fäyna"],
+ ["Plural", "Person2", "Common", "fätəna"],
+ ["Plural", "Person3", "Common", "fäy(ə)na"]]
+},
+{
+"label": "kemant-VAffCompSubordinate-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "CompSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "was"],
+ ["Singular", "Person2", "Common", "was(əy)"],
+ ["Singular", "Person3", "Masc", "was"],
+ ["Singular", "Person3", "Fem", "was(əy)"],
+ ["Plural", "Person1", "Common", "wasən"],
+ ["Plural", "Person2", "Common", "wasin"],
+ ["Plural", "Person3", "Common", "wasən"]]
+},
+{
+"label": "kemant-VAffCompSubordinate-xw",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "CompSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäy"],
+ ["Singular", "Person2", "Common", "fät"],
+ ["Singular", "Person3", "Masc", "fäy"],
+ ["Singular", "Person3", "Fem", "fät"],
+ ["Plural", "Person1", "Common", "fäyən"],
+ ["Plural", "Person2", "Common", "fätən"],
+ ["Plural", "Person3", "Common", "fäyən"]]
+},
+{
+"label": "kemant-VAffD-subordinate-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "DSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasde"],
+ ["Singular", "Person2", "Common", "?"],
+ ["Singular", "Person3", "Masc", "wasde"],
+ ["Singular", "Person3", "Fem", "waste?"],
+ ["Plural", "Person1", "Common", "wasnäd"],
+ ["Plural", "Person2", "Common", "?"],
+ ["Plural", "Person3", "Common", "wasnäd"]]
+},
+{
+"label": "kemant-VAffGerundive-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Gerund",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyo"],
+ ["Singular", "Person2", "Common", "fäto"],
+ ["Singular", "Person3", "Masc", "fäyo"],
+ ["Singular", "Person3", "Fem", "fäto"],
+ ["Plural", "Person1", "Common", "fäyno"],
+ ["Plural", "Person2", "Common", "fätəno"],
+ ["Plural", "Person3", "Common", "fäyəno"]]
+},
+{
+"label": "kemant-VAffGerundive-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Gerund",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "waso"],
+ ["Singular", "Person2", "Common", "wasyo"],
+ ["Singular", "Person3", "Masc", "waso"],
+ ["Singular", "Person3", "Fem", "wasyo"],
+ ["Plural", "Person1", "Common", "wasno"],
+ ["Plural", "Person2", "Common", "wasino"],
+ ["Plural", "Person3", "Common", "wasəno"]]
+},
+{
+"label": "kemant-VAffImperfective-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyäkʷ"],
+ ["Singular", "Person2", "Common", "fätäkʷ"],
+ ["Singular", "Person3", "Masc", "fäyäkʷ"],
+ ["Singular", "Person3", "Fem", "fäyät(i)"],
+ ["Plural", "Person1", "Common", "fäynäkʷ"],
+ ["Plural", "Person2", "Common", "fätakʷən"],
+ ["Plural", "Person3", "Common", "fäyäkʷən"]]
+},
+{
+"label": "kemant-VAffImperfective-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasäkʷ"],
+ ["Singular", "Person2", "Common", "wasyäkʷ"],
+ ["Singular", "Person3", "Masc", "wasäkʷ"],
+ ["Singular", "Person3", "Fem", "wasät(i)"],
+ ["Plural", "Person1", "Common", "wasnäkʷ"],
+ ["Plural", "Person2", "Common", "wasyäkʷən"],
+ ["Plural", "Person3", "Common", "wasäkʷən"]]
+},
+{
+"label": "kemant-VAffImperfective-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "xʷakʷ"],
+ ["Singular", "Person2", "Common", "xʷəyäkʷ"],
+ ["Singular", "Person3", "Masc", "xʷakʷ"],
+ ["Singular", "Person3", "Fem", "xʷat(i)"],
+ ["Plural", "Person1", "Common", "xʷanäkʷ"],
+ ["Plural", "Person2", "Common", "xʷəyäkʷən"],
+ ["Plural", "Person3", "Common", "xʷakʷən"]]
+},
+{
+"label": "kemant-VAffImprtv-fay",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "fay",
+ "person": "Person2",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "fäy"], ["Plural", "fäya"]]
+},
+{
+"label": "kemant-VAffImprtv-iw",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "iw",
+ "person": "Person2",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "iwi ~ iw"], ["Plural", "iwa"]]
+},
+{
+"label": "kemant-VAffImprtv-was",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "was",
+ "person": "Person2",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "was"], ["Plural", "wasa"]]
+},
+{
+"label": "kemant-VAffImprtv-xw",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "xw",
+ "person": "Person2",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "xʷəy"], ["Plural", "xʷa"]]
+},
+{
+"label": "kemant-VAffJuss-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasiw"],
+ ["Singular", "Person2", "Common", "-"],
+ ["Singular", "Person3", "Masc", "wasdu"],
+ ["Singular", "Person3", "Fem", "wastu"],
+ ["Plural", "Person1", "Common", "wasnu"],
+ ["Plural", "Person2", "Common", "-"],
+ ["Plural", "Person3", "Common", "wasdənu"]]
+},
+{
+"label": "kemant-VAffJussive-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "?"],
+ ["Singular", "Person2", "Common", "-"],
+ ["Singular", "Person3", "Masc", "xʷədu"],
+ ["Singular", "Person3", "Fem", "xʷətu"],
+ ["Plural", "Person1", "Common", "xʷənu"],
+ ["Plural", "Person2", "Common", "-"],
+ ["Plural", "Person3", "Common", "xʷədənu"]]
+},
+{
+"label": "kemant-VAffJussive2-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "person": "Person3",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive2",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "gender", "token"],
+ ["Singular", "Masc", "fäyin"],
+ ["Singular", "Fem", "fäyin?"],
+ ["Plural", "Common", "fäyənin"]]
+},
+{
+"label": "kemant-VAffJussive2-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "person": "Person3",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Jussive2",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "gender", "token"],
+ ["Singular", "Masc", "wasin"],
+ ["Singular", "Fem", "wasin?"],
+ ["Plural", "Common", "wasənin"]]
+},
+{
+"label": "kemant-VAffN-subordinate-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "NSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyän"],
+ ["Singular", "Person2", "Common", "fätän"],
+ ["Singular", "Person3", "Masc", "fäyän"],
+ ["Singular", "Person3", "Fem", "fätän"],
+ ["Plural", "Person1", "Common", "fäynän"],
+ ["Plural", "Person2", "Common", "fätänän"],
+ ["Plural", "Person3", "Common", "fäyänän"]]
+},
+{
+"label": "kemant-VAffN-subordinate-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "NSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasän"],
+ ["Singular", "Person2", "Common", "wasyän"],
+ ["Singular", "Person3", "Masc", "wasän"],
+ ["Singular", "Person3", "Fem", "wasyän"],
+ ["Plural", "Person1", "Common", "wasnän"],
+ ["Plural", "Person2", "Common", "wasyänän"],
+ ["Plural", "Person3", "Common", "wasänän"]]
+},
+{
+"label": "kemant-VAffN-subordinate-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "NSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "xʷan"],
+ ["Singular", "Person2", "Common", "xʷəyän"],
+ ["Singular", "Person3", "Masc", "xʷan"],
+ ["Singular", "Person3", "Fem", "xʷəyän"],
+ ["Plural", "Person1", "Common", "xʷənän"],
+ ["Plural", "Person2", "Common", "xʷəyänän"],
+ ["Plural", "Person3", "Common", "xʷanän"]]
+},
+{
+"label": "kemant-VAffPerfective-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Perfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyəɣʷ"],
+ ["Singular", "Person2", "Common", "fäyəɣʷ"],
+ ["Singular", "Person3", "Masc", "fäyəɣʷ"],
+ ["Singular", "Person3", "Fem", "fäy(ə)t(i)"],
+ ["Plural", "Person1", "Common", "fäynəɣʷ"],
+ ["Plural", "Person2", "Common", "fätənəɣʷ"],
+ ["Plural", "Person3", "Common", "fäy(ə)nəɣʷ"]]
+},
+{
+"label": "kemant-VAffPerfective-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Perfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasəɣʷ"],
+ ["Singular", "Person2", "Common", "wasyəɣʷ"],
+ ["Singular", "Person3", "Masc", "wasəɣʷ"],
+ ["Singular", "Person3", "Fem", "was(ə)t(i)"],
+ ["Plural", "Person1", "Common", "wasnəɣʷ"],
+ ["Plural", "Person2", "Common", "wasinəɣʷ"],
+ ["Plural", "Person3", "Common", "wasənəɣʷ"]]
+},
+{
+"label": "kemant-VAffPerfective-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Affirmative",
+ "pos": "Verb",
+ "tam": "Perfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "xʷiɣʷ"],
+ ["Singular", "Person2", "Common", "xʷəyəɣʷ"],
+ ["Singular", "Person3", "Masc", "xʷiɣʷ"],
+ ["Singular", "Person3", "Fem", "xʷit(i)"],
+ ["Plural", "Person1", "Common", "xʷinəɣʷ"],
+ ["Plural", "Person2", "Common", "xʷinəɣʷ ?"],
+ ["Plural", "Person3", "Common", "xʷinəɣʷ"]]
+},
+{
+"label": "kemant-VDervStemForms",
+"note": "A75 :: The token note format is: Verb Gloss + Base Form.",
+"common": {"pos": "Verb",
+ "vmorphClass": "DERVSTEMExx"},
+"terms":  
+[["derivedStem", "token", "token-note-baseForm"],
+ ["M", "əns̆-s-", "be open(ed) + əns-̆"],
+ ["M", "təŋ-s-", "be found + təŋ-"],
+ ["M", "y-s-", "be said + y-"],
+ ["M", "was-s-", "be heard + was-"],
+ ["M", "ku-mal-s-", "be killed + ku-mal-"],
+ ["M", "lis̆-s-", "shave o.s. + lis-̆"],
+ ["M", "xasän-t-s-", "be stolen + xasän-t-"],
+ ["M", "käbän-s-", "be born + käbän-"],
+ ["Reciprocal", "(i) –s + ən-", "_NULL + ⊤"],
+ ["Reciprocal", "(ii) –s-", "_NULL + ⊤"],
+ ["Reciprocal", "(iii) reduplication + -s-", "_NULL + ⊤"],
+ ["S", "kin-t-s̆-", "teach + kin-t-"],
+ ["S", "dəkər-t-s̆-", "make hungry + dəkər-t-"],
+ ["S", "läy-s̆-", "bring + läy-"],
+ ["S", "wäntär-s̆-", "reply + wäntär-"],
+ ["S", "ax-s̆-", "inform + ax-"],
+ ["S", "xal-s̆-", "show + xal-"],
+ ["S", "dəz-s̆-", "lose + dəz-"],
+ ["S", "dan-s̆-", "cure + dan-"],
+ ["S", "x-s̆-", "wash s.th. + x-"],
+ ["S", "bəlu-s̆-", "boil + bəlu-"],
+ ["S", "fäy-s̆-", "take + fäy-"]]
+},
+{
+"label": "kemant-VFiniteForm",
+"note": "A75s7.4 :: Agent noun marker sing. –änta plur. –äntə",
+"common": {"nonfiniteForm": "AgentNoun",
+ "pos": "Verb",
+ "vmorphClass": "AGENTNOUNExx"},
+"terms":  
+[["token", "token-note"],
+ ["gʷäzänta", "farmer"],
+ ["s̆əɣʷsänta", "sick man"],
+ ["kins̆änta", "teacher"],
+ ["s̆iwänta", "beggar"],
+ ["säbsänta", "soldier"],
+ ["axänta", "wise-man"]]
+},
+{
+"label": "kemant-VInfinitive",
+"note": "A75s7.4",
+"common": {"nonfiniteForm": "Infinitive",
+ "pos": "Verb",
+ "vmorphClass": "INFINITIVEExx"},
+"terms":  
+[["lexeme", "polarity", "token"],
+ ["fay", "Affirmative", "fäyna"],
+ ["fay", "Negative", "fäygäna"],
+ ["was", "Affirmative", "wasna"],
+ ["was", "Negative", "wasgäna"],
+ ["xw", "Affirmative", "xʷəna"],
+ ["xw", "Negative", "xʷəgäna"]]
+},
+{
+"label": "kemant-VInterrog",
+"note": "A75s7.5",
+"common": {"pos": "Verb",
+ "vmorphClass": "VERBINTERROGATIVEExx"},
+"terms":  
+[["token", "token-note"],
+ ["fälägi", "do you want it?"],
+ ["lämäds̆i", "are you getting used to it?"],
+ ["gärsi", "can you?"],
+ ["kəmantənäyəs waɣärti", "do you speak Kemant?"]]
+},
+{
+"label": "kemant-VNegA-subordinate-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "ASubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasga"],
+ ["Singular", "Person2", "Common", "waska"],
+ ["Singular", "Person3", "Masc", "wasga"],
+ ["Singular", "Person3", "Fem", "waska"],
+ ["Plural", "Person1", "Common", "wasgəna"],
+ ["Plural", "Person2", "Common", "waskəna"],
+ ["Plural", "Person3", "Common", "wasgəna"]]
+},
+{
+"label": "kemant-VNegA-subordinate-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "ASubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyga"],
+ ["Singular", "Person2", "Common", "fäyka"],
+ ["Singular", "Person3", "Masc", "fäyga"],
+ ["Singular", "Person3", "Fem", "fäyka"],
+ ["Plural", "Person1", "Common", "fäygəna"],
+ ["Plural", "Person2", "Common", "fäykəna"],
+ ["Plural", "Person3", "Common", "fäygəna"]]
+},
+{
+"label": "kemant-VNegD-subordinate-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "DSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasgäd"],
+ ["Singular", "Person2", "Common", "waskäd"],
+ ["Singular", "Person3", "Masc", "wasgäd"],
+ ["Singular", "Person3", "Fem", "waskäd"],
+ ["Plural", "Person1", "Common", "wasgənäd"],
+ ["Plural", "Person2", "Common", "waskänäd"],
+ ["Plural", "Person3", "Common", "wasgänäd"]]
+},
+{
+"label": "kemant-VNegGerundive-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Gerund",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäygi"],
+ ["Singular", "Person2", "Common", "fäyki"],
+ ["Singular", "Person3", "Masc", "fäygi"],
+ ["Singular", "Person3", "Fem", "fäyki"],
+ ["Plural", "Person1", "Common", "fäygəni"],
+ ["Plural", "Person2", "Common", "fäykəni"],
+ ["Plural", "Person3", "Common", "fäygəni"]]
+},
+{
+"label": "kemant-VNegGerundive-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Gerund",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasgi"],
+ ["Singular", "Person2", "Common", "waski"],
+ ["Singular", "Person3", "Masc", "wasgi"],
+ ["Singular", "Person3", "Fem", "waski"],
+ ["Plural", "Person1", "Common", "wasgəni"],
+ ["Plural", "Person2", "Common", "waskəni"],
+ ["Plural", "Person3", "Common", "wasgəni"]]
+},
+{
+"label": "kemant-VNegImperfective-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyägir"],
+ ["Singular", "Person2", "Common", "fääkar"],
+ ["Singular", "Person3", "Masc", "fäyäga"],
+ ["Singular", "Person3", "Fem", "fäyäkäy"],
+ ["Plural", "Person1", "Common", "fäyägənir"],
+ ["Plural", "Person2", "Common", "fäyäkänar"],
+ ["Plural", "Person3", "Common", "fäyägäw"]]
+},
+{
+"label": "kemant-VNegImperfective-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wagägir"],
+ ["Singular", "Person2", "Common", "wasäkar"],
+ ["Singular", "Person3", "Masc", "wasäga"],
+ ["Singular", "Person3", "Fem", "wasäkäy"],
+ ["Plural", "Person1", "Common", "wasägənir"],
+ ["Plural", "Person2", "Common", "wasäkänar"],
+ ["Plural", "Person3", "Common", "wasägäw"]]
+},
+{
+"label": "kemant-VNegImperfective-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "xʷagir"],
+ ["Singular", "Person2", "Common", "xʷakar"],
+ ["Singular", "Person3", "Masc", "xʷaga"],
+ ["Singular", "Person3", "Fem", "xʷakäy"],
+ ["Plural", "Person1", "Common", "xʷagənir"],
+ ["Plural", "Person2", "Common", "xʷakänar"],
+ ["Plural", "Person3", "Common", "xʷagäw"]]
+},
+{
+"label": "kemant-VNegImprtv-fay",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "fay",
+ "person": "Person2",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "fäyta"], ["Plural", "fäytäna"]]
+},
+{
+"label": "kemant-VNegImprtv-iw",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "iw",
+ "person": "Person2",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "iwta"], ["Plural", "iwtäna"]]
+},
+{
+"label": "kemant-VNegImprtv-was",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "was",
+ "person": "Person2",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "wasta"], ["Plural", "wastäna"]]
+},
+{
+"label": "kemant-VNegImprtv-xw",
+"note": "A75",
+"common": {"gender": "Common",
+ "lexeme": "xw",
+ "person": "Person2",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Imperative",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "token"], ["Singular", "xʷəta"], ["Plural", "xʷətäna"]]
+},
+{
+"label": "kemant-VNegJussive-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäygin"],
+ ["Singular", "Person2", "Common", "-"],
+ ["Singular", "Person3", "Masc", "fäygin"],
+ ["Singular", "Person3", "Fem", "fäykin"],
+ ["Plural", "Person1", "Common", "?"],
+ ["Plural", "Person2", "Common", "-"],
+ ["Plural", "Person3", "Common", "faygənin"]]
+},
+{
+"label": "kemant-VNegJussive-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasgin"],
+ ["Singular", "Person2", "Common", "-"],
+ ["Singular", "Person3", "Masc", "wasgin"],
+ ["Singular", "Person3", "Fem", "waskin"],
+ ["Plural", "Person1", "Common", "?"],
+ ["Plural", "Person2", "Common", "-"],
+ ["Plural", "Person3", "Common", "wasgənin"]]
+},
+{
+"label": "kemant-VNegJussive-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Jussive",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "xʷəgin"],
+ ["Singular", "Person2", "Common", "-"],
+ ["Singular", "Person3", "Masc", "xʷəgin"],
+ ["Singular", "Person3", "Fem", "xʷəkin"],
+ ["Plural", "Person1", "Common", "?"],
+ ["Plural", "Person2", "Common", "-"],
+ ["Plural", "Person3", "Common", "xʷəgənin"]]
+},
+{
+"label": "kemant-VNegN-subordinate-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "NSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyägän"],
+ ["Singular", "Person2", "Common", "fäyäkän"],
+ ["Singular", "Person3", "Masc", "fäyägän"],
+ ["Singular", "Person3", "Fem", "fäyäkän"],
+ ["Plural", "Person1", "Common", "fäyägənin"],
+ ["Plural", "Person2", "Common", "fäyäkänän"],
+ ["Plural", "Person3", "Common", "fäyägänän"]]
+},
+{
+"label": "kemant-VNegN-subordinate-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "NSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasägän"],
+ ["Singular", "Person2", "Common", "wasäkän"],
+ ["Singular", "Person3", "Masc", "wasägän"],
+ ["Singular", "Person3", "Fem", "wasäkän"],
+ ["Plural", "Person1", "Common", "wasägənin"],
+ ["Plural", "Person2", "Common", "wasäkänän"],
+ ["Plural", "Person3", "Common", "wasägänän"]]
+},
+{
+"label": "kemant-VNegN-subordinate-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "NSubordinate",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "xʷagän"],
+ ["Singular", "Person2", "Common", "xʷakän"],
+ ["Singular", "Person3", "Masc", "xʷagän"],
+ ["Singular", "Person3", "Fem", "xʷakän"],
+ ["Plural", "Person1", "Common", "xʷagənin"],
+ ["Plural", "Person2", "Common", "xʷakänän"],
+ ["Plural", "Person3", "Common", "xʷagänän"]]
+},
+{
+"label": "kemant-VNegPerfective-fay",
+"note": "A75",
+"common": {"lexeme": "fay",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Perfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäygir"],
+ ["Singular", "Person2", "Common", "fäykar"],
+ ["Singular", "Person3", "Masc", "fäyga"],
+ ["Singular", "Person3", "Fem", "fäykäy"],
+ ["Plural", "Person1", "Common", "fäygənir"],
+ ["Plural", "Person2", "Common", "fäykänar"],
+ ["Plural", "Person3", "Common", "fäygäw"]]
+},
+{
+"label": "kemant-VNegPerfective-was",
+"note": "A75",
+"common": {"lexeme": "was",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Perfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasgir"],
+ ["Singular", "Person2", "Common", "waskar"],
+ ["Singular", "Person3", "Masc", "wasga"],
+ ["Singular", "Person3", "Fem", "waskäy"],
+ ["Plural", "Person1", "Common", "wasgənir"],
+ ["Plural", "Person2", "Common", "waskänar"],
+ ["Plural", "Person3", "Common", "wasgäw"]]
+},
+{
+"label": "kemant-VNegPerfective-xw",
+"note": "A75",
+"common": {"lexeme": "xw",
+ "polarity": "Negative",
+ "pos": "Verb",
+ "tam": "Perfective",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "xʷəgir"],
+ ["Singular", "Person2", "Common", "xʷəkar"],
+ ["Singular", "Person3", "Masc", "xʷəga"],
+ ["Singular", "Person3", "Fem", "xʷəkäy"],
+ ["Plural", "Person1", "Common", "xʷəgənir"],
+ ["Plural", "Person2", "Common", "xʷəkänar"],
+ ["Plural", "Person3", "Common", "xʷəgäw"]]
+},
+{
+"label": "kemant-VPerfComp-fay",
+"note": "A75p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted.",
+"common": {"lexeme": "fay",
+ "pos": "Verb",
+ "tam": "PerfectiveComp",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäwanäkʷ"],
+ ["Singular", "Person2", "Common", "fätwanyäkʷ"],
+ ["Singular", "Person3", "Masc", "fäwanäkʷ"],
+ ["Singular", "Person3", "Fem", "fätwanät(i)"],
+ ["Plural", "Person1", "Common", "fäyənwannäkʷ"],
+ ["Plural", "Person2", "Common", "fätənwanyäkʷən"],
+ ["Plural", "Person3", "Common", "fäyənwanäkʷən"]]
+},
+{
+"label": "kemant-VPerfComp-was",
+"note": "A75p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted.",
+"common": {"lexeme": "was",
+ "pos": "Verb",
+ "tam": "PerfectiveComp",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "waswanäkʷ"],
+ ["Singular", "Person2", "Common", "was(əy)(w)wasnyäkʷ"],
+ ["Singular", "Person3", "Masc", "waswanäkʷ"],
+ ["Singular", "Person3", "Fem", "was(əy)(w)wasnät(i)"],
+ ["Plural", "Person1", "Common", "wasənwannäkʷ"],
+ ["Plural", "Person2", "Common", "wasinwanyäkʷən"],
+ ["Plural", "Person3", "Common", "wasənwanäkʷən"]]
+},
+{
+"label": "kemant-VRelOblique-was",
+"note": "A75s7.4 :: Agent noun marker sing. –änta plur. –äntə",
+"common": {"lexeme": "was",
+ "pos": "Verb",
+ "tam": "RelativeOblique",
+ "vmorphClass": "Finite"},
+"terms":  
+[["genderHead", "numHead", "number", "person", "gender", "token"],
+ ["HeadCommon", "HeadPlural", "Singular", "Person1", "Common", "wasäw"],
+ ["HeadCommon", "HeadPlural", "Singular", "Person2", "Common", "wasyäw"],
+ ["HeadCommon", "HeadPlural", "Singular", "Person3", "Masc", "wasäw"],
+ ["HeadCommon", "HeadPlural", "Singular", "Person3", "Fem", "wasyäw"],
+ ["HeadCommon", "HeadPlural", "Plural", "Person1", "Common", "wasnäw"],
+ ["HeadCommon", "HeadPlural", "Plural", "Person2", "Common", "wasyänäw"],
+ ["HeadCommon", "HeadPlural", "Plural", "Person3", "Common", "wasänäw"],
+ ["HeadFem", "HeadSingular", "Singular", "Person1", "Common", "wasäy"],
+ ["HeadFem", "HeadSingular", "Singular", "Person2", "Common", "wasyäy"],
+ ["HeadFem", "HeadSingular", "Singular", "Person3", "Masc", "wasäy"],
+ ["HeadFem", "HeadSingular", "Singular", "Person3", "Fem", "wasyäy"],
+ ["HeadFem", "HeadSingular", "Plural", "Person1", "Common", "wasnäy"],
+ ["HeadFem", "HeadSingular", "Plural", "Person2", "Common", "wasyänäy"],
+ ["HeadFem", "HeadSingular", "Plural", "Person3", "Common", "wasänäy"],
+ ["HeadMasc", "HeadSingular", "Singular", "Person1", "Common", "wasaɣ"],
+ ["HeadMasc", "HeadSingular", "Singular", "Person2", "Common", "wasyaɣ"],
+ ["HeadMasc", "HeadSingular", "Singular", "Person3", "Masc", "wasaɣ"],
+ ["HeadMasc", "HeadSingular", "Singular", "Person3", "Fem", "wasyaɣ"],
+ ["HeadMasc", "HeadSingular", "Plural", "Person1", "Common", "wasnaɣ"],
+ ["HeadMasc", "HeadSingular", "Plural", "Person2", "Common", "wasyänaɣ"],
+ ["HeadMasc", "HeadSingular", "Plural", "Person3", "Common", "wasänaɣ"]]
+},
+{
+"label": "kemant-VRelSubj-was",
+"note": "A75s7.9",
+"common": {"lexeme": "was",
+ "pos": "Verb",
+ "tam": "RelativeSubject",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "wasaɣ ~ wasaɣər ~ wasar"],
+ ["Singular", "Person2", "Common", "wasyaɣ ~ wasyaɣər ~ wasyar"],
+ ["Singular", "Person3", "Masc", "wasaɣ"],
+ ["Singular", "Person3", "Fem", "wasäy"],
+ ["Plural", "Person1", "Common", "wasnaɣ ~ wasnaɣər ~ wasnar"],
+ ["Plural", "Person2", "Common", "wasyänaɣ ~ wasyänaɣər ~ wasyänar"],
+ ["Plural", "Person3", "Common", "wasäw"]]
+},
+{
+"label": "kemant-VRelSubj-xw",
+"note": "A75s7.9",
+"common": {"lexeme": "fay",
+ "pos": "Verb",
+ "tam": "RelativeSubject",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token"],
+ ["Singular", "Person1", "Common", "fäyaɣ ~ fäyaɣər ~ fäyar"],
+ ["Singular", "Person2", "Common", "fätaɣ "],
+ ["Singular", "Person3", "Masc", "fäyaɣ"],
+ ["Singular", "Person3", "Fem", "fäyäy"],
+ ["Plural", "Person1", "Common", "fäynaɣ"],
+ ["Plural", "Person2", "Common", "fätänaɣ"],
+ ["Plural", "Person3", "Common", "fäyäw"]]
+},
+{
+"label": "kemant-NCardinalNumeral",
+"note": "A75p.329",
+"common": {"nmorphClass": "CARDINALNUM",
+ "nounClass": "CardinalNumeral",
+ "pos": "Noun"},
+"terms":  
+[["token", "token-note"],
+ ["ankʷa", "5"],
+ ["läŋäta", "7"],
+ ["säjja", "4"],
+ ["läŋätiŋ", "70"],
+ ["säɣʷäyəŋ", "30"],
+ ["wältiŋ", "60"],
+ ["s̆i", "1000"],
+ ["säɣʷätiŋ", "80"],
+ ["säɣʷäta", "8"],
+ ["siɣʷa", "p3"],
+ ["ankʷiŋ", "50"],
+ ["sässiŋ", "90"],
+ ["sässa", "9"],
+ ["läŋayəŋ̈", "20"],
+ ["s̆əka", "10"],
+ ["liŋa", "p2"],
+ ["arba", "40"],
+ ["liɣ", "100"],
+ ["laɣʷa / laɣa / la", "p1"],
+ ["wälta", "6"]]
+},
+{
+"label": "kemant-PInd",
+"note": "A75p.320",
+"common": {"pmorphClass": "ProMorph",
+ "pos": "Pronoun",
+ "proClass": "Independent"},
+"terms":  
+[["proSet", "number", "person", "gender", "token"],
+ ["ProSetA", "Singular", "Person1", "Common", "an"],
+ ["ProSetA", "Singular", "Person2", "Common", "əntə"],
+ ["ProSetA", "Singular", "Person3", "Masc", "ni"],
+ ["ProSetA", "Singular", "Person3", "Fem", "niy"],
+ ["ProSetA", "Plural", "Person1", "Common", "andiw / anniw"],
+ ["ProSetA", "Plural", "Person2", "Common", "əntändiw / əntän(n)iw / əntädiw"],
+ ["ProSetA", "Plural", "Person3", "Common", "naydiw"],
+ ["ProSetB", "Singular", "Person1", "Common", "yə"],
+ ["ProSetB", "Singular", "Person2", "Common", "ki / ku"],
+ ["ProSetB", "Singular", "Person3", "Masc", "ni"],
+ ["ProSetB", "Singular", "Person3", "Fem", "nis̆"],
+ ["ProSetB", "Plural", "Person1", "Common", "anä"],
+ ["ProSetB", "Plural", "Person2", "Common", "əntä "],
+ ["ProSetB", "Plural", "Person3", "Common", "na"]]
+},
+{
+"label": "kemant-VBe",
+"note": "A75s7.8",
+"common": {"polarity": "Affirmative",
+ "pos": "Verb",
+ "verbSubType": "Copula",
+ "vmorphClass": "Finite"},
+"terms":  
+[["number", "person", "gender", "token", "token-note"],
+ ["Singular", "Person1", "Common", "gagir ~  gəyagir", "gagir + gəyagir"],
+ ["Singular", "Person2", "Common", "gakar ~  gəyakar", "gakar + gəyakar"],
+ ["Singular", "Person3", "Masc", "gaga ~  gəyaga", "gaga + gəyaga"],
+ ["Singular", "Person3", "Fem", "gakäy ~  gəyakäy", "gakäy + gəyakäy"],
+ ["Plural", "Person1", "Common", "gagənir ~  gəyagənir", "gagənir + gəyagənir"],
+ ["Plural", "Person2", "Common", "gakänar ~  gəyakänar", "gakänar + gəyakänar"],
+ ["Plural", "Person3", "Common", "gagäw ~  gəyagäw", "gagäw + gəyagäw"]]
+},
+{
+"label": "kemant-VSubjMarker",
+"note": "A75s7.2",
+"common": {"formType": "Affix",
+ "pos": "Verb",
+ "vmorphClass": "SUBJMARK"},
+"terms":  
+[["vSubjectSet", "number", "person", "gender", "token"],
+ ["VSubjSetA", "Singular", "Person1", "Common", "-Ø-"],
+ ["VSubjSetA", "Singular", "Person2", "Common", "-y- ~ -t-"],
+ ["VSubjSetA", "Singular", "Person3", "Masc", "-Ø-"],
+ ["VSubjSetA", "Singular", "Person3", "Fem", "-y- ~ -t-"],
+ ["VSubjSetA", "Plural", "Person1", "Common", "-n-"],
+ ["VSubjSetA", "Plural", "Person2", "Common", "-yVn- ~ -tVn-"],
+ ["VSubjSetA", "Plural", "Person3", "Common", "-Vn-"],
+ ["VSubjSetB", "Singular", "Person1", "Common", "-Ø-"],
+ ["VSubjSetB", "Singular", "Person2", "Common", "-C-"],
+ ["VSubjSetB", "Singular", "Person3", "Masc", "-Ø-"],
+ ["VSubjSetB", "Singular", "Person3", "Fem", "-C-"],
+ ["VSubjSetB", "Plural", "Person1", "Common", "-n-"],
+ ["VSubjSetB", "Plural", "Person2", "Common", "-CVn-"],
+ ["VSubjSetB", "Plural", "Person3", "Common", "-Vn-"]]
+}]
+}
