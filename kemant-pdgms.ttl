@@ -14,11 +14,11 @@
 
 aama:Kemant a aamas:Language.
 aama:Kemant rdfs:label "Kemant" .
-aama:Kemant aamas:subfamily "Agaw" .
+aama:Kemant aamas:subfamily "cushitic agaw" .
 aama:Kemant aamas:lpref "kem" .
-aama:Kemant aamas:dataSource "Appleyard, David. 1975. 'A descriptive outline of Kemant'. Bulletin of the School of Oriental and African Studies 38/2, 316-350.; abbrev. A75" .
+aama:Kemant aamas:dataSource "Appleyard, David. 1975. 'A descriptive outline of Kemant'. Bulletin of the School of Oriental and African Studies 38/2, 316-350.; abbrev. DA1975" .
 aama:Kemant aamas:geodemoURL "http://www.ethnologue.com/language/ahg" .
-aama:Kemant aamas:geodemoTxt "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant." .
+aama:Kemant aamas:geodemoTxt "Varieties and subdialects of cushitic agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant." .
 
 #SCHEMATA: clauseType
 kem:clauseType aamas:lang aama:Kemant .
@@ -285,12 +285,12 @@ kem:proSet rdfs:label "proSet" .
 kem:proSet rdfs:range kem:PROSET .
 kem:PROSET rdfs:subClassOf kem:MuExponent .
 kem:proSet rdfs:subPropertyOf kem:muProperty .
-kem:ProSetA aamas:lang aama:Kemant .
-kem:ProSetA rdf:type aamas:PROSET .
-kem:ProSetA rdfs:label "ProSetA" .
-kem:ProSetB aamas:lang aama:Kemant .
-kem:ProSetB rdf:type aamas:PROSET .
-kem:ProSetB rdfs:label "ProSetB" .
+kem:ProA aamas:lang aama:Kemant .
+kem:ProA rdf:type aamas:PROSET .
+kem:ProA rdfs:label "ProA" .
+kem:ProB aamas:lang aama:Kemant .
+kem:ProB rdf:type aamas:PROSET .
+kem:ProB rdfs:label "ProB" .
 
 #SCHEMATA: subjectSet
 kem:subjectSet aamas:lang aama:Kemant .
@@ -380,10 +380,10 @@ kem:lex-xw a aamas:Lexeme ;
 kem:kem-NounCardinalNumeral a aamas:Termcluster ;
 	rdfs:label "kem-NounCardinalNumeral" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 p.329" 
+	rdfs:comment "DA1975p329" 
 	.
 
-aama:IDe7b0efda-e0b2-4094-b4bf-320cd5e9bdd4 a aamas:Term ;
+aama:ID93ab7efd-9236-47ef-aae1-28da26af938c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -392,7 +392,7 @@ aama:IDe7b0efda-e0b2-4094-b4bf-320cd5e9bdd4 a aamas:Term ;
 	kem:token-note "5" ;
 	.
 
-aama:ID18d2dbe0-767c-4f02-b7e0-3639741d4ed2 a aamas:Term ;
+aama:ID99470d54-3e18-4982-acb4-cd2b2e049714 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -401,7 +401,7 @@ aama:ID18d2dbe0-767c-4f02-b7e0-3639741d4ed2 a aamas:Term ;
 	kem:token-note "7" ;
 	.
 
-aama:ID17f8a3de-8da6-4521-a21a-630830e205be a aamas:Term ;
+aama:IDb4332fce-64f6-4396-abf2-59c5d65b05c5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -410,7 +410,7 @@ aama:ID17f8a3de-8da6-4521-a21a-630830e205be a aamas:Term ;
 	kem:token-note "4" ;
 	.
 
-aama:ID33ff02a2-dc2f-4011-a228-5609a7ba27bd a aamas:Term ;
+aama:ID76bef001-f4da-4d30-8702-48c67c96486d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -419,7 +419,7 @@ aama:ID33ff02a2-dc2f-4011-a228-5609a7ba27bd a aamas:Term ;
 	kem:token-note "70" ;
 	.
 
-aama:IDb5251e29-8b0f-428c-b268-180edc993a49 a aamas:Term ;
+aama:IDad79cb6f-828a-45b1-8b03-6721aecbbc06 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -428,7 +428,7 @@ aama:IDb5251e29-8b0f-428c-b268-180edc993a49 a aamas:Term ;
 	kem:token-note "30" ;
 	.
 
-aama:ID30f40020-b698-40bf-9453-57c0454205f9 a aamas:Term ;
+aama:ID3260254a-c88b-48be-9f59-a2cc0c522007 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -437,7 +437,7 @@ aama:ID30f40020-b698-40bf-9453-57c0454205f9 a aamas:Term ;
 	kem:token-note "60" ;
 	.
 
-aama:ID2ed3d929-4fe6-4a43-ae87-e0a0f4562f7b a aamas:Term ;
+aama:ID53436d37-92a6-4463-a9ec-79a6ad20c588 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -446,7 +446,7 @@ aama:ID2ed3d929-4fe6-4a43-ae87-e0a0f4562f7b a aamas:Term ;
 	kem:token-note "1000" ;
 	.
 
-aama:IDcd06a973-bce3-4dbd-ab3f-008f6bfe7779 a aamas:Term ;
+aama:IDb05392f3-48e0-4037-8719-9a8f7948f983 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -455,7 +455,7 @@ aama:IDcd06a973-bce3-4dbd-ab3f-008f6bfe7779 a aamas:Term ;
 	kem:token-note "80" ;
 	.
 
-aama:ID7d8cd624-4885-44c5-9612-7f2782c25375 a aamas:Term ;
+aama:IDa53e8233-2eec-4f55-911d-e4cc2db49f92 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -464,7 +464,7 @@ aama:ID7d8cd624-4885-44c5-9612-7f2782c25375 a aamas:Term ;
 	kem:token-note "8" ;
 	.
 
-aama:IDaf4572e2-c369-4d2f-8456-0f782f582b38 a aamas:Term ;
+aama:IDd35c3a8d-8f34-49f4-84d0-4c0466fefc42 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -473,7 +473,7 @@ aama:IDaf4572e2-c369-4d2f-8456-0f782f582b38 a aamas:Term ;
 	kem:token-note "p3" ;
 	.
 
-aama:IDd60d1af4-d9b9-4df2-af0f-30b6d9a78b4a a aamas:Term ;
+aama:IDc7b0d567-e2dd-47a0-8bdc-52733e4605fa a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -482,7 +482,7 @@ aama:IDd60d1af4-d9b9-4df2-af0f-30b6d9a78b4a a aamas:Term ;
 	kem:token-note "50" ;
 	.
 
-aama:ID32ae54e2-916b-49bc-a5d8-e54e2fea7f63 a aamas:Term ;
+aama:IDeffde967-fd36-4c34-8126-45a6708c91a7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -491,7 +491,7 @@ aama:ID32ae54e2-916b-49bc-a5d8-e54e2fea7f63 a aamas:Term ;
 	kem:token-note "90" ;
 	.
 
-aama:IDb478228f-3892-463f-910f-e07832097da5 a aamas:Term ;
+aama:IDd65750a5-5491-4358-abdc-f522e801683c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -500,7 +500,7 @@ aama:IDb478228f-3892-463f-910f-e07832097da5 a aamas:Term ;
 	kem:token-note "9" ;
 	.
 
-aama:ID19712d7d-8301-4ec2-8a7b-55049b181fd3 a aamas:Term ;
+aama:IDdb72a66e-fb91-4ebb-a198-a2de35d40144 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -509,7 +509,7 @@ aama:ID19712d7d-8301-4ec2-8a7b-55049b181fd3 a aamas:Term ;
 	kem:token-note "20" ;
 	.
 
-aama:ID2c747452-4114-46f8-b19c-55732519b9ac a aamas:Term ;
+aama:ID5b18e42b-256b-44fe-81dc-4d748e1d805b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -518,7 +518,7 @@ aama:ID2c747452-4114-46f8-b19c-55732519b9ac a aamas:Term ;
 	kem:token-note "10" ;
 	.
 
-aama:ID6407172a-e0c0-4f8a-a9b2-0e647ef55ea8 a aamas:Term ;
+aama:IDc8da1869-387a-4892-a49c-e4bfb7f4e4cb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -527,7 +527,7 @@ aama:ID6407172a-e0c0-4f8a-a9b2-0e647ef55ea8 a aamas:Term ;
 	kem:token-note "p2" ;
 	.
 
-aama:ID73d64a4f-37c8-4efc-ba81-9bee62f5e822 a aamas:Term ;
+aama:IDabfa44d4-cf1e-43ef-bd31-ad8b06b78e25 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -536,7 +536,7 @@ aama:ID73d64a4f-37c8-4efc-ba81-9bee62f5e822 a aamas:Term ;
 	kem:token-note "40" ;
 	.
 
-aama:ID469dead7-e3a5-4cc9-8676-9db4c0747b2a a aamas:Term ;
+aama:ID4c4ecd49-365f-4140-a78c-58231f549f27 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -545,7 +545,7 @@ aama:ID469dead7-e3a5-4cc9-8676-9db4c0747b2a a aamas:Term ;
 	kem:token-note "100" ;
 	.
 
-aama:ID5b75876f-8d06-45a9-9a68-42fb1ea08702 a aamas:Term ;
+aama:IDe50d6453-8fbc-445b-a09b-848490bb2c92 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -554,7 +554,7 @@ aama:ID5b75876f-8d06-45a9-9a68-42fb1ea08702 a aamas:Term ;
 	kem:token-note "p1" ;
 	.
 
-aama:ID6c1ec32a-b143-4dc0-af32-254c6369f6e9 a aamas:Term ;
+aama:ID502a7601-18b0-480f-b65a-19e90751186e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-NounCardinalNumeral ;
 	kem:nounClass kem:CardinalNumeral ;
@@ -568,171 +568,179 @@ aama:ID6c1ec32a-b143-4dc0-af32-254c6369f6e9 a aamas:Term ;
 kem:kem-PronounIndependent a aamas:Termcluster ;
 	rdfs:label "kem-PronounIndependent" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 p.320" 
+	rdfs:comment "DA1975p320" 
 	.
 
-aama:ID2efa0891-2602-403b-ad3c-0b11a669a9ae a aamas:Term ;
+aama:ID3444028b-293c-42a5-b19c-ff4ee91b3ee3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetA ;
+	kem:proSet kem:ProA ;
 	kem:number kem:Singular ;
 	kem:person kem:Person1 ;
 	kem:gender kem:Common ;
 	kem:token "an" ;
 	.
 
-aama:IDb67f3aee-556a-4459-8dc3-6f2fd7643608 a aamas:Term ;
+aama:IDc643d0c1-feed-43e5-b39b-1b0e0f84fa6f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetA ;
+	kem:proSet kem:ProA ;
 	kem:number kem:Singular ;
 	kem:person kem:Person2 ;
 	kem:gender kem:Common ;
 	kem:token "əntə" ;
 	.
 
-aama:IDaffd8a24-f65e-4f4b-b3cd-e0a4d5c25bac a aamas:Term ;
+aama:IDbdca8d90-6f91-47a8-afda-9fc0b65a1cc5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetA ;
+	kem:proSet kem:ProA ;
 	kem:number kem:Singular ;
 	kem:person kem:Person3 ;
 	kem:gender kem:Masc ;
 	kem:token "ni" ;
 	.
 
-aama:IDae37e428-7a93-4041-9074-8677bd801c70 a aamas:Term ;
+aama:ID44d5e8bb-9c73-4eab-907b-3199f2177c95 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetA ;
+	kem:proSet kem:ProA ;
 	kem:number kem:Singular ;
 	kem:person kem:Person3 ;
 	kem:gender kem:Fem ;
 	kem:token "niy" ;
 	.
 
-aama:ID8e8b2546-bf39-4a3a-a66a-c3bf614fa101 a aamas:Term ;
+aama:IDfa4c8d0e-80cd-459b-8222-fa6ed76d2093 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetA ;
+	kem:proSet kem:ProA ;
 	kem:number kem:Plural ;
 	kem:person kem:Person1 ;
 	kem:gender kem:Common ;
 	kem:token "andiw / anniw" ;
 	.
 
-aama:IDd9076787-851f-4831-9d23-948899df2e0d a aamas:Term ;
+aama:ID8830a046-9ada-4ba1-b85f-00ce7b8f98d8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetA ;
+	kem:proSet kem:ProA ;
 	kem:number kem:Plural ;
 	kem:person kem:Person2 ;
 	kem:gender kem:Common ;
 	kem:token "əntändiw / əntän(n)iw / əntädiw" ;
 	.
 
-aama:ID28cb4091-46b4-4fd5-9d29-edf532059b7c a aamas:Term ;
+aama:ID7fa68f28-cf0a-4817-91bd-40066bf7d794 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetA ;
+	kem:proSet kem:ProA ;
 	kem:number kem:Plural ;
 	kem:person kem:Person3 ;
 	kem:gender kem:Common ;
 	kem:token "naydiw" ;
 	.
 
-aama:ID94be9019-555e-4a55-b714-bfdb740b0c7f a aamas:Term ;
+#TERMCLUSTER: kem-PronounIndependent
+
+kem:kem-PronounIndependent a aamas:Termcluster ;
+	rdfs:label "kem-PronounIndependent" ;
+	aamas:lang aama:Kemant ;
+	rdfs:comment "DA1975p320" 
+	.
+
+aama:ID28931f04-b954-4332-8a20-92ed9a6c0d93 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetB ;
+	kem:proSet kem:ProB ;
 	kem:number kem:Singular ;
 	kem:person kem:Person1 ;
 	kem:gender kem:Common ;
 	kem:token "yə" ;
 	.
 
-aama:IDdd702f82-34bc-4dfa-9f30-2f653bc5fd20 a aamas:Term ;
+aama:IDd59eba9b-f9ea-46e8-b320-126b0f133e61 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetB ;
+	kem:proSet kem:ProB ;
 	kem:number kem:Singular ;
 	kem:person kem:Person2 ;
 	kem:gender kem:Common ;
 	kem:token "ki / ku" ;
 	.
 
-aama:IDf5bb4736-5951-46ed-b980-631e22f3194d a aamas:Term ;
+aama:IDbb0b2fed-f6bc-48f7-a05a-72ebc896dbc9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetB ;
+	kem:proSet kem:ProB ;
 	kem:number kem:Singular ;
 	kem:person kem:Person3 ;
 	kem:gender kem:Masc ;
 	kem:token "ni" ;
 	.
 
-aama:ID3dda94ff-26c3-43e6-be66-147b3bec9544 a aamas:Term ;
+aama:ID4367fefa-4f1b-46f3-92c0-3398767356d0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetB ;
+	kem:proSet kem:ProB ;
 	kem:number kem:Singular ;
 	kem:person kem:Person3 ;
 	kem:gender kem:Fem ;
 	kem:token "nis̆" ;
 	.
 
-aama:ID7fc8c6f0-910a-4879-92f9-b7cac0c99b09 a aamas:Term ;
+aama:IDc7e02cdd-7252-48ed-9b0b-acf886cfbb7b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetB ;
+	kem:proSet kem:ProB ;
 	kem:number kem:Plural ;
 	kem:person kem:Person1 ;
 	kem:gender kem:Common ;
 	kem:token "anä" ;
 	.
 
-aama:IDeb778e88-8890-4304-b54a-5a35fdd2a369 a aamas:Term ;
+aama:IDfeda30ff-84ff-4935-ba6c-d7bf2d7e2871 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetB ;
+	kem:proSet kem:ProB ;
 	kem:number kem:Plural ;
 	kem:person kem:Person2 ;
 	kem:gender kem:Common ;
 	kem:token "əntä " ;
 	.
 
-aama:ID4dd41680-8ff2-43ec-9268-058da0d553da a aamas:Term ;
+aama:ID11edc0da-1b2c-4484-8e4d-2becafb0fc78 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-PronounIndependent ;
 	kem:pos kem:Pronoun ;
 	kem:proClass kem:Independent ;
-	kem:proSet kem:ProSetB ;
+	kem:proSet kem:ProB ;
 	kem:number kem:Plural ;
 	kem:person kem:Person3 ;
 	kem:gender kem:Common ;
@@ -744,10 +752,10 @@ aama:ID4dd41680-8ff2-43ec-9268-058da0d553da a aamas:Term ;
 kem:kem-Verb-Copula-Affirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-Copula-Affirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.8" 
+	rdfs:comment "DA1975p342" 
 	.
 
-aama:ID0c29038b-fa1b-4db5-be8f-f6df1efb0249 a aamas:Term ;
+aama:ID43b9fc98-99c8-46d8-940c-75406dba96c8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-Copula-Affirmative ;
 	kem:polarity kem:Affirmative ;
@@ -760,7 +768,7 @@ aama:ID0c29038b-fa1b-4db5-be8f-f6df1efb0249 a aamas:Term ;
 	kem:token-note "gagir + gəyagir" ;
 	.
 
-aama:ID895ebc5b-e7cb-45fe-a1b4-8003fc107dee a aamas:Term ;
+aama:IDe05ed195-b70d-435b-b61c-e7d5bd4dd5a0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-Copula-Affirmative ;
 	kem:polarity kem:Affirmative ;
@@ -773,7 +781,7 @@ aama:ID895ebc5b-e7cb-45fe-a1b4-8003fc107dee a aamas:Term ;
 	kem:token-note "gakar + gəyakar" ;
 	.
 
-aama:IDd52b6fd5-38dc-4f70-96e3-57f643d4005b a aamas:Term ;
+aama:IDfb49f3d0-c856-4645-9fb7-119a6b4225b6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-Copula-Affirmative ;
 	kem:polarity kem:Affirmative ;
@@ -786,7 +794,7 @@ aama:IDd52b6fd5-38dc-4f70-96e3-57f643d4005b a aamas:Term ;
 	kem:token-note "gaga + gəyaga" ;
 	.
 
-aama:IDdb98e765-f126-4746-aba2-3580eab97697 a aamas:Term ;
+aama:ID6ae4c045-3a93-4a2b-b98b-3c3dca1cb6e6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-Copula-Affirmative ;
 	kem:polarity kem:Affirmative ;
@@ -799,7 +807,7 @@ aama:IDdb98e765-f126-4746-aba2-3580eab97697 a aamas:Term ;
 	kem:token-note "gakäy + gəyakäy" ;
 	.
 
-aama:ID0b5c200b-75d9-4df9-acf5-57b245c862e5 a aamas:Term ;
+aama:IDd7a04c34-c1e2-43a0-8865-df5af7ef935b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-Copula-Affirmative ;
 	kem:polarity kem:Affirmative ;
@@ -812,7 +820,7 @@ aama:ID0b5c200b-75d9-4df9-acf5-57b245c862e5 a aamas:Term ;
 	kem:token-note "gagənir + gəyagənir" ;
 	.
 
-aama:ID8069ed9a-11c2-4741-bed0-54f2ae8fc190 a aamas:Term ;
+aama:ID0760a973-da27-4539-8303-1905e51dbd23 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-Copula-Affirmative ;
 	kem:polarity kem:Affirmative ;
@@ -825,7 +833,7 @@ aama:ID8069ed9a-11c2-4741-bed0-54f2ae8fc190 a aamas:Term ;
 	kem:token-note "gakänar + gəyakänar" ;
 	.
 
-aama:IDb28d339c-1ed8-4ca9-9831-0b6d834cf773 a aamas:Term ;
+aama:ID1858d768-9e1a-4d3f-8539-c8df78f3fd41 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-Copula-Affirmative ;
 	kem:polarity kem:Affirmative ;
@@ -843,10 +851,10 @@ aama:IDb28d339c-1ed8-4ca9-9831-0b6d834cf773 a aamas:Term ;
 kem:kem-Verb-fay-GerundAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-GerundAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p337" 
 	.
 
-aama:ID61294764-4483-4411-81be-bb6c89f42ba6 a aamas:Term ;
+aama:IDcfd91b09-c0dc-44a4-a953-929da7634b45 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -859,7 +867,7 @@ aama:ID61294764-4483-4411-81be-bb6c89f42ba6 a aamas:Term ;
 	kem:token "fäyo" ;
 	.
 
-aama:ID7ab3aeb6-98a8-434f-b9e2-99f4451e18a8 a aamas:Term ;
+aama:IDd02c86f7-0308-4938-8191-2328eaa5f84c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -872,7 +880,7 @@ aama:ID7ab3aeb6-98a8-434f-b9e2-99f4451e18a8 a aamas:Term ;
 	kem:token "fäto" ;
 	.
 
-aama:ID74494be0-cb77-40ae-842d-d673b1edbd12 a aamas:Term ;
+aama:ID17ac4b64-c1b8-4b44-94d9-1c8f3c8c7fc2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -885,7 +893,7 @@ aama:ID74494be0-cb77-40ae-842d-d673b1edbd12 a aamas:Term ;
 	kem:token "fäyo" ;
 	.
 
-aama:ID4369b1ac-ee80-41d4-9dc2-6b88334d701a a aamas:Term ;
+aama:ID181c61d7-ef69-4f6c-859d-1cde61f09228 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -898,7 +906,7 @@ aama:ID4369b1ac-ee80-41d4-9dc2-6b88334d701a a aamas:Term ;
 	kem:token "fäto" ;
 	.
 
-aama:ID7223b949-2f35-4d2a-86f8-54e7d5ab0ccb a aamas:Term ;
+aama:ID7ba3b130-016c-4596-b4d2-05957944e2fd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -911,7 +919,7 @@ aama:ID7223b949-2f35-4d2a-86f8-54e7d5ab0ccb a aamas:Term ;
 	kem:token "fäyno" ;
 	.
 
-aama:IDef9e0583-2857-4aea-a98d-428574778a87 a aamas:Term ;
+aama:ID803071c7-2d0d-4a87-a22a-77b8d58edbd0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -924,7 +932,7 @@ aama:IDef9e0583-2857-4aea-a98d-428574778a87 a aamas:Term ;
 	kem:token "fätəno" ;
 	.
 
-aama:ID1a44c91d-03fc-4ce1-a701-c3cb194c8437 a aamas:Term ;
+aama:ID3128c141-8279-480e-aaa5-10389850047c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -942,10 +950,10 @@ aama:ID1a44c91d-03fc-4ce1-a701-c3cb194c8437 a aamas:Term ;
 kem:kem-Verb-fay-GerundNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-GerundNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p347" 
 	.
 
-aama:ID2c29f299-9b54-491e-a618-0e6e35b3227e a aamas:Term ;
+aama:ID3d593584-0bc7-41d4-bb95-93cef7af46fd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -958,7 +966,7 @@ aama:ID2c29f299-9b54-491e-a618-0e6e35b3227e a aamas:Term ;
 	kem:token "fäygi" ;
 	.
 
-aama:ID9d0d9b7a-8030-4f58-8c03-acf6a8881351 a aamas:Term ;
+aama:IDab93a02f-0f87-4361-84c1-7b57323291a3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -971,7 +979,7 @@ aama:ID9d0d9b7a-8030-4f58-8c03-acf6a8881351 a aamas:Term ;
 	kem:token "fäyki" ;
 	.
 
-aama:ID0821416f-648c-4e3f-8b2a-093659bf6e65 a aamas:Term ;
+aama:ID1616879c-0598-4884-9a33-54ffb8c33410 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -984,7 +992,7 @@ aama:ID0821416f-648c-4e3f-8b2a-093659bf6e65 a aamas:Term ;
 	kem:token "fäygi" ;
 	.
 
-aama:IDe4fa1a5a-7a2a-4ac3-936c-d1db6e7d1bc5 a aamas:Term ;
+aama:ID3f157853-0686-4ced-9139-1fabe167390f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -997,7 +1005,7 @@ aama:IDe4fa1a5a-7a2a-4ac3-936c-d1db6e7d1bc5 a aamas:Term ;
 	kem:token "fäyki" ;
 	.
 
-aama:IDc49dd599-834a-46ea-b5b5-1ef8150ab2dd a aamas:Term ;
+aama:IDbf05f1c3-195c-4d4e-a402-8e1ee98fd2bd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1010,7 +1018,7 @@ aama:IDc49dd599-834a-46ea-b5b5-1ef8150ab2dd a aamas:Term ;
 	kem:token "fäygəni" ;
 	.
 
-aama:IDe672b1f2-375f-47c2-8d82-c1e1d0eb9d5a a aamas:Term ;
+aama:IDe7e7cf7f-dea8-4a5b-bd92-675bab985f9f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1023,7 +1031,7 @@ aama:IDe672b1f2-375f-47c2-8d82-c1e1d0eb9d5a a aamas:Term ;
 	kem:token "fäykəni" ;
 	.
 
-aama:ID47f08a58-8f53-4aa6-806d-dea544463bd5 a aamas:Term ;
+aama:ID191de9b7-1c13-433f-b7ea-62d91279c3cd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-GerundNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1041,10 +1049,10 @@ aama:ID47f08a58-8f53-4aa6-806d-dea544463bd5 a aamas:Term ;
 kem:kem-Verb-fay-ImperativeMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-ImperativeMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336" 
 	.
 
-aama:ID1ed2229b-c536-4621-860e-e0410497f203 a aamas:Term ;
+aama:IDeef92823-3cd6-4c7a-b1f0-4046e37043d4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1058,7 +1066,7 @@ aama:ID1ed2229b-c536-4621-860e-e0410497f203 a aamas:Term ;
 	kem:token "fäy" ;
 	.
 
-aama:IDa472739c-9314-4350-9e3e-955966beee3a a aamas:Term ;
+aama:IDbebc4bed-6e32-476a-a6d6-ce910f0ad488 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1077,10 +1085,10 @@ aama:IDa472739c-9314-4350-9e3e-955966beee3a a aamas:Term ;
 kem:kem-Verb-fay-ImperativeMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-ImperativeMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID2d05ba77-2e74-4b09-a156-6b0b349a7be7 a aamas:Term ;
+aama:ID811f69f2-6297-4df5-835a-8012a9c69e8a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1094,7 +1102,7 @@ aama:ID2d05ba77-2e74-4b09-a156-6b0b349a7be7 a aamas:Term ;
 	kem:token "fäyta" ;
 	.
 
-aama:IDc9fa1266-6666-42e5-a5dd-7bdcfda3a2ce a aamas:Term ;
+aama:ID3ae5b353-9452-4f63-a5e8-b85cb048c9e5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1113,10 +1121,10 @@ aama:IDc9fa1266-6666-42e5-a5dd-7bdcfda3a2ce a aamas:Term ;
 kem:kem-Verb-fay-ImperfectiveMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-ImperfectiveMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p333 " 
 	.
 
-aama:ID619c16b6-b2ff-4a12-a2f4-2e6e421ecf7b a aamas:Term ;
+aama:ID60696eff-6c84-4b3c-a3aa-ab421b560479 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1130,7 +1138,7 @@ aama:ID619c16b6-b2ff-4a12-a2f4-2e6e421ecf7b a aamas:Term ;
 	kem:token "fäyäkʷ" ;
 	.
 
-aama:IDe0ddc2b6-36e4-416e-9fc6-a1dfdb5870fc a aamas:Term ;
+aama:ID16c6b8c4-fd6a-4eeb-95db-f950a2b4eaf9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1144,7 +1152,7 @@ aama:IDe0ddc2b6-36e4-416e-9fc6-a1dfdb5870fc a aamas:Term ;
 	kem:token "fätäkʷ" ;
 	.
 
-aama:ID4fd069d3-3075-4c67-81dd-3b460374d73e a aamas:Term ;
+aama:IDd5c544ec-620a-4367-b4a2-5c50557b02df a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1158,7 +1166,7 @@ aama:ID4fd069d3-3075-4c67-81dd-3b460374d73e a aamas:Term ;
 	kem:token "fäyäkʷ" ;
 	.
 
-aama:ID733f0c46-d532-45c2-bf38-46f72e9812ca a aamas:Term ;
+aama:IDbd67705d-613c-4eda-84ef-0fc67c5d1578 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1172,7 +1180,7 @@ aama:ID733f0c46-d532-45c2-bf38-46f72e9812ca a aamas:Term ;
 	kem:token "fäyät(i)" ;
 	.
 
-aama:IDca39bd7b-3e93-4df3-91b1-074e2498a9db a aamas:Term ;
+aama:ID026462bb-56f3-48d4-be5a-04cad1ed0bdf a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1186,7 +1194,7 @@ aama:IDca39bd7b-3e93-4df3-91b1-074e2498a9db a aamas:Term ;
 	kem:token "fäynäkʷ" ;
 	.
 
-aama:IDdddcad60-1514-475e-9b90-ac006cded1ec a aamas:Term ;
+aama:ID0ca7ea4c-3b3f-408c-8cbc-3747cb64b017 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1200,7 +1208,7 @@ aama:IDdddcad60-1514-475e-9b90-ac006cded1ec a aamas:Term ;
 	kem:token "fätakʷən" ;
 	.
 
-aama:ID6d4a18ba-2596-4bfa-95be-8991deb5a00c a aamas:Term ;
+aama:ID600b87e7-b63c-4130-8914-09de484a4e7a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1219,10 +1227,10 @@ aama:ID6d4a18ba-2596-4bfa-95be-8991deb5a00c a aamas:Term ;
 kem:kem-Verb-fay-ImperfectiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-ImperfectiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p333 " 
 	.
 
-aama:ID91bb731a-21c0-41c8-a7d7-01397de4b7c4 a aamas:Term ;
+aama:ID569063e0-4369-4a3a-8390-6f204f7a297a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1236,7 +1244,7 @@ aama:ID91bb731a-21c0-41c8-a7d7-01397de4b7c4 a aamas:Term ;
 	kem:token "fäyägir" ;
 	.
 
-aama:IDa27af1fb-388b-4291-bafb-8fbd03faf47a a aamas:Term ;
+aama:IDd925edaf-ef57-468d-b507-355ba83de36b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1250,7 +1258,7 @@ aama:IDa27af1fb-388b-4291-bafb-8fbd03faf47a a aamas:Term ;
 	kem:token "fääkar" ;
 	.
 
-aama:IDf758a4ea-7fb3-4cfc-8890-62aa0910bad3 a aamas:Term ;
+aama:ID7e05e161-51ca-4294-a30b-473a6657970d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1264,7 +1272,7 @@ aama:IDf758a4ea-7fb3-4cfc-8890-62aa0910bad3 a aamas:Term ;
 	kem:token "fäyäga" ;
 	.
 
-aama:ID71b65dbf-88c0-40f4-8d14-8d7809791c4a a aamas:Term ;
+aama:IDe2da1db9-f5d7-4d0a-8e6b-8fbbd03c17ec a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1278,7 +1286,7 @@ aama:ID71b65dbf-88c0-40f4-8d14-8d7809791c4a a aamas:Term ;
 	kem:token "fäyäkäy" ;
 	.
 
-aama:ID188fe4b0-958a-40cd-83df-f15412c3b2dd a aamas:Term ;
+aama:ID8b8fb3c2-20bd-44f9-92ed-746069ad1f3b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1292,7 +1300,7 @@ aama:ID188fe4b0-958a-40cd-83df-f15412c3b2dd a aamas:Term ;
 	kem:token "fäyägənir" ;
 	.
 
-aama:ID4b1cd442-6366-4c63-8673-96f21b3ce054 a aamas:Term ;
+aama:ID5995a8d9-0bf3-4060-92e4-83d611db6274 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1306,7 +1314,7 @@ aama:ID4b1cd442-6366-4c63-8673-96f21b3ce054 a aamas:Term ;
 	kem:token "fäyäkänar" ;
 	.
 
-aama:IDe2b7ffb2-7fda-4884-8e41-7bdf65a20d87 a aamas:Term ;
+aama:IDa84d97a8-8ce5-4899-8a36-c7ce4047150e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1325,10 +1333,10 @@ aama:IDe2b7ffb2-7fda-4884-8e41-7bdf65a20d87 a aamas:Term ;
 kem:kem-Verb-fay-Jussive2MainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-Jussive2MainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p335 " 
 	.
 
-aama:IDd315a865-58b4-45d9-b15b-b5507e602c5c a aamas:Term ;
+aama:ID1632ef0f-23ac-4c9c-a8f2-7dbdbf04ef05 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-Jussive2MainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1342,7 +1350,7 @@ aama:IDd315a865-58b4-45d9-b15b-b5507e602c5c a aamas:Term ;
 	kem:token "fäyin" ;
 	.
 
-aama:ID3d6f80eb-e564-4e6f-949c-33ada54975ad a aamas:Term ;
+aama:ID10b08613-dbf1-400f-ae33-0dbfb6c024cf a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-Jussive2MainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1356,7 +1364,7 @@ aama:ID3d6f80eb-e564-4e6f-949c-33ada54975ad a aamas:Term ;
 	kem:token "fäyin?" ;
 	.
 
-aama:ID2fb20b29-4f20-43b3-8262-c129d727a495 a aamas:Term ;
+aama:IDfd7d243d-4b10-454b-a349-baab0de97275 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-Jussive2MainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1375,10 +1383,10 @@ aama:ID2fb20b29-4f20-43b3-8262-c129d727a495 a aamas:Term ;
 kem:kem-Verb-fay-JussiveMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-JussiveMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p335 " 
 	.
 
-aama:ID695a25c6-5207-46de-9f61-aa224daf3827 a aamas:Term ;
+aama:ID1752247a-5367-492c-8227-7e9ea26e7af7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1392,7 +1400,7 @@ aama:ID695a25c6-5207-46de-9f61-aa224daf3827 a aamas:Term ;
 	kem:token "fäyu" ;
 	.
 
-aama:ID862ceac1-4897-4b5b-b007-c04177d188bc a aamas:Term ;
+aama:IDb7d4ae86-8a13-445d-8a11-509263d3510d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1406,7 +1414,7 @@ aama:ID862ceac1-4897-4b5b-b007-c04177d188bc a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:IDa650cff2-179b-441d-bb5e-1d4cbfe0ce0e a aamas:Term ;
+aama:ID573212aa-0a52-462d-aeca-40eee97ae838 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1420,7 +1428,7 @@ aama:IDa650cff2-179b-441d-bb5e-1d4cbfe0ce0e a aamas:Term ;
 	kem:token "fäydu" ;
 	.
 
-aama:ID07728226-e026-4f5d-b19c-5c674946869b a aamas:Term ;
+aama:IDa29a472f-feec-4fbe-bccf-c3b284533452 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1434,7 +1442,7 @@ aama:ID07728226-e026-4f5d-b19c-5c674946869b a aamas:Term ;
 	kem:token "fäytu" ;
 	.
 
-aama:IDc98d142d-2be9-40ee-ba47-8e9658cd9f89 a aamas:Term ;
+aama:ID9b670a42-4fa4-4376-862c-7a866ab323f7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1448,7 +1456,7 @@ aama:IDc98d142d-2be9-40ee-ba47-8e9658cd9f89 a aamas:Term ;
 	kem:token "fäynu" ;
 	.
 
-aama:ID82aab798-b5ee-4487-a06c-34189f2cd44c a aamas:Term ;
+aama:IDedb00cd1-da5d-4e0a-8250-a36a5f7c95ba a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1462,7 +1470,7 @@ aama:ID82aab798-b5ee-4487-a06c-34189f2cd44c a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:ID54b1e8b1-1667-4233-932f-dcf30f7e8518 a aamas:Term ;
+aama:ID970f5684-a961-4c7a-8e93-33cdceb6a038 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1481,10 +1489,10 @@ aama:ID54b1e8b1-1667-4233-932f-dcf30f7e8518 a aamas:Term ;
 kem:kem-Verb-fay-JussiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-JussiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p335 " 
 	.
 
-aama:ID4319d244-67c7-4a14-a640-847b8fb8879c a aamas:Term ;
+aama:ID6c35647a-b54b-408a-9143-d25d47d0b911 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1498,7 +1506,7 @@ aama:ID4319d244-67c7-4a14-a640-847b8fb8879c a aamas:Term ;
 	kem:token "fäygin" ;
 	.
 
-aama:IDf2a11e2d-259a-4159-8ee2-08e194ddae68 a aamas:Term ;
+aama:ID0e83f2ac-1be3-4d59-929b-7b7337c535ec a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1512,7 +1520,7 @@ aama:IDf2a11e2d-259a-4159-8ee2-08e194ddae68 a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:ID3b631b36-b246-4c55-80d2-e26d79d4a064 a aamas:Term ;
+aama:IDd94baac6-6019-4d9d-aab3-e7a4c0f51e23 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1526,7 +1534,7 @@ aama:ID3b631b36-b246-4c55-80d2-e26d79d4a064 a aamas:Term ;
 	kem:token "fäygin" ;
 	.
 
-aama:IDe46a5dd6-f832-48bc-bd19-51f591c0d383 a aamas:Term ;
+aama:IDb4d98cdf-946c-42df-94b1-4beb3b47b866 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1540,7 +1548,7 @@ aama:IDe46a5dd6-f832-48bc-bd19-51f591c0d383 a aamas:Term ;
 	kem:token "fäykin" ;
 	.
 
-aama:IDe12a65c0-59b0-488d-a8e9-8ec76d54a07a a aamas:Term ;
+aama:ID25b7db34-6bca-4a2d-93f3-580c6d7ea282 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1554,7 +1562,7 @@ aama:IDe12a65c0-59b0-488d-a8e9-8ec76d54a07a a aamas:Term ;
 	kem:token "?" ;
 	.
 
-aama:ID1f1871dc-6929-45ba-b25c-20e2fce481e1 a aamas:Term ;
+aama:ID6664485d-add6-40ec-9e63-e8b37350594e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1568,7 +1576,7 @@ aama:ID1f1871dc-6929-45ba-b25c-20e2fce481e1 a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:IDd2c064ca-d60a-427e-883c-a65e8940124b a aamas:Term ;
+aama:ID6bce05a0-0f2f-4702-8d93-ce1521557586 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-JussiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1587,10 +1595,10 @@ aama:IDd2c064ca-d60a-427e-883c-a65e8940124b a aamas:Term ;
 kem:kem-Verb-fay-PerfectiveAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-PerfectiveAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p334 " 
 	.
 
-aama:ID3403792a-adef-46aa-b3a8-fa1937ee081f a aamas:Term ;
+aama:ID470c5ec0-4fe9-486a-90a3-d1aae5ff9abd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1603,7 +1611,7 @@ aama:ID3403792a-adef-46aa-b3a8-fa1937ee081f a aamas:Term ;
 	kem:token "fäyəɣʷ" ;
 	.
 
-aama:ID9d149351-f2d2-4728-8558-5cffd1a63c10 a aamas:Term ;
+aama:IDffb444f1-a8c9-4afe-9aea-25d3da0cc58f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1616,7 +1624,7 @@ aama:ID9d149351-f2d2-4728-8558-5cffd1a63c10 a aamas:Term ;
 	kem:token "fäyəɣʷ" ;
 	.
 
-aama:IDc2d9ef9d-c435-4e56-8094-e0b5f3a8b32e a aamas:Term ;
+aama:ID3477c1ac-7b00-47fb-9fa3-2eea3fabfaa7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1629,7 +1637,7 @@ aama:IDc2d9ef9d-c435-4e56-8094-e0b5f3a8b32e a aamas:Term ;
 	kem:token "fäyəɣʷ" ;
 	.
 
-aama:ID834d2bf3-7e7c-42ea-a801-200cfa9eb59e a aamas:Term ;
+aama:ID2afb3cd8-a587-40a6-937a-10ba2c13ef72 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1642,7 +1650,7 @@ aama:ID834d2bf3-7e7c-42ea-a801-200cfa9eb59e a aamas:Term ;
 	kem:token "fäy(ə)t(i)" ;
 	.
 
-aama:IDd5f161b9-13f6-48f4-ac24-9cbfdee7e6e2 a aamas:Term ;
+aama:ID61fddb2a-3f6c-4634-a598-1bb3997f53c4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1655,7 +1663,7 @@ aama:IDd5f161b9-13f6-48f4-ac24-9cbfdee7e6e2 a aamas:Term ;
 	kem:token "fäynəɣʷ" ;
 	.
 
-aama:ID3027d129-61ef-42f9-83a7-ef555625fe56 a aamas:Term ;
+aama:ID746559fd-d592-4390-873b-18f5ddef35b8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1668,7 +1676,7 @@ aama:ID3027d129-61ef-42f9-83a7-ef555625fe56 a aamas:Term ;
 	kem:token "fätənəɣʷ" ;
 	.
 
-aama:ID15d410d4-ef76-40ae-a0f5-1c779b766640 a aamas:Term ;
+aama:IDe98e552d-1b73-41bc-abab-8ef297c4ac75 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1686,10 +1694,10 @@ aama:ID15d410d4-ef76-40ae-a0f5-1c779b766640 a aamas:Term ;
 kem:kem-Verb-fay-PerfectiveCompAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-PerfectiveCompAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted." 
+	rdfs:comment "DA1975p334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted." 
 	.
 
-aama:ID2d2337e6-db8b-49f1-a461-ed8959053846 a aamas:Term ;
+aama:ID0da084e3-2876-49d3-bc84-f033c00600d6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1702,7 +1710,7 @@ aama:ID2d2337e6-db8b-49f1-a461-ed8959053846 a aamas:Term ;
 	kem:token "fäwanäkʷ" ;
 	.
 
-aama:ID89127efd-6102-4b6f-966b-cb773368fe47 a aamas:Term ;
+aama:IDac947775-64e2-4ef0-a640-e629f2546243 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1715,7 +1723,7 @@ aama:ID89127efd-6102-4b6f-966b-cb773368fe47 a aamas:Term ;
 	kem:token "fätwanyäkʷ" ;
 	.
 
-aama:IDfc9e9693-6624-4a4c-9a0e-142f38a825af a aamas:Term ;
+aama:IDc5e80184-ab7f-4d91-8c81-08f3938ab416 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1728,7 +1736,7 @@ aama:IDfc9e9693-6624-4a4c-9a0e-142f38a825af a aamas:Term ;
 	kem:token "fäwanäkʷ" ;
 	.
 
-aama:IDea5fd84d-80b8-4a3c-a11d-b2fc12472430 a aamas:Term ;
+aama:ID4d60bb85-1766-4c25-b0d0-e8abd296955f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1741,7 +1749,7 @@ aama:IDea5fd84d-80b8-4a3c-a11d-b2fc12472430 a aamas:Term ;
 	kem:token "fätwanät(i)" ;
 	.
 
-aama:ID964235b6-6fc9-48f5-9076-da45a89ad755 a aamas:Term ;
+aama:ID83e6992a-60fc-4fca-b24b-184a53d0d136 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1754,7 +1762,7 @@ aama:ID964235b6-6fc9-48f5-9076-da45a89ad755 a aamas:Term ;
 	kem:token "fäyənwannäkʷ" ;
 	.
 
-aama:ID026c0d0b-1a42-42b7-a08c-5d9897fceb1f a aamas:Term ;
+aama:ID13fd5b06-bd26-4918-857a-0b080376289a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1767,7 +1775,7 @@ aama:ID026c0d0b-1a42-42b7-a08c-5d9897fceb1f a aamas:Term ;
 	kem:token "fätənwanyäkʷən" ;
 	.
 
-aama:ID1dade57c-bacc-4e24-a6b2-df4ae2c19cb8 a aamas:Term ;
+aama:ID2a4879b4-9f6d-4bf7-9f23-691d94669409 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1785,10 +1793,10 @@ aama:ID1dade57c-bacc-4e24-a6b2-df4ae2c19cb8 a aamas:Term ;
 kem:kem-Verb-fay-PerfectiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-PerfectiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p334 " 
 	.
 
-aama:ID5b0195d0-5fbc-4751-b003-d6b80ac35f53 a aamas:Term ;
+aama:ID71d63882-938d-4ee7-95b8-cbb9b2df1558 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1802,7 +1810,7 @@ aama:ID5b0195d0-5fbc-4751-b003-d6b80ac35f53 a aamas:Term ;
 	kem:token "fäygir" ;
 	.
 
-aama:ID46f29aef-9120-425b-bec4-fac5da4ea01d a aamas:Term ;
+aama:ID7448e212-99ed-4346-b8f0-b0b8741f7756 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1816,7 +1824,7 @@ aama:ID46f29aef-9120-425b-bec4-fac5da4ea01d a aamas:Term ;
 	kem:token "fäykar" ;
 	.
 
-aama:ID784a1513-3655-4168-92c6-9162ca6665e2 a aamas:Term ;
+aama:ID9eb66536-c480-483d-90e2-15759cd2602f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1830,7 +1838,7 @@ aama:ID784a1513-3655-4168-92c6-9162ca6665e2 a aamas:Term ;
 	kem:token "fäyga" ;
 	.
 
-aama:IDc95f2ddc-0f03-41fe-a6f6-b05b263ae675 a aamas:Term ;
+aama:IDdbd8e447-040f-44bf-849c-75ed8f7f48b0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1844,7 +1852,7 @@ aama:IDc95f2ddc-0f03-41fe-a6f6-b05b263ae675 a aamas:Term ;
 	kem:token "fäykäy" ;
 	.
 
-aama:ID99f1d240-5d88-435e-a645-af187079c09d a aamas:Term ;
+aama:IDfcdee63a-7a7e-433d-86c1-ab0bdfcaa106 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1858,7 +1866,7 @@ aama:ID99f1d240-5d88-435e-a645-af187079c09d a aamas:Term ;
 	kem:token "fäygənir" ;
 	.
 
-aama:IDedf33587-c121-4c71-aa0d-5f8149778393 a aamas:Term ;
+aama:ID259d2bb8-e2e1-4801-8c77-9e5b425d9edd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1872,7 +1880,7 @@ aama:IDedf33587-c121-4c71-aa0d-5f8149778393 a aamas:Term ;
 	kem:token "fäykänar" ;
 	.
 
-aama:ID3b938c90-f4a7-4227-b6d3-77f46368c95d a aamas:Term ;
+aama:ID92c2176c-3ac4-45e3-9acc-47f3962ca5ae a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1891,10 +1899,10 @@ aama:ID3b938c90-f4a7-4227-b6d3-77f46368c95d a aamas:Term ;
 kem:kem-Verb-fay-RelativeSubjectAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-RelativeSubjectAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.3.9 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
+	rdfs:comment "DA1975p331 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
 	.
 
-aama:ID36670446-7067-4355-a5c7-13180791e6b8 a aamas:Term ;
+aama:ID8fdf0ce9-862d-4558-9b7c-2820358cfae7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1907,7 +1915,7 @@ aama:ID36670446-7067-4355-a5c7-13180791e6b8 a aamas:Term ;
 	kem:token "fäyaɣ ~ fäyaɣər ~ fäyar" ;
 	.
 
-aama:ID79cfa623-a284-4354-869d-07d0115846be a aamas:Term ;
+aama:ID5206de9d-3598-4dca-8249-fb60a2d15f09 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1920,7 +1928,7 @@ aama:ID79cfa623-a284-4354-869d-07d0115846be a aamas:Term ;
 	kem:token "fätaɣ " ;
 	.
 
-aama:ID185c9919-76d3-4076-b193-5106da58e1d5 a aamas:Term ;
+aama:IDd2c106ef-7e1a-4750-9c3c-8acf43840ec9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1933,7 +1941,7 @@ aama:ID185c9919-76d3-4076-b193-5106da58e1d5 a aamas:Term ;
 	kem:token "fäyaɣ" ;
 	.
 
-aama:ID34074966-fe10-410c-ae1a-1b1542f0b4a3 a aamas:Term ;
+aama:ID2a05a2c1-52e6-4fcc-a2d9-96f93ea23822 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1946,7 +1954,7 @@ aama:ID34074966-fe10-410c-ae1a-1b1542f0b4a3 a aamas:Term ;
 	kem:token "fäyäy" ;
 	.
 
-aama:ID5fb3ce12-9ec6-44dc-8d33-16dcdc62cd77 a aamas:Term ;
+aama:ID27748c6e-4868-4898-83e7-74909ad21bb8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1959,7 +1967,7 @@ aama:ID5fb3ce12-9ec6-44dc-8d33-16dcdc62cd77 a aamas:Term ;
 	kem:token "fäynaɣ" ;
 	.
 
-aama:IDedcbca57-0371-4aa3-a0c4-9aa08d4b5732 a aamas:Term ;
+aama:ID1cd204e7-9be5-4082-8a8b-8a04f90a60c8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1972,7 +1980,7 @@ aama:IDedcbca57-0371-4aa3-a0c4-9aa08d4b5732 a aamas:Term ;
 	kem:token "fätänaɣ" ;
 	.
 
-aama:ID72af403c-f55d-4996-b774-f29c31e3b49c a aamas:Term ;
+aama:IDaf9f4d1c-515b-47e9-9a30-6ab4574da8e3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -1990,10 +1998,10 @@ aama:ID72af403c-f55d-4996-b774-f29c31e3b49c a aamas:Term ;
 kem:kem-Verb-fay-SubordinateAAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-SubordinateAAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p339 " 
 	.
 
-aama:ID374cd000-9b2d-417a-90ba-73deb1a893db a aamas:Term ;
+aama:IDf325ddb2-e06e-46d8-a54f-7fa1e7948184 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2006,7 +2014,7 @@ aama:ID374cd000-9b2d-417a-90ba-73deb1a893db a aamas:Term ;
 	kem:token "fäya" ;
 	.
 
-aama:ID0afbf589-1cdc-452f-a6e8-c9b74164520a a aamas:Term ;
+aama:ID5c2f8e21-d7b3-4132-ad01-f5df560e3df3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2019,7 +2027,7 @@ aama:ID0afbf589-1cdc-452f-a6e8-c9b74164520a a aamas:Term ;
 	kem:token "fäta" ;
 	.
 
-aama:ID2cb6f088-6426-44f3-ad58-f8b8e2414050 a aamas:Term ;
+aama:ID2e0dddac-0e2f-4dfd-a37e-00e4c1faec68 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2032,7 +2040,7 @@ aama:ID2cb6f088-6426-44f3-ad58-f8b8e2414050 a aamas:Term ;
 	kem:token "fäya" ;
 	.
 
-aama:ID83d1e1a4-d44e-4f06-b7af-841e111643f0 a aamas:Term ;
+aama:ID225e2f50-82a1-4353-bac5-413731623f8b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2045,7 +2053,7 @@ aama:ID83d1e1a4-d44e-4f06-b7af-841e111643f0 a aamas:Term ;
 	kem:token "fäta" ;
 	.
 
-aama:IDac052751-3172-4541-85e4-f7ce73eb02e4 a aamas:Term ;
+aama:IDe5e87b57-03f5-41ae-aba7-54f5bbe04c59 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2058,7 +2066,7 @@ aama:IDac052751-3172-4541-85e4-f7ce73eb02e4 a aamas:Term ;
 	kem:token "fäyna" ;
 	.
 
-aama:IDe3b9a869-8e98-4a4f-b299-8ed2e156aabe a aamas:Term ;
+aama:IDdd8ecc0d-4c4b-4a8d-b028-3ec07375fc45 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2071,7 +2079,7 @@ aama:IDe3b9a869-8e98-4a4f-b299-8ed2e156aabe a aamas:Term ;
 	kem:token "fätəna" ;
 	.
 
-aama:IDa126ce71-5cf7-4b5a-bf93-223c87e2ea12 a aamas:Term ;
+aama:IDa91101fd-51cc-42c7-a8f1-ef10f4a0746b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2089,10 +2097,10 @@ aama:IDa126ce71-5cf7-4b5a-bf93-223c87e2ea12 a aamas:Term ;
 kem:kem-Verb-fay-SubordinateCompAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-SubordinateCompAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p340 " 
 	.
 
-aama:ID52da8f89-9e53-43f9-ae91-eeef51216608 a aamas:Term ;
+aama:IDc141f0c1-8b51-490c-9705-95bffc7ffa16 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2105,7 +2113,7 @@ aama:ID52da8f89-9e53-43f9-ae91-eeef51216608 a aamas:Term ;
 	kem:token "fäy" ;
 	.
 
-aama:ID1eac3174-c890-452e-aa86-783ce7c481ae a aamas:Term ;
+aama:ID40fe2b3c-9b97-464d-885c-c11ce04eb653 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2118,7 +2126,7 @@ aama:ID1eac3174-c890-452e-aa86-783ce7c481ae a aamas:Term ;
 	kem:token "fät" ;
 	.
 
-aama:IDf266509f-7297-48d4-9454-b0ce674348d0 a aamas:Term ;
+aama:ID0e13f0b4-8942-42f1-9b82-f8426d8ab71c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2131,7 +2139,7 @@ aama:IDf266509f-7297-48d4-9454-b0ce674348d0 a aamas:Term ;
 	kem:token "fäy" ;
 	.
 
-aama:IDdab74281-452e-48fa-b7eb-589781bc89cb a aamas:Term ;
+aama:ID6128842c-9f69-497c-9169-9b750d70081e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2144,7 +2152,7 @@ aama:IDdab74281-452e-48fa-b7eb-589781bc89cb a aamas:Term ;
 	kem:token "fät" ;
 	.
 
-aama:ID18acd474-de9f-4359-b827-b9b6def9d900 a aamas:Term ;
+aama:ID5805461c-999e-43ab-b4d4-66e86f158da5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2157,7 +2165,7 @@ aama:ID18acd474-de9f-4359-b827-b9b6def9d900 a aamas:Term ;
 	kem:token "fäyən" ;
 	.
 
-aama:ID8ff17e5d-8b8f-469e-ab83-1ee97e487042 a aamas:Term ;
+aama:IDa5841df0-72e3-4287-b423-a01eafabe3f4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2170,7 +2178,7 @@ aama:ID8ff17e5d-8b8f-469e-ab83-1ee97e487042 a aamas:Term ;
 	kem:token "fätən" ;
 	.
 
-aama:ID3beb7684-0a09-493b-8c53-375de2700cf9 a aamas:Term ;
+aama:ID6515cc81-94df-4982-8926-4d3a706a7cac a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2188,10 +2196,10 @@ aama:ID3beb7684-0a09-493b-8c53-375de2700cf9 a aamas:Term ;
 kem:kem-Verb-fay-SubordinateNAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-SubordinateNAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID2def8004-6fd7-4bf6-bd22-385e20e7e823 a aamas:Term ;
+aama:ID24032792-41e6-432f-a198-71ea28c0aaa5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2204,7 +2212,7 @@ aama:ID2def8004-6fd7-4bf6-bd22-385e20e7e823 a aamas:Term ;
 	kem:token "fäyän" ;
 	.
 
-aama:IDcc88bc78-5f0a-4a24-9c48-d748ab76fbaf a aamas:Term ;
+aama:ID3d67f97b-2ce5-4ccf-b441-d908a2b15642 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2217,7 +2225,7 @@ aama:IDcc88bc78-5f0a-4a24-9c48-d748ab76fbaf a aamas:Term ;
 	kem:token "fätän" ;
 	.
 
-aama:IDb06b832d-2f93-433f-a3f2-c2544a6b844a a aamas:Term ;
+aama:IDd9ebe1a2-3bfb-426f-a037-efe15665a460 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2230,7 +2238,7 @@ aama:IDb06b832d-2f93-433f-a3f2-c2544a6b844a a aamas:Term ;
 	kem:token "fäyän" ;
 	.
 
-aama:IDbf310937-0564-4e77-8ee7-11685757b972 a aamas:Term ;
+aama:ID0ca06a8e-3bb6-4818-9ec8-97169034919c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2243,7 +2251,7 @@ aama:IDbf310937-0564-4e77-8ee7-11685757b972 a aamas:Term ;
 	kem:token "fätän" ;
 	.
 
-aama:ID14bfbfee-d621-46e7-adc0-9cf712ffe737 a aamas:Term ;
+aama:IDf99edd0e-86a0-4617-a07a-62f335c61f59 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2256,7 +2264,7 @@ aama:ID14bfbfee-d621-46e7-adc0-9cf712ffe737 a aamas:Term ;
 	kem:token "fäynän" ;
 	.
 
-aama:IDe93848cd-f41f-4e7a-993b-68bf741b425d a aamas:Term ;
+aama:IDca6cb680-d92a-4b84-88b3-333cc4df8982 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2269,7 +2277,7 @@ aama:IDe93848cd-f41f-4e7a-993b-68bf741b425d a aamas:Term ;
 	kem:token "fätänän" ;
 	.
 
-aama:ID798c34e1-b33e-4136-aefe-c80d2c95e2b9 a aamas:Term ;
+aama:ID403cc014-08a5-4b8b-a380-e0fd3f2aed98 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2287,10 +2295,10 @@ aama:ID798c34e1-b33e-4136-aefe-c80d2c95e2b9 a aamas:Term ;
 kem:kem-Verb-fay-SubordinateNNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-fay-SubordinateNNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID4dadc47a-31e4-4d26-86be-0d7aa9ca0bd3 a aamas:Term ;
+aama:IDd4c66944-623f-4082-a2a3-c96d310c3e2b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2303,7 +2311,7 @@ aama:ID4dadc47a-31e4-4d26-86be-0d7aa9ca0bd3 a aamas:Term ;
 	kem:token "fäyägän" ;
 	.
 
-aama:ID95666436-ecb9-4d6d-8ea7-db7fd1291f10 a aamas:Term ;
+aama:IDdcc1a0fe-4a89-46d7-ab4a-b21bb438d95f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2316,7 +2324,7 @@ aama:ID95666436-ecb9-4d6d-8ea7-db7fd1291f10 a aamas:Term ;
 	kem:token "fäyäkän" ;
 	.
 
-aama:ID7d1da85b-2cbd-4c70-ae06-5c5282609079 a aamas:Term ;
+aama:IDf958d7f3-69a6-4915-a5fb-dd4b0783695b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2329,7 +2337,7 @@ aama:ID7d1da85b-2cbd-4c70-ae06-5c5282609079 a aamas:Term ;
 	kem:token "fäyägän" ;
 	.
 
-aama:ID35cbbf84-d93e-4433-b97e-49b3c5f45742 a aamas:Term ;
+aama:IDb1e8fddf-c42b-4c6b-9047-f7a8f5fa3278 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2342,7 +2350,7 @@ aama:ID35cbbf84-d93e-4433-b97e-49b3c5f45742 a aamas:Term ;
 	kem:token "fäyäkän" ;
 	.
 
-aama:ID9fae564d-b960-434c-8ca8-fc53a97ab6c8 a aamas:Term ;
+aama:IDd2cfb268-677a-41f0-a7d1-4c106b721bb7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2355,7 +2363,7 @@ aama:ID9fae564d-b960-434c-8ca8-fc53a97ab6c8 a aamas:Term ;
 	kem:token "fäyägənin" ;
 	.
 
-aama:ID1201a1b5-7e25-42f4-b25f-e292145a0721 a aamas:Term ;
+aama:ID20a5d859-9db1-46ed-86a9-0e9e7fa5c3bb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2368,7 +2376,7 @@ aama:ID1201a1b5-7e25-42f4-b25f-e292145a0721 a aamas:Term ;
 	kem:token "fäyäkänän" ;
 	.
 
-aama:ID251a5ef3-0502-44e7-816c-00801a266d7d a aamas:Term ;
+aama:ID29d9fc68-37bb-4b0e-b243-ad89bb8ee226 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-fay-SubordinateNNegative ;
 	aamas:lexeme kem:lex-fay ;
@@ -2386,10 +2394,10 @@ aama:ID251a5ef3-0502-44e7-816c-00801a266d7d a aamas:Term ;
 kem:kem-Verb-iw-ImperativeMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-iw-ImperativeMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID98d94318-676f-4e1d-b0b9-b13a0403a6e5 a aamas:Term ;
+aama:ID1917029c-3451-48be-b9bc-483e449a8849 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-iw-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-iw ;
@@ -2403,7 +2411,7 @@ aama:ID98d94318-676f-4e1d-b0b9-b13a0403a6e5 a aamas:Term ;
 	kem:token "iwi ~ iw" ;
 	.
 
-aama:ID6fc815e9-5744-46d7-92c9-8b99f7b15755 a aamas:Term ;
+aama:IDa0b64381-af9e-446b-bb4f-7c1ddf1af009 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-iw-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-iw ;
@@ -2422,10 +2430,10 @@ aama:ID6fc815e9-5744-46d7-92c9-8b99f7b15755 a aamas:Term ;
 kem:kem-Verb-iw-ImperativeMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-iw-ImperativeMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:IDd56408a6-16ae-4488-afad-da13e0221c9b a aamas:Term ;
+aama:ID8925fe4e-1d30-4955-9066-7a9268071383 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-iw-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-iw ;
@@ -2439,7 +2447,7 @@ aama:IDd56408a6-16ae-4488-afad-da13e0221c9b a aamas:Term ;
 	kem:token "iwta" ;
 	.
 
-aama:IDa06a53fb-fdf1-4907-84f8-a114d5239963 a aamas:Term ;
+aama:IDe742740a-9127-48c7-b778-a6d198629c52 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-iw-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-iw ;
@@ -2458,10 +2466,10 @@ aama:IDa06a53fb-fdf1-4907-84f8-a114d5239963 a aamas:Term ;
 kem:kem-Verb-was-GerundAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-GerundAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p337 " 
 	.
 
-aama:ID3861a3fe-65a5-4b70-bf37-c6b13ef816c0 a aamas:Term ;
+aama:ID2b3a14a5-1480-4cf5-8877-21d4316d7677 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2474,7 +2482,7 @@ aama:ID3861a3fe-65a5-4b70-bf37-c6b13ef816c0 a aamas:Term ;
 	kem:token "waso" ;
 	.
 
-aama:ID4a33df51-9e27-48e4-87fe-37f16908cb00 a aamas:Term ;
+aama:IDdc815510-d939-4594-9e26-63d9c8e0f4e1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2487,7 +2495,7 @@ aama:ID4a33df51-9e27-48e4-87fe-37f16908cb00 a aamas:Term ;
 	kem:token "wasyo" ;
 	.
 
-aama:ID5b77dd78-5fd0-4b22-8ae8-5697fdaf2b6a a aamas:Term ;
+aama:IDecd7dc50-2e8b-441d-937e-2b4b4e5c2176 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2500,7 +2508,7 @@ aama:ID5b77dd78-5fd0-4b22-8ae8-5697fdaf2b6a a aamas:Term ;
 	kem:token "waso" ;
 	.
 
-aama:ID9f1fc490-324c-4278-a0cc-7fa4eca29358 a aamas:Term ;
+aama:ID3299481e-a443-4c45-b6aa-3b4c634e990a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2513,7 +2521,7 @@ aama:ID9f1fc490-324c-4278-a0cc-7fa4eca29358 a aamas:Term ;
 	kem:token "wasyo" ;
 	.
 
-aama:ID0d36403c-5f1d-4824-8fd9-9a81eab7ec0f a aamas:Term ;
+aama:IDc878f916-4d3b-4fc3-a254-ed429610ed2e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2526,7 +2534,7 @@ aama:ID0d36403c-5f1d-4824-8fd9-9a81eab7ec0f a aamas:Term ;
 	kem:token "wasno" ;
 	.
 
-aama:IDc0dce99f-4f7a-4c67-89e9-b299296aa299 a aamas:Term ;
+aama:IDe5a89688-988b-43fe-bb3f-bd982160b832 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2539,7 +2547,7 @@ aama:IDc0dce99f-4f7a-4c67-89e9-b299296aa299 a aamas:Term ;
 	kem:token "wasino" ;
 	.
 
-aama:ID7613ff12-04c0-4e8d-82af-db597377f084 a aamas:Term ;
+aama:IDf2c511d0-f000-4ab6-8f32-df43b88e2cfa a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2557,10 +2565,10 @@ aama:ID7613ff12-04c0-4e8d-82af-db597377f084 a aamas:Term ;
 kem:kem-Verb-was-GerundNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-GerundNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p337 " 
 	.
 
-aama:ID1dafa5c0-56c3-415a-9f2b-e2b8bd72b102 a aamas:Term ;
+aama:IDed8ff445-6644-4687-a9a3-30bd73c4aba5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2573,7 +2581,7 @@ aama:ID1dafa5c0-56c3-415a-9f2b-e2b8bd72b102 a aamas:Term ;
 	kem:token "wasgi" ;
 	.
 
-aama:ID85cb3291-ee17-4dcd-932e-46b568fae128 a aamas:Term ;
+aama:ID6eadde21-1a76-4eb3-9e70-02d427e68c4e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2586,7 +2594,7 @@ aama:ID85cb3291-ee17-4dcd-932e-46b568fae128 a aamas:Term ;
 	kem:token "waski" ;
 	.
 
-aama:IDa6027f49-8f36-413a-94f0-2e940d3b5a3e a aamas:Term ;
+aama:IDe063de09-e8b1-4248-ab0f-e77565d2981e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2599,7 +2607,7 @@ aama:IDa6027f49-8f36-413a-94f0-2e940d3b5a3e a aamas:Term ;
 	kem:token "wasgi" ;
 	.
 
-aama:ID07e251b9-2a73-45aa-be17-d852c9c8fdc3 a aamas:Term ;
+aama:ID7b2575f5-603c-4726-9acd-856a3ae3f8ef a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2612,7 +2620,7 @@ aama:ID07e251b9-2a73-45aa-be17-d852c9c8fdc3 a aamas:Term ;
 	kem:token "waski" ;
 	.
 
-aama:ID81287602-26d0-4982-b811-6578f0ff5970 a aamas:Term ;
+aama:ID6378af5a-049e-45fa-ba58-55d92f17e1fd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2625,7 +2633,7 @@ aama:ID81287602-26d0-4982-b811-6578f0ff5970 a aamas:Term ;
 	kem:token "wasgəni" ;
 	.
 
-aama:ID2218cca0-e480-4880-b39e-73070506ff03 a aamas:Term ;
+aama:ID28dfd164-7161-418b-b138-0f9d2c61ca04 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2638,7 +2646,7 @@ aama:ID2218cca0-e480-4880-b39e-73070506ff03 a aamas:Term ;
 	kem:token "waskəni" ;
 	.
 
-aama:ID02a2bc47-f1a6-4f6d-8f85-ff9dbf881b99 a aamas:Term ;
+aama:ID619c46ac-0636-43c1-94c4-6b55271a7652 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-GerundNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2656,10 +2664,10 @@ aama:ID02a2bc47-f1a6-4f6d-8f85-ff9dbf881b99 a aamas:Term ;
 kem:kem-Verb-was-ImperativeMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-ImperativeMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID37138531-2bc2-4825-a64a-eeccdabd4f23 a aamas:Term ;
+aama:IDc2905e73-d847-4c71-a053-022a48e3efd7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2673,7 +2681,7 @@ aama:ID37138531-2bc2-4825-a64a-eeccdabd4f23 a aamas:Term ;
 	kem:token "was" ;
 	.
 
-aama:IDec34de97-8652-4a11-bb11-0d417baaf773 a aamas:Term ;
+aama:IDa8c9524d-01c6-4f73-9f4c-69427c4015d0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2692,10 +2700,10 @@ aama:IDec34de97-8652-4a11-bb11-0d417baaf773 a aamas:Term ;
 kem:kem-Verb-was-ImperativeMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-ImperativeMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID97225790-f39f-4567-b321-1d328718e2be a aamas:Term ;
+aama:ID7b7966a8-c8c5-4219-a961-0269b642f0b2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2709,7 +2717,7 @@ aama:ID97225790-f39f-4567-b321-1d328718e2be a aamas:Term ;
 	kem:token "wasta" ;
 	.
 
-aama:IDabf14bd0-7f86-4c2a-8231-2032cff022e4 a aamas:Term ;
+aama:ID8b3cd669-1630-4e7a-844f-81e682469b23 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2728,10 +2736,10 @@ aama:IDabf14bd0-7f86-4c2a-8231-2032cff022e4 a aamas:Term ;
 kem:kem-Verb-was-ImperfectiveMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-ImperfectiveMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p333 " 
 	.
 
-aama:IDacc4e0c0-c874-48d4-81c6-82f8c9b95767 a aamas:Term ;
+aama:IDa0db916c-8c42-46fc-9561-22abfcae73a3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2745,7 +2753,7 @@ aama:IDacc4e0c0-c874-48d4-81c6-82f8c9b95767 a aamas:Term ;
 	kem:token "wasäkʷ" ;
 	.
 
-aama:IDba138fe6-96c4-4b7c-854e-d5f0bfe6c275 a aamas:Term ;
+aama:ID089583e0-96ec-4944-a0dc-d50f8797e0f8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2759,7 +2767,7 @@ aama:IDba138fe6-96c4-4b7c-854e-d5f0bfe6c275 a aamas:Term ;
 	kem:token "wasyäkʷ" ;
 	.
 
-aama:ID21042a3d-43d1-4028-81bd-e430b23eb8de a aamas:Term ;
+aama:IDd1498527-9349-4721-b77a-99164abae597 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2773,7 +2781,7 @@ aama:ID21042a3d-43d1-4028-81bd-e430b23eb8de a aamas:Term ;
 	kem:token "wasäkʷ" ;
 	.
 
-aama:IDd029d6da-3c70-4b68-95b8-d793a2a7fe7f a aamas:Term ;
+aama:IDed0fa3bf-1cb0-41de-8d84-43dcf6e295d6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2787,7 +2795,7 @@ aama:IDd029d6da-3c70-4b68-95b8-d793a2a7fe7f a aamas:Term ;
 	kem:token "wasät(i)" ;
 	.
 
-aama:IDb64fa2df-a8f7-4451-a466-ecd7d3aabbbd a aamas:Term ;
+aama:IDc5804aba-cca1-41e5-b540-19bf19cdc7da a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2801,7 +2809,7 @@ aama:IDb64fa2df-a8f7-4451-a466-ecd7d3aabbbd a aamas:Term ;
 	kem:token "wasnäkʷ" ;
 	.
 
-aama:IDd2c37a00-62ce-4134-9956-58cd86115e75 a aamas:Term ;
+aama:ID36361d08-04bb-4e77-9c84-7a3f21a61809 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2815,7 +2823,7 @@ aama:IDd2c37a00-62ce-4134-9956-58cd86115e75 a aamas:Term ;
 	kem:token "wasyäkʷən" ;
 	.
 
-aama:ID43576f4c-dc53-4ea9-88ac-960f0f6bd24f a aamas:Term ;
+aama:ID0c8e62e2-4921-4eb4-957f-c75883be086d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2834,10 +2842,10 @@ aama:ID43576f4c-dc53-4ea9-88ac-960f0f6bd24f a aamas:Term ;
 kem:kem-Verb-was-ImperfectiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-ImperfectiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p333 " 
 	.
 
-aama:ID05f1940c-76ae-41f2-b95d-f7b000a2ed05 a aamas:Term ;
+aama:ID0d246cad-78ba-4bf6-b677-2c862afd1162 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2851,7 +2859,7 @@ aama:ID05f1940c-76ae-41f2-b95d-f7b000a2ed05 a aamas:Term ;
 	kem:token "wagägir" ;
 	.
 
-aama:ID273468df-c0e0-4cb0-9c56-afc92dade5f6 a aamas:Term ;
+aama:ID183743f4-3429-49fc-8a07-352864581eab a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2865,7 +2873,7 @@ aama:ID273468df-c0e0-4cb0-9c56-afc92dade5f6 a aamas:Term ;
 	kem:token "wasäkar" ;
 	.
 
-aama:ID21f2dc18-5ca3-448a-9cb0-305e4e476312 a aamas:Term ;
+aama:ID274bbae2-f4a1-4d2e-a864-f0e973e6eaa1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2879,7 +2887,7 @@ aama:ID21f2dc18-5ca3-448a-9cb0-305e4e476312 a aamas:Term ;
 	kem:token "wasäga" ;
 	.
 
-aama:IDa5b34f3d-e139-4dee-b426-8f319abd0d82 a aamas:Term ;
+aama:ID62b24c25-458a-4876-aa07-4bdced42c66b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2893,7 +2901,7 @@ aama:IDa5b34f3d-e139-4dee-b426-8f319abd0d82 a aamas:Term ;
 	kem:token "wasäkäy" ;
 	.
 
-aama:ID4cc1e2dd-13a8-4d45-a95f-88779d3db80b a aamas:Term ;
+aama:ID568e3893-a9ad-4fc5-ad86-949db4f41f34 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2907,7 +2915,7 @@ aama:ID4cc1e2dd-13a8-4d45-a95f-88779d3db80b a aamas:Term ;
 	kem:token "wasägənir" ;
 	.
 
-aama:IDafba3795-dd27-4161-999c-6b7eeb1c3e3e a aamas:Term ;
+aama:ID660fb4e8-49a0-4889-9e28-848ac5d36707 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2921,7 +2929,7 @@ aama:IDafba3795-dd27-4161-999c-6b7eeb1c3e3e a aamas:Term ;
 	kem:token "wasäkänar" ;
 	.
 
-aama:IDc3dc847d-16cc-442b-a2d6-0afa1ac192f9 a aamas:Term ;
+aama:ID0358ceb9-75c5-4838-b554-68f9fb1099f2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -2940,10 +2948,10 @@ aama:IDc3dc847d-16cc-442b-a2d6-0afa1ac192f9 a aamas:Term ;
 kem:kem-Verb-was-Jussive2MainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-Jussive2MainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p339 " 
 	.
 
-aama:ID14786c7d-9cad-4624-a625-9a331f8655b4 a aamas:Term ;
+aama:ID626f8bc1-f538-45aa-a2a3-f22a566f5050 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-Jussive2MainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2957,7 +2965,7 @@ aama:ID14786c7d-9cad-4624-a625-9a331f8655b4 a aamas:Term ;
 	kem:token "wasin" ;
 	.
 
-aama:ID4d9abf7b-81a0-49b5-baaf-da6da0212f4c a aamas:Term ;
+aama:ID580c9ef0-3e5e-485c-affb-dd24b91c8da0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-Jussive2MainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2971,7 +2979,7 @@ aama:ID4d9abf7b-81a0-49b5-baaf-da6da0212f4c a aamas:Term ;
 	kem:token "wasin?" ;
 	.
 
-aama:ID2e1349c5-f395-473b-b185-b44e006bc35c a aamas:Term ;
+aama:ID75b0b76b-07e5-462a-b7ce-db1261f44c5c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-Jussive2MainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -2990,10 +2998,10 @@ aama:ID2e1349c5-f395-473b-b185-b44e006bc35c a aamas:Term ;
 kem:kem-Verb-was-JussiveMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-JussiveMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p335 " 
 	.
 
-aama:IDa4eff61e-6948-4206-bea5-8e7f3a1dfc12 a aamas:Term ;
+aama:IDaa0a2bc2-641e-494b-93fc-6cd6cda7ee39 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3007,7 +3015,7 @@ aama:IDa4eff61e-6948-4206-bea5-8e7f3a1dfc12 a aamas:Term ;
 	kem:token "wasiw" ;
 	.
 
-aama:ID25e0ede4-81e0-4de0-8b82-ad2edc9a8852 a aamas:Term ;
+aama:IDc94597a5-6dc3-4077-a10e-19301cf8de55 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3021,7 +3029,7 @@ aama:ID25e0ede4-81e0-4de0-8b82-ad2edc9a8852 a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:IDb7b66972-d89e-4975-8b16-3505ebb94c27 a aamas:Term ;
+aama:IDc0da2fa4-e8e6-45f7-9238-78311eaaa6f0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3035,7 +3043,7 @@ aama:IDb7b66972-d89e-4975-8b16-3505ebb94c27 a aamas:Term ;
 	kem:token "wasdu" ;
 	.
 
-aama:ID80591ee3-1442-459f-8fe6-6f0a76c45db1 a aamas:Term ;
+aama:ID4b12b582-3f6e-45d4-bfcb-2f69bc15626e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3049,7 +3057,7 @@ aama:ID80591ee3-1442-459f-8fe6-6f0a76c45db1 a aamas:Term ;
 	kem:token "wastu" ;
 	.
 
-aama:ID56238e4e-f34a-4175-9925-9e87029e826f a aamas:Term ;
+aama:ID752d4210-dc78-4268-b245-dc215fb98378 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3063,7 +3071,7 @@ aama:ID56238e4e-f34a-4175-9925-9e87029e826f a aamas:Term ;
 	kem:token "wasnu" ;
 	.
 
-aama:IDf5f09bed-94af-486a-be0c-0ebfed87a217 a aamas:Term ;
+aama:IDf09690e4-05fa-44a8-a2ab-235ee68e792c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3077,7 +3085,7 @@ aama:IDf5f09bed-94af-486a-be0c-0ebfed87a217 a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:IDe2f6c4d7-1d42-4cdf-9bd6-1b19ac226203 a aamas:Term ;
+aama:ID712fc3b8-a62f-40e1-bffb-5ab7d3b30535 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3096,10 +3104,10 @@ aama:IDe2f6c4d7-1d42-4cdf-9bd6-1b19ac226203 a aamas:Term ;
 kem:kem-Verb-was-JussiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-JussiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p335 " 
 	.
 
-aama:ID23e4789c-61a6-4b02-b124-a611959c8d5b a aamas:Term ;
+aama:ID3dc19ca7-9f77-4aef-9f31-d2063bbb273b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3113,7 +3121,7 @@ aama:ID23e4789c-61a6-4b02-b124-a611959c8d5b a aamas:Term ;
 	kem:token "wasgin" ;
 	.
 
-aama:ID9df6b67b-f586-40f2-9373-1ee3b92e999c a aamas:Term ;
+aama:ID7cbc0602-1d4d-487d-8da6-034562c32808 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3127,7 +3135,7 @@ aama:ID9df6b67b-f586-40f2-9373-1ee3b92e999c a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:ID834b01fe-38eb-482d-bf8d-9d122802d8ba a aamas:Term ;
+aama:IDe2f472d0-7ab3-4102-bd27-b0a57b46f3f2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3141,7 +3149,7 @@ aama:ID834b01fe-38eb-482d-bf8d-9d122802d8ba a aamas:Term ;
 	kem:token "wasgin" ;
 	.
 
-aama:IDf4e9e1a9-2940-4b30-b8cb-c26bf0285221 a aamas:Term ;
+aama:ID38c87d64-967b-4497-9587-8fac80183f68 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3155,7 +3163,7 @@ aama:IDf4e9e1a9-2940-4b30-b8cb-c26bf0285221 a aamas:Term ;
 	kem:token "waskin" ;
 	.
 
-aama:IDcd8cf6ef-2fff-48ad-ae58-1bac34407792 a aamas:Term ;
+aama:ID2249bd15-45a0-4aaf-8f29-4b9fb42bb23c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3169,7 +3177,7 @@ aama:IDcd8cf6ef-2fff-48ad-ae58-1bac34407792 a aamas:Term ;
 	kem:token "?" ;
 	.
 
-aama:IDf6afe6ef-7533-466b-825e-3ab264c586a1 a aamas:Term ;
+aama:ID9b5f0509-638e-4552-afd6-351fe54789cc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3183,7 +3191,7 @@ aama:IDf6afe6ef-7533-466b-825e-3ab264c586a1 a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:ID7148f24d-3e46-4439-9a4d-f58e6fcf22b7 a aamas:Term ;
+aama:ID3dd2564a-c2a7-4a03-84c9-b77d9d34c3a1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-JussiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3202,10 +3210,10 @@ aama:ID7148f24d-3e46-4439-9a4d-f58e6fcf22b7 a aamas:Term ;
 kem:kem-Verb-was-PerfectiveAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-PerfectiveAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p334 " 
 	.
 
-aama:IDd5d400c5-5e9b-4450-b4d9-cf59816d0033 a aamas:Term ;
+aama:ID637bd576-c30e-4284-afed-1854855eaa3a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3218,7 +3226,7 @@ aama:IDd5d400c5-5e9b-4450-b4d9-cf59816d0033 a aamas:Term ;
 	kem:token "wasəɣʷ" ;
 	.
 
-aama:IDf9944e62-422a-4888-b7cb-967146192fa1 a aamas:Term ;
+aama:ID3dd6ecc0-6c60-4b47-bba2-6adbd8b65fcb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3231,7 +3239,7 @@ aama:IDf9944e62-422a-4888-b7cb-967146192fa1 a aamas:Term ;
 	kem:token "wasyəɣʷ" ;
 	.
 
-aama:IDa39763c9-5555-49f9-9556-aad538f84219 a aamas:Term ;
+aama:IDf3bc6092-9082-454e-a585-c7701c68ca65 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3244,7 +3252,7 @@ aama:IDa39763c9-5555-49f9-9556-aad538f84219 a aamas:Term ;
 	kem:token "wasəɣʷ" ;
 	.
 
-aama:ID17a931ce-11dc-4ed0-b8d1-ed8a521d3ee1 a aamas:Term ;
+aama:ID8bbe9265-6022-4147-8c2c-587c80226451 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3257,7 +3265,7 @@ aama:ID17a931ce-11dc-4ed0-b8d1-ed8a521d3ee1 a aamas:Term ;
 	kem:token "was(ə)t(i)" ;
 	.
 
-aama:ID84002e11-4963-4379-95eb-85328b3855f1 a aamas:Term ;
+aama:IDcdfd6ee3-8ab4-40dd-a436-880e2157adcd a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3270,7 +3278,7 @@ aama:ID84002e11-4963-4379-95eb-85328b3855f1 a aamas:Term ;
 	kem:token "wasnəɣʷ" ;
 	.
 
-aama:ID5f4900de-b22d-4e57-8534-30ee791b2b45 a aamas:Term ;
+aama:ID1f0d7830-9b84-45ee-a29d-c04f42043097 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3283,7 +3291,7 @@ aama:ID5f4900de-b22d-4e57-8534-30ee791b2b45 a aamas:Term ;
 	kem:token "wasinəɣʷ" ;
 	.
 
-aama:IDf0f5ada2-293c-4370-9de6-47817edebf7e a aamas:Term ;
+aama:IDcdbc6d23-abdb-43e4-89e1-2072590b1219 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3301,10 +3309,10 @@ aama:IDf0f5ada2-293c-4370-9de6-47817edebf7e a aamas:Term ;
 kem:kem-Verb-was-PerfectiveCompAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-PerfectiveCompAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted." 
+	rdfs:comment "DA1975p334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted." 
 	.
 
-aama:ID165f2862-3ea1-4cfd-bbfb-94c3f6c72f9a a aamas:Term ;
+aama:ID9bb67a50-1e90-4118-87d4-32ff7ab1ba9b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3317,7 +3325,7 @@ aama:ID165f2862-3ea1-4cfd-bbfb-94c3f6c72f9a a aamas:Term ;
 	kem:token "waswanäkʷ" ;
 	.
 
-aama:ID4f6bf08f-b32b-4a01-8479-bc05557230bd a aamas:Term ;
+aama:ID1ff6b0ea-690c-4359-9b78-5d6de64dd296 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3330,7 +3338,7 @@ aama:ID4f6bf08f-b32b-4a01-8479-bc05557230bd a aamas:Term ;
 	kem:token "was(əy)(w)wasnyäkʷ" ;
 	.
 
-aama:ID1e14204e-914a-482f-94e5-f15e311c000f a aamas:Term ;
+aama:IDdfc51c5e-9337-4a1a-9549-8e2f06ddbcae a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3343,7 +3351,7 @@ aama:ID1e14204e-914a-482f-94e5-f15e311c000f a aamas:Term ;
 	kem:token "waswanäkʷ" ;
 	.
 
-aama:ID1b3543ac-f26f-4d15-a4fa-bbc572cb2248 a aamas:Term ;
+aama:ID330299f2-7707-42f9-bb8d-7b843a1504de a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3356,7 +3364,7 @@ aama:ID1b3543ac-f26f-4d15-a4fa-bbc572cb2248 a aamas:Term ;
 	kem:token "was(əy)(w)wasnät(i)" ;
 	.
 
-aama:ID36ff62d5-6a23-440d-bb9b-47d7da720989 a aamas:Term ;
+aama:ID0e1549f3-3689-48ed-9f3a-c1100cff1342 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3369,7 +3377,7 @@ aama:ID36ff62d5-6a23-440d-bb9b-47d7da720989 a aamas:Term ;
 	kem:token "wasənwannäkʷ" ;
 	.
 
-aama:ID6b9f2ec9-1eef-40d2-a341-326a0b76dbba a aamas:Term ;
+aama:IDf74ff339-2924-4260-9a6a-96ca662bcf4b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3382,7 +3390,7 @@ aama:ID6b9f2ec9-1eef-40d2-a341-326a0b76dbba a aamas:Term ;
 	kem:token "wasinwanyäkʷən" ;
 	.
 
-aama:ID3c287266-bb8c-454d-b30d-09b4635eef32 a aamas:Term ;
+aama:IDee02cb5d-f448-4b49-bf4e-e9a38f4472a4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3400,10 +3408,10 @@ aama:ID3c287266-bb8c-454d-b30d-09b4635eef32 a aamas:Term ;
 kem:kem-Verb-was-PerfectiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-PerfectiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p334 " 
 	.
 
-aama:ID738cdc7c-e34a-4b55-8a57-af95bc1808f1 a aamas:Term ;
+aama:ID6b8046f9-5343-4bd7-93c3-04e406325864 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3417,7 +3425,7 @@ aama:ID738cdc7c-e34a-4b55-8a57-af95bc1808f1 a aamas:Term ;
 	kem:token "wasgir" ;
 	.
 
-aama:IDf741c75a-745d-461e-aa4d-00d5454a8e15 a aamas:Term ;
+aama:IDfe96d8a2-300e-48eb-a571-04a35aa8933e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3431,7 +3439,7 @@ aama:IDf741c75a-745d-461e-aa4d-00d5454a8e15 a aamas:Term ;
 	kem:token "waskar" ;
 	.
 
-aama:ID885a5cf7-b1a9-4b2f-b5d0-db91fe036f0f a aamas:Term ;
+aama:ID12ea6639-68ed-4cdc-a866-6dcd5ddf4578 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3445,7 +3453,7 @@ aama:ID885a5cf7-b1a9-4b2f-b5d0-db91fe036f0f a aamas:Term ;
 	kem:token "wasga" ;
 	.
 
-aama:IDe734fbc1-21df-4c50-ae41-07aee8e0a2db a aamas:Term ;
+aama:IDf3e6fc83-df61-4e2d-8927-8912daf69750 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3459,7 +3467,7 @@ aama:IDe734fbc1-21df-4c50-ae41-07aee8e0a2db a aamas:Term ;
 	kem:token "waskäy" ;
 	.
 
-aama:ID59dc78ad-2f97-450f-9e35-5a1a6ea08b17 a aamas:Term ;
+aama:IDf599a5dc-3174-43ca-9388-8ab6a7e49c2e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3473,7 +3481,7 @@ aama:ID59dc78ad-2f97-450f-9e35-5a1a6ea08b17 a aamas:Term ;
 	kem:token "wasgənir" ;
 	.
 
-aama:ID166edb91-1427-4f96-b1f5-9b62e9e3d610 a aamas:Term ;
+aama:ID4433164e-a90f-4c76-905d-9570c798b5a0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3487,7 +3495,7 @@ aama:ID166edb91-1427-4f96-b1f5-9b62e9e3d610 a aamas:Term ;
 	kem:token "waskänar" ;
 	.
 
-aama:ID8fcb64cf-1b7a-4d0a-bdf1-0bb50cbe47cf a aamas:Term ;
+aama:ID2c8baa36-3534-4e33-97e2-870848132d91 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -3506,10 +3514,10 @@ aama:ID8fcb64cf-1b7a-4d0a-bdf1-0bb50cbe47cf a aamas:Term ;
 kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.4 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
+	rdfs:comment "DA1975p338 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
 	.
 
-aama:IDc0837ef2-7c31-4df9-beaf-a23ca5531195 a aamas:Term ;
+aama:ID9c519f73-5079-4f42-bf1a-5b305a158934 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3524,7 +3532,7 @@ aama:IDc0837ef2-7c31-4df9-beaf-a23ca5531195 a aamas:Term ;
 	kem:token "wasäw" ;
 	.
 
-aama:IDae73d854-643e-43bf-8016-a7005270b07c a aamas:Term ;
+aama:IDc59408e0-688a-4624-a1ad-c4784d94b494 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3539,7 +3547,7 @@ aama:IDae73d854-643e-43bf-8016-a7005270b07c a aamas:Term ;
 	kem:token "wasyäw" ;
 	.
 
-aama:IDe05980e3-d83a-47af-b08a-697b13e6ce4d a aamas:Term ;
+aama:ID572c03e0-3739-489d-b723-42e65c1df6cc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3554,7 +3562,7 @@ aama:IDe05980e3-d83a-47af-b08a-697b13e6ce4d a aamas:Term ;
 	kem:token "wasäw" ;
 	.
 
-aama:ID0afd9449-4b01-4ed2-a0a3-3fab175472cc a aamas:Term ;
+aama:ID13d14655-7294-47bb-a0af-f3c9b3734a28 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3569,7 +3577,7 @@ aama:ID0afd9449-4b01-4ed2-a0a3-3fab175472cc a aamas:Term ;
 	kem:token "wasyäw" ;
 	.
 
-aama:IDc4b66c2a-2922-4028-a367-0c79e26e4ffb a aamas:Term ;
+aama:IDc702acbe-e1f2-40b5-8466-4a487a86a220 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3584,7 +3592,7 @@ aama:IDc4b66c2a-2922-4028-a367-0c79e26e4ffb a aamas:Term ;
 	kem:token "wasnäw" ;
 	.
 
-aama:IDb865c4ed-861f-4301-bb43-b03ef26e3aca a aamas:Term ;
+aama:ID5101aa0f-0cea-4676-b195-453febcb9510 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3599,7 +3607,7 @@ aama:IDb865c4ed-861f-4301-bb43-b03ef26e3aca a aamas:Term ;
 	kem:token "wasyänäw" ;
 	.
 
-aama:IDbb8b7402-6871-4511-af0f-a38965c799f5 a aamas:Term ;
+aama:ID57bb46fa-f826-4429-9db6-5e7dd947b868 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3619,10 +3627,10 @@ aama:IDbb8b7402-6871-4511-af0f-a38965c799f5 a aamas:Term ;
 kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-RelativeObliqueHSingularHFemAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.4 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
+	rdfs:comment "DA1975p338 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
 	.
 
-aama:ID253a6a84-f854-4b7c-8d08-c4b893c2d069 a aamas:Term ;
+aama:ID9224d82f-c85b-4a95-aa08-867467b0a0e2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3637,7 +3645,7 @@ aama:ID253a6a84-f854-4b7c-8d08-c4b893c2d069 a aamas:Term ;
 	kem:token "wasäy" ;
 	.
 
-aama:ID997b6a92-e797-479f-ba8e-12330adda217 a aamas:Term ;
+aama:ID76fe679f-b01a-4911-8fab-34648443e865 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3652,7 +3660,7 @@ aama:ID997b6a92-e797-479f-ba8e-12330adda217 a aamas:Term ;
 	kem:token "wasyäy" ;
 	.
 
-aama:ID3e026d9e-59b6-44ae-89f3-9dbc04479f29 a aamas:Term ;
+aama:ID19e05685-e437-4daf-876a-1cfe77bdd129 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3667,7 +3675,7 @@ aama:ID3e026d9e-59b6-44ae-89f3-9dbc04479f29 a aamas:Term ;
 	kem:token "wasäy" ;
 	.
 
-aama:IDd522d7f6-3e64-425e-9fa8-9309df8f899d a aamas:Term ;
+aama:IDbc87b7c4-fd1d-4e6b-b6d0-b7d64b635d3e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3682,7 +3690,7 @@ aama:IDd522d7f6-3e64-425e-9fa8-9309df8f899d a aamas:Term ;
 	kem:token "wasyäy" ;
 	.
 
-aama:ID8f65c3be-8719-45c6-a992-5075ac61d9f7 a aamas:Term ;
+aama:ID4ac8de4a-167b-4302-b786-417553ff060b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3697,7 +3705,7 @@ aama:ID8f65c3be-8719-45c6-a992-5075ac61d9f7 a aamas:Term ;
 	kem:token "wasnäy" ;
 	.
 
-aama:ID41b5d369-9f4d-40a0-a9ea-f215019d4f62 a aamas:Term ;
+aama:ID39d55a06-ff97-4bff-a10b-2c0266f859b8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3712,7 +3720,7 @@ aama:ID41b5d369-9f4d-40a0-a9ea-f215019d4f62 a aamas:Term ;
 	kem:token "wasyänäy" ;
 	.
 
-aama:IDda2bc427-4bc9-4529-a5c1-de48bed565f3 a aamas:Term ;
+aama:ID4fdd5e0a-e6f2-4207-b075-9a9006e15af3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHFemAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3732,10 +3740,10 @@ aama:IDda2bc427-4bc9-4529-a5c1-de48bed565f3 a aamas:Term ;
 kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-RelativeObliqueHSingularHMascAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.4 ::'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
+	rdfs:comment "DA1975p338 ::'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
 	.
 
-aama:IDb5ff33ed-1e83-4f6e-8038-5b85f4022fef a aamas:Term ;
+aama:ID8c472368-42d7-4535-961b-f564a0f76e80 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3750,7 +3758,7 @@ aama:IDb5ff33ed-1e83-4f6e-8038-5b85f4022fef a aamas:Term ;
 	kem:token "wasaɣ" ;
 	.
 
-aama:ID6d5a2ceb-637c-42dd-82fe-ed707aa3e958 a aamas:Term ;
+aama:ID952ed829-139d-4659-8b04-e420b37e0f1e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3765,7 +3773,7 @@ aama:ID6d5a2ceb-637c-42dd-82fe-ed707aa3e958 a aamas:Term ;
 	kem:token "wasyaɣ" ;
 	.
 
-aama:IDea625259-2831-4b1d-a0f9-5d81a259dcc1 a aamas:Term ;
+aama:ID406b3a66-dbc1-43bf-bb0d-42c4ec61d5c3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3780,7 +3788,7 @@ aama:IDea625259-2831-4b1d-a0f9-5d81a259dcc1 a aamas:Term ;
 	kem:token "wasaɣ" ;
 	.
 
-aama:ID197a077f-1c73-4f8e-8258-d2f57c4bbb8f a aamas:Term ;
+aama:ID5096f7af-aba4-46f8-9050-b7076760349b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3795,7 +3803,7 @@ aama:ID197a077f-1c73-4f8e-8258-d2f57c4bbb8f a aamas:Term ;
 	kem:token "wasyaɣ" ;
 	.
 
-aama:ID470472f9-5d05-4b7b-8649-6a70525a707e a aamas:Term ;
+aama:ID54a2d986-d435-44f1-86f8-3e74b3a22225 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3810,7 +3818,7 @@ aama:ID470472f9-5d05-4b7b-8649-6a70525a707e a aamas:Term ;
 	kem:token "wasnaɣ" ;
 	.
 
-aama:IDd2868a78-63b1-433c-ab03-340b364eb4d7 a aamas:Term ;
+aama:IDcc143a82-2335-43bc-920a-7e6b9c98e5ad a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3825,7 +3833,7 @@ aama:IDd2868a78-63b1-433c-ab03-340b364eb4d7 a aamas:Term ;
 	kem:token "wasyänaɣ" ;
 	.
 
-aama:IDb513a2ff-2133-47d8-8263-e1f77e38f4e9 a aamas:Term ;
+aama:ID142cf93d-78f0-4fdb-ba73-49dafdf1799e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeObliqueHSingularHMascAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3845,10 +3853,10 @@ aama:IDb513a2ff-2133-47d8-8263-e1f77e38f4e9 a aamas:Term ;
 kem:kem-Verb-was-RelativeSubjectAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-RelativeSubjectAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975  7.3.9. It is not clear whether the subject relative affirmative makes a distinction in aspect. A75, p. 338,  points out that 'the occasional alternation wasyänaɣər ~ wasinaɣər, and occasional forms the of 3rd person plural oblique relative in -ənaɣ besides -änaɣ may reflect such an imperfective.'; 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
+	rdfs:comment "DA1975p337. It is not clear whether the subject relative affirmative makes a distinction in aspect. A75, p. 338,  points out that 'the occasional alternation wasyänaɣər ~ wasinaɣər, and occasional forms the of 3rd person plural oblique relative in -ənaɣ besides -änaɣ may reflect such an imperfective.'; 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339" 
 	.
 
-aama:IDad57cd91-8ef2-4f18-9c0c-9dae4864f382 a aamas:Term ;
+aama:IDb479ce19-b093-4089-bc01-0ee0ff1b81be a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3861,7 +3869,7 @@ aama:IDad57cd91-8ef2-4f18-9c0c-9dae4864f382 a aamas:Term ;
 	kem:token "wasaɣ ~ wasaɣər ~ wasar" ;
 	.
 
-aama:IDabd873f0-62f3-44ff-86a4-a519abe139ed a aamas:Term ;
+aama:IDb2ffc350-a735-4d22-99a0-b9f99d0486ae a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3874,7 +3882,7 @@ aama:IDabd873f0-62f3-44ff-86a4-a519abe139ed a aamas:Term ;
 	kem:token "wasyaɣ ~ wasyaɣər ~ wasyar" ;
 	.
 
-aama:ID7754ff6d-c7f5-484e-b176-c20facf6b7ff a aamas:Term ;
+aama:ID8aab92aa-bdf1-4633-bddd-1942df30b9e8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3887,7 +3895,7 @@ aama:ID7754ff6d-c7f5-484e-b176-c20facf6b7ff a aamas:Term ;
 	kem:token "wasaɣ" ;
 	.
 
-aama:ID98f891bf-dc7e-411f-8135-2bb4a6ded3fd a aamas:Term ;
+aama:ID78433502-5e9b-4a2b-8051-61442503a4b8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3900,7 +3908,7 @@ aama:ID98f891bf-dc7e-411f-8135-2bb4a6ded3fd a aamas:Term ;
 	kem:token "wasäy" ;
 	.
 
-aama:IDa6804ba6-9ece-499e-9ce0-546674391c3f a aamas:Term ;
+aama:ID90b061f6-73b9-48d4-887e-6128aa46875e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3913,7 +3921,7 @@ aama:IDa6804ba6-9ece-499e-9ce0-546674391c3f a aamas:Term ;
 	kem:token "wasnaɣ ~ wasnaɣər ~ wasnar" ;
 	.
 
-aama:ID9223cab7-5695-4243-b7b4-954166cd54f4 a aamas:Term ;
+aama:ID3b0698c7-4bb3-44ac-be6a-cf08d5102867 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3926,7 +3934,7 @@ aama:ID9223cab7-5695-4243-b7b4-954166cd54f4 a aamas:Term ;
 	kem:token "wasyänaɣ ~ wasy änaɣər ~ wasyänar ~ wasinaɣər" ;
 	.
 
-aama:IDe21e5eaa-1220-4277-af57-28d5a548471f a aamas:Term ;
+aama:ID17472def-3851-4292-9722-b3afba3bd39f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-RelativeSubjectAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3944,10 +3952,10 @@ aama:IDe21e5eaa-1220-4277-af57-28d5a548471f a aamas:Term ;
 kem:kem-Verb-was-SubordinateAAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-SubordinateAAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p339 " 
 	.
 
-aama:ID00af4876-792f-4d63-a6ab-cd48d7cb1934 a aamas:Term ;
+aama:ID33a9d577-ced2-41ab-b327-bcfb380fdc7b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3960,7 +3968,7 @@ aama:ID00af4876-792f-4d63-a6ab-cd48d7cb1934 a aamas:Term ;
 	kem:token "wasa" ;
 	.
 
-aama:ID41f64f77-0dc1-4cae-ad21-bf51cd848134 a aamas:Term ;
+aama:ID459cd163-7451-41a9-952a-ae99bf49cb7d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3973,7 +3981,7 @@ aama:ID41f64f77-0dc1-4cae-ad21-bf51cd848134 a aamas:Term ;
 	kem:token "wasya" ;
 	.
 
-aama:ID626d0526-a266-451e-b1c7-fdd9798a83bc a aamas:Term ;
+aama:ID2f2cc1de-af84-4988-a108-de26a4bb1565 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3986,7 +3994,7 @@ aama:ID626d0526-a266-451e-b1c7-fdd9798a83bc a aamas:Term ;
 	kem:token "wasa" ;
 	.
 
-aama:ID6eb2b097-569c-4eb9-b870-0e878eebf475 a aamas:Term ;
+aama:ID4ff29b2c-6f9a-4f31-a8ee-67d0c3d61e96 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -3999,7 +4007,7 @@ aama:ID6eb2b097-569c-4eb9-b870-0e878eebf475 a aamas:Term ;
 	kem:token "wasya" ;
 	.
 
-aama:ID08d550d3-2cad-4892-8f39-a3994f7efa10 a aamas:Term ;
+aama:ID5c4d6e12-d84c-4455-b0db-a6c318c27a5f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4012,7 +4020,7 @@ aama:ID08d550d3-2cad-4892-8f39-a3994f7efa10 a aamas:Term ;
 	kem:token "wasna" ;
 	.
 
-aama:IDfd15720b-6a24-4d9d-9144-0f21948ffd12 a aamas:Term ;
+aama:ID9fabd445-9380-49c7-a8b6-928242ec6477 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4025,7 +4033,7 @@ aama:IDfd15720b-6a24-4d9d-9144-0f21948ffd12 a aamas:Term ;
 	kem:token "wasina" ;
 	.
 
-aama:ID3325a407-35cb-4c98-925e-73d702823a59 a aamas:Term ;
+aama:IDc7685e07-dd00-469c-a2e2-514175d26d97 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateAAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4043,10 +4051,10 @@ aama:ID3325a407-35cb-4c98-925e-73d702823a59 a aamas:Term ;
 kem:kem-Verb-was-SubordinateANegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-SubordinateANegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p339 " 
 	.
 
-aama:ID11d4dbc5-1cd0-49c9-ba8b-21d5d7741990 a aamas:Term ;
+aama:ID113795d4-4e23-4737-99f3-05978b6f3c31 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateANegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4059,7 +4067,7 @@ aama:ID11d4dbc5-1cd0-49c9-ba8b-21d5d7741990 a aamas:Term ;
 	kem:token "wasga" ;
 	.
 
-aama:IDe531a9ae-b6b0-46da-b308-578982217fd7 a aamas:Term ;
+aama:ID68872e75-32c2-47e4-b311-9bf30078c981 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateANegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4072,7 +4080,7 @@ aama:IDe531a9ae-b6b0-46da-b308-578982217fd7 a aamas:Term ;
 	kem:token "waska" ;
 	.
 
-aama:ID947fcf71-90b5-400c-9367-03fcb8c05c38 a aamas:Term ;
+aama:ID82a0caed-dfa3-4ad3-b086-0099b04e601d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateANegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4085,7 +4093,7 @@ aama:ID947fcf71-90b5-400c-9367-03fcb8c05c38 a aamas:Term ;
 	kem:token "wasga" ;
 	.
 
-aama:IDf26b04ea-8af6-44fb-a18b-0c67d07b1e98 a aamas:Term ;
+aama:ID3826aa06-b707-4b0a-9f38-cba67ff87c4c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateANegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4098,7 +4106,7 @@ aama:IDf26b04ea-8af6-44fb-a18b-0c67d07b1e98 a aamas:Term ;
 	kem:token "waska" ;
 	.
 
-aama:IDff230fc2-ee87-4580-82bc-257afc574835 a aamas:Term ;
+aama:IDc36f5f05-c5cb-48b3-9785-aab8777c8a4b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateANegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4111,7 +4119,7 @@ aama:IDff230fc2-ee87-4580-82bc-257afc574835 a aamas:Term ;
 	kem:token "wasgəna" ;
 	.
 
-aama:ID3590a211-d65c-4edc-b20d-48452b8062a6 a aamas:Term ;
+aama:ID29933b99-dd18-4a3d-98a9-472dee3917ba a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateANegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4124,7 +4132,7 @@ aama:ID3590a211-d65c-4edc-b20d-48452b8062a6 a aamas:Term ;
 	kem:token "waskəna" ;
 	.
 
-aama:ID1fc6b72a-9cb6-4fd6-9f3b-1a0a7374e694 a aamas:Term ;
+aama:ID0c107296-fd27-45b6-b2ce-21e928a556c5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateANegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4142,10 +4150,10 @@ aama:ID1fc6b72a-9cb6-4fd6-9f3b-1a0a7374e694 a aamas:Term ;
 kem:kem-Verb-was-SubordinateCompAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-SubordinateCompAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p340 " 
 	.
 
-aama:ID825fcd00-9944-4e97-92c6-8fbc7f45f047 a aamas:Term ;
+aama:ID3682d755-01a6-4929-8b10-77bbf83d2818 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4158,7 +4166,7 @@ aama:ID825fcd00-9944-4e97-92c6-8fbc7f45f047 a aamas:Term ;
 	kem:token "was" ;
 	.
 
-aama:ID9c2635cb-05f7-4a24-b787-a554a118ced6 a aamas:Term ;
+aama:ID832d23c4-ccf6-4367-a52c-eb907cee492a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4171,7 +4179,7 @@ aama:ID9c2635cb-05f7-4a24-b787-a554a118ced6 a aamas:Term ;
 	kem:token "was(əy)" ;
 	.
 
-aama:IDd66fb04b-b0d6-4301-b868-6c323c7277b9 a aamas:Term ;
+aama:IDf9c572ee-478e-41d2-835f-4e96ad2e6258 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4184,7 +4192,7 @@ aama:IDd66fb04b-b0d6-4301-b868-6c323c7277b9 a aamas:Term ;
 	kem:token "was" ;
 	.
 
-aama:ID61fd32da-2dc7-43ac-bc05-de4ead038493 a aamas:Term ;
+aama:IDd38b0f1e-7346-469c-8a3c-dc9d0f6b9f4c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4197,7 +4205,7 @@ aama:ID61fd32da-2dc7-43ac-bc05-de4ead038493 a aamas:Term ;
 	kem:token "was(əy)" ;
 	.
 
-aama:ID8ab42f9f-050c-4e9f-93f9-446ea14f2e53 a aamas:Term ;
+aama:ID17da60cd-938b-4ff4-9162-2f3dbf7645df a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4210,7 +4218,7 @@ aama:ID8ab42f9f-050c-4e9f-93f9-446ea14f2e53 a aamas:Term ;
 	kem:token "wasən" ;
 	.
 
-aama:ID2de441e7-2e5e-4aff-a2d0-5271da06b3d9 a aamas:Term ;
+aama:IDcaaac6a3-ae4c-49cd-8279-ad2718d164a8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4223,7 +4231,7 @@ aama:ID2de441e7-2e5e-4aff-a2d0-5271da06b3d9 a aamas:Term ;
 	kem:token "wasin" ;
 	.
 
-aama:IDea070a06-ed06-4f4c-830c-65acd767cacc a aamas:Term ;
+aama:ID0c558c18-e40a-497d-9c02-1e80e01dabf3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateCompAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4241,10 +4249,10 @@ aama:IDea070a06-ed06-4f4c-830c-65acd767cacc a aamas:Term ;
 kem:kem-Verb-was-SubordinateDAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-SubordinateDAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p339 " 
 	.
 
-aama:ID33adeaff-ef4d-45f6-907e-d5b305853ea8 a aamas:Term ;
+aama:IDb03c4c6e-b6b7-43d1-b332-0d3fb614ff02 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4257,7 +4265,7 @@ aama:ID33adeaff-ef4d-45f6-907e-d5b305853ea8 a aamas:Term ;
 	kem:token "wasde" ;
 	.
 
-aama:IDc2f19951-7ae3-473e-b139-71e9c9293ca0 a aamas:Term ;
+aama:ID9ec5b3c4-d56d-4cfc-98cd-630e667f1941 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4270,7 +4278,7 @@ aama:IDc2f19951-7ae3-473e-b139-71e9c9293ca0 a aamas:Term ;
 	kem:token "?" ;
 	.
 
-aama:ID8e818f72-c082-4bfe-9c7e-a6f4b89ff41c a aamas:Term ;
+aama:ID721615d9-3e7b-4592-bd97-c3bab2692559 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4283,7 +4291,7 @@ aama:ID8e818f72-c082-4bfe-9c7e-a6f4b89ff41c a aamas:Term ;
 	kem:token "wasde" ;
 	.
 
-aama:IDba3c72de-a73f-48df-8a11-f91a1e74a333 a aamas:Term ;
+aama:ID25ec97a1-78bb-408e-b209-3a518c87247b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4296,7 +4304,7 @@ aama:IDba3c72de-a73f-48df-8a11-f91a1e74a333 a aamas:Term ;
 	kem:token "waste?" ;
 	.
 
-aama:IDcd75a88d-19a3-40bf-8ed0-45402410c4c6 a aamas:Term ;
+aama:ID2efe5dbb-6abb-44b9-8bca-ed18d614f21d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4309,7 +4317,7 @@ aama:IDcd75a88d-19a3-40bf-8ed0-45402410c4c6 a aamas:Term ;
 	kem:token "wasnäd" ;
 	.
 
-aama:IDafa6c7de-c5b8-47f8-aa60-e8feca3e3b0b a aamas:Term ;
+aama:IDf57d0deb-6b52-471b-921d-228cfad59c61 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4322,7 +4330,7 @@ aama:IDafa6c7de-c5b8-47f8-aa60-e8feca3e3b0b a aamas:Term ;
 	kem:token "?" ;
 	.
 
-aama:IDd983fc31-5f28-40fb-9876-3f3de43aabb9 a aamas:Term ;
+aama:ID8207bf41-9a8d-4efd-8223-71bb51b87008 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4340,10 +4348,10 @@ aama:IDd983fc31-5f28-40fb-9876-3f3de43aabb9 a aamas:Term ;
 kem:kem-Verb-was-SubordinateDNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-SubordinateDNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p339 " 
 	.
 
-aama:ID1656e69e-4346-4974-8d48-0e0a16e75aa5 a aamas:Term ;
+aama:ID5ae7b314-25b8-44e6-b767-5fba4b6365d9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4356,7 +4364,7 @@ aama:ID1656e69e-4346-4974-8d48-0e0a16e75aa5 a aamas:Term ;
 	kem:token "wasgäd" ;
 	.
 
-aama:ID0fd55036-435f-41d1-9fb7-0cc3f0eaf873 a aamas:Term ;
+aama:ID2b28b353-9992-4d71-928a-bec49fc0e763 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4369,7 +4377,7 @@ aama:ID0fd55036-435f-41d1-9fb7-0cc3f0eaf873 a aamas:Term ;
 	kem:token "waskäd" ;
 	.
 
-aama:IDf7c7d734-e4bc-4607-a7d3-18d44de3cc41 a aamas:Term ;
+aama:ID83ea06e2-336a-4af4-9ea5-c178be018f88 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4382,7 +4390,7 @@ aama:IDf7c7d734-e4bc-4607-a7d3-18d44de3cc41 a aamas:Term ;
 	kem:token "wasgäd" ;
 	.
 
-aama:ID69512ec2-39c0-4217-8619-8f2f1db4aa51 a aamas:Term ;
+aama:IDa8d1d1d9-65e8-44bf-b70e-24bcc0936ff6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4395,7 +4403,7 @@ aama:ID69512ec2-39c0-4217-8619-8f2f1db4aa51 a aamas:Term ;
 	kem:token "waskäd" ;
 	.
 
-aama:ID53a078d2-b63d-47d0-b26d-995a98be02da a aamas:Term ;
+aama:IDc6031f0f-e23f-4d01-9a3a-151c45a13b13 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4408,7 +4416,7 @@ aama:ID53a078d2-b63d-47d0-b26d-995a98be02da a aamas:Term ;
 	kem:token "wasgənäd" ;
 	.
 
-aama:ID80f97c95-31e8-47c7-a821-245fe938c368 a aamas:Term ;
+aama:IDa7d19aa3-4d9d-47d3-9d73-e42c23842f40 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4421,7 +4429,7 @@ aama:ID80f97c95-31e8-47c7-a821-245fe938c368 a aamas:Term ;
 	kem:token "waskänäd" ;
 	.
 
-aama:ID5ea8b05a-cad1-45a4-a21f-6a759a20073f a aamas:Term ;
+aama:IDa0c61d38-713b-494c-aee8-aac3e16cd7c9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateDNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4439,10 +4447,10 @@ aama:ID5ea8b05a-cad1-45a4-a21f-6a759a20073f a aamas:Term ;
 kem:kem-Verb-was-SubordinateNAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-SubordinateNAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID7dfd7838-0a70-4c26-ab98-e6c70b588428 a aamas:Term ;
+aama:ID999559bc-5aa7-41c2-827b-34275bb26dc3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4455,7 +4463,7 @@ aama:ID7dfd7838-0a70-4c26-ab98-e6c70b588428 a aamas:Term ;
 	kem:token "wasän" ;
 	.
 
-aama:ID4ea68f2f-f019-491a-a764-500999dcc3c3 a aamas:Term ;
+aama:IDf56d6473-a85c-4fe8-9532-9d8366dbadf7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4468,7 +4476,7 @@ aama:ID4ea68f2f-f019-491a-a764-500999dcc3c3 a aamas:Term ;
 	kem:token "wasyän" ;
 	.
 
-aama:IDaf52776c-90fc-4dd7-a2f5-6688b8843e66 a aamas:Term ;
+aama:ID829c45c8-6aa8-4009-b543-47a61e50cb61 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4481,7 +4489,7 @@ aama:IDaf52776c-90fc-4dd7-a2f5-6688b8843e66 a aamas:Term ;
 	kem:token "wasän" ;
 	.
 
-aama:IDdceef0b9-2ba4-4598-a8fe-114541daccce a aamas:Term ;
+aama:IDbab5c8d2-ad54-419d-b1ff-0826e56ecf26 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4494,7 +4502,7 @@ aama:IDdceef0b9-2ba4-4598-a8fe-114541daccce a aamas:Term ;
 	kem:token "wasyän" ;
 	.
 
-aama:ID92f32327-9272-4cdf-a17f-64889f3727cc a aamas:Term ;
+aama:ID84822068-77f3-4c8d-88ee-3e5552116174 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4507,7 +4515,7 @@ aama:ID92f32327-9272-4cdf-a17f-64889f3727cc a aamas:Term ;
 	kem:token "wasnän" ;
 	.
 
-aama:ID9968f438-144d-4e06-8dca-4190a2e186c6 a aamas:Term ;
+aama:ID41eaab2b-caed-4a5b-9a15-57b749777520 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4520,7 +4528,7 @@ aama:ID9968f438-144d-4e06-8dca-4190a2e186c6 a aamas:Term ;
 	kem:token "wasyänän" ;
 	.
 
-aama:ID04af7b48-dfca-4861-9350-554c378566f6 a aamas:Term ;
+aama:ID37f38eca-1369-468b-8106-4978f4d6a244 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-was ;
@@ -4538,10 +4546,10 @@ aama:ID04af7b48-dfca-4861-9350-554c378566f6 a aamas:Term ;
 kem:kem-Verb-was-SubordinateNNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-was-SubordinateNNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID1a808f7b-6e78-4615-8db8-a99ad9a20da3 a aamas:Term ;
+aama:ID908eb41f-3469-4ec8-8ad4-227f3036e98e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4554,7 +4562,7 @@ aama:ID1a808f7b-6e78-4615-8db8-a99ad9a20da3 a aamas:Term ;
 	kem:token "wasägän" ;
 	.
 
-aama:ID13ac8d70-8ba4-4f6e-8688-0615683a2582 a aamas:Term ;
+aama:ID644bdfe3-ce92-438f-953b-6729807f539c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4567,7 +4575,7 @@ aama:ID13ac8d70-8ba4-4f6e-8688-0615683a2582 a aamas:Term ;
 	kem:token "wasäkän" ;
 	.
 
-aama:ID7bb6747d-a88b-4775-91b4-5d22e5bca907 a aamas:Term ;
+aama:ID2fa19a23-8a31-4d67-9b7f-7f49f205f861 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4580,7 +4588,7 @@ aama:ID7bb6747d-a88b-4775-91b4-5d22e5bca907 a aamas:Term ;
 	kem:token "wasägän" ;
 	.
 
-aama:ID053886fe-7c8e-4c6a-9189-656f64760c6f a aamas:Term ;
+aama:ID4891f729-acb3-4365-a44d-4d469a383bf0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4593,7 +4601,7 @@ aama:ID053886fe-7c8e-4c6a-9189-656f64760c6f a aamas:Term ;
 	kem:token "wasäkän" ;
 	.
 
-aama:ID058a485d-d9b8-45f4-8b17-d25fe7f360c1 a aamas:Term ;
+aama:IDcf2d467a-09cb-4bd5-85af-c880de70ac25 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4606,7 +4614,7 @@ aama:ID058a485d-d9b8-45f4-8b17-d25fe7f360c1 a aamas:Term ;
 	kem:token "wasägənin" ;
 	.
 
-aama:ID5c2f3f7f-51f3-497e-b1db-35a91f4d76a7 a aamas:Term ;
+aama:IDe0ab1b18-c8b8-4649-ac44-1820d5fc9d30 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4619,7 +4627,7 @@ aama:ID5c2f3f7f-51f3-497e-b1db-35a91f4d76a7 a aamas:Term ;
 	kem:token "wasäkänän" ;
 	.
 
-aama:IDbcf36586-ed6f-40b1-b722-727ebce53f8a a aamas:Term ;
+aama:IDd6803d17-3690-4a72-9eb3-d1af7e9dc189 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-was-SubordinateNNegative ;
 	aamas:lexeme kem:lex-was ;
@@ -4637,10 +4645,10 @@ aama:IDbcf36586-ed6f-40b1-b722-727ebce53f8a a aamas:Term ;
 kem:kem-Verb-xw-ImperativeMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-ImperativeMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID8bbfdbb3-411d-4976-9a05-820b0b402e4e a aamas:Term ;
+aama:ID598ac59f-84da-4259-8565-312ce21649ca a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4654,7 +4662,7 @@ aama:ID8bbfdbb3-411d-4976-9a05-820b0b402e4e a aamas:Term ;
 	kem:token "xʷəy" ;
 	.
 
-aama:IDb93b17bf-3c0f-4585-bcac-224cfb409831 a aamas:Term ;
+aama:IDb677a50a-f69d-4953-a6cc-d320bedaf044 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperativeMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4673,10 +4681,10 @@ aama:IDb93b17bf-3c0f-4585-bcac-224cfb409831 a aamas:Term ;
 kem:kem-Verb-xw-ImperativeMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-ImperativeMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:IDc20b4720-0c14-4a62-ad2e-56aa7e310ee8 a aamas:Term ;
+aama:IDa12be582-adf6-4797-b1de-84b3e6c7bf78 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4690,7 +4698,7 @@ aama:IDc20b4720-0c14-4a62-ad2e-56aa7e310ee8 a aamas:Term ;
 	kem:token "xʷəta" ;
 	.
 
-aama:ID02bddeb2-1f44-4d2e-a73d-d75fd5ed2809 a aamas:Term ;
+aama:IDa9d07e90-1148-47ea-af78-1a7605b599d6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperativeMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4709,10 +4717,10 @@ aama:ID02bddeb2-1f44-4d2e-a73d-d75fd5ed2809 a aamas:Term ;
 kem:kem-Verb-xw-ImperfectiveMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-ImperfectiveMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p333 " 
 	.
 
-aama:ID05ee8db3-04ad-4cdd-b70f-29239e7a25f0 a aamas:Term ;
+aama:ID7aebd8ef-9513-4394-8770-edc0a5d2a27d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4726,7 +4734,7 @@ aama:ID05ee8db3-04ad-4cdd-b70f-29239e7a25f0 a aamas:Term ;
 	kem:token "xʷakʷ" ;
 	.
 
-aama:ID33345d70-9130-4854-a655-d683a7bf694e a aamas:Term ;
+aama:ID4f8e9f9b-7957-4cad-bc9c-eef9c69e343c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4740,7 +4748,7 @@ aama:ID33345d70-9130-4854-a655-d683a7bf694e a aamas:Term ;
 	kem:token "xʷəyäkʷ" ;
 	.
 
-aama:IDe37b381b-535a-4346-99ac-24d82d29959e a aamas:Term ;
+aama:ID23ff7f85-b972-4c26-a3d4-2b5dfe4092d2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4754,7 +4762,7 @@ aama:IDe37b381b-535a-4346-99ac-24d82d29959e a aamas:Term ;
 	kem:token "xʷakʷ" ;
 	.
 
-aama:ID16e55235-c438-43d1-9fb3-7a6d1028adfb a aamas:Term ;
+aama:IDd04ca8e8-380c-4cdf-8ce9-e66bac51182b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4768,7 +4776,7 @@ aama:ID16e55235-c438-43d1-9fb3-7a6d1028adfb a aamas:Term ;
 	kem:token "xʷat(i)" ;
 	.
 
-aama:ID4f7d9e93-6a7a-4588-8ee7-ec761871d0b1 a aamas:Term ;
+aama:ID5a4fba65-f8fb-4334-aa70-bea6001456c9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4782,7 +4790,7 @@ aama:ID4f7d9e93-6a7a-4588-8ee7-ec761871d0b1 a aamas:Term ;
 	kem:token "xʷanäkʷ" ;
 	.
 
-aama:IDd02bb713-d65e-413e-abcc-442c604106a2 a aamas:Term ;
+aama:ID852aaaf0-9500-42e5-acf3-eae84d497f30 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4796,7 +4804,7 @@ aama:IDd02bb713-d65e-413e-abcc-442c604106a2 a aamas:Term ;
 	kem:token "xʷəyäkʷən" ;
 	.
 
-aama:ID9c7d17e0-7790-4a46-b056-bc97a818a771 a aamas:Term ;
+aama:IDb68a6111-4101-4106-a28c-d6688626d3c2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4815,10 +4823,10 @@ aama:ID9c7d17e0-7790-4a46-b056-bc97a818a771 a aamas:Term ;
 kem:kem-Verb-xw-ImperfectiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-ImperfectiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p333 " 
 	.
 
-aama:IDbe7c79f8-6cde-4935-9500-85975e8127f7 a aamas:Term ;
+aama:ID4a6fb038-0f7a-4632-9687-d3249077c356 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4832,7 +4840,7 @@ aama:IDbe7c79f8-6cde-4935-9500-85975e8127f7 a aamas:Term ;
 	kem:token "xʷagir" ;
 	.
 
-aama:ID20fd3150-2d6f-4516-8d42-c46d73ca97a2 a aamas:Term ;
+aama:IDb7a290bc-a0d0-42c7-bd5b-79c82dc4425d a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4846,7 +4854,7 @@ aama:ID20fd3150-2d6f-4516-8d42-c46d73ca97a2 a aamas:Term ;
 	kem:token "xʷakar" ;
 	.
 
-aama:IDd1a0ab8c-dd65-41f9-b070-7eb54bb7b938 a aamas:Term ;
+aama:IDc7b5fa23-ce87-43b8-8954-4c00c5288a6f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4860,7 +4868,7 @@ aama:IDd1a0ab8c-dd65-41f9-b070-7eb54bb7b938 a aamas:Term ;
 	kem:token "xʷaga" ;
 	.
 
-aama:ID829ee6f6-e03a-4b7e-986c-eb2223984367 a aamas:Term ;
+aama:ID247d895b-6011-48fd-940e-bd1874142192 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4874,7 +4882,7 @@ aama:ID829ee6f6-e03a-4b7e-986c-eb2223984367 a aamas:Term ;
 	kem:token "xʷakäy" ;
 	.
 
-aama:IDe64d4ecd-403a-405e-a800-094396c37961 a aamas:Term ;
+aama:ID64a23833-9f96-4f71-8803-27898a167bdb a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4888,7 +4896,7 @@ aama:IDe64d4ecd-403a-405e-a800-094396c37961 a aamas:Term ;
 	kem:token "xʷagənir" ;
 	.
 
-aama:IDb9466370-d747-409e-ab18-070bdc0d21e1 a aamas:Term ;
+aama:ID77c436d9-12ea-4ea6-be06-205c69485b30 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4902,7 +4910,7 @@ aama:IDb9466370-d747-409e-ab18-070bdc0d21e1 a aamas:Term ;
 	kem:token "xʷakänar" ;
 	.
 
-aama:IDa3df6b7e-b639-424d-9d0e-5aab5dc907d1 a aamas:Term ;
+aama:ID943ffcd7-7087-4584-95a6-decf7396225c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-ImperfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4921,10 +4929,10 @@ aama:IDa3df6b7e-b639-424d-9d0e-5aab5dc907d1 a aamas:Term ;
 kem:kem-Verb-xw-JussiveMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-JussiveMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p335 " 
 	.
 
-aama:ID1e787a48-6879-473a-81e3-ce006081e684 a aamas:Term ;
+aama:IDa7a6b8dc-6aed-4669-8b31-8bea2a4509ac a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4938,7 +4946,7 @@ aama:ID1e787a48-6879-473a-81e3-ce006081e684 a aamas:Term ;
 	kem:token "?" ;
 	.
 
-aama:ID55b91cc1-91d4-4f6a-a63b-3756c0e4421b a aamas:Term ;
+aama:ID9e58fa59-3cc1-46ad-b866-876f8b9cb14c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4952,7 +4960,7 @@ aama:ID55b91cc1-91d4-4f6a-a63b-3756c0e4421b a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:IDcd468530-aa3c-40ba-9dfd-de48836734b8 a aamas:Term ;
+aama:IDefd02b3f-831d-49af-8c6a-1a93772685ab a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4966,7 +4974,7 @@ aama:IDcd468530-aa3c-40ba-9dfd-de48836734b8 a aamas:Term ;
 	kem:token "xʷədu" ;
 	.
 
-aama:ID0dbc1f55-cf93-4cd6-b6b2-50ffa9ceb647 a aamas:Term ;
+aama:ID8e79bd88-49b5-48b7-8c3a-b7cf17bea2b2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4980,7 +4988,7 @@ aama:ID0dbc1f55-cf93-4cd6-b6b2-50ffa9ceb647 a aamas:Term ;
 	kem:token "xʷətu" ;
 	.
 
-aama:ID1ac8c056-2813-4e1f-b659-0f32f2159bd4 a aamas:Term ;
+aama:ID505ce118-3358-432a-9512-b8a48bf36aa2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -4994,7 +5002,7 @@ aama:ID1ac8c056-2813-4e1f-b659-0f32f2159bd4 a aamas:Term ;
 	kem:token "xʷənu" ;
 	.
 
-aama:IDde42aa08-43e3-4a9a-926c-6637c673eb9b a aamas:Term ;
+aama:ID6b5efd1b-6d78-4931-8d28-fb49c4855f39 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5008,7 +5016,7 @@ aama:IDde42aa08-43e3-4a9a-926c-6637c673eb9b a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:IDd113eaa2-d37f-4aa1-816c-3c059f8d0e11 a aamas:Term ;
+aama:IDebdd1812-3a50-433c-96c3-b2a14f5e30e0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5027,10 +5035,10 @@ aama:IDd113eaa2-d37f-4aa1-816c-3c059f8d0e11 a aamas:Term ;
 kem:kem-Verb-xw-JussiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-JussiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p335 " 
 	.
 
-aama:IDf1a33165-855e-416a-8f98-05930a63fa7a a aamas:Term ;
+aama:IDb5d294cc-c3d7-4dde-a288-cbf6de424286 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5044,7 +5052,7 @@ aama:IDf1a33165-855e-416a-8f98-05930a63fa7a a aamas:Term ;
 	kem:token "xʷəgin" ;
 	.
 
-aama:ID7a5516eb-ded9-4896-b7dd-ed6b29313a20 a aamas:Term ;
+aama:ID23221dc0-af7b-47d0-8a16-976204b4f8bc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5058,7 +5066,7 @@ aama:ID7a5516eb-ded9-4896-b7dd-ed6b29313a20 a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:ID3145fcd0-9377-4dfd-8033-9bb23ba77567 a aamas:Term ;
+aama:ID4da9b63d-7a2b-4db6-9ccd-de9c296a8083 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5072,7 +5080,7 @@ aama:ID3145fcd0-9377-4dfd-8033-9bb23ba77567 a aamas:Term ;
 	kem:token "xʷəgin" ;
 	.
 
-aama:ID5b33bf54-5b4a-43fd-8b7f-a13d77a0f77f a aamas:Term ;
+aama:IDc2cc3234-8894-4975-8636-adcf96ecbaa9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5086,7 +5094,7 @@ aama:ID5b33bf54-5b4a-43fd-8b7f-a13d77a0f77f a aamas:Term ;
 	kem:token "xʷəkin" ;
 	.
 
-aama:ID3515e276-e96a-4574-917f-ead57664e015 a aamas:Term ;
+aama:ID25ef2bfb-2067-4e71-911e-2bf83dc6e987 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5100,7 +5108,7 @@ aama:ID3515e276-e96a-4574-917f-ead57664e015 a aamas:Term ;
 	kem:token "?" ;
 	.
 
-aama:IDf5a33a33-2793-4c91-b6b4-763c0f1a5dc8 a aamas:Term ;
+aama:ID48f59bb0-c5b2-429b-8ee9-1fd809b662e8 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5114,7 +5122,7 @@ aama:IDf5a33a33-2793-4c91-b6b4-763c0f1a5dc8 a aamas:Term ;
 	kem:token "-" ;
 	.
 
-aama:ID4502f161-6c8b-4ce1-b5e8-2590bc56ad12 a aamas:Term ;
+aama:IDbdd8f9c1-c222-42be-80ee-bc8faac8999a a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-JussiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5133,10 +5141,10 @@ aama:ID4502f161-6c8b-4ce1-b5e8-2590bc56ad12 a aamas:Term ;
 kem:kem-Verb-xw-PerfectiveMainAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-PerfectiveMainAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p334 " 
 	.
 
-aama:ID1697ebb8-7552-4fcb-ac23-107ee855dbd7 a aamas:Term ;
+aama:ID152f2306-4f7e-4582-a328-d3f36b720f8e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5150,7 +5158,7 @@ aama:ID1697ebb8-7552-4fcb-ac23-107ee855dbd7 a aamas:Term ;
 	kem:token "xʷiɣʷ" ;
 	.
 
-aama:ID304a7ed7-5f87-4508-80d7-796ec00308a6 a aamas:Term ;
+aama:IDed42ac47-07ba-4ceb-a6ec-4f882e48324c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5164,7 +5172,7 @@ aama:ID304a7ed7-5f87-4508-80d7-796ec00308a6 a aamas:Term ;
 	kem:token "xʷəyəɣʷ" ;
 	.
 
-aama:IDa66886c9-0f8e-48a8-b8bb-04409e8aec8b a aamas:Term ;
+aama:IDaa21186c-f3bf-4d4a-adea-2abe1f5355ac a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5178,7 +5186,7 @@ aama:IDa66886c9-0f8e-48a8-b8bb-04409e8aec8b a aamas:Term ;
 	kem:token "xʷiɣʷ" ;
 	.
 
-aama:ID414fa9ec-498a-4f43-b027-c15b946766dc a aamas:Term ;
+aama:ID8e7d4f3c-dc01-43a7-a0b5-6b136f94963b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5192,7 +5200,7 @@ aama:ID414fa9ec-498a-4f43-b027-c15b946766dc a aamas:Term ;
 	kem:token "xʷit(i)" ;
 	.
 
-aama:IDd7cd3550-e730-429b-8d1e-5d67bacf4914 a aamas:Term ;
+aama:ID5c009ca3-82ca-43cc-afae-2accfbe47c66 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5206,7 +5214,7 @@ aama:IDd7cd3550-e730-429b-8d1e-5d67bacf4914 a aamas:Term ;
 	kem:token "xʷinəɣʷ" ;
 	.
 
-aama:ID1420db23-efef-4495-9571-c1e2ee7a58b6 a aamas:Term ;
+aama:ID7bea344a-5e9a-427b-b071-e84409dce5df a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5220,7 +5228,7 @@ aama:ID1420db23-efef-4495-9571-c1e2ee7a58b6 a aamas:Term ;
 	kem:token "xʷinəɣʷ ?" ;
 	.
 
-aama:ID0ac7195b-f15c-405c-889e-f9cd4f57b67f a aamas:Term ;
+aama:ID2df0bb92-232f-4894-87de-35ae587ed566 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5239,10 +5247,10 @@ aama:ID0ac7195b-f15c-405c-889e-f9cd4f57b67f a aamas:Term ;
 kem:kem-Verb-xw-PerfectiveMainNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-PerfectiveMainNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p334 " 
 	.
 
-aama:ID583df581-d7d3-4456-80ad-1b86ca48805a a aamas:Term ;
+aama:IDa8490138-430a-4e63-8fd6-2c5bf1b9765b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5256,7 +5264,7 @@ aama:ID583df581-d7d3-4456-80ad-1b86ca48805a a aamas:Term ;
 	kem:token "xʷəgir" ;
 	.
 
-aama:ID9db22a3d-7d38-4f11-afb1-8cf356da719d a aamas:Term ;
+aama:ID7b2167ea-7367-481c-9e44-bb9d18c047f4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5270,7 +5278,7 @@ aama:ID9db22a3d-7d38-4f11-afb1-8cf356da719d a aamas:Term ;
 	kem:token "xʷəkar" ;
 	.
 
-aama:ID2f027f72-507b-4d59-adff-893f3f3b7d19 a aamas:Term ;
+aama:ID1d962b02-863c-4cba-9623-06bd72638932 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5284,7 +5292,7 @@ aama:ID2f027f72-507b-4d59-adff-893f3f3b7d19 a aamas:Term ;
 	kem:token "xʷəga" ;
 	.
 
-aama:ID4ee3c3b4-6786-4a2c-a01d-27bd6fadb672 a aamas:Term ;
+aama:ID8675de1a-c795-4785-9b36-ca440f274df7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5298,7 +5306,7 @@ aama:ID4ee3c3b4-6786-4a2c-a01d-27bd6fadb672 a aamas:Term ;
 	kem:token "xʷəkäy" ;
 	.
 
-aama:ID7a6bfbf1-1d53-48e9-8e91-01c9d29f2484 a aamas:Term ;
+aama:IDdb7c0501-0167-4576-bdce-c1230686bc4b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5312,7 +5320,7 @@ aama:ID7a6bfbf1-1d53-48e9-8e91-01c9d29f2484 a aamas:Term ;
 	kem:token "xʷəgənir" ;
 	.
 
-aama:ID34248dda-0caa-490e-bfa9-17cda4a8478a a aamas:Term ;
+aama:IDa8dbdc65-bdc6-4d58-a358-c8faf414251c a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5326,7 +5334,7 @@ aama:ID34248dda-0caa-490e-bfa9-17cda4a8478a a aamas:Term ;
 	kem:token "xʷəkänar" ;
 	.
 
-aama:ID753bcec2-2af1-4b72-9b68-e6daae466a5f a aamas:Term ;
+aama:ID329fcea4-1a89-4a77-a9c5-8d9b4cf6d25b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-PerfectiveMainNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5345,10 +5353,10 @@ aama:ID753bcec2-2af1-4b72-9b68-e6daae466a5f a aamas:Term ;
 kem:kem-Verb-xw-SubordinateANegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-SubordinateANegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p339 " 
 	.
 
-aama:ID8c68678f-3c24-45fa-b0ad-a6c3b39e999b a aamas:Term ;
+aama:ID1349eb0a-20b9-437d-a4c7-c7020818b3b4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateANegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5361,7 +5369,7 @@ aama:ID8c68678f-3c24-45fa-b0ad-a6c3b39e999b a aamas:Term ;
 	kem:token "fäyga" ;
 	.
 
-aama:IDcde023dd-ea3d-43a1-8afb-25db594bfe1f a aamas:Term ;
+aama:IDcb7f8783-7d78-48f6-b7de-e56cfda08747 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateANegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5374,7 +5382,7 @@ aama:IDcde023dd-ea3d-43a1-8afb-25db594bfe1f a aamas:Term ;
 	kem:token "fäyka" ;
 	.
 
-aama:IDf0e29296-8799-4075-a8b6-f89f2c87b316 a aamas:Term ;
+aama:IDc06261ac-c88d-441f-b914-78da0c5e18df a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateANegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5387,7 +5395,7 @@ aama:IDf0e29296-8799-4075-a8b6-f89f2c87b316 a aamas:Term ;
 	kem:token "fäyga" ;
 	.
 
-aama:IDa867774c-b2ca-4a72-b7e3-0b43d52648a7 a aamas:Term ;
+aama:IDf73549be-7ff0-4aab-ac19-21ad892b73a0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateANegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5400,7 +5408,7 @@ aama:IDa867774c-b2ca-4a72-b7e3-0b43d52648a7 a aamas:Term ;
 	kem:token "fäyka" ;
 	.
 
-aama:ID1ae2de1c-afe5-43b6-95c2-f6a6f557b181 a aamas:Term ;
+aama:IDd78a0060-2f05-43bc-aec2-cc32edb27272 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateANegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5413,7 +5421,7 @@ aama:ID1ae2de1c-afe5-43b6-95c2-f6a6f557b181 a aamas:Term ;
 	kem:token "fäygəna" ;
 	.
 
-aama:ID0defa3c3-0ee2-4550-b78f-738b8d49103f a aamas:Term ;
+aama:ID7c2bc1cc-4d6a-4d50-889b-50c3ab32e539 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateANegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5426,7 +5434,7 @@ aama:ID0defa3c3-0ee2-4550-b78f-738b8d49103f a aamas:Term ;
 	kem:token "fäykəna" ;
 	.
 
-aama:ID7c285054-fcfa-40f5-8eee-4977779afd7f a aamas:Term ;
+aama:IDbfdd191b-8bfe-4a95-b29c-f36b0d81e027 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateANegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5444,10 +5452,10 @@ aama:ID7c285054-fcfa-40f5-8eee-4977779afd7f a aamas:Term ;
 kem:kem-Verb-xw-SubordinateNAffirmative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-SubordinateNAffirmative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID2c5835fd-2785-479d-86eb-283f4837cdf0 a aamas:Term ;
+aama:IDc9f23549-78da-4736-8df0-0dc452b77d45 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5460,7 +5468,7 @@ aama:ID2c5835fd-2785-479d-86eb-283f4837cdf0 a aamas:Term ;
 	kem:token "xʷan" ;
 	.
 
-aama:ID1ce685c3-8a62-4577-ac7a-f3adf59fd1a7 a aamas:Term ;
+aama:ID8f9c26fb-9875-4b23-80b5-35a34aae1794 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5473,7 +5481,7 @@ aama:ID1ce685c3-8a62-4577-ac7a-f3adf59fd1a7 a aamas:Term ;
 	kem:token "xʷəyän" ;
 	.
 
-aama:IDd8031087-ee54-45c5-93e8-acc7629dc8f2 a aamas:Term ;
+aama:IDfbc8e4c6-a702-400e-922a-04ae4c67a8da a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5486,7 +5494,7 @@ aama:IDd8031087-ee54-45c5-93e8-acc7629dc8f2 a aamas:Term ;
 	kem:token "xʷan" ;
 	.
 
-aama:ID324a4c4c-293c-4853-83a3-759daa85e599 a aamas:Term ;
+aama:ID67ae19e7-28ca-4da7-aecb-d1a59e9db43f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5499,7 +5507,7 @@ aama:ID324a4c4c-293c-4853-83a3-759daa85e599 a aamas:Term ;
 	kem:token "xʷəyän" ;
 	.
 
-aama:ID261d16bb-b0ef-445d-b91c-b8c68c4d4665 a aamas:Term ;
+aama:ID0a958f91-df20-4cb1-bd85-5e6f52fad54f a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5512,7 +5520,7 @@ aama:ID261d16bb-b0ef-445d-b91c-b8c68c4d4665 a aamas:Term ;
 	kem:token "xʷənän" ;
 	.
 
-aama:ID43da66c1-df01-4b40-8bfc-2975bebe531f a aamas:Term ;
+aama:ID09cd283f-0608-4dc7-ba15-eafa32ae91dc a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5525,7 +5533,7 @@ aama:ID43da66c1-df01-4b40-8bfc-2975bebe531f a aamas:Term ;
 	kem:token "xʷəyänän" ;
 	.
 
-aama:IDe5837a46-f2b8-4876-9622-5c16d9edee43 a aamas:Term ;
+aama:ID9d15374c-61d1-4519-851a-4f0a8b8deaf9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNAffirmative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5543,10 +5551,10 @@ aama:IDe5837a46-f2b8-4876-9622-5c16d9edee43 a aamas:Term ;
 kem:kem-Verb-xw-SubordinateNNegative a aamas:Termcluster ;
 	rdfs:label "kem-Verb-xw-SubordinateNNegative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 " 
+	rdfs:comment "DA1975p336 " 
 	.
 
-aama:ID8c0938e5-6b36-4503-9327-c49995512cf9 a aamas:Term ;
+aama:IDed3c9023-f878-4d79-9e45-d199b7227e54 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5559,7 +5567,7 @@ aama:ID8c0938e5-6b36-4503-9327-c49995512cf9 a aamas:Term ;
 	kem:token "xʷagän" ;
 	.
 
-aama:ID5524a35a-bf91-4968-bef3-acffaf8072a9 a aamas:Term ;
+aama:ID9f28f988-7c04-4d7a-899d-ecc57d893780 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5572,7 +5580,7 @@ aama:ID5524a35a-bf91-4968-bef3-acffaf8072a9 a aamas:Term ;
 	kem:token "xʷakän" ;
 	.
 
-aama:ID0d265f9b-c6b1-4726-a379-4726741f31ba a aamas:Term ;
+aama:IDc884c698-a0b9-4be7-8480-023e9eda0a4b a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5585,7 +5593,7 @@ aama:ID0d265f9b-c6b1-4726-a379-4726741f31ba a aamas:Term ;
 	kem:token "xʷagän" ;
 	.
 
-aama:ID87e4230f-2fc7-466d-bf3c-2901ae23aaf1 a aamas:Term ;
+aama:ID3adccd66-29c7-4fd6-825b-16da234fe9f7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5598,7 +5606,7 @@ aama:ID87e4230f-2fc7-466d-bf3c-2901ae23aaf1 a aamas:Term ;
 	kem:token "xʷakän" ;
 	.
 
-aama:IDbf33687e-f3a5-414f-9200-e794ec9a4bd9 a aamas:Term ;
+aama:ID5c82e3af-4bcd-48d8-9ea3-a9f1a67af716 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5611,7 +5619,7 @@ aama:IDbf33687e-f3a5-414f-9200-e794ec9a4bd9 a aamas:Term ;
 	kem:token "xʷagənin" ;
 	.
 
-aama:ID948e6aef-9788-4605-86e2-2a9502b3aac9 a aamas:Term ;
+aama:ID6de94a51-810a-435f-af15-989d9fef897e a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5624,7 +5632,7 @@ aama:ID948e6aef-9788-4605-86e2-2a9502b3aac9 a aamas:Term ;
 	kem:token "xʷakänän" ;
 	.
 
-aama:ID3e0acb4d-cd34-4b34-8d28-ba94f0942691 a aamas:Term ;
+aama:ID5c1ebf3a-db18-4edd-9781-a4d69782d2c9 a aamas:Term ;
 	aamas:lang aama:Kemant ;
 	aamas:memberOf kem:kem-Verb-xw-SubordinateNNegative ;
 	aamas:lexeme kem:lex-xw ;
@@ -5637,79 +5645,79 @@ aama:ID3e0acb4d-cd34-4b34-8d28-ba94f0942691 a aamas:Term ;
 	kem:token "xʷagänän" ;
 	.
 
-#TERMCLUSTER: kem-Verbmorph-AgentNom-
+#TERMCLUSTER: kem-morphVerb-AgentNom
 
-kem:kem-Verbmorph-AgentNom- a aamas:Termcluster ;
-	rdfs:label "kem-Verbmorph-AgentNom-" ;
+kem:kem-morphVerb-AgentNom a aamas:Termcluster ;
+	rdfs:label "kem-morphVerb-AgentNom" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.4 :: Agent noun marker sing. –änta plur. –äntə" 
+	rdfs:comment "DA1975p341 :: Agent noun marker sing. –änta plur. –äntə" 
 	.
 
-aama:ID940ea677-370f-4289-88c8-d9ddfc547f77 a aamas:Term ;
+aama:IDc57603e2-129c-4e7a-9884-cb77d8a3d2ca a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-AgentNom- ;
+	aamas:memberOf kem:kem-morphVerb-AgentNom ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:AgentNom ;
 	kem:token "gʷäzänta" ;
 	kem:token-note "farmer" ;
 	.
 
-aama:ID07516cd7-3ec4-4d45-8ff9-7868a28a21b6 a aamas:Term ;
+aama:ID364c8d5c-a1c7-41dd-a9f0-b5039b69c975 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-AgentNom- ;
+	aamas:memberOf kem:kem-morphVerb-AgentNom ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:AgentNom ;
 	kem:token "s̆əɣʷsänta" ;
 	kem:token-note "sick man" ;
 	.
 
-aama:ID2a7ae2b8-a101-49a1-9d34-573b8182825e a aamas:Term ;
+aama:ID7cb56c42-2529-409a-b40e-ad0a48e6fba6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-AgentNom- ;
+	aamas:memberOf kem:kem-morphVerb-AgentNom ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:AgentNom ;
 	kem:token "kins̆änta" ;
 	kem:token-note "teacher" ;
 	.
 
-aama:IDd0ea7fc5-973a-4b1c-a4d3-efd56ce32d9a a aamas:Term ;
+aama:ID31d02848-e976-49db-a62b-25db675956c4 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-AgentNom- ;
+	aamas:memberOf kem:kem-morphVerb-AgentNom ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:AgentNom ;
 	kem:token "s̆iwänta" ;
 	kem:token-note "beggar" ;
 	.
 
-aama:ID903e4db6-2599-42ea-951c-ddf5aa81e3ff a aamas:Term ;
+aama:ID9ab9440d-2416-4c51-9a73-75db75e11fc5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-AgentNom- ;
+	aamas:memberOf kem:kem-morphVerb-AgentNom ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:AgentNom ;
 	kem:token "säbsänta" ;
 	kem:token-note "soldier" ;
 	.
 
-aama:ID3e49b536-f05a-43a8-8d05-32fc70c605b1 a aamas:Term ;
+aama:IDd261a15e-065e-45ec-962c-87fe446e06e7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-AgentNom- ;
+	aamas:memberOf kem:kem-morphVerb-AgentNom ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:AgentNom ;
 	kem:token "axänta" ;
 	kem:token-note "wise-man" ;
 	.
 
-#TERMCLUSTER: kem-Verbmorph-DerivedStem-
+#TERMCLUSTER: kem-morphVerb-DerivedStem
 
-kem:kem-Verbmorph-DerivedStem- a aamas:Termcluster ;
-	rdfs:label "kem-Verbmorph-DerivedStem-" ;
+kem:kem-morphVerb-DerivedStem a aamas:Termcluster ;
+	rdfs:label "kem-morphVerb-DerivedStem" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975  :: The token note format is: Verb Gloss + Base Form." 
+	rdfs:comment "DA1975p330f  :: The token note format is: Verb Gloss + Base Form." 
 	.
 
-aama:IDd80e7c96-abd2-4f32-85ed-b59726483113 a aamas:Term ;
+aama:ID9af4487e-eecb-4d58-b2dc-1772b14a4154 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5717,9 +5725,9 @@ aama:IDd80e7c96-abd2-4f32-85ed-b59726483113 a aamas:Term ;
 	kem:token-note-baseForm "be open(ed) + əns-̆" ;
 	.
 
-aama:IDadd0c3e8-7530-448c-91e3-075d9684b3f7 a aamas:Term ;
+aama:IDa12e322d-5cad-4c90-8aac-4b325434be7c a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5727,9 +5735,9 @@ aama:IDadd0c3e8-7530-448c-91e3-075d9684b3f7 a aamas:Term ;
 	kem:token-note-baseForm "be found + təŋ-" ;
 	.
 
-aama:IDbe2a0031-9bda-4eb4-8b33-6b86cfdefa4e a aamas:Term ;
+aama:ID3188edae-f3aa-48a3-b6a0-47f46edb585a a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5737,9 +5745,9 @@ aama:IDbe2a0031-9bda-4eb4-8b33-6b86cfdefa4e a aamas:Term ;
 	kem:token-note-baseForm "be said + y-" ;
 	.
 
-aama:ID523a0795-5bbd-42db-84c7-0b1246deeb35 a aamas:Term ;
+aama:IDd368af88-75d5-4f16-b838-deb5339d26f0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5747,9 +5755,9 @@ aama:ID523a0795-5bbd-42db-84c7-0b1246deeb35 a aamas:Term ;
 	kem:token-note-baseForm "be heard + was-" ;
 	.
 
-aama:ID12631202-5687-4c23-ae9f-2cab2f1ce49a a aamas:Term ;
+aama:IDde8c4c12-ded6-4499-842d-a62e6c9e1c42 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5757,9 +5765,9 @@ aama:ID12631202-5687-4c23-ae9f-2cab2f1ce49a a aamas:Term ;
 	kem:token-note-baseForm "be killed + ku-mal-" ;
 	.
 
-aama:ID53671b37-f1ab-4578-b285-c82af3beba8b a aamas:Term ;
+aama:IDa3131793-f534-40fe-8988-27a4df773a37 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5767,9 +5775,9 @@ aama:ID53671b37-f1ab-4578-b285-c82af3beba8b a aamas:Term ;
 	kem:token-note-baseForm "shave o.s. + lis-̆" ;
 	.
 
-aama:IDad1b61bb-b2bd-42d7-9eb1-b26f70deff35 a aamas:Term ;
+aama:ID6113ecf1-4e36-470b-9a0e-11b4d4cb1705 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5777,9 +5785,9 @@ aama:IDad1b61bb-b2bd-42d7-9eb1-b26f70deff35 a aamas:Term ;
 	kem:token-note-baseForm "be stolen + xasän-t-" ;
 	.
 
-aama:ID85e631af-29bb-4ee4-85e3-ce2fd7b0889a a aamas:Term ;
+aama:ID27b9f3d7-8da5-4de2-9294-4a45683db3b0 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:M ;
@@ -5787,9 +5795,9 @@ aama:ID85e631af-29bb-4ee4-85e3-ce2fd7b0889a a aamas:Term ;
 	kem:token-note-baseForm "be born + käbän-" ;
 	.
 
-aama:ID175edf0b-009e-4a98-b6d6-0cdcf919e297 a aamas:Term ;
+aama:ID4e8115b6-8349-4718-aed3-957a0b1212d5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:Reciprocal ;
@@ -5797,9 +5805,9 @@ aama:ID175edf0b-009e-4a98-b6d6-0cdcf919e297 a aamas:Term ;
 	kem:token-note-baseForm "_NULL + ⊤" ;
 	.
 
-aama:ID033d1b4c-3701-4ba8-83da-6434b639f131 a aamas:Term ;
+aama:ID98b732ab-52d2-4db5-afa7-f2ad7d1d7ebf a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:Reciprocal ;
@@ -5807,9 +5815,9 @@ aama:ID033d1b4c-3701-4ba8-83da-6434b639f131 a aamas:Term ;
 	kem:token-note-baseForm "_NULL + ⊤" ;
 	.
 
-aama:ID45edf55b-8866-414c-bcf2-911e069fe186 a aamas:Term ;
+aama:ID547688a1-7948-4578-b476-a09cf92d0a55 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:Reciprocal ;
@@ -5817,9 +5825,9 @@ aama:ID45edf55b-8866-414c-bcf2-911e069fe186 a aamas:Term ;
 	kem:token-note-baseForm "_NULL + ⊤" ;
 	.
 
-aama:IDed4fc8d5-5203-43a5-b483-43486a16e47e a aamas:Term ;
+aama:ID48177356-44df-4258-b639-75370300bf27 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5827,9 +5835,9 @@ aama:IDed4fc8d5-5203-43a5-b483-43486a16e47e a aamas:Term ;
 	kem:token-note-baseForm "teach + kin-t-" ;
 	.
 
-aama:IDcd782c29-02b4-461e-b1b4-5838d2e0e8eb a aamas:Term ;
+aama:ID5e35580d-5f07-4a7f-a3d6-ec31c701941d a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5837,9 +5845,9 @@ aama:IDcd782c29-02b4-461e-b1b4-5838d2e0e8eb a aamas:Term ;
 	kem:token-note-baseForm "make hungry + dəkər-t-" ;
 	.
 
-aama:ID826b2bb9-4a07-4c30-9c44-2d3649e8429a a aamas:Term ;
+aama:ID37f75ae2-62d0-4afe-b281-efe2214498ad a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5847,9 +5855,9 @@ aama:ID826b2bb9-4a07-4c30-9c44-2d3649e8429a a aamas:Term ;
 	kem:token-note-baseForm "bring + läy-" ;
 	.
 
-aama:ID5fa1b3e4-13dd-4650-9f86-0aa621305799 a aamas:Term ;
+aama:IDd23b78cd-8304-4c29-9d82-fecf356da1bd a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5857,9 +5865,9 @@ aama:ID5fa1b3e4-13dd-4650-9f86-0aa621305799 a aamas:Term ;
 	kem:token-note-baseForm "reply + wäntär-" ;
 	.
 
-aama:IDa50d1cbe-aabf-415f-b5e0-d76e42dbdf5b a aamas:Term ;
+aama:ID131e347f-4cde-470a-8fff-de08c31b5930 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5867,9 +5875,9 @@ aama:IDa50d1cbe-aabf-415f-b5e0-d76e42dbdf5b a aamas:Term ;
 	kem:token-note-baseForm "inform + ax-" ;
 	.
 
-aama:ID4931858c-dc1a-4b5f-ac52-feb480b67d49 a aamas:Term ;
+aama:IDc118f7ac-117c-4ff6-b14b-9beb594c472c a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5877,9 +5885,9 @@ aama:ID4931858c-dc1a-4b5f-ac52-feb480b67d49 a aamas:Term ;
 	kem:token-note-baseForm "show + xal-" ;
 	.
 
-aama:ID8fcfacb9-b579-406b-8da2-5ac842786b82 a aamas:Term ;
+aama:ID3322f15d-62a4-4f5a-bbdc-2f118de4fecc a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5887,9 +5895,9 @@ aama:ID8fcfacb9-b579-406b-8da2-5ac842786b82 a aamas:Term ;
 	kem:token-note-baseForm "lose + dəz-" ;
 	.
 
-aama:ID8a9720cd-4579-4c98-98ff-3d8d8b414e98 a aamas:Term ;
+aama:IDdf9d3492-7cd8-4283-ab74-139de21df39b a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5897,9 +5905,9 @@ aama:ID8a9720cd-4579-4c98-98ff-3d8d8b414e98 a aamas:Term ;
 	kem:token-note-baseForm "cure + dan-" ;
 	.
 
-aama:ID00934631-6e9f-45d9-b149-2d7bb1b62393 a aamas:Term ;
+aama:ID5b415345-3740-433a-afef-e4dc09e895dd a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5907,9 +5915,9 @@ aama:ID00934631-6e9f-45d9-b149-2d7bb1b62393 a aamas:Term ;
 	kem:token-note-baseForm "wash s.th. + x-" ;
 	.
 
-aama:IDac86fd5b-c702-48cd-ad17-b649dd357b47 a aamas:Term ;
+aama:ID070b04f1-8e18-4528-835f-d0d4f4acd45e a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5917,9 +5925,9 @@ aama:IDac86fd5b-c702-48cd-ad17-b649dd357b47 a aamas:Term ;
 	kem:token-note-baseForm "boil + bəlu-" ;
 	.
 
-aama:IDc1dcf259-82fd-4534-8fc4-d2cd5b88ad88 a aamas:Term ;
+aama:ID55d8bb79-b82a-4a77-8721-3f52e2bcec65 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-DerivedStem- ;
+	aamas:memberOf kem:kem-morphVerb-DerivedStem ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:DerivedStem ;
 	kem:derivedStem kem:S ;
@@ -5927,129 +5935,129 @@ aama:IDc1dcf259-82fd-4534-8fc4-d2cd5b88ad88 a aamas:Term ;
 	kem:token-note-baseForm "take + fäy-" ;
 	.
 
-#TERMCLUSTER: kem-Verbmorph-Infinitive-
+#TERMCLUSTER: kem-morphVerb-Infinitive
 
-kem:kem-Verbmorph-Infinitive- a aamas:Termcluster ;
-	rdfs:label "kem-Verbmorph-Infinitive-" ;
+kem:kem-morphVerb-Infinitive a aamas:Termcluster ;
+	rdfs:label "kem-morphVerb-Infinitive" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.4" 
+	rdfs:comment "DA1975p340" 
 	.
 
-aama:IDfeca4358-c006-4afc-95b7-99ed809f4f7d a aamas:Term ;
+aama:IDbf73a58f-89d4-4b9f-a868-4733f6d944e2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Infinitive- ;
+	aamas:memberOf kem:kem-morphVerb-Infinitive ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Infinitive ;
-	aamas:lexeme aama:Kemant-fay ;
+	aamas:lexeme kem:lex-fay ;
 	kem:polarity kem:Affirmative ;
 	kem:token "fäyna" ;
 	.
 
-aama:ID6291cbe0-2397-48bd-908f-954b4401ec84 a aamas:Term ;
+aama:ID98504df6-a5f4-43bd-9078-cdf591a80e9f a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Infinitive- ;
+	aamas:memberOf kem:kem-morphVerb-Infinitive ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Infinitive ;
-	aamas:lexeme aama:Kemant-fay ;
+	aamas:lexeme kem:lex-fay ;
 	kem:polarity kem:Negative ;
 	kem:token "fäygäna" ;
 	.
 
-aama:ID970abf64-84d8-4121-b56d-98479d97bd5a a aamas:Term ;
+aama:ID6b60ef88-9a2f-4a34-ae7a-bf3512dc66f6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Infinitive- ;
+	aamas:memberOf kem:kem-morphVerb-Infinitive ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Infinitive ;
-	aamas:lexeme aama:Kemant-was ;
+	aamas:lexeme kem:lex-was ;
 	kem:polarity kem:Affirmative ;
 	kem:token "wasna" ;
 	.
 
-aama:ID190d1e1e-ecf7-4be5-bce7-fe51199e4bfd a aamas:Term ;
+aama:IDc953731d-5e40-474e-9614-d4ea7332fe2d a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Infinitive- ;
+	aamas:memberOf kem:kem-morphVerb-Infinitive ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Infinitive ;
-	aamas:lexeme aama:Kemant-was ;
+	aamas:lexeme kem:lex-was ;
 	kem:polarity kem:Negative ;
 	kem:token "wasgäna" ;
 	.
 
-aama:IDf21b876b-e162-4eca-a137-b647ff7a2bf3 a aamas:Term ;
+aama:ID739e2688-ece3-4d43-b65d-5d41455bd57d a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Infinitive- ;
+	aamas:memberOf kem:kem-morphVerb-Infinitive ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Infinitive ;
-	aamas:lexeme aama:Kemant-xw ;
+	aamas:lexeme kem:lex-xw ;
 	kem:polarity kem:Affirmative ;
 	kem:token "xʷəna" ;
 	.
 
-aama:ID2c755d44-0316-4dc3-b79d-99dd5eb5f16c a aamas:Term ;
+aama:ID3d37d166-33b7-452b-a01f-241d93cf22ad a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Infinitive- ;
+	aamas:memberOf kem:kem-morphVerb-Infinitive ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Infinitive ;
-	aamas:lexeme aama:Kemant-xw ;
+	aamas:lexeme kem:lex-xw ;
 	kem:polarity kem:Negative ;
 	kem:token "xʷəgäna" ;
 	.
 
-#TERMCLUSTER: kem-Verbmorph-Interrogative-
+#TERMCLUSTER: kem-morphVerb-Interrogative
 
-kem:kem-Verbmorph-Interrogative- a aamas:Termcluster ;
-	rdfs:label "kem-Verbmorph-Interrogative-" ;
+kem:kem-morphVerb-Interrogative a aamas:Termcluster ;
+	rdfs:label "kem-morphVerb-Interrogative" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.5" 
+	rdfs:comment "DA1975p341" 
 	.
 
-aama:IDc1151912-3f14-45b4-ac64-356d62ac41c6 a aamas:Term ;
+aama:IDcda6ac22-c9d8-4889-9782-6d9b637a07e5 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Interrogative- ;
+	aamas:memberOf kem:kem-morphVerb-Interrogative ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Interrogative ;
 	kem:token "fälägi" ;
 	kem:token-note "do you want it?" ;
 	.
 
-aama:ID1d7d4f9f-6fc9-4b2c-8a46-b219c46e70a6 a aamas:Term ;
+aama:IDe5b8fdc4-9b0f-42b4-9a27-a913b607940c a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Interrogative- ;
+	aamas:memberOf kem:kem-morphVerb-Interrogative ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Interrogative ;
 	kem:token "lämäds̆i" ;
 	kem:token-note "are you getting used to it?" ;
 	.
 
-aama:ID4c60c29b-5980-498f-80da-5c6746d3c6e0 a aamas:Term ;
+aama:ID6f05045c-e7c6-4650-b525-feca0ccbabf6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Interrogative- ;
+	aamas:memberOf kem:kem-morphVerb-Interrogative ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Interrogative ;
 	kem:token "gärsi" ;
 	kem:token-note "can you?" ;
 	.
 
-aama:ID11fced49-2923-4d89-94b8-7277cc67c905 a aamas:Term ;
+aama:IDcd30bb26-a33a-4862-81c5-b5def052f181 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-Interrogative- ;
+	aamas:memberOf kem:kem-morphVerb-Interrogative ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:Interrogative ;
 	kem:token "kəmantənäyəs waɣärti" ;
 	kem:token-note "do you speak Kemant?" ;
 	.
 
-#TERMCLUSTER: kem-Verbmorph-SubjMarker-
+#TERMCLUSTER: kem-morphVerb-SubjMarker
 
-kem:kem-Verbmorph-SubjMarker- a aamas:Termcluster ;
-	rdfs:label "kem-Verbmorph-SubjMarker-" ;
+kem:kem-morphVerb-SubjMarker a aamas:Termcluster ;
+	rdfs:label "kem-morphVerb-SubjMarker" ;
 	aamas:lang aama:Kemant ;
-	rdfs:comment "Appleyard1975 s7.2" 
+	rdfs:comment "DA1975p332" 
 	.
 
-aama:IDb1715666-8490-4aef-8926-bc5b0614d90d a aamas:Term ;
+aama:IDd01eb4c3-958e-48f1-929f-483ee8de25e2 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetA ;
@@ -6059,9 +6067,9 @@ aama:IDb1715666-8490-4aef-8926-bc5b0614d90d a aamas:Term ;
 	kem:token "-Ø-" ;
 	.
 
-aama:ID1e72a7fc-78bf-42c8-a319-0138d37c9798 a aamas:Term ;
+aama:IDee93dc46-1c16-4122-adb4-92e4f138e45a a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetA ;
@@ -6071,9 +6079,9 @@ aama:ID1e72a7fc-78bf-42c8-a319-0138d37c9798 a aamas:Term ;
 	kem:token "-y- ~ -t-" ;
 	.
 
-aama:ID5f2c7e7a-b69b-42a0-8703-78441dfbcaa2 a aamas:Term ;
+aama:ID575cda11-3a12-496e-ab6a-bcb69abbee3e a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetA ;
@@ -6083,9 +6091,9 @@ aama:ID5f2c7e7a-b69b-42a0-8703-78441dfbcaa2 a aamas:Term ;
 	kem:token "-Ø-" ;
 	.
 
-aama:IDf6102627-4a4e-470e-aac7-a71a1bc54375 a aamas:Term ;
+aama:ID8dc21d37-c7a2-41b1-b2b8-611111668d42 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetA ;
@@ -6095,9 +6103,9 @@ aama:IDf6102627-4a4e-470e-aac7-a71a1bc54375 a aamas:Term ;
 	kem:token "-y- ~ -t-" ;
 	.
 
-aama:ID62c70e01-27c0-46ad-9d8f-342ae4c95b1b a aamas:Term ;
+aama:IDd1f89602-0f8e-44ac-a20c-89eee60ba9c3 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetA ;
@@ -6107,9 +6115,9 @@ aama:ID62c70e01-27c0-46ad-9d8f-342ae4c95b1b a aamas:Term ;
 	kem:token "-n-" ;
 	.
 
-aama:ID071df654-f15f-4a76-8197-eb9b8c9639bb a aamas:Term ;
+aama:IDecd4c9e5-b405-42d0-86d4-0f46c486c4d1 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetA ;
@@ -6119,9 +6127,9 @@ aama:ID071df654-f15f-4a76-8197-eb9b8c9639bb a aamas:Term ;
 	kem:token "-yVn- ~ -tVn-" ;
 	.
 
-aama:ID16ef76ce-5ce7-45d4-97d4-0567e8033daa a aamas:Term ;
+aama:IDdd3ac920-8426-4c0b-b7aa-96353e0cfda6 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetA ;
@@ -6131,9 +6139,9 @@ aama:ID16ef76ce-5ce7-45d4-97d4-0567e8033daa a aamas:Term ;
 	kem:token "-Vn-" ;
 	.
 
-aama:ID0c53646d-a6ce-4b80-90fb-ecd264ee1f81 a aamas:Term ;
+aama:IDad57414b-2de3-4dba-8af6-1c413a9e6205 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetB ;
@@ -6143,9 +6151,9 @@ aama:ID0c53646d-a6ce-4b80-90fb-ecd264ee1f81 a aamas:Term ;
 	kem:token "-Ø-" ;
 	.
 
-aama:ID423d5f10-4c2f-4e92-926a-0042da8d99fa a aamas:Term ;
+aama:ID4e74184a-a7f8-450b-9e62-c9fdb31c65c7 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetB ;
@@ -6155,9 +6163,9 @@ aama:ID423d5f10-4c2f-4e92-926a-0042da8d99fa a aamas:Term ;
 	kem:token "-C-" ;
 	.
 
-aama:IDa08e0574-fd30-4d71-a706-d455aea9993c a aamas:Term ;
+aama:ID65030564-19df-4d92-952b-57f1bd00d188 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetB ;
@@ -6167,9 +6175,9 @@ aama:IDa08e0574-fd30-4d71-a706-d455aea9993c a aamas:Term ;
 	kem:token "-Ø-" ;
 	.
 
-aama:IDbd1668cb-3711-43bb-ac0a-e0b7a492ed87 a aamas:Term ;
+aama:ID539f559e-f13a-4958-9400-ea02590cee3f a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetB ;
@@ -6179,9 +6187,9 @@ aama:IDbd1668cb-3711-43bb-ac0a-e0b7a492ed87 a aamas:Term ;
 	kem:token "-C-" ;
 	.
 
-aama:IDb2ab4eba-15e0-42a1-828e-9c05e66b7959 a aamas:Term ;
+aama:ID21e76f3a-7ef2-4ce1-9fd0-aa09bff7ed68 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetB ;
@@ -6191,9 +6199,9 @@ aama:IDb2ab4eba-15e0-42a1-828e-9c05e66b7959 a aamas:Term ;
 	kem:token "-n-" ;
 	.
 
-aama:IDe7c80472-1ebf-4857-8211-731e71d71527 a aamas:Term ;
+aama:ID2ee92154-d4b2-48eb-a23b-071d78445f85 a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetB ;
@@ -6203,9 +6211,9 @@ aama:IDe7c80472-1ebf-4857-8211-731e71d71527 a aamas:Term ;
 	kem:token "-CVn-" ;
 	.
 
-aama:ID950202a9-6111-4526-8380-8d0e03f3400d a aamas:Term ;
+aama:ID3bf8a3ec-9e1b-4a9d-9795-0617b6dd87cb a aamas:Term ;
 	aamas:lang aama:Kemant ;
-	aamas:memberOf kem:kem-Verbmorph-SubjMarker- ;
+	aamas:memberOf kem:kem-morphVerb-SubjMarker ;
 	kem:pos kem:Verb ;
 	kem:morphClass kem:SubjMarker ;
 	kem:subjectSet kem:SubjSetB ;
