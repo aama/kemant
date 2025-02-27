@@ -1,11 +1,22 @@
 {
   "lang": "kemant",
-  "subfamily": "Agaw",
+  "subfamily": "cushitic agaw",
   "lgpref": "kem",
-  "datasource": "Appleyard, David. 1975. 'A descriptive outline of Kemant'. Bulletin of the School of Oriental and African Studies 38/2, 316-350.; abbrev. A75",
+  "datasource": "Appleyard, David. 1975. 'A descriptive outline of Kemant'. Bulletin of the School of Oriental and African Studies 38/2, 316-350.; abbrev. DA1975",
   "datasourceNotes": "",
+  "transcription": { 
+    "Consonants": {
+      "general": "cf. transcription table",
+      "note": [
+        "'' = ''",
+        "'' = '' "
+        ]},
+    "Vowels": {
+      "inventory": "i e ǝ ä a o u"},
+    "Prosody": {
+      "Type": "[unmarkedd]"}},
   "geodemoURL": "http://www.ethnologue.com/language/ahg",
-  "geodemoTXT": "Varieties and subdialects of Agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant.",
+  "geodemoTXT": "Varieties and subdialects of cushitic agaw (or Central) Cushitic language Kemant (Qimant) are spoken mainly in the Northwest Amhara region, north of Lake Tana. The number of actual speakers of Kemant is much smaller that the number of individuals who identify themselves as ethnically Kemant.",
   "schemata": {
   "clauseType": [
     "Gerund",
@@ -76,8 +87,8 @@
     "Independent"
   ],
   "proSet": [
-    "ProSetA",
-    "ProSetB"
+    "ProA",
+    "ProB"
   ],
   "subjectSet": [
     "SubjSetA",
@@ -122,7 +133,7 @@
   "termclusters": [
   {
     "label": "kem-NounCardinalNumeral",
-    "note": "Appleyard1975 p.329",
+    "note": "DA1975p329",
     "common": {
       "nounClass": "CardinalNumeral",
       "pos": "Noun"
@@ -153,32 +164,45 @@
   },
   {
     "label": "kem-PronounIndependent",
-    "note": "Appleyard1975 p.320",
+    "note": "DA1975p320",
     "common": {
       "pos": "Pronoun",
-      "proClass": "Independent"
+      "proClass": "Independent",
+      "proSet": "ProA"
     },
     "terms": [
-      ["proSet" ,"number" ,"person" ,"gender" ,"token"],
-      ["ProSetA" ,"Singular" ,"Person1" ,"Common" ,"an"],
-      ["ProSetA" ,"Singular" ,"Person2" ,"Common" ,"əntə"],
-      ["ProSetA" ,"Singular" ,"Person3" ,"Masc" ,"ni"],
-      ["ProSetA" ,"Singular" ,"Person3" ,"Fem" ,"niy"],
-      ["ProSetA" ,"Plural" ,"Person1" ,"Common" ,"andiw / anniw"],
-      ["ProSetA" ,"Plural" ,"Person2" ,"Common" ,"əntändiw / əntän(n)iw / əntädiw"],
-      ["ProSetA" ,"Plural" ,"Person3" ,"Common" ,"naydiw"],
-      ["ProSetB" ,"Singular" ,"Person1" ,"Common" ,"yə"],
-      ["ProSetB" ,"Singular" ,"Person2" ,"Common" ,"ki / ku"],
-      ["ProSetB" ,"Singular" ,"Person3" ,"Masc" ,"ni"],
-      ["ProSetB" ,"Singular" ,"Person3" ,"Fem" ,"nis̆"],
-      ["ProSetB" ,"Plural" ,"Person1" ,"Common" ,"anä"],
-      ["ProSetB" ,"Plural" ,"Person2" ,"Common" ,"əntä "],
-      ["ProSetB" ,"Plural" ,"Person3" ,"Common" ,"na"]
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"an"],
+      ["Singular" ,"Person2" ,"Common" ,"əntə"],
+      ["Singular" ,"Person3" ,"Masc" ,"ni"],
+      ["Singular" ,"Person3" ,"Fem" ,"niy"],
+      ["Plural" ,"Person1" ,"Common" ,"andiw / anniw"],
+      ["Plural" ,"Person2" ,"Common" ,"əntändiw / əntän(n)iw / əntädiw"],
+      ["Plural" ,"Person3" ,"Common" ,"naydiw"]
+    ]
+  },
+  {
+    "label": "kem-PronounIndependent",
+    "note": "DA1975p320",
+    "common": {
+      "pos": "Pronoun",
+      "proClass": "Independent",
+      "proSet": "ProB"
+    },
+    "terms": [
+      ["number" ,"person" ,"gender" ,"token"],
+      ["Singular" ,"Person1" ,"Common" ,"yə"],
+      ["Singular" ,"Person2" ,"Common" ,"ki / ku"],
+      ["Singular" ,"Person3" ,"Masc" ,"ni"],
+      ["Singular" ,"Person3" ,"Fem" ,"nis̆"],
+      ["Plural" ,"Person1" ,"Common" ,"anä"],
+      ["Plural" ,"Person2" ,"Common" ,"əntä "],
+      ["Plural" ,"Person3" ,"Common" ,"na"]
     ]
   },
   {
     "label": "kem-Verb-Copula-Affirmative",
-    "note": "Appleyard1975 s7.8",
+    "note": "DA1975p342",
     "common": {
       "polarity": "Affirmative",
       "pos": "Verb",
@@ -197,7 +221,7 @@
   },
   {
     "label": "kem-Verb-fay-GerundAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p337",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -217,7 +241,7 @@
   },
   {
     "label": "kem-Verb-fay-GerundNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p347",
     "common": {
       "lexeme": "fay",
       "polarity": "Negative",
@@ -237,7 +261,7 @@
   },
   {
     "label": "kem-Verb-fay-ImperativeMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -253,7 +277,7 @@
   },
   {
     "label": "kem-Verb-fay-ImperativeMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Negative",
@@ -269,7 +293,7 @@
   },
   {
     "label": "kem-Verb-fay-ImperfectiveMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p333 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -290,7 +314,7 @@
   },
   {
     "label": "kem-Verb-fay-ImperfectiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p333 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Negative",
@@ -311,7 +335,7 @@
   },
   {
     "label": "kem-Verb-fay-Jussive2MainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p335 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -328,7 +352,7 @@
   },
   {
     "label": "kem-Verb-fay-JussiveMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p335 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -349,7 +373,7 @@
   },
   {
     "label": "kem-Verb-fay-JussiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p335 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Negative",
@@ -370,7 +394,7 @@
   },
   {
     "label": "kem-Verb-fay-PerfectiveAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p334 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -390,7 +414,7 @@
   },
   {
     "label": "kem-Verb-fay-PerfectiveCompAffirmative",
-    "note": "Appleyard1975 p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted.",
+    "note": "DA1975p334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted.",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -410,7 +434,7 @@
   },
   {
     "label": "kem-Verb-fay-PerfectiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p334 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Negative",
@@ -431,7 +455,7 @@
   },
   {
     "label": "kem-Verb-fay-RelativeSubjectAffirmative",
-    "note": "Appleyard1975 s7.3.9 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
+    "note": "DA1975p331 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -451,7 +475,7 @@
   },
   {
     "label": "kem-Verb-fay-SubordinateAAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p339 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -471,7 +495,7 @@
   },
   {
     "label": "kem-Verb-fay-SubordinateCompAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p340 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -491,7 +515,7 @@
   },
   {
     "label": "kem-Verb-fay-SubordinateNAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Affirmative",
@@ -511,7 +535,7 @@
   },
   {
     "label": "kem-Verb-fay-SubordinateNNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "fay",
       "polarity": "Negative",
@@ -531,7 +555,7 @@
   },
   {
     "label": "kem-Verb-iw-ImperativeMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "iw",
       "polarity": "Affirmative",
@@ -547,7 +571,7 @@
   },
   {
     "label": "kem-Verb-iw-ImperativeMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "iw",
       "polarity": "Negative",
@@ -563,7 +587,7 @@
   },
   {
     "label": "kem-Verb-was-GerundAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p337 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -583,7 +607,7 @@
   },
   {
     "label": "kem-Verb-was-GerundNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p337 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -603,7 +627,7 @@
   },
   {
     "label": "kem-Verb-was-ImperativeMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -619,7 +643,7 @@
   },
   {
     "label": "kem-Verb-was-ImperativeMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -635,7 +659,7 @@
   },
   {
     "label": "kem-Verb-was-ImperfectiveMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p333 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -656,7 +680,7 @@
   },
   {
     "label": "kem-Verb-was-ImperfectiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p333 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -677,7 +701,7 @@
   },
   {
     "label": "kem-Verb-was-Jussive2MainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p339 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -694,7 +718,7 @@
   },
   {
     "label": "kem-Verb-was-JussiveMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p335 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -715,7 +739,7 @@
   },
   {
     "label": "kem-Verb-was-JussiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p335 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -736,7 +760,7 @@
   },
   {
     "label": "kem-Verb-was-PerfectiveAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p334 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -756,7 +780,7 @@
   },
   {
     "label": "kem-Verb-was-PerfectiveCompAffirmative",
-    "note": "Appleyard1975 p.334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted.",
+    "note": "DA1975p334 :: This tense is a close compound of a subordinate form, which occasionally occurs outside this particular compound,and the imperfective affirmative of the verb wan- be. The first part of the compound has personal markers (set A),but zero tense marker;also,the marker -y of the 2nd person singular and the 3rd person feminine is often deleted.",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -776,7 +800,7 @@
   },
   {
     "label": "kem-Verb-was-PerfectiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p334 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -797,7 +821,7 @@
   },
   {
     "label": "kem-Verb-was-RelativeObliqueHPluralHCommmonAffirmative",
-    "note": "Appleyard1975 s7.4 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
+    "note": "DA1975p338 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -819,7 +843,7 @@
   },
   {
     "label": "kem-Verb-was-RelativeObliqueHSingularHFemAffirmative",
-    "note": "Appleyard1975 s7.4 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
+    "note": "DA1975p338 :: 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -841,7 +865,7 @@
   },
   {
     "label": "kem-Verb-was-RelativeObliqueHSingularHMascAffirmative",
-    "note": "Appleyard1975 s7.4 ::'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
+    "note": "DA1975p338 ::'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -863,7 +887,7 @@
   },
   {
     "label": "kem-Verb-was-RelativeSubjectAffirmative",
-    "note": "Appleyard1975  7.3.9. It is not clear whether the subject relative affirmative makes a distinction in aspect. A75, p. 338,  points out that 'the occasional alternation wasyänaɣər ~ wasinaɣər, and occasional forms the of 3rd person plural oblique relative in -ənaɣ besides -änaɣ may reflect such an imperfective.'; 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
+    "note": "DA1975p337. It is not clear whether the subject relative affirmative makes a distinction in aspect. A75, p. 338,  points out that 'the occasional alternation wasyänaɣər ~ wasinaɣər, and occasional forms the of 3rd person plural oblique relative in -ənaɣ besides -änaɣ may reflect such an imperfective.'; 'the negative relative is identical with the negaties of the imperfective and perfective main verb forms' , cf. pp337-339",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -883,7 +907,7 @@
   },
   {
     "label": "kem-Verb-was-SubordinateAAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p339 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -903,7 +927,7 @@
   },
   {
     "label": "kem-Verb-was-SubordinateANegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p339 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -923,7 +947,7 @@
   },
   {
     "label": "kem-Verb-was-SubordinateCompAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p340 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -943,7 +967,7 @@
   },
   {
     "label": "kem-Verb-was-SubordinateDAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p339 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -963,7 +987,7 @@
   },
   {
     "label": "kem-Verb-was-SubordinateDNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p339 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -983,7 +1007,7 @@
   },
   {
     "label": "kem-Verb-was-SubordinateNAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "was",
       "polarity": "Affirmative",
@@ -1003,7 +1027,7 @@
   },
   {
     "label": "kem-Verb-was-SubordinateNNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "was",
       "polarity": "Negative",
@@ -1023,7 +1047,7 @@
   },
   {
     "label": "kem-Verb-xw-ImperativeMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Affirmative",
@@ -1039,7 +1063,7 @@
   },
   {
     "label": "kem-Verb-xw-ImperativeMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Negative",
@@ -1055,7 +1079,7 @@
   },
   {
     "label": "kem-Verb-xw-ImperfectiveMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p333 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Affirmative",
@@ -1076,7 +1100,7 @@
   },
   {
     "label": "kem-Verb-xw-ImperfectiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p333 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Negative",
@@ -1097,7 +1121,7 @@
   },
   {
     "label": "kem-Verb-xw-JussiveMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p335 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Affirmative",
@@ -1118,7 +1142,7 @@
   },
   {
     "label": "kem-Verb-xw-JussiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p335 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Negative",
@@ -1139,7 +1163,7 @@
   },
   {
     "label": "kem-Verb-xw-PerfectiveMainAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p334 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Affirmative",
@@ -1160,7 +1184,7 @@
   },
   {
     "label": "kem-Verb-xw-PerfectiveMainNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p334 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Negative",
@@ -1181,7 +1205,7 @@
   },
   {
     "label": "kem-Verb-xw-SubordinateANegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p339 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Negative",
@@ -1201,7 +1225,7 @@
   },
   {
     "label": "kem-Verb-xw-SubordinateNAffirmative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Affirmative",
@@ -1221,7 +1245,7 @@
   },
   {
     "label": "kem-Verb-xw-SubordinateNNegative",
-    "note": "Appleyard1975 ",
+    "note": "DA1975p336 ",
     "common": {
       "lexeme": "xw",
       "polarity": "Negative",
@@ -1240,8 +1264,8 @@
     ]
   },
   {
-    "label": "kem-Verbmorph-AgentNom-",
-    "note": "Appleyard1975 s7.4 :: Agent noun marker sing. –änta plur. –äntə",
+    "label": "kem-morphVerb-AgentNom",
+    "note": "DA1975p341 :: Agent noun marker sing. –änta plur. –äntə",
     "common": {
       "pos": "Verb",
       "morphClass": "AgentNom"
@@ -1257,8 +1281,8 @@
     ]
   },
   {
-    "label": "kem-Verbmorph-DerivedStem-",
-    "note": "Appleyard1975  :: The token note format is: Verb Gloss + Base Form.",
+    "label": "kem-morphVerb-DerivedStem",
+    "note": "DA1975p330f  :: The token note format is: Verb Gloss + Base Form.",
     "common": {
       "pos": "Verb",
       "morphClass": "DerivedStem"
@@ -1290,8 +1314,8 @@
     ]
   },
   {
-    "label": "kem-Verbmorph-Infinitive-",
-    "note": "Appleyard1975 s7.4",
+    "label": "kem-morphVerb-Infinitive",
+    "note": "DA1975p340",
     "common": {
       "pos": "Verb",
       "morphClass": "Infinitive"
@@ -1307,8 +1331,8 @@
     ]
   },
   {
-    "label": "kem-Verbmorph-Interrogative-",
-    "note": "Appleyard1975 s7.5",
+    "label": "kem-morphVerb-Interrogative",
+    "note": "DA1975p341",
     "common": {
       "pos": "Verb",
       "morphClass": "Interrogative"
@@ -1322,8 +1346,8 @@
     ]
   },
   {
-    "label": "kem-Verbmorph-SubjMarker-",
-    "note": "Appleyard1975 s7.2",
+    "label": "kem-morphVerb-SubjMarker",
+    "note": "DA1975p332",
     "common": {
       "pos": "Verb",
       "morphClass": "SubjMarker"
